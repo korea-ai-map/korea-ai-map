@@ -14,27 +14,26 @@ const { title, description = SITE_DESC, jsonld } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 const ogImage = new URL(url('/og.png'), Astro.site).href;
 
-// 사이트 전역 구조화 데이터 (WebSite + Organization)
-const siteLd = {
-  '@context': 'https://schema.org',
-  '@graph': [
-    {
-      '@type': 'WebSite',
-      '@id': new URL(url('/'), Astro.site).href + '#website',
-      name: 'Korea AI Map',
-      url: new URL(url('/'), Astro.site).href,
-      description: SITE_DESC,
-      inLanguage: 'ko',
-    },
-    {
-      '@type': 'Organization',
-      '@id': new URL(url('/'), Astro.site).href + '#org',
-      name: 'Korea AI Map',
-      url: new URL(url('/'), Astro.site).href,
-      description: '한국 AI 생태계를 기록하는 독립 오픈 데이터 프로젝트',
-    },
-  ],
-};
+// 사이트 전역 구조화 데이터. @graph 대신 타입별 최상위 @type 스크립트로 분리
+// (일부 감지기가 @graph 안의 @type 을 인식하지 못하므로).
+const homeUrl = new URL(url('/'), Astro.site).href;
+const siteLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Korea AI Map',
+    url: homeUrl,
+    description: SITE_DESC,
+    inLanguage: 'ko',
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Korea AI Map',
+    url: homeUrl,
+    description: '한국 AI 생태계를 검증 가능한 근거로 기록하는 독립 오픈 데이터 프로젝트',
+  },
+];
 const nav = [
   ['조직', 'organizations'],
   ['모델', 'models'],
@@ -75,7 +74,7 @@ const nav = [
 
     <link rel="sitemap" type="application/xml" href={url('/sitemap-index.xml')} />
 
-    <script type="application/ld+json" set:html={JSON.stringify(siteLd)} />
+    {siteLd.map((o) => <script type="application/ld+json" set:html={JSON.stringify(o)} />)}
     {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
   </head>
   <body>
