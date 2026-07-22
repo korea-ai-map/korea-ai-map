@@ -1,0 +1,21 @@
+name_ko: 코어라인소프트
+name_en: Coreline Soft
+organization_type: corporate
+country: KR
+headquarters: 서울 마포구
+website: https://www.corelinesoft.com
+founded_year: 2012
+ai_core_level: model_builder
+categories:
+  - medical-ai
+status: active
+description_ko: 폐암·COPD 등 흉부 CT 정량 분석 AI 플랫폼 AVIEW를 자체 개발하는 의료영상 AI 기업. 2022년 코스닥 상장.
+models:
+  - coreline-aview-lcs
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.corelinesoft.com
+last_verified: '2026-07-22'
+verification_status: official-source

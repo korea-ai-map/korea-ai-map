@@ -1,0 +1,22 @@
+name_ko: 루닛
+name_en: Lunit
+organization_type: corporate
+country: KR
+headquarters: 서울 강남구
+website: https://www.lunit.io
+founded_year: 2013
+ai_core_level: model_builder
+categories:
+  - medical-ai
+status: active
+description_ko: 흉부 X선·유방촬영 영상판독 AI(INSIGHT)와 병리 조직 분석 AI(SCOPE)를 자체 딥러닝으로 개발하는 의료 AI 기업. 2022년 코스닥 상장.
+models:
+  - lunit-insight-cxr
+  - lunit-scope
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.lunit.io/ko/company
+last_verified: '2026-07-22'
+verification_status: official-source

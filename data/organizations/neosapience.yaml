@@ -1,0 +1,22 @@
+name_ko: 네오사피엔스
+name_en: Neosapience
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://company.typecast.ai
+founded_year: 2017
+ai_core_level: model_builder
+categories:
+  - tts
+  - voice-ai
+status: active
+description_ko: 감정 표현 음성합성 기술을 개발한 생성형 AI 스타트업. 자체 TTS 모델을 콘텐츠 제작 플랫폼 타입캐스트로 제공.
+models:
+  - typecast-ssfm
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://company.typecast.ai/ko/
+last_verified: '2026-07-22'
+verification_status: official-source

@@ -11,17 +11,17 @@ tasks:
   - agentic
 parameter_count:
   value: 30000000000
-  disclosure: likely
+  disclosure: confident
 context_length:
-  value: null
-  confidence: undisclosed
+  value: 32768
+  confidence: confident
 availability:
   api: false
   weights: true
   demo: false
 license:
-  name: Apache-2.0
-  commercial_use: allowed
+  name: Kanana License
+  commercial_use: restricted
 deployment:
   cloud: true
   on_premise: true
@@ -39,5 +39,8 @@ links:
 sources:
   - type: model-card
     url: https://huggingface.co/kakaocorp/kanana-2-30b-a3b-thinking
-last_verified: "2026-07-22"
-verification_status: needs-review
+  - type: github
+    url: https://github.com/kakao/kanana-2
+last_verified: '2026-07-22'
+verification_status: official-source
+base_model: kakaocorp/kanana-2-30b-a3b-base

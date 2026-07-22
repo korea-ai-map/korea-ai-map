@@ -1,0 +1,23 @@
+name_ko: InstructKR
+name_en: InstructKR
+organization_type: open-source-community
+country: KR
+website: https://github.com/instructkr
+ai_core_level: research_only
+categories:
+  - benchmark
+  - evaluation
+  - llm
+  - korean-nlp
+  - open-source
+status: active
+description_ko: 한국어 LLM 관련 오픈소스 프로젝트를 운영하는 GitHub 기반 커뮤니티. 한국어 언어모델 다분야 사고력 벤치마크 LogicKor 등을 개발·공개한다.
+models: []
+products: []
+open_source_links:
+  - https://github.com/instructkr
+sources:
+  - type: github
+    url: https://github.com/instructkr
+last_verified: '2026-07-22'
+verification_status: official-source

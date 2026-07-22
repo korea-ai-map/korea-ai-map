@@ -1,13 +1,12 @@
-name: 핑퐁-1 (Pingpong-1)
-organization_id: scatter-lab
-model_family: Pingpong
+name: JBS-01K
+organization_id: jlk
+model_family: JLK Medihub Stroke
 status: active
 modalities:
-  - text
+  - image
 tasks:
-  - conversational-ai
-  - emotional-dialogue
-  - copywriting
+  - cerebral-infarction-diagnosis
+  - brain-mri-analysis
 parameter_count:
   value: null
   disclosure: undisclosed
@@ -22,20 +21,18 @@ license:
   name: proprietary
   commercial_use: restricted
 deployment:
-  cloud: true
-  on_premise: false
+  cloud: false
+  on_premise: true
 languages:
   - ko
 links:
-  official: https://blog.scatterlab.co.kr/
+  official: https://jlkgroup.com/about/
   model_card: null
   huggingface: null
   github: null
   paper: null
 sources:
-  - type: press
-    url: https://www.ajunews.com/view/20231116153344865
   - type: official-website
-    url: https://tech.scatterlab.co.kr/
+    url: https://jlkgroup.com/about/
 last_verified: '2026-07-22'
-verification_status: needs-review
+verification_status: official-source

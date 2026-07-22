@@ -1,0 +1,23 @@
+name_ko: 연세대학교 인공지능학과
+name_en: Yonsei University Department of Artificial Intelligence
+organization_type: university-lab
+country: KR
+headquarters: Seoul
+website: https://cais.yonsei.ac.kr
+founded_year: 2020
+ai_core_level: research_only
+categories:
+  - ai-research
+  - machine-learning
+  - ai-plus-x
+  - education
+status: active
+description_ko: 2020년 설립된 연세대학교 인공지능학과(대학원). AI 핵심·융합 기술을 연구하며 AI+X 융합 교육·연구 프로그램을 운영한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://cais.yonsei.ac.kr/csai_en/AI-bus.do
+last_verified: '2026-07-22'
+verification_status: official-source

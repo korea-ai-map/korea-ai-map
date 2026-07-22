@@ -1,0 +1,24 @@
+name_ko: 한국지능정보사회진흥원
+name_en: National Information Society Agency (NIA)
+organization_type: public-institution
+country: KR
+headquarters: Daegu
+website: https://www.nia.or.kr
+founded_year: 1987
+ai_core_level: ai_infrastructure
+categories:
+  - ai-infrastructure
+  - open-data
+  - digital-transformation
+  - public-institution
+status: active
+description_ko: 국가 디지털 전환을 이끄는 공공기관. AI 학습용 데이터·API·컴퓨팅 자원을 제공하는 AI 허브(AI-Hub)를 운영한다.
+models: []
+products: []
+open_source_links:
+  - https://aihub.or.kr
+sources:
+  - type: official-website
+    url: https://www.nia.or.kr/site/nia_kor/main.do
+last_verified: '2026-07-22'
+verification_status: official-source

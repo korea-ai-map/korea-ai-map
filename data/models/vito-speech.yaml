@@ -1,13 +1,13 @@
-name: BELLA LLM
-organization_id: skelter-labs
-model_family: BELLA
+name: VITO Speech (RTZR STT)
+organization_id: return-zero
+model_family: VITO
+release_date: '2022-06-30'
 status: active
 modalities:
+  - audio
   - text
 tasks:
-  - chat
-  - question-answering
-  - rag
+  - stt
 parameter_count:
   value: null
   disclosure: undisclosed
@@ -17,10 +17,10 @@ context_length:
 availability:
   api: true
   weights: false
-  demo: false
+  demo: true
 license:
-  name: proprietary
-  commercial_use: restricted
+  name: Proprietary
+  commercial_use: allowed
 deployment:
   cloud: true
   on_premise: true
@@ -28,15 +28,13 @@ languages:
   - ko
   - en
 links:
-  official: https://www.skelterlabs.com
+  official: https://www.rtzr.ai/en
   model_card: null
   huggingface: null
-  github: null
+  github: https://github.com/rtzr/Awesome-Korean-Speech-Recognition
   paper: null
 sources:
   - type: official-website
-    url: https://www.skelterlabs.com
-  - type: official-website
-    url: https://www.skelterlabs.com/blog/introduce-bella
+    url: https://www.rtzr.ai/en
 last_verified: '2026-07-22'
-verification_status: needs-review
+verification_status: official-source

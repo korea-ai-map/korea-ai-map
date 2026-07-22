@@ -1,0 +1,21 @@
+name_ko: 제이엘케이
+name_en: JLK
+organization_type: corporate
+country: KR
+headquarters: 서울
+website: https://jlkgroup.com
+founded_year: 2014
+ai_core_level: model_builder
+categories:
+  - medical-ai
+status: active
+description_ko: 뇌졸중·암 특화 의료영상(CT·MRI) 분석 AI를 자체 개발. 2019년 국내 의료 AI 최초 코스닥 상장. 대표 제품은 뇌경색 진단 솔루션 JBS-01K.
+models:
+  - jlk-jbs-01k
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://jlkgroup.com/about/
+last_verified: '2026-07-22'
+verification_status: official-source

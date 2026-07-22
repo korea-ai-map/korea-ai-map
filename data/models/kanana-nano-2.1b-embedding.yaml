@@ -1,0 +1,40 @@
+name: Kanana Nano 2.1B Embedding
+organization_id: kakao
+model_family: Kanana
+release_date: '2025-02-27'
+status: active
+modalities:
+  - text
+tasks:
+  - embedding
+parameter_count:
+  value: 2100000000
+  disclosure: confident
+context_length:
+  value: 512
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: CC-BY-NC-4.0
+  commercial_use: prohibited
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+base_model: kakaocorp/kanana-nano-2.1b-base
+links:
+  official: https://github.com/kakao/kanana
+  model_card: https://huggingface.co/kakaocorp/kanana-nano-2.1b-embedding
+  huggingface: https://huggingface.co/kakaocorp/kanana-nano-2.1b-embedding
+  github: https://github.com/kakao/kanana
+  paper: https://arxiv.org/abs/2502.18934
+sources:
+  - type: model-card
+    url: https://huggingface.co/kakaocorp/kanana-nano-2.1b-embedding
+last_verified: '2026-07-22'
+verification_status: official-source

@@ -1,13 +1,12 @@
-name: 핑퐁-1 (Pingpong-1)
-organization_id: scatter-lab
-model_family: Pingpong
+name: Lunit SCOPE
+organization_id: lunit
+model_family: Lunit SCOPE
 status: active
 modalities:
-  - text
+  - image
 tasks:
-  - conversational-ai
-  - emotional-dialogue
-  - copywriting
+  - pathology-analysis
+  - biomarker-prediction
 parameter_count:
   value: null
   disclosure: undisclosed
@@ -25,17 +24,17 @@ deployment:
   cloud: true
   on_premise: false
 languages:
-  - ko
+  - en
 links:
-  official: https://blog.scatterlab.co.kr/
+  official: https://www.lunit.io/ko/product/scope/
   model_card: null
   huggingface: null
   github: null
-  paper: null
+  paper: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8405682/
 sources:
-  - type: press
-    url: https://www.ajunews.com/view/20231116153344865
   - type: official-website
-    url: https://tech.scatterlab.co.kr/
+    url: https://www.lunit.io/ko/product/scope/
+  - type: paper
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8405682/
 last_verified: '2026-07-22'
-verification_status: needs-review
+verification_status: official-source

@@ -1,0 +1,23 @@
+name_ko: 서울대학교 AI연구원
+name_en: Seoul National University AI Institute (AIIS)
+organization_type: university-lab
+country: KR
+headquarters: Seoul
+website: https://aiis.snu.ac.kr
+founded_year: 2019
+ai_core_level: research_only
+categories:
+  - ai-research
+  - machine-learning
+  - biointelligence
+  - multimodal-ai
+status: active
+description_ko: 2019년 설립된 서울대학교 본부 주관 AI 연구소. 원천·응용 AI 연구를 총괄하며 산하에 다수의 AI 연구 그룹을 포함한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://aiis.snu.ac.kr/
+last_verified: '2026-07-22'
+verification_status: official-source

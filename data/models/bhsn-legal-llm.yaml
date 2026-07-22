@@ -1,13 +1,12 @@
-name: 핑퐁-1 (Pingpong-1)
-organization_id: scatter-lab
-model_family: Pingpong
+name: BHSN Legal-LLM
+organization_id: bhsn
+model_family: BHSN Legal AI
 status: active
 modalities:
   - text
 tasks:
-  - conversational-ai
-  - emotional-dialogue
-  - copywriting
+  - legal-nlp
+  - contract-analysis
 parameter_count:
   value: null
   disclosure: undisclosed
@@ -23,19 +22,18 @@ license:
   commercial_use: restricted
 deployment:
   cloud: true
-  on_premise: false
+  on_premise: true
 languages:
   - ko
+  - en
 links:
-  official: https://blog.scatterlab.co.kr/
+  official: https://www.bhsn.ai/bhsn/legal-ai
   model_card: null
   huggingface: null
   github: null
   paper: null
 sources:
-  - type: press
-    url: https://www.ajunews.com/view/20231116153344865
   - type: official-website
-    url: https://tech.scatterlab.co.kr/
+    url: https://www.bhsn.ai/bhsn/legal-ai
 last_verified: '2026-07-22'
 verification_status: needs-review

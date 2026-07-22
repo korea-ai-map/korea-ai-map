@@ -36,5 +36,7 @@ links:
 sources:
   - type: official-website
     url: https://www.konantech.com/konanllm
-last_verified: "2026-07-22"
-verification_status: needs-review
+  - type: official-website
+    url: https://www.konantech.com/pr/news/943
+last_verified: '2026-07-22'
+verification_status: official-source

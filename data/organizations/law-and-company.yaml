@@ -1,0 +1,20 @@
+name_ko: 로앤컴퍼니
+name_en: Law&Company
+organization_type: startup
+country: KR
+headquarters: 서울
+website: https://www.lawcompany.co.kr
+founded_year: 2012
+ai_core_level: ai_native
+categories:
+  - legal-ai
+status: active
+description_ko: 법률 플랫폼 로톡 운영사. 2019년 법률AI연구소 설립, 2024년 법률 AI 어시스턴트 슈퍼로이어를 출시한 리걸테크 기업.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: press
+    url: https://www.microsoft.com/ko-kr/customers/story/20335-law-and-company-azure-functions
+last_verified: '2026-07-22'
+verification_status: official-source

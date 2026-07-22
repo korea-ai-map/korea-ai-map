@@ -1,0 +1,13 @@
+name: HAE-RAE Evaluation Toolkit (HRET)
+organization_id: haerae-hub
+repo_type: eval-tool
+url: https://github.com/HAE-RAE/haerae-evaluation-toolkit
+description_ko: HAE-RAE HUB가 개발한 한국어 LLM 통합 평가 툴킷. HAE-RAE Bench, KMMLU 등 주요 한국어 벤치마크를 지원하며 OpenAI 호환·Hugging Face·LiteLLM을 지원한다.
+language: Python
+sources:
+  - type: github
+    url: https://github.com/HAE-RAE/haerae-evaluation-toolkit/
+  - type: paper
+    url: https://arxiv.org/html/2503.22968
+last_verified: '2026-07-22'
+verification_status: official-source

@@ -1,0 +1,20 @@
+name_ko: 딥노이드
+name_en: Deepnoid
+organization_type: corporate
+country: KR
+headquarters: 서울 구로구
+website: https://www.deepnoid.com
+founded_year: 2008
+ai_core_level: model_builder
+categories:
+  - medical-ai
+status: active
+description_ko: 의료영상 판독 AI와 산업 비전 검사·X-Ray 판독 AI를 자체 개발. 노코드 AI 개발 플랫폼과 생성형 AI 플랫폼 보유. 2021년 코스닥 상장.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.deepnoid.com/
+last_verified: '2026-07-22'
+verification_status: official-source

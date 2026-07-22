@@ -1,13 +1,12 @@
-name: 핑퐁-1 (Pingpong-1)
-organization_id: scatter-lab
-model_family: Pingpong
+name: Typecast SSFM (v3.0)
+organization_id: neosapience
+model_family: SSFM
 status: active
 modalities:
   - text
+  - audio
 tasks:
-  - conversational-ai
-  - emotional-dialogue
-  - copywriting
+  - tts
 parameter_count:
   value: null
   disclosure: undisclosed
@@ -15,27 +14,26 @@ context_length:
   value: null
   confidence: undisclosed
 availability:
-  api: false
+  api: true
   weights: false
-  demo: false
+  demo: true
 license:
-  name: proprietary
-  commercial_use: restricted
+  name: Proprietary
+  commercial_use: allowed
 deployment:
   cloud: true
   on_premise: false
 languages:
   - ko
+  - en
 links:
-  official: https://blog.scatterlab.co.kr/
+  official: https://typecast.ai/docs/ko/overview
   model_card: null
   huggingface: null
   github: null
   paper: null
 sources:
-  - type: press
-    url: https://www.ajunews.com/view/20231116153344865
   - type: official-website
-    url: https://tech.scatterlab.co.kr/
+    url: https://typecast.ai/docs/ko/overview
 last_verified: '2026-07-22'
 verification_status: needs-review

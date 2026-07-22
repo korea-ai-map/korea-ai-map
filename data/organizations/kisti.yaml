@@ -1,0 +1,24 @@
+name_ko: 한국과학기술정보연구원
+name_en: Korea Institute of Science and Technology Information (KISTI)
+organization_type: government-research
+country: KR
+headquarters: Daejeon
+website: https://www.kisti.re.kr
+founded_year: 2001
+ai_core_level: ai_infrastructure
+categories:
+  - hpc
+  - supercomputing
+  - science-data
+  - ai-infrastructure
+  - government-research
+status: active
+description_ko: 과학기술정보통신부 산하 정부출연 연구기관. 국가 슈퍼컴퓨팅·HPC 인프라와 과학기술 지식인프라(ScienceON)를 운영하며 AI·HPC 기반 R&D를 지원한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.kisti.re.kr/
+last_verified: '2026-07-22'
+verification_status: official-source

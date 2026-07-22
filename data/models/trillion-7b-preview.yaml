@@ -9,18 +9,18 @@ tasks:
   - reasoning
   - instruction-following
 parameter_count:
-  value: null
-  disclosure: undisclosed
+  value: 7760000000
+  disclosure: confident
 context_length:
-  value: null
-  confidence: undisclosed
+  value: 4096
+  confidence: confident
 availability:
   api: false
   weights: true
   demo: false
 license:
-  name: Trillion Labs AI Model License
-  commercial_use: restricted
+  name: Apache-2.0
+  commercial_use: allowed
 deployment:
   cloud: true
   on_premise: true
@@ -37,5 +37,7 @@ links:
 sources:
   - type: model-card
     url: https://huggingface.co/trillionlabs/Trillion-7B-preview
-last_verified: "2026-07-22"
-verification_status: needs-review
+  - type: paper
+    url: https://arxiv.org/abs/2504.15431
+last_verified: '2026-07-22'
+verification_status: official-source

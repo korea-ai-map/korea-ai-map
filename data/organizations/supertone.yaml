@@ -1,0 +1,26 @@
+name_ko: 수퍼톤
+name_en: Supertone Inc.
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.supertone.ai
+founded_year: 2020
+ai_core_level: model_builder
+categories:
+  - tts
+  - voice-ai
+status: active
+description_ko: 서울대 음성 AI 연구진 기술 기반의 음성 지능 플랫폼. 다국어 TTS 모델 Supertonic 등을 개발. HYBE 계열.
+models:
+  - supertonic-3
+products: []
+open_source_links:
+  - https://github.com/supertone-inc/supertonic
+  - https://huggingface.co/Supertone
+sources:
+  - type: official-website
+    url: https://www.supertone.ai/en
+  - type: huggingface
+    url: https://huggingface.co/Supertone/supertonic-3
+last_verified: '2026-07-22'
+verification_status: official-source

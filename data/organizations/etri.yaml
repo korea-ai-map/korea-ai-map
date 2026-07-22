@@ -1,0 +1,24 @@
+name_ko: 한국전자통신연구원
+name_en: Electronics and Telecommunications Research Institute (ETRI)
+organization_type: government-research
+country: KR
+headquarters: Daejeon
+website: https://www.etri.re.kr
+founded_year: 1976
+ai_core_level: model_builder
+categories:
+  - ai-research
+  - nlp
+  - speech-recognition
+  - ai-semiconductor
+  - government-research
+status: active
+description_ko: 1976년 설립된 정부출연 연구기관. 자동통역·음성인식·자율성장형 AI·AI 반도체 등 자체 AI 기술과 모델을 개발한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.etri.re.kr/kor/sub6/sub6_0101.etri
+last_verified: '2026-07-22'
+verification_status: official-source

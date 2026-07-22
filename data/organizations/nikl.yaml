@@ -1,0 +1,25 @@
+name_ko: 국립국어원
+name_en: National Institute of Korean Language (NIKL)
+organization_type: government-research
+country: KR
+headquarters: Seoul
+website: https://www.korean.go.kr
+founded_year: 1991
+ai_core_level: ai_infrastructure
+categories:
+  - language-resources
+  - corpus
+  - open-data
+  - nlp
+  - government-research
+status: active
+description_ko: 문화체육관광부 소속 국어 연구·정책 기관. 한국어 연구 및 AI 개발을 위한 모두의 말뭉치를 구축·공개해 한국어 언어자원 인프라를 제공한다.
+models: []
+products: []
+open_source_links:
+  - https://corpus.korean.go.kr
+sources:
+  - type: official-website
+    url: https://www.korean.go.kr/
+last_verified: '2026-07-22'
+verification_status: official-source

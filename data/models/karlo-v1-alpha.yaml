@@ -1,0 +1,40 @@
+name: Karlo v1 alpha
+organization_id: kakao
+model_family: Karlo
+release_date: '2022-12-20'
+status: active
+modalities:
+  - text
+  - image
+tasks:
+  - image-generation
+parameter_count:
+  value: 3300000000
+  disclosure: likely
+context_length:
+  value: null
+  confidence: not-applicable
+availability:
+  api: true
+  weights: true
+  demo: true
+license:
+  name: creativeml-openrail-m
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - en
+base_model: OpenAI unCLIP
+links:
+  official: https://github.com/kakaobrain/karlo
+  model_card: https://huggingface.co/kakaobrain/karlo-v1-alpha
+  huggingface: https://huggingface.co/kakaobrain/karlo-v1-alpha
+  github: https://github.com/kakaobrain/karlo
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/kakaobrain/karlo-v1-alpha
+last_verified: '2026-07-22'
+verification_status: official-source

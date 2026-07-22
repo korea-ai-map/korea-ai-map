@@ -1,0 +1,25 @@
+name_ko: 리턴제로
+name_en: Return Zero (RTZR)
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.rtzr.ai
+founded_year: 2018
+ai_core_level: model_builder
+categories:
+  - speech-recognition
+  - stt
+status: active
+description_ko: 한국어 통화 전사 앱 비토(VITO)와 기업용 STT 엔진을 개발한 음성 AI 스타트업.
+models:
+  - vito-speech
+products: []
+open_source_links:
+  - https://github.com/rtzr
+sources:
+  - type: official-website
+    url: https://www.rtzr.ai/en
+  - type: press
+    url: https://blog.rtzr.ai/release-vito-speech/
+last_verified: '2026-07-22'
+verification_status: official-source

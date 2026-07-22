@@ -1,0 +1,21 @@
+name_ko: 비에이치에스엔
+name_en: BHSN
+organization_type: startup
+country: KR
+headquarters: 서울
+website: https://www.bhsn.ai
+founded_year: 2020
+ai_core_level: model_builder
+categories:
+  - legal-ai
+status: active
+description_ko: 자체 법률 특화 언어모델을 기반으로 기업·공공기관·로펌용 SaaS형 법률 AI 솔루션 앨리비(Allibee)를 제공하는 리걸테크 기업.
+models:
+  - bhsn-legal-llm
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.bhsn.ai/bhsn/legal-ai
+last_verified: '2026-07-22'
+verification_status: official-source

@@ -20,5 +20,7 @@ website: https://rebellions.ai
 sources:
   - type: official-website
     url: https://rebellions.ai/newsroom/rebellions-and-sapeon-korea-complete-merger-launching-koreas-first-ai-chip-unicorn/
-last_verified: "2026-07-22"
-verification_status: needs-review
+  - type: official-website
+    url: https://rebellions.ai/products/
+last_verified: '2026-07-22'
+verification_status: official-source

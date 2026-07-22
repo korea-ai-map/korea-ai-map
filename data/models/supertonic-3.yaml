@@ -1,0 +1,44 @@
+name: Supertonic-3
+organization_id: supertone
+model_family: Supertonic
+status: active
+modalities:
+  - text
+  - audio
+tasks:
+  - tts
+parameter_count:
+  value: 99000000
+  disclosure: likely
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: true
+  weights: true
+  demo: true
+license:
+  name: OpenRAIL-M
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+  - ja
+  - zh
+  - es
+  - fr
+  - de
+links:
+  official: https://www.supertone.ai/en
+  model_card: https://huggingface.co/Supertone/supertonic-3
+  huggingface: https://huggingface.co/Supertone/supertonic-3
+  github: https://github.com/supertone-inc/supertonic
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/Supertone/supertonic-3
+last_verified: '2026-07-22'
+verification_status: official-source

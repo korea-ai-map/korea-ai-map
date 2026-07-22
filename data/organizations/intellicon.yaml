@@ -1,0 +1,20 @@
+name_ko: 인텔리콘연구소
+name_en: Intellicon
+organization_type: startup
+country: KR
+headquarters: 서울
+website: https://intellicon.co.kr
+founded_year: 2013
+ai_core_level: model_builder
+categories:
+  - legal-ai
+status: active
+description_ko: 자체 법률 자연어처리·법률 추론 엔진을 개발한 국내 첫 AI 법률 융합 연구소. 지능형 법률·판례 검색 시스템 유렉스(U-LEX) 개발.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://intellicon.co.kr/
+last_verified: '2026-07-22'
+verification_status: official-source

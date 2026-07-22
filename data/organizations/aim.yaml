@@ -1,0 +1,20 @@
+name_ko: 에임
+name_en: AIM
+organization_type: startup
+country: KR
+headquarters: 서울
+website: https://getaim.co
+founded_year: 2016
+ai_core_level: ai_native
+categories:
+  - fintech-ai
+status: active
+description_ko: AI 기반 자산배분·포트폴리오 운용을 제공하는 로보어드바이저 투자일임 서비스 핀트(Fint) 운영사.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://getaim.co/
+last_verified: '2026-07-22'
+verification_status: official-source

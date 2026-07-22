@@ -1,0 +1,12 @@
+name: GPT-NeoX
+organization_id: eleutherai
+repo_type: framework
+url: https://github.com/EleutherAI/gpt-neox
+description_ko: EleutherAI가 개발·공개한 대규모 자기회귀 언어모델 학습 프레임워크. Polyglot-Ko를 포함한 다수의 오픈소스 LLM 학습에 사용되었다.
+language: Python
+license: Apache-2.0
+sources:
+  - type: github
+    url: https://github.com/EleutherAI/gpt-neox
+last_verified: '2026-07-22'
+verification_status: official-source

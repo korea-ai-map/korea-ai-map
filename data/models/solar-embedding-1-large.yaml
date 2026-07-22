@@ -1,13 +1,11 @@
-name: 핑퐁-1 (Pingpong-1)
-organization_id: scatter-lab
-model_family: Pingpong
+name: Solar Embedding 1 Large
+organization_id: upstage
+model_family: Solar
 status: active
 modalities:
   - text
 tasks:
-  - conversational-ai
-  - emotional-dialogue
-  - copywriting
+  - embedding
 parameter_count:
   value: null
   disclosure: undisclosed
@@ -15,27 +13,27 @@ context_length:
   value: null
   confidence: undisclosed
 availability:
-  api: false
+  api: true
   weights: false
   demo: false
 license:
-  name: proprietary
-  commercial_use: restricted
+  name: Proprietary
+  commercial_use: allowed
 deployment:
   cloud: true
   on_premise: false
 languages:
   - ko
+  - en
+  - ja
 links:
-  official: https://blog.scatterlab.co.kr/
+  official: https://console.upstage.ai/docs/capabilities/embed
   model_card: null
   huggingface: null
   github: null
   paper: null
 sources:
-  - type: press
-    url: https://www.ajunews.com/view/20231116153344865
   - type: official-website
-    url: https://tech.scatterlab.co.kr/
+    url: https://www.upstage.ai/blog/en/solar-embedding-1-large
 last_verified: '2026-07-22'
-verification_status: needs-review
+verification_status: official-source

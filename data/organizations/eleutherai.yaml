@@ -1,0 +1,27 @@
+name_ko: 일루더AI
+name_en: EleutherAI
+organization_type: non-profit
+country: US
+headquarters: United States
+website: https://www.eleuther.ai
+founded_year: 2020
+ai_core_level: foundation_model
+categories:
+  - foundation-model
+  - open-source
+  - llm
+  - interpretability
+status: active
+description_ko: 2020년 설립된 비영리 대규모 AI 연구 단체. GPT-NeoX·Pythia·The Pile 등 오픈소스 모델·데이터를 공개했으며, polyglot 팀이 대규모 한국어 언어모델 Polyglot-Ko를 개발했다.
+models: []
+products: []
+open_source_links:
+  - https://github.com/EleutherAI
+  - https://huggingface.co/EleutherAI
+sources:
+  - type: official-website
+    url: https://www.eleuther.ai/about
+  - type: github
+    url: https://github.com/EleutherAI/polyglot
+last_verified: '2026-07-22'
+verification_status: official-source

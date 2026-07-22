@@ -1,0 +1,38 @@
+name: ko-sroberta-multitask
+organization_id: jhgan
+model_family: Ko-SRoBERTa
+status: active
+modalities:
+  - text
+tasks:
+  - embedding
+parameter_count:
+  value: 110000000
+  disclosure: likely
+context_length:
+  value: 128
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: ''
+  commercial_use: unknown
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+base_model: klue/roberta-base
+links:
+  official: https://huggingface.co/jhgan/ko-sroberta-multitask
+  model_card: https://huggingface.co/jhgan/ko-sroberta-multitask
+  huggingface: https://huggingface.co/jhgan/ko-sroberta-multitask
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/jhgan/ko-sroberta-multitask
+last_verified: '2026-07-22'
+verification_status: needs-review

@@ -1,13 +1,12 @@
-name: 핑퐁-1 (Pingpong-1)
-organization_id: scatter-lab
-model_family: Pingpong
+name: Lunit INSIGHT CXR
+organization_id: lunit
+model_family: Lunit INSIGHT
 status: active
 modalities:
-  - text
+  - image
 tasks:
-  - conversational-ai
-  - emotional-dialogue
-  - copywriting
+  - chest-xray-analysis
+  - abnormality-detection
 parameter_count:
   value: null
   disclosure: undisclosed
@@ -17,25 +16,24 @@ context_length:
 availability:
   api: false
   weights: false
-  demo: false
+  demo: true
 license:
   name: proprietary
   commercial_use: restricted
 deployment:
   cloud: true
-  on_premise: false
+  on_premise: true
 languages:
   - ko
+  - en
 links:
-  official: https://blog.scatterlab.co.kr/
+  official: https://www.lunit.io/ko/product
   model_card: null
   huggingface: null
   github: null
   paper: null
 sources:
-  - type: press
-    url: https://www.ajunews.com/view/20231116153344865
   - type: official-website
-    url: https://tech.scatterlab.co.kr/
+    url: https://www.lunit.io/ko/company
 last_verified: '2026-07-22'
-verification_status: needs-review
+verification_status: official-source
