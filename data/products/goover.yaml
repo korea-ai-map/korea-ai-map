@@ -1,0 +1,24 @@
+id: goover
+name_ko: 구버
+name_en: Goover
+organization_id: saltlux
+categories:
+  - ai-search
+  - agent
+  - generative-ai
+target_users:
+  - enterprise
+  - consumer
+delivery_type:
+  - cloud
+  - web-service
+models_used: []
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.saltlux.com/kor/contents/view.do?mId=71
+sources:
+  - type: official-website
+    url: https://www.saltlux.com/kor/contents/view.do?mId=71
+last_verified: '2026-07-22'
+verification_status: official-source

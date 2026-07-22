@@ -1,0 +1,22 @@
+id: voc-studio
+name_ko: VOC 스튜디오
+name_en: VOC STUDIO
+organization_id: voyagerx
+categories:
+  - voc-analytics
+  - nlp
+target_users:
+  - enterprise
+delivery_type:
+  - saas
+  - web-service
+models_used: []
+model_ownership: unknown
+pricing_public: false
+status: active
+website: https://www.voyagerx.com/en
+sources:
+  - type: official-website
+    url: https://www.voyagerx.com/en
+last_verified: '2026-07-22'
+verification_status: official-source

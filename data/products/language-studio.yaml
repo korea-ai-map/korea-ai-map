@@ -1,0 +1,22 @@
+id: language-studio
+name_ko: 랭귀지 스튜디오
+name_en: Language Studio
+organization_id: saltlux
+categories:
+  - llm
+  - nlp
+target_users:
+  - enterprise
+  - developer
+delivery_type:
+  - saas
+models_used: []
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.saltlux.com/kor/contents/view.do?mId=42
+sources:
+  - type: official-website
+    url: https://www.saltlux.com/kor/contents/view.do?mId=42
+last_verified: '2026-07-22'
+verification_status: official-source

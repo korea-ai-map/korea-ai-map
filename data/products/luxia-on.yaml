@@ -1,0 +1,24 @@
+id: luxia-on
+name_ko: 루시아 온
+name_en: LUXIA-ON
+organization_id: saltlux
+categories:
+  - generative-ai
+  - llm
+  - rag
+target_users:
+  - enterprise
+  - public-sector
+delivery_type:
+  - hardware
+  - on-premise
+models_used: []
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.saltlux.com/kor/contents/view.do?mId=39
+sources:
+  - type: official-website
+    url: https://www.saltlux.com/kor/contents/view.do?mId=39
+last_verified: '2026-07-22'
+verification_status: official-source

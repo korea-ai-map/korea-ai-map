@@ -1,0 +1,46 @@
+id: saltlux
+name_ko: 솔트룩스
+name_en: Saltlux
+organization_type: corporate
+country: KR
+founded_year: 2000
+headquarters: 서울특별시 송파구
+website: https://www.saltlux.com
+ai_core_level: model_builder
+categories:
+  - nlp
+  - llm
+  - conversational-ai
+  - ai-search
+  - speech
+  - knowledge-graph
+  - big-data
+status: active
+description_ko: >-
+  솔트룩스는 2000년 기계학습·자연어처리 스타트업 ㈜시스메타로 출발해 2006년 솔트룩스로 사명을 변경한 국내 대표 인공지능·빅데이터 기업이다. 2020년 코스닥에 상장했다(종목코드 304100). 초거대
+  언어모델 '루시아(LUXIA)'를 기반으로 생성형 AI, RAG, AI 검색, 대화형 AI(챗봇), 음성인식·합성, 지식그래프, 웹 데이터 수집·분석 등 자연어처리 중심의 AI 솔루션과 플랫폼을 공급한다. 공개된
+  오픈웨이트 모델로 Hugging Face에 Ko-Llama3-Luxia-8B가 있으며, 상용 루시아 계열 대형 모델(luxia-21.4b 등)은 접근이 제한(gated)되어 있다.
+models:
+  - ko-llama3-luxia-8b
+products:
+  - luxia-on
+  - luxia-platform
+  - language-studio
+  - voice-studio
+  - search-studio
+  - talkbot-studio
+  - goover
+  - knowledge-studio
+open_source_links:
+  - https://huggingface.co/saltlux
+sources:
+  - type: official-website
+    url: https://www.saltlux.com/kor/contents/view.do?mId=51
+  - type: official-website
+    url: https://www.saltlux.com/kor/main/main.do?mId=1
+  - type: reference
+    url: https://ko.wikipedia.org/wiki/솔트룩스
+  - type: huggingface
+    url: https://huggingface.co/saltlux
+last_verified: '2026-07-22'
+verification_status: official-source

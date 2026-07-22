@@ -1,0 +1,25 @@
+id: luxia-platform
+name_ko: 루시아 플랫폼
+name_en: LUXIA Platform
+organization_id: saltlux
+categories:
+  - llm
+  - rag
+  - generative-ai
+target_users:
+  - enterprise
+  - developer
+delivery_type:
+  - cloud
+  - api
+  - on-premise
+models_used: []
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.saltlux.com/kor/contents/view.do?mId=40
+sources:
+  - type: official-website
+    url: https://www.saltlux.com/kor/contents/view.do?mId=40
+last_verified: '2026-07-22'
+verification_status: official-source

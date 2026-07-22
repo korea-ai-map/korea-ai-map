@@ -1,0 +1,22 @@
+id: talkbot-studio
+name_ko: 톡봇 스튜디오
+name_en: Talkbot Studio
+organization_id: saltlux
+categories:
+  - conversational-ai
+  - chatbot
+target_users:
+  - enterprise
+  - public-sector
+delivery_type:
+  - saas
+models_used: []
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.saltlux.com/kor/contents/view.do?mId=41
+sources:
+  - type: official-website
+    url: https://www.saltlux.com/kor/contents/view.do?mId=41
+last_verified: '2026-07-22'
+verification_status: official-source

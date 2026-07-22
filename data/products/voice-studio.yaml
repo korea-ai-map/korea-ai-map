@@ -1,0 +1,24 @@
+id: voice-studio
+name_ko: 보이스 스튜디오
+name_en: Voice Studio
+organization_id: saltlux
+categories:
+  - speech
+  - tts
+  - stt
+target_users:
+  - enterprise
+  - developer
+delivery_type:
+  - saas
+  - api
+models_used: []
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.saltlux.com/kor/contents/view.do?mId=43
+sources:
+  - type: official-website
+    url: https://www.saltlux.com/kor/contents/view.do?mId=43
+last_verified: '2026-07-22'
+verification_status: official-source

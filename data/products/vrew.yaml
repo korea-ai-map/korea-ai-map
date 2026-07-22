@@ -1,0 +1,27 @@
+id: vrew
+name_ko: 브루
+name_en: Vrew
+organization_id: voyagerx
+categories:
+  - video-editing
+  - speech-to-text
+  - text-to-speech
+  - generative-ai
+target_users:
+  - consumer
+  - enterprise
+delivery_type:
+  - app
+  - web-service
+models_used: []
+model_ownership: hybrid
+pricing_public: true
+status: active
+website: https://vrew.ai/
+sources:
+  - type: official-website
+    url: https://vrew.ai/en/
+  - type: official-website
+    url: https://vrew.ai/en/pricing/
+last_verified: '2026-07-22'
+verification_status: official-source

@@ -1,0 +1,23 @@
+id: vflat
+name_ko: 브이플랫
+name_en: vFlat
+organization_id: voyagerx
+categories:
+  - document-scan
+  - ocr
+target_users:
+  - consumer
+delivery_type:
+  - app
+models_used: []
+model_ownership: unknown
+pricing_public: true
+status: active
+website: https://vflat.com/
+sources:
+  - type: official-website
+    url: https://vflat.com/
+  - type: official-website
+    url: https://www.voyagerx.com/en
+last_verified: '2026-07-22'
+verification_status: official-source
