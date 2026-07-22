@@ -1,6 +1,7 @@
 name_ko: 알파로
 name_en: AlphaLaw
 organization_id: intellicon
+description_ko: 인텔리콘의 딥러닝 기반 계약서 분석 법률 AI 서비스다. 계약 문서를 자동으로 분석해 신속하고 정확한 계약서 검토를 지원하는 지능형 계약 분석 도구다.
 categories:
   - legal-ai
   - contract-analysis

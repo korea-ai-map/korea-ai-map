@@ -1,6 +1,7 @@
 name_ko: AVIEW LCS Plus
 name_en: AVIEW LCS Plus
 organization_id: coreline-soft
+description_ko: 코어라인소프트의 흉부 CT 분석 플랫폼으로, 폐결절·폐기종·관상동맥 석회화 세 가지를 동시에 검출·분석한다. 폐암 검진 사업용 솔루션으로 활용된다.
 categories:
   - medical-imaging
   - radiology

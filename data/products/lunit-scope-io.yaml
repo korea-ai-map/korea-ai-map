@@ -1,6 +1,7 @@
 name_ko: 루닛 스코프 IO
 name_en: Lunit SCOPE IO
 organization_id: lunit
+description_ko: 루닛의 정밀 종양학용 AI 바이오마커 분석 솔루션. 조직 병리 이미지에서 종양 미세환경(TME)을 분석해 항암 치료 결정 지원 등에 활용된다.
 categories:
   - pathology
   - oncology

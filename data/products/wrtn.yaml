@@ -1,6 +1,9 @@
 name_ko: 뤼튼
 name_en: Wrtn
 organization_id: wrtn-technologies
+description_ko: >-
+  뤼튼테크놀로지스의 종합 AI 서비스로, AI 검색·AI 글쓰기·AI 이미지 생성 등 다양한 AI 도구를 제공한다. 대화를 통해 사용자 취향을 학습하는 개인화 어시스턴트와 영어회화 연습 기능('뤼튼스피킹') 등을
+  갖춘 한국어 특화 AI 플랫폼이다.
 categories:
   - content-generation
   - agent

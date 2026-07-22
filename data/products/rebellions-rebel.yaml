@@ -1,6 +1,7 @@
 name_ko: 리벨
 name_en: REBEL
 organization_id: rebellions
+description_ko: 리벨리온스의 차세대 NPU(신경망처리장치) 제품군으로, 데이터센터에서 LLM 등 대규모 AI 모델의 추론을 효율적이고 확장성 있게 수행하도록 설계된 AI 추론용 반도체다. REBEL100 등이 이 계열에 속한다.
 categories:
   - ai-chip
   - npu

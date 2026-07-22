@@ -1,6 +1,9 @@
 name_ko: 카나나
 name_en: Kanana
 organization_id: kakao
+description_ko: >-
+  카카오가 자체 개발한 AI로, 카카오톡 내에서 제공되는 온디바이스 AI 서비스다. 대화 맥락을 이해해 일정·할 일 알림, 정보 검색, 약속 장소·선물 추천 등을 먼저 제안하며, 대화 원문을 기기 밖으로 전송하지
+  않는 온디바이스 방식으로 프라이버시를 보호한다.
 categories:
   - agent
   - content-generation

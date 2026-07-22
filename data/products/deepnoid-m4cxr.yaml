@@ -1,6 +1,7 @@
 name_ko: M4CXR
 name_en: M4CXR
 organization_id: deepnoid
+description_ko: 딥노이드의 생성형 AI 기반 솔루션으로, 흉부 X-ray 영상으로부터 예비소견서를 자동 생성한다. 식약처(MFDS) 인허가를 받은 혁신의료기기다.
 categories:
   - medical-imaging
   - radiology

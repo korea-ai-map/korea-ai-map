@@ -1,6 +1,9 @@
 name_ko: MoAI 플랫폼
 name_en: MoAI Platform
 organization_id: moreh
+description_ko: >-
+  모레(Moreh)가 개발한 AI 인프라 소프트웨어. AMD GPU, Tenstorrent 칩 등 비엔비디아 이기종 가속기 클러스터에서 대규모 AI 모델의 학습·추론을 최적화하며, 칩 레벨 커널부터
+  라우팅·스케줄링, 오토스케일링, KV 캐시 관리, 분산 서빙까지 아우르는 풀스택 소프트웨어를 제공한다.
 categories:
   - infrastructure
   - ai-software
@@ -21,5 +24,5 @@ website: https://moreh.io
 sources:
   - type: official-website
     url: https://moreh.io
-last_verified: "2026-07-22"
+last_verified: '2026-07-22'
 verification_status: official-source

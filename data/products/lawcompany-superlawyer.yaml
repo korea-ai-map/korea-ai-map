@@ -1,6 +1,7 @@
 name_ko: 슈퍼로이어
 name_en: SuperLawyer
 organization_id: law-and-company
+description_ko: 로앤컴퍼니가 개발한 변호사·법률 전문가용 법률 AI 비서(어시스턴트) 서비스다.
 categories:
   - document-ai
   - search-rag

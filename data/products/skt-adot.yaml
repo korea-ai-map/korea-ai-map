@@ -1,6 +1,9 @@
 name_ko: 에이닷
 name_en: A. (A dot)
 organization_id: skt
+description_ko: >-
+  SK텔레콤의 AI 개인비서 앱으로, 일정 예약·맛집 찾기 같은 요청을 처리하는 AI 에이전트 기능과 대화 기억 기반의 개인화 응대를 제공한다. SKT 이용자에게는 통화 녹음·요약·통역 기능을 지원하며,
+  ChatGPT·퍼플렉시티·클로드 등 여러 AI 모델을 함께 이용할 수 있다.
 categories:
   - agent
   - voice

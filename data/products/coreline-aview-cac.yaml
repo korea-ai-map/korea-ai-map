@@ -1,6 +1,7 @@
 name_ko: AVIEW CAC
 name_en: AVIEW CAC
 organization_id: coreline-soft
+description_ko: 의료 영상 AI 기업 코어라인소프트의 솔루션으로, 흉부 CT 영상에서 관상동맥 석회화를 자동으로 검출·분석하는 AI 기반 도구다. 심혈관 위험도 평가를 보조한다.
 categories:
   - medical-imaging
   - cardiology

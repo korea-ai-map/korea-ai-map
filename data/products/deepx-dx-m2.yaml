@@ -1,6 +1,7 @@
 name_ko: DX-M2
 name_en: DEEPX DX-M2
 organization_id: deepx
+description_ko: 딥엑스가 개발 중인 차세대 AI 칩으로, 생성형 AI(LLM)를 배터리 구동 휴대·엣지 기기에서 효율적으로 실행하는 것을 목표로 한다. DX-M1 계열의 저전력 엣지 추론 방향을 생성형 AI 영역으로 확장한다.
 categories:
   - ai-chip
   - npu

@@ -1,6 +1,9 @@
 name_ko: 프렌들리 전용 엔드포인트
 name_en: Friendli Dedicated Endpoints
 organization_id: friendliai
+description_ko: >-
+  프렌들리AI가 제공하는 전용 GPU 기반 모델 서빙 서비스다. 커스텀 모델과 오픈웨이트 모델을 전용 엔드포인트로 배포해 일관된 성능과 안정성을 제공하며, 추측 디코딩(speculative decoding),
+  호스트 KV 캐시 등 최적화 기법으로 추론 처리량과 효율을 높인다.
 categories:
   - inference-software
   - infrastructure

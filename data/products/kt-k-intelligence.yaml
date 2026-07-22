@@ -1,6 +1,9 @@
 name_ko: K 인텔리전스 스위트
 name_en: K Intelligence Suite
 organization_id: kt
+description_ko: >-
+  KT가 만든 기업용 AI 통합 플랫폼(스위트). 한국 데이터로 학습한 언어모델(K Model), 비정형 문서를 AI가 이해하도록 처리하는 K RAG, 스스로 판단·실행하는 K Agent, 데이터 수집부터 AI
+  배포까지 지원하는 K Studio, 책임 있는 AI 프레임워크(K RAI), 데이터 주권 보호 클라우드(K SPC) 등으로 구성된다.
 categories:
   - enterprise-ai
   - agent

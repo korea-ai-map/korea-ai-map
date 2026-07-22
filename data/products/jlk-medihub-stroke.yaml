@@ -1,6 +1,9 @@
 name_ko: 메디허브 스트로크
 name_en: MEDIHUB STROKE
 organization_id: jlk
+description_ko: >-
+  JLK의 인공지능 기반 뇌졸중 전주기 토털 솔루션이다. CT, CTA, CTP, MRI, MRA 등 다양한 뇌 영상을 분석해 응급실 단계부터 재활까지 뇌졸중(뇌출혈·뇌경색) 임상 프로토콜 전 과정을 지원하며,
+  AI와 모바일 앱을 결합해 의료진의 임상 의사결정과 워크플로우를 돕는다.
 categories:
   - medical-imaging
   - neurology

@@ -1,6 +1,7 @@
 name_ko: 챗엑사원
 name_en: ChatEXAONE
 organization_id: lg-ai-research
+description_ko: LG AI연구원의 EXAONE 모델을 기반으로 한 AI 에이전트로, 문서·웹·데이터를 하나의 에이전트로 통합해 분석 업무를 수행하고 의사결정과 업무 생산성을 지원한다.
 categories:
   - enterprise-ai
   - agent

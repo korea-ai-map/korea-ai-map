@@ -1,6 +1,9 @@
 name_ko: QA42
 name_en: QA42
 organization_id: 42maru
+description_ko: >-
+  42Maru가 개발한 AI 기반 질의응답(QA) 솔루션으로, 대기업을 대상으로 인지검색(cognitive search)을 통해 대규모 비정형 문서에서 사용자 질문의 의도를 파악해 답을 제공한다. 문서 검색·비교,
+  계약서 이해 등 지식관리 용도로 활용된다.
 categories:
   - search-rag
   - enterprise-ai

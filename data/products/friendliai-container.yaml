@@ -1,6 +1,9 @@
 name_ko: 프렌들리 컨테이너
 name_en: Friendli Container
 organization_id: friendliai
+description_ko: >-
+  프렌들리AI의 자체 호스팅형(온프레미스·프라이빗 클라우드) LLM 추론 엔진이다. 조직이 데이터와 성능, 보안을 직접 통제하며 커스텀·오픈 모델을 자체 환경에서 운영할 수 있게 해주며, 최적화된 추론 엔진으로
+  프로덕션급 추론을 비용 효율적으로 수행하도록 지원한다. 규제 산업 등 데이터 통제가 중요한 환경을 대상으로 한다.
 categories:
   - inference-software
   - infrastructure

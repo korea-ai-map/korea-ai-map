@@ -1,6 +1,9 @@
 name_ko: 스톰
 name_en: STORM
 organization_id: sionic-ai
+description_ko: >-
+  시오닉에이아이(Sionic AI)의 기업용 RAG 솔루션으로, 문서를 처리하는 STORM Parse와 검색을 담당하는 STORM Retrieval 등으로 구성된다. RAG·그래프 RAG 기술을 활용해 기업이 자사
+  데이터를 기반으로 한 AI를 구축하도록 지원한다.
 categories:
   - agent
   - search-rag

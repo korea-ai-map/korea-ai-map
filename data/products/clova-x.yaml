@@ -1,6 +1,7 @@
 name_ko: 클로바 X
 name_en: CLOVA X
 organization_id: naver-cloud
+description_ko: 네이버가 자체 개발한 초거대 언어모델 HyperCLOVA X를 기반으로 한 대화형 AI 서비스로, 한국어에 특화된 질의응답·글쓰기·정보 탐색 등을 지원한다.
 categories:
   - content-generation
   - search-rag

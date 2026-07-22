@@ -1,6 +1,9 @@
 name_ko: AI 휴먼
 name_en: AI Human
 organization_id: deepbrain-ai
+description_ko: >-
+  딥브레인AI의 실시간 대화형 AI 아바타(디지털 휴먼) 제품으로, 사실적인 가상 인간이 여러 언어로 실시간 대화를 수행한다. 문서 업로드와 외부 LLM 연동으로 커스터마이징이 가능하며 고객 응대, 상담, 교육
+  등에 활용된다.
 categories:
   - avatar
   - customer-support

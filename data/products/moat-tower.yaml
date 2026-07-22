@@ -1,6 +1,9 @@
 name_ko: 타워
 name_en: Tower
 organization_id: doomoolmori
+description_ko: >-
+  두물머리(모트에이아이)가 만든 기업용 AI 에이전트 구축·운영 플랫폼. 전략·영업·마케팅·재무·인사·개발 등 부서별 역할의 AI 에이전트를 만들어 자료 검토, 제안서 작성, 데이터 분석, 문서 검수, 코딩 등
+  실무를 수행하게 하고, 사용한 도구·기억·업무 지식을 조직 내에 축적·공유하며 검증된 에이전트를 배포·확장할 수 있다.
 categories:
   - enterprise-ai
   - agent

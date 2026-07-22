@@ -1,6 +1,9 @@
 name_ko: 도큐먼트 파스
 name_en: Document Parse
 organization_id: upstage
+description_ko: >-
+  업스테이지의 문서 파싱 API로, PDF·스캔 이미지·표·차트·손글씨 등이 포함된 복잡한 문서를 LLM이 활용하기 좋은 HTML·마크다운 등 구조화된 데이터로 변환한다. 레이아웃·표 인식, OCR, 요소 좌표
+  추출을 지원한다.
 categories:
   - document-ai
 target_users:

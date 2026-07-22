@@ -1,6 +1,9 @@
 name_ko: 앨리비 에이전트
 name_en: Allibee Agent
 organization_id: bhsn
+description_ko: >-
+  리걸테크 기업 bhsn이 법률 전문가를 위해 만든 Legal AI 에이전트로, 자체 Legal-LLM을 기반으로 계약서 검토·관리 등 법무 업무를 지원한다. 2026년 1월 '앨리비 에이전트 for Legal'로
+  출시됐다.
 categories:
   - legal-ai
   - ai-agent

@@ -1,6 +1,7 @@
 name_ko: 벨라
 name_en: BELLA
 organization_id: skelter-labs
+description_ko: 스켈터랩스의 기업용 대화형 AI(LLM) 솔루션으로, RAG(검색증강생성) 기술을 활용해 환각을 억제하고 기업 내부 데이터를 기반으로 질의응답·챗봇을 구현한다. 금융·공공·의료 등 분야에서 활용된다.
 categories:
   - customer-support
   - search-rag

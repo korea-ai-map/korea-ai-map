@@ -1,6 +1,7 @@
 name_ko: 딥뉴로
 name_en: DEEP:NEURO
 organization_id: deepnoid
+description_ko: 딥노이드의 뇌동맥류 영상 판독·진단 보조 AI 솔루션으로, 뇌 영상에서 동맥류를 분석해 진단을 지원한다. 식약처(MFDS) 인허가 및 혁신의료기술 지정을 받았다.
 categories:
   - medical-imaging
   - neurology

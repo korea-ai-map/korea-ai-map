@@ -1,6 +1,9 @@
 name_ko: DX-M1
 name_en: DX-M1
 organization_id: deepx
+description_ko: >-
+  딥엑스의 엣지용 AI 추론 가속기(NPU) 칩이다. INT8 기준 약 25 TOPS 성능에 1~5W 저전력으로 동작하며, 최대 8GB LPDDR4x/5 메모리와 PCIe Gen3 인터페이스를 지원한다. 클라우드
+  연결 없이 감시 카메라, 로봇, 스마트 모빌리티, 산업 검사 등 온디바이스 실시간 AI 추론에 사용된다.
 categories:
   - ai-chip
   - npu
@@ -22,5 +25,5 @@ website: https://deepx.ai/products/dx-m1/
 sources:
   - type: official-website
     url: https://deepx.ai/products/dx-m1/
-last_verified: "2026-07-22"
+last_verified: '2026-07-22'
 verification_status: official-source

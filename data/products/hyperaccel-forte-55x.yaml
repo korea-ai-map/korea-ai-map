@@ -1,6 +1,9 @@
 name_ko: 포르테 55X
 name_en: Forte 55X
 organization_id: hyperaccel
+description_ko: >-
+  하이퍼엑셀의 LPU 기반 추론 가속기로, HBM을 탑재한 AMD Alveo U55C 카드에 LPU 기술을 결합한 형태다. 데이터센터 환경에서 저지연·저전력 LLM 추론에 최적화되어 있으며,
+  vLLM·HuggingFace 등 프레임워크와 GPT·Llama 계열 모델을 지원한다.
 categories:
   - ai-chip
   - inference-chip

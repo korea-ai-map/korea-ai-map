@@ -1,6 +1,9 @@
 name_ko: 아톰
 name_en: ATOM
 organization_id: rebellions
+description_ko: >-
+  리벨리온이 개발한 AI 추론용 NPU(신경망처리장치) 반도체. 대규모 언어모델(LLM) 서빙, 멀티모달 추론, 비전 인식 등 대규모 AI 추론에 특화되어 있으며 GPU 대비 전력 효율을 강조한다. 단일 서버형
+  ATOM-Max Server와 대규모 인프라용 ATOM-Max POD 형태로 제공된다.
 categories:
   - ai-chip
   - npu
@@ -19,5 +22,5 @@ website: https://rebellions.ai
 sources:
   - type: official-website
     url: https://rebellions.ai/newsroom/rebellions-and-sapeon-korea-complete-merger-launching-koreas-first-ai-chip-unicorn/
-last_verified: "2026-07-22"
+last_verified: '2026-07-22'
 verification_status: official-source

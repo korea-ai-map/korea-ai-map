@@ -1,6 +1,7 @@
 name_ko: 루닛 인사이트 MMG
 name_en: Lunit INSIGHT MMG
 organization_id: lunit
+description_ko: 루닛이 개발한 유방촬영술(맘모그래피) 영상 분석 AI 솔루션. 유방 X선 영상에서 유방암 의심 부위 검출을 보조해 유방암 검진(스크리닝)에 활용된다.
 categories:
   - medical-imaging
   - radiology

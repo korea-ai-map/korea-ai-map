@@ -1,6 +1,9 @@
 name_ko: AI 스튜디오스
 name_en: AI Studios
 organization_id: deepbrain-ai
+description_ko: >-
+  딥브레인AI의 AI 영상 제작 올인원 플랫폼으로, AI 아바타를 활용한 영상 생성, 텍스트·문서·URL 기반 자동 영상 제작, 다국어 더빙·번역, 음성 합성(TTS), 자막 등 영상 제작·편집 기능을 통합
+  제공한다.
 categories:
   - content-generation
   - avatar

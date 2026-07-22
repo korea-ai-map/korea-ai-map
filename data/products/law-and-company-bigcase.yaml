@@ -1,6 +1,9 @@
 name_ko: 빅케이스
 name_en: BigCase
 organization_id: law-and-company
+description_ko: >-
+  로앤컴퍼니가 운영하는 AI 기반 법률정보 검색 서비스. 판례·법령·주석서·논문·결정례·유권해석·행정심판례·법률서식 등을 키워드, 사건번호 등 다양한 방식으로 검색할 수 있으며, 법률 전문가와 로스쿨 학생 등을
+  대상으로 웹과 모바일 앱으로 제공된다.
 categories:
   - legal-ai
   - legal-research

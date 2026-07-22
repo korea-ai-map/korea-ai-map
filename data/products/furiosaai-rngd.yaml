@@ -1,6 +1,9 @@
 name_ko: 레니게이드
 name_en: RNGD (Renegade)
 organization_id: furiosaai
+description_ko: >-
+  퓨리오사AI의 데이터센터용 LLM·멀티모달 추론 가속기(PCIe 카드)다. 자체 텐서 컨트랙션 프로세서(TCP) 아키텍처를 사용하며 48GB HBM3 메모리, 약 512 TFLOPS 연산 성능, 180W TDP로
+  공랭 데이터센터 환경에 적합하다. BF16/FP8/INT8/INT4 등 혼합 정밀도를 지원해 대규모 언어모델 추론에 쓰인다.
 categories:
   - ai-chip
   - npu
@@ -20,5 +23,5 @@ website: https://furiosa.ai/rngd
 sources:
   - type: official-website
     url: https://developer.furiosa.ai/latest/en/overview/rngd.html
-last_verified: "2026-07-22"
+last_verified: '2026-07-22'
 verification_status: official-source

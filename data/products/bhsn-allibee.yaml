@@ -1,6 +1,7 @@
 name_ko: 앨리비
 name_en: Allibee
 organization_id: bhsn
+description_ko: bhsn이 자체 Legal AI 기술을 적용해 만든 올인원 AI 비즈니스 솔루션으로, AI 계약 리뷰, 계약 번역, 비즈니스 지식·전문가 검색 등 기업 업무 생산성을 높이는 기능을 제공한다.
 categories:
   - document-ai
   - agent

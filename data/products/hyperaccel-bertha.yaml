@@ -1,6 +1,7 @@
 name_ko: 베르타 500
 name_en: Bertha 500
 organization_id: hyperaccel
+description_ko: 하이퍼엑셀의 LPU(Latency Processing Unit) 기술 기반 AI 추론용 칩이다. 트랜스포머 기반 LLM 추론 연산을 가속하도록 설계되었으며, 에너지 효율과 자원 최적화를 강조한다.
 categories:
   - ai-chip
   - inference-chip

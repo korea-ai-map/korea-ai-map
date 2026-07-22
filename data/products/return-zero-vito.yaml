@@ -1,6 +1,7 @@
 name_ko: 비토
 name_en: VITO
 organization_id: return-zero
+description_ko: 리턴제로가 개발한 한국어 음성인식(STT) 서비스로, 통화 등 음성을 텍스트로 변환한다. 화자 분리와 실시간 스트리밍 인식을 지원하며, 통화 내용을 채팅처럼 기록·검색하고 특정 구간만 다시 들을 수 있다.
 categories:
   - voice
 target_users:

@@ -1,6 +1,9 @@
 name_ko: RLDX-1 로봇 파운데이션 모델
 name_en: RLDX-1 (product)
 organization_id: rlwrld
+description_ko: >-
+  로봇 AI 기업 RLWRLD가 개발한 로봇 파운데이션 모델로, 사람 손처럼 다섯 손가락을 사용하는 정교한 매니퓰레이션(조작)을 로봇이 수행하도록 하는 것을 목표로 한다. 산업 현장의 정밀 작업을 위한 피지컬 AI
+  기술이다.
 categories:
   - robotics
   - physical-ai

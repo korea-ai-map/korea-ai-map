@@ -1,6 +1,7 @@
 name_ko: 솔라 LLM API
 name_en: Solar LLM API
 organization_id: upstage
+description_ko: 업스테이지의 자체 대규모언어모델 Solar를 API로 제공하는 채팅 서비스로, 챗봇 등 생성형 AI 애플리케이션을 구축할 수 있다. Solar는 MoE(전문가 혼합) 구조의 대규모언어모델이다.
 categories:
   - enterprise-ai
   - content-generation

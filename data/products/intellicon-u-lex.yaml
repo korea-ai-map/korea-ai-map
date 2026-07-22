@@ -1,6 +1,7 @@
 name_ko: 유렉스
 name_en: U-LEX
 organization_id: intellicon
+description_ko: 인텔리콘의 지능형 법률정보 시스템이다. 법정보 추론 엔진을 탑재해 법령과 판례 정보를 검색·제공하고 관련 조항을 추천하는 법률 AI 서비스다.
 categories:
   - legal-ai
   - legal-research

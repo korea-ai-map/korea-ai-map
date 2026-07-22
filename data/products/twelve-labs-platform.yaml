@@ -1,6 +1,9 @@
 name_ko: 트웰브랩스 영상 이해 플랫폼
 name_en: TwelveLabs Video Understanding Platform
 organization_id: twelve-labs
+description_ko: >-
+  트웰브랩스의 영상 이해 플랫폼으로, 영상을 검색·분석 가능한 데이터로 변환한다. 임베딩 모델 마렝고(Marengo)와 영상 언어 모델 페가수스(Pegasus)를 통해 자연어로 영상 속 장면·행동·대사·감정을
+  검색하고 영상 내용을 요약·분석할 수 있다.
 categories:
   - search-rag
   - content-generation

@@ -1,6 +1,7 @@
 name_ko: 제타
 name_en: Zeta
 organization_id: scatter-lab
+description_ko: 스캐터랩이 운영하는 인터랙티브 AI 캐릭터 채팅 플랫폼으로, 이용자가 다양한 장르와 설정의 AI 캐릭터를 만들고 대화하며 롤플레이·스토리텔링을 즐길 수 있다.
 categories:
   - avatar
   - content-generation

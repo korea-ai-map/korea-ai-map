@@ -1,6 +1,9 @@
 name_ko: 워보이
 name_en: WARBOY
 organization_id: furiosaai
+description_ko: >-
+  퓨리오사AI의 1세대 컴퓨터 비전 전용 NPU다. 워크로드에 따라 프로세싱 엘리먼트(PE) 구성을 조정할 수 있는 아키텍처를 갖추며, 지능형 영상 감시(스마트시티·안전·품질 검사)와 초해상도 등 비전 추론에
+  사용된다. PCIe 카드 및 서버 형태로 제공된다.
 categories:
   - ai-chip
   - npu
@@ -21,5 +24,5 @@ website: https://furiosa.ai/warboy
 sources:
   - type: official-website
     url: https://furiosa.ai/warboy/specs
-last_verified: "2026-07-22"
+last_verified: '2026-07-22'
 verification_status: official-source

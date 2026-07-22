@@ -1,6 +1,7 @@
 name_ko: 수다
 name_en: SUDA
 organization_id: maum-ai
+description_ko: 마음AI의 AI 기술로, 마음AI의 Physical AI 플랫폼에 탑재되어 업무 자동화와 기업 생산성 향상에 활용된다.
 categories:
   - customer-support
   - voice

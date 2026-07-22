@@ -1,6 +1,9 @@
 name_ko: 불리오
 name_en: Boolio
 organization_id: doomoolmori
+description_ko: >-
+  두물머리 투자자문이 운영하는 자산관리 핀테크 서비스다. 글로벌 투자 데이터와 알고리즘 전략에 기반한 로보어드바이저 앱을 통해 자동화된 투자·연금 자산배분과 EMP펀드·글로벌 ETF 운용, 1:1 맞춤 컨설팅을
+  제공한다.
 categories:
   - fintech
   - robo-advisor

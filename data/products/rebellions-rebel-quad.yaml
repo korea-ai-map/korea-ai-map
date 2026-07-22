@@ -1,6 +1,7 @@
 name_ko: 리벨쿼드
 name_en: REBEL-Quad
 organization_id: rebellions
+description_ko: 리벨리온스가 개발한 대규모 AI 서빙용 페타스케일 SoC(시스템온칩)로, NPU를 결합해 데이터센터 환경에서 대규모 AI 추론 워크로드를 처리하도록 설계된 AI 가속 반도체다.
 categories:
   - ai-chip
   - inference-chip

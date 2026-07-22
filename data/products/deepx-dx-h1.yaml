@@ -1,6 +1,7 @@
 name_ko: DX-H1
 name_en: DX-H1
 organization_id: deepx
+description_ko: AI 반도체 기업 딥엑스(DEEPX)의 엣지 AI용 고성능 NPU 반도체로, DX-H1 Quattro, DX-H1 V-NPU 등의 형태로 제공된다. 저전력 엣지 환경에서의 AI 추론 처리를 목표로 한다.
 categories:
   - ai-chip
   - npu
