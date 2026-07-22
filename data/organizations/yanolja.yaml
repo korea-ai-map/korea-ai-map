@@ -12,7 +12,7 @@ categories:
 status: active
 description_ko: 여행·호스피탈리티 테크 기업. 한국어 어휘 확장 기법(EEVE)으로 EEVE-Korean 오픈 LLM을 공개했다.
 models:
-  - eeve-korean-instruct-10.8b
+  - eeve-korean-instruct-108b
 products: []
 open_source_links:
   - https://huggingface.co/yanolja

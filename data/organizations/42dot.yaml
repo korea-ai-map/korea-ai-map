@@ -13,7 +13,7 @@ categories:
 status: active
 description_ko: 현대차그룹 계열 자율주행·모빌리티 AI 기업. 자체 한국어 LLM 42dot LLM을 공개했다.
 models:
-  - 42dot-llm-sft-1.3b
+  - 42dot-llm-sft-13b
 products: []
 open_source_links:
   - https://huggingface.co/42dot

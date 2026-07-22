@@ -1,4 +1,3 @@
-# 샘플 데이터 (Phase 0). 실제 검증은 Phase 1에서 수행.
 name_ko: LG AI연구원
 name_en: LG AI Research
 organization_type: corporate-research-lab
@@ -13,12 +12,12 @@ categories:
 status: active
 description_ko: 기업용 및 산업용 인공지능 모델을 연구·개발하는 LG 그룹의 AI 연구조직.
 models:
-  - exaone-3.5
+  - exaone-35
 products: []
 open_source_links:
   - https://huggingface.co/LGAI-EXAONE
 sources:
   - type: official-website
     url: https://www.lgresearch.ai
-last_verified: "2026-07-20"
+last_verified: '2026-07-20'
 verification_status: official-source
