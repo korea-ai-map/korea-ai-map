@@ -46,7 +46,8 @@ const base = import.meta.env.BASE_URL;
       const n = b >= 1 ? (Number.isInteger(b) ? b : b.toFixed(1)) + 'B' : (v / 1e6).toFixed(0) + 'M';
       return d && d !== 'confident' ? n + ' (추정)' : n;
     }
-    const yn = (b) => (b ? '○' : '×');
+    const yn = (b) => (b ? '<span class="yes">✓</span>' : '<span class="no">–</span>');
+    const na = (s) => `<span class="na">${s}</span>`;
     const commercialLabel = { allowed: '가능', restricted: '제한적', prohibited: '불가', unknown: '미상' };
 
     function renderPicker() {
@@ -70,23 +71,23 @@ const base = import.meta.env.BASE_URL;
     }
 
     function row(label, fn) {
-      return `<tr><th>${label}</th>` + selected.map((id) => `<td>${fn(byId[id])}</td>`).join('') + '</tr>';
+      return `<tr><th scope="row">${label}</th>` + selected.map((id) => `<td>${fn(byId[id])}</td>`).join('') + '</tr>';
     }
     function renderTable() {
       if (selected.length === 0) { table.innerHTML = '<p class="muted">위에서 모델을 선택하세요.</p>'; return; }
       table.innerHTML = `<table class="cmp"><thead><tr><th></th>` +
         selected.map((id) => `<th><a href="${mkUrl(id)}">${esc(byId[id].name)}</a></th>`).join('') +
         `</tr></thead><tbody>` +
-        row('개발 조직', (m) => esc(m.org)) +
-        row('출시일', (m) => esc(m.release || '—')) +
-        row('파라미터 수', (m) => paramText(m.pv, m.pd)) +
-        row('컨텍스트', (m) => (m.ctx != null ? m.ctx.toLocaleString() : '미공개')) +
-        row('모달리티', (m) => esc(m.modalities || '—')) +
-        row('지원 언어', (m) => esc(m.languages || '—')) +
+        row('개발 조직', (m) => esc(m.org) || na('—')) +
+        row('출시일', (m) => (m.release ? esc(m.release) : na('—'))) +
+        row('파라미터 수', (m) => (m.pv == null ? na('미공개') : paramText(m.pv, m.pd))) +
+        row('컨텍스트', (m) => (m.ctx != null ? m.ctx.toLocaleString() : na('미공개'))) +
+        row('모달리티', (m) => esc(m.modalities) || na('—')) +
+        row('지원 언어', (m) => esc(m.languages) || na('—')) +
         row('API', (m) => yn(m.api)) +
         row('가중치 공개', (m) => yn(m.weights)) +
         row('온프레미스', (m) => yn(m.onprem)) +
-        row('라이선스', (m) => esc(m.license || '—')) +
+        row('라이선스', (m) => esc(m.license) || na('—')) +
         row('상업 이용', (m) => commercialLabel[m.commercial] || m.commercial) +
         `</tbody></table>`;
     }
@@ -107,11 +108,29 @@ const base = import.meta.env.BASE_URL;
     .pick { display: block; font-size: 0.9rem; padding: 0.2rem 0.3rem; border-radius: 4px; cursor: pointer; }
     .pick.on { background: color-mix(in srgb, var(--link) 12%, transparent); }
     .pick input[disabled] + * { opacity: 0.4; }
-    .table-wrap { overflow-x: auto; max-width: 100%; margin-top: 1.2rem; }
-    /* width:max-content 로 표가 내용만큼만 넓어지고 래퍼 안에서 가로 스크롤 → 페이지 폭을 넘기지 않음 */
+    .table-wrap { overflow-x: auto; max-width: 100%; margin-top: 1.3rem;
+      border: 1px solid var(--line); border-radius: 10px; }
+  </style>
+
+  <!-- 표는 JS(innerHTML)로 런타임 생성되므로 스코프 스타일이 안 먹는다 → 전역 스타일로 지정 -->
+  <style is:global>
     table.cmp { border-collapse: collapse; width: max-content; min-width: 100%; font-size: 0.9rem; }
-    table.cmp th, table.cmp td { border: 1px solid var(--line); padding: 0.5rem 0.7rem; text-align: left; vertical-align: top; white-space: nowrap; }
-    table.cmp thead th { background: var(--card); }
-    table.cmp tbody th { color: var(--muted); font-weight: 500; white-space: nowrap; }
+    table.cmp th, table.cmp td { padding: 0.65rem 1rem; text-align: left; vertical-align: top;
+      white-space: nowrap; border-bottom: 1px solid var(--line); }
+    table.cmp tbody tr:last-child th, table.cmp tbody tr:last-child td { border-bottom: 0; }
+    /* 헤더 행: 모델명 강조 + 상단 고정 */
+    table.cmp thead th { position: sticky; top: 0; background: var(--bg);
+      border-bottom: 2px solid var(--fg); font-size: 0.95rem; padding-top: 0.85rem; padding-bottom: 0.85rem; z-index: 2; }
+    table.cmp thead th a { color: var(--link); font-weight: 700; }
+    /* 첫 열(항목 라벨): 좌측 고정 + 옅은 배경으로 구분 */
+    table.cmp th[scope="row"] { position: sticky; left: 0; background: var(--card);
+      color: var(--muted); font-weight: 500; border-right: 1px solid var(--line); z-index: 1; }
+    table.cmp thead th:first-child { background: var(--card); left: 0; z-index: 3; border-right: 1px solid var(--line); }
+    /* 행 hover 강조 */
+    table.cmp tbody tr:hover td { background: color-mix(in srgb, var(--link) 6%, transparent); }
+    /* 불리언·미공개 표기 */
+    table.cmp .yes { color: var(--ok); font-weight: 700; }
+    table.cmp .no { color: var(--dim); }
+    table.cmp .na { color: var(--muted); font-style: italic; }
   </style>
 </Base>
