@@ -1,0 +1,22 @@
+name_ko: 애자일소다
+name_en: AgileSoDA
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://agilesoda.ai
+ai_core_level: ai_native
+categories:
+  - finance-ai
+  - insurance
+  - enterprise-ai
+  - agent
+status: active
+description_ko: 보험·금융 특화 엔터프라이즈 에이전틱 AI. 배포·운영 플랫폼 JT Foundry, 자동 데이터 라벨링 Ground Forge, Agentic OCR/RAG를 제공한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://agilesoda.ai/
+last_verified: '2026-07-22'
+verification_status: official-source

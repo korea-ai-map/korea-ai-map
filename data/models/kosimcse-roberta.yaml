@@ -1,0 +1,39 @@
+name: KoSimCSE-RoBERTa
+model_family: KoSimCSE
+status: active
+modalities:
+  - text
+tasks:
+  - embedding
+  - sentence-similarity
+parameter_count:
+  value: 110000000
+  disclosure: likely
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: ''
+  commercial_use: unknown
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+base_model: klue/roberta-base
+links:
+  official: null
+  model_card: https://huggingface.co/BM-K/KoSimCSE-roberta
+  huggingface: https://huggingface.co/BM-K/KoSimCSE-roberta
+  github: https://github.com/BM-K/Sentence-Embedding-Is-All-You-Need
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/BM-K/KoSimCSE-roberta
+last_verified: '2026-07-22'
+verification_status: official-source
+organization_id: bm-k

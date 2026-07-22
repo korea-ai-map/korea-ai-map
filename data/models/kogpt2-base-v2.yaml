@@ -1,0 +1,37 @@
+name: KoGPT2 base v2
+organization_id: skt
+model_family: KoGPT2
+status: active
+modalities:
+  - text
+tasks:
+  - text-generation
+parameter_count:
+  value: 125000000
+  disclosure: likely
+context_length:
+  value: 1024
+  confidence: likely
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: CC-BY-NC-SA-4.0
+  commercial_use: prohibited
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+links:
+  official: null
+  model_card: https://huggingface.co/skt/kogpt2-base-v2
+  huggingface: https://huggingface.co/skt/kogpt2-base-v2
+  github: https://github.com/SKT-AI/KoGPT2
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/skt/kogpt2-base-v2
+last_verified: '2026-07-22'
+verification_status: official-source

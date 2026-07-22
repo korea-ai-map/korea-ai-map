@@ -1,0 +1,21 @@
+name_ko: 스트라드비젼
+name_en: STRADVISION
+organization_type: startup
+country: KR
+headquarters: Pohang
+website: https://stradvision.com
+ai_core_level: ai_native
+categories:
+  - mobility
+  - autonomous-driving
+  - vision-ai
+status: active
+description_ko: 딥러닝 기반 카메라 인식 소프트웨어 SVNet을 개발하는 비전 AI 기업. ADAS·자율주행용 FrontVision·SurroundVision 등을 제공한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://stradvision.com/
+last_verified: '2026-07-22'
+verification_status: official-source

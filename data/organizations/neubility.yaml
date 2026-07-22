@@ -1,0 +1,23 @@
+name_ko: 뉴빌리티
+name_en: Neubility
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.neubility.ai
+founded_year: 2017
+ai_core_level: ai_native
+categories:
+  - robotics
+  - autonomous-driving
+  - delivery-robot
+  - physical-ai
+status: active
+description_ko: 카메라 기반 자율주행 배달로봇 Neubie를 개발하는 Physical AI 기반 RaaS 기업. 실외 라스트마일 배송·순찰 로봇 서비스를 제공한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.neubility.ai
+last_verified: '2026-07-22'
+verification_status: official-source

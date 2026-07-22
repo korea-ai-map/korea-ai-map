@@ -1,0 +1,23 @@
+name_ko: 무하유
+name_en: Muhayu
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.muhayu.com
+founded_year: 2011
+ai_core_level: ai_native
+categories:
+  - hr-ai
+  - nlp
+  - document-ai
+  - edtech
+status: active
+description_ko: 자연어처리 기반 문서분석 AI 기업. 표절검사 CopyKiller, AI 작성 탐지 GPT Killer, AI 채용 평가 솔루션을 제공한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.copykiller.com
+last_verified: '2026-07-22'
+verification_status: official-source

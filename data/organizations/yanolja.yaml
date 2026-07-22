@@ -1,0 +1,23 @@
+name_ko: 야놀자
+name_en: Yanolja
+organization_type: corporate
+country: KR
+headquarters: Seoul
+website: https://www.yanolja.com
+ai_core_level: model_builder
+categories:
+  - travel-tech
+  - llm
+  - open-weights
+status: active
+description_ko: 여행·호스피탈리티 테크 기업. 한국어 어휘 확장 기법(EEVE)으로 EEVE-Korean 오픈 LLM을 공개했다.
+models:
+  - eeve-korean-instruct-10.8b
+products: []
+open_source_links:
+  - https://huggingface.co/yanolja
+sources:
+  - type: huggingface
+    url: https://huggingface.co/yanolja
+last_verified: '2026-07-22'
+verification_status: official-source

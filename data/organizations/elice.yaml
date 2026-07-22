@@ -1,0 +1,22 @@
+name_ko: 엘리스
+name_en: Elice
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://elice.io
+founded_year: 2015
+ai_core_level: ai_enabled
+categories:
+  - edtech
+  - ai-education
+  - gpu-cloud
+status: active
+description_ko: AI 교육·훈련과 GPU 클라우드를 함께 제공하는 AI 풀스택 기업. 실습형 학습 플랫폼 Elice LXP와 AI 인프라 Elice Cloud를 운영한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://elice.io
+last_verified: '2026-07-22'
+verification_status: official-source

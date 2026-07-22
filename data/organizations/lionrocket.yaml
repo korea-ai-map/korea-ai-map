@@ -1,0 +1,23 @@
+name_ko: 라이언로켓
+name_en: LionRocket
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://lionrocket.ai
+founded_year: 2018
+ai_core_level: model_builder
+categories:
+  - generative-ai
+  - content-media
+  - image-generation
+  - webtoon
+status: active
+description_ko: 이미지·음성·영상 생성 AI를 자체 개발하는 콘텐츠 생성 AI 스타트업. 웹툰 제작 도구 GENVAS와 이미지 생성 플랫폼 Pokeit을 운영한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://lionrocket.ai
+last_verified: '2026-07-22'
+verification_status: official-source

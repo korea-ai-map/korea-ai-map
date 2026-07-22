@@ -1,0 +1,23 @@
+name_ko: 마키나락스
+name_en: MakinaRocks
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.makinarocks.ai
+founded_year: 2017
+ai_core_level: ai_native
+categories:
+  - industrial-ai
+  - manufacturing
+  - anomaly-detection
+  - mlops
+status: active
+description_ko: 제조·중공업용 산업 AI 기업. 이상탐지·예측운영·머신비전을 제공하는 산업 AI OS Runway와 도면 분석 에이전트 DrawX를 개발한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.makinarocks.ai
+last_verified: '2026-07-22'
+verification_status: official-source

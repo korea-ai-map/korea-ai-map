@@ -1,0 +1,23 @@
+name_ko: Bllossom 팀
+name_en: Bllossom Team
+organization_type: university-lab
+country: KR
+website: https://huggingface.co/Bllossom
+ai_core_level: model_builder
+categories:
+  - korean-llm
+  - open-weights
+  - multimodal
+status: active
+description_ko: 서울과학기술대·연세대 등 연구진이 참여하는 한국어 LLM 오픈소스 프로젝트 팀. Llama 기반 한국어 Bllossom 모델을 공개한다.
+models:
+  - llama-3-2-korean-bllossom-3b
+  - llama-3-korean-bllossom-8b
+products: []
+open_source_links:
+  - https://huggingface.co/Bllossom
+sources:
+  - type: huggingface
+    url: https://huggingface.co/Bllossom
+last_verified: '2026-07-22'
+verification_status: needs-review

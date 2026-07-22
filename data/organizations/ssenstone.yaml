@@ -1,0 +1,21 @@
+name_ko: 센스톤
+name_en: SSenStone
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.ssenstone.com
+ai_core_level: ai_enabled
+categories:
+  - security-ai
+  - fintech-security
+  - authentication
+status: active
+description_ko: 단방향 동적 인증 기술 OTAC 기반 차세대 인증 보안 기업. 금융 사기방지·산업제어 인증과 swIDch SDK를 제공한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.ssenstone.com/en
+last_verified: '2026-07-22'
+verification_status: official-source

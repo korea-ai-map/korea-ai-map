@@ -1,0 +1,40 @@
+name: snowflake-arctic-embed-l-v2.0-ko
+organization_id: dragonkue
+model_family: Arctic-Embed-Ko
+status: active
+modalities:
+  - text
+tasks:
+  - embedding
+  - sentence-similarity
+parameter_count:
+  value: 600000000
+  disclosure: likely
+context_length:
+  value: 8192
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+base_model: Snowflake/snowflake-arctic-embed-l-v2.0
+links:
+  official: null
+  model_card: https://huggingface.co/dragonkue/snowflake-arctic-embed-l-v2.0-ko
+  huggingface: https://huggingface.co/dragonkue/snowflake-arctic-embed-l-v2.0-ko
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/dragonkue/snowflake-arctic-embed-l-v2.0-ko
+last_verified: '2026-07-22'
+verification_status: official-source

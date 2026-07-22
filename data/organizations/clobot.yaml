@@ -1,0 +1,22 @@
+name_ko: 클로봇
+name_en: CLOBOT
+organization_type: corporate
+country: KR
+headquarters: Seoul
+website: https://www.clobot.co.kr
+founded_year: 2017
+ai_core_level: ai_enabled
+categories:
+  - robotics
+  - service-robot
+  - robot-software
+status: active
+description_ko: 서비스 로봇 자율주행·관제 소프트웨어 전문기업. 이종 로봇 통합관제 플랫폼과 실내 자율주행 SW를 제공하며 코스닥 상장.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.clobot.co.kr
+last_verified: '2026-07-22'
+verification_status: needs-review

@@ -1,0 +1,21 @@
+name_ko: 자비스앤빌런즈
+name_en: Jobis and Villains
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://3o3.co.kr
+ai_core_level: ai_enabled
+categories:
+  - fintech
+  - tax
+  - accounting
+status: active
+description_ko: AI 기반 종합소득세 환급·세무 처리 서비스 삼쩜삼을 운영. 2020년 출시 이후 720만명 이상 이용.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://3o3.co.kr/
+last_verified: '2026-07-22'
+verification_status: official-source

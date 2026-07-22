@@ -1,0 +1,23 @@
+name_ko: 클레온
+name_en: Klleon
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://klleon.io
+founded_year: 2020
+ai_core_level: ai_native
+categories:
+  - generative-ai
+  - digital-human
+  - avatar
+  - content-media
+status: active
+description_ko: 실시간 대화형 디지털 휴먼 AI 플랫폼. 노코드로 아바타를 생성·운영하는 Klleon Studio와 SDK를 제공하며 실시간 응답을 지원한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://klleon.io
+last_verified: '2026-07-22'
+verification_status: official-source

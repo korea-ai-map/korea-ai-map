@@ -1,0 +1,21 @@
+name_ko: BM-K (개인 기여자)
+name_en: BM-K
+organization_type: open-source-community
+country: KR
+website: https://huggingface.co/BM-K
+ai_core_level: model_builder
+categories:
+  - embedding
+  - korean-nlp
+status: active
+description_ko: 한국어 문장 임베딩 모델 KoSimCSE·KoSentence-BERT 등을 공개한 개인 오픈소스 기여자.
+models:
+  - kosimcse-roberta
+products: []
+open_source_links:
+  - https://huggingface.co/BM-K
+sources:
+  - type: huggingface
+    url: https://huggingface.co/BM-K
+last_verified: '2026-07-22'
+verification_status: needs-review

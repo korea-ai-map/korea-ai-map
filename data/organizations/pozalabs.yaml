@@ -1,0 +1,23 @@
+name_ko: 포자랩스
+name_en: Pozalabs
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.pozalabs.com
+founded_year: 2018
+ai_core_level: model_builder
+categories:
+  - generative-ai
+  - music-generation
+  - content-media
+  - audio
+status: active
+description_ko: 생성형 AI 작곡 스타트업. 자체 음악 생성 모델을 개발해 저작권 이슈 없는 배경음악 등을 제공한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.pozalabs.com
+last_verified: '2026-07-22'
+verification_status: needs-review

@@ -1,0 +1,23 @@
+name_ko: 뉴로핏
+name_en: Neurophet
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.neurophet.com
+founded_year: 2016
+ai_core_level: ai_native
+categories:
+  - medical-ai
+  - medical-imaging
+  - brain-mri
+  - neuroscience
+status: active
+description_ko: 뇌 영상(MRI/PET) 분석 AI 기업. 퇴행성 뇌질환 진단·치료를 돕는 뇌영상 정량분석 솔루션을 개발한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.neurophet.com
+last_verified: '2026-07-22'
+verification_status: needs-review

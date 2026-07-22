@@ -1,0 +1,21 @@
+name_ko: 데이블
+name_en: Dable
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://dable.io
+ai_core_level: ai_native
+categories:
+  - marketing-ai
+  - adtech
+  - recommendation
+status: active
+description_ko: 머신러닝 기반 개인화 콘텐츠 추천·네이티브 광고 기업. 아시아 미디어 네트워크 대상 Dable News, Native Ad를 제공한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://dable.io/en
+last_verified: '2026-07-22'
+verification_status: official-source

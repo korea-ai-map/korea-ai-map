@@ -1,0 +1,23 @@
+name_ko: 가우디오랩
+name_en: Gaudio Lab
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.gaudiolab.com
+founded_year: 2015
+ai_core_level: ai_native
+categories:
+  - audio-ai
+  - sound
+  - content-media
+  - spatial-audio
+status: active
+description_ko: AI 오디오 처리 기술 기업. 음원 분리·공간음향·노이즈 제거·AI 노래방 등 오디오 AI 솔루션을 제공한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.gaudiolab.com
+last_verified: '2026-07-22'
+verification_status: official-source

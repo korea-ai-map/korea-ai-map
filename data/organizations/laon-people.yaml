@@ -1,0 +1,22 @@
+name_ko: 라온피플
+name_en: Laon People
+organization_type: corporate
+country: KR
+headquarters: Gwacheon
+website: https://www.laonpeople.com
+founded_year: 2010
+ai_core_level: ai_native
+categories:
+  - manufacturing
+  - machine-vision
+  - industrial-ai
+status: active
+description_ko: 머신비전·산업 AI 검사 기업. 전문가 없이 가능한 AI 비전 검사와 머신비전 하드웨어, AI 골프 제품 등을 제공한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.laonpeople.com/en/
+last_verified: '2026-07-22'
+verification_status: official-source

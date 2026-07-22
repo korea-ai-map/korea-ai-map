@@ -1,0 +1,21 @@
+name_ko: 스페이스워크
+name_en: Spacewalk
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.spacewalk.tech
+ai_core_level: ai_native
+categories:
+  - proptech
+  - real-estate
+  - reinforcement-learning
+status: active
+description_ko: 심층강화학습 기반 건축설계·부동산 개발 AI 기업. 개발 타당성 분석 서비스 랜드북(Landbook)을 제공한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.spacewalk.tech/
+last_verified: '2026-07-22'
+verification_status: official-source

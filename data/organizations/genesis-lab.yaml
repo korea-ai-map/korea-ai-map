@@ -1,0 +1,23 @@
+name_ko: 제네시스랩
+name_en: GenesisLab
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.genesislab.ai
+founded_year: 2017
+ai_core_level: ai_native
+categories:
+  - hr-ai
+  - recruiting
+  - video-interview
+  - ai-agent
+status: active
+description_ko: 설명가능한 멀티에이전트 기반 HR AI 기업. AI 영상면접 등 채용 전주기 ViewinterHR과 노코드 에이전트 빌더 Agentria를 제공한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.genesislab.ai
+last_verified: '2026-07-22'
+verification_status: official-source

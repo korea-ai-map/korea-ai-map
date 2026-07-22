@@ -1,0 +1,21 @@
+name_ko: 서울로보틱스
+name_en: Seoul Robotics
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.seoulrobotics.org
+ai_core_level: ai_native
+categories:
+  - mobility
+  - logistics
+  - 3d-perception
+status: active
+description_ko: B2B 자율주행 기술 기업. 3D 인식 소프트웨어 SENSR와 라이다 기반 인프라 자율주행 솔루션을 제공한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.seoulrobotics.org/
+last_verified: '2026-07-22'
+verification_status: official-source

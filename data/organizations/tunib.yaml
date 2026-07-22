@@ -1,0 +1,22 @@
+name_ko: 튜닙
+name_en: TUNiB
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://tunib.ai
+ai_core_level: model_builder
+categories:
+  - conversational-ai
+  - content-media
+  - nlp
+status: active
+description_ko: 감성 교감형 대화 AI 기업. sLLM(Polyglot, Cheetah), 멀티 페르소나 챗봇 DearMate, NLP API TUNiBridge를 제공한다.
+models: []
+products: []
+open_source_links:
+  - https://github.com/EleutherAI/polyglot
+sources:
+  - type: official-website
+    url: https://tunib.ai/
+last_verified: '2026-07-22'
+verification_status: official-source

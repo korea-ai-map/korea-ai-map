@@ -1,0 +1,22 @@
+name_ko: 트릿지
+name_en: Tridge
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.tridge.com
+founded_year: 2015
+ai_core_level: ai_enabled
+categories:
+  - agritech
+  - foodtech
+  - data-intelligence
+status: active
+description_ko: 농식품 무역 데이터 인텔리전스 기업. AI 기반 시장 인텔리전스·소싱 자동화 Tridge Eye를 제공하며 2022년 유니콘 등극.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.tridge.com/company
+last_verified: '2026-07-22'
+verification_status: official-source

@@ -1,0 +1,23 @@
+name_ko: 모빌린트
+name_en: Mobilint
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.mobilint.com
+founded_year: 2019
+ai_core_level: ai_infrastructure
+categories:
+  - ai-chip
+  - npu
+  - edge-ai
+  - on-device-ai
+status: active
+description_ko: 엣지·온디바이스용 고성능 AI 반도체(NPU) 개발사. ARIES 라인(MLA100/MLA400)과 엣지 AI 박스를 공급한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.mobilint.com
+last_verified: '2026-07-22'
+verification_status: official-source

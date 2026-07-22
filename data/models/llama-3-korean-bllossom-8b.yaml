@@ -1,0 +1,40 @@
+name: Llama-3-Korean-Bllossom-8B
+model_family: Bllossom
+status: active
+modalities:
+  - text
+tasks:
+  - text-generation
+  - chat
+parameter_count:
+  value: 8000000000
+  disclosure: confident
+context_length:
+  value: 8192
+  confidence: likely
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Llama 3 Community License
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+base_model: Meta-Llama-3-8B
+links:
+  official: null
+  model_card: https://huggingface.co/Bllossom/llama-3-Korean-Bllossom-8B
+  huggingface: https://huggingface.co/Bllossom/llama-3-Korean-Bllossom-8B
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/Bllossom/llama-3-Korean-Bllossom-8B
+last_verified: '2026-07-22'
+verification_status: needs-review
+organization_id: bllossom

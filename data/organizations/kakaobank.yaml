@@ -1,0 +1,23 @@
+name_ko: 카카오뱅크
+name_en: KakaoBank
+organization_type: corporate
+country: KR
+headquarters: Seongnam
+website: https://www.kakaobank.com
+ai_core_level: model_builder
+categories:
+  - fintech-ai
+  - domain-llm
+  - open-weights
+status: active
+description_ko: 인터넷전문은행. 금융 도메인 특화 한국어 언어모델 KF-DeBERTa를 오픈소스로 공개했다.
+models:
+  - kf-deberta-base
+products: []
+open_source_links:
+  - https://huggingface.co/kakaobank
+sources:
+  - type: official-website
+    url: https://www.kakaobank.com
+last_verified: '2026-07-22'
+verification_status: official-source

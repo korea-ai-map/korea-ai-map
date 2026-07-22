@@ -1,0 +1,40 @@
+name: OPEN-SOLAR-KO-10.7B
+model_family: OPEN-SOLAR-KO
+release_date: '2024-01-08'
+status: active
+modalities:
+  - text
+tasks:
+  - text-generation
+parameter_count:
+  value: 10700000000
+  disclosure: confident
+context_length:
+  value: 4096
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+base_model: upstage/SOLAR-10.7B-v1.0
+links:
+  official: null
+  model_card: https://huggingface.co/beomi/OPEN-SOLAR-KO-10.7B
+  huggingface: https://huggingface.co/beomi/OPEN-SOLAR-KO-10.7B
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/beomi/OPEN-SOLAR-KO-10.7B
+last_verified: '2026-07-22'
+verification_status: official-source
+organization_id: beomi

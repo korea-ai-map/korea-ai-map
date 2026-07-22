@@ -1,0 +1,20 @@
+name_ko: 라이드플럭스
+name_en: RideFlux
+organization_type: startup
+country: KR
+headquarters: Jeju
+website: https://rideflux.com
+ai_core_level: ai_native
+categories:
+  - mobility
+  - autonomous-driving
+status: active
+description_ko: 자율주행 AI 드라이버 RideFlux Driver를 개발. 다중 센서 기반 360도 인식으로 야간·악천후 자율주행 서비스를 제공한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://rideflux.com/
+last_verified: '2026-07-22'
+verification_status: official-source

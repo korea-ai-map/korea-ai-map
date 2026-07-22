@@ -1,0 +1,38 @@
+name: KorSciDeBERTa (과학 도메인)
+organization_id: kisti
+model_family: KorSciDeBERTa
+status: active
+modalities:
+  - text
+tasks:
+  - fill-mask
+  - embedding
+parameter_count:
+  value: 180000000
+  disclosure: likely
+context_length:
+  value: 512
+  confidence: likely
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: MIT
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+links:
+  official: null
+  model_card: https://huggingface.co/kisti/KorSciDeBERTa
+  huggingface: https://huggingface.co/kisti/KorSciDeBERTa
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/kisti/KorSciDeBERTa
+last_verified: '2026-07-22'
+verification_status: needs-review

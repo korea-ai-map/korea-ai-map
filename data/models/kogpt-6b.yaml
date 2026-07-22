@@ -1,0 +1,38 @@
+name: KoGPT (KakaoBrain KoGPT 6B)
+organization_id: kakao
+model_family: KoGPT
+status: active
+modalities:
+  - text
+tasks:
+  - text-generation
+parameter_count:
+  value: 6170000000
+  disclosure: confident
+context_length:
+  value: 2048
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: CC-BY-NC-ND-4.0
+  commercial_use: prohibited
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+links:
+  official: null
+  model_card: https://huggingface.co/kakaobrain/kogpt
+  huggingface: https://huggingface.co/kakaobrain/kogpt
+  github: https://github.com/kakaobrain/kogpt
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/kakaobrain/kogpt
+last_verified: '2026-07-22'
+verification_status: official-source

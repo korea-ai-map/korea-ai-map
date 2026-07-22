@@ -1,0 +1,23 @@
+name_ko: 엔씽
+name_en: Nthing
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://n.thing.co
+founded_year: 2014
+ai_core_level: ai_enabled
+categories:
+  - agritech
+  - vertical-farming
+  - iot
+  - smart-farm
+status: active
+description_ko: 모듈형 컨테이너 수직농장 CUBE를 개발하는 애그리테크 기업. IoT·데이터 기반으로 작물 생육을 자동 제어한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://n.thing.co
+last_verified: '2026-07-22'
+verification_status: needs-review

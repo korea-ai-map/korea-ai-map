@@ -1,0 +1,23 @@
+name_ko: 레인보우로보틱스
+name_en: Rainbow Robotics
+organization_type: corporate
+country: KR
+headquarters: Daejeon
+website: https://www.rainbow-robotics.com
+founded_year: 2011
+ai_core_level: ai_enabled
+categories:
+  - robotics
+  - humanoid
+  - collaborative-robot
+  - physical-ai
+status: active
+description_ko: 협동로봇·사족보행·휴머노이드를 만드는 로봇 제조사. HUBO 휴머노이드, RB 협동로봇, RB-Y1 양팔 모바일 매니퓰레이터 등을 개발한다. 코스닥 상장사.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.rainbow-robotics.com
+last_verified: '2026-07-22'
+verification_status: official-source

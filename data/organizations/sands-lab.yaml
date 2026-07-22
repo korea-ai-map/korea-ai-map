@@ -1,0 +1,22 @@
+name_ko: 샌즈랩
+name_en: SANDS Lab
+organization_type: startup
+country: KR
+headquarters: Seongnam
+website: https://www.sandslab.io
+founded_year: 2019
+ai_core_level: ai_native
+categories:
+  - security-ai
+  - cyber-threat-intelligence
+  - malware-analysis
+status: active
+description_ko: AI 기반 사이버 위협 인텔리전스 기업. 위협정보 플랫폼 CTX, NDR MNX, 악성문서 탐지 MDX와 온프레미스 sLLM을 제공한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.sandslab.io
+last_verified: '2026-07-22'
+verification_status: official-source

@@ -1,0 +1,39 @@
+name: ko-sbert-sts
+organization_id: jhgan
+model_family: Ko-SBERT
+status: active
+modalities:
+  - text
+tasks:
+  - embedding
+  - sentence-similarity
+parameter_count:
+  value: 110000000
+  disclosure: likely
+context_length:
+  value: 128
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: ''
+  commercial_use: unknown
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+base_model: klue/bert-base
+links:
+  official: null
+  model_card: https://huggingface.co/jhgan/ko-sbert-sts
+  huggingface: https://huggingface.co/jhgan/ko-sbert-sts
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/jhgan/ko-sbert-sts
+last_verified: '2026-07-22'
+verification_status: official-source

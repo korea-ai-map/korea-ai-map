@@ -1,0 +1,39 @@
+name: Ko-Gemma-2-9B-IT
+organization_id: return-zero
+model_family: Ko-Gemma
+status: active
+modalities:
+  - text
+tasks:
+  - text-generation
+  - chat
+parameter_count:
+  value: 9000000000
+  disclosure: confident
+context_length:
+  value: 8192
+  confidence: likely
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Gemma
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+base_model: google/gemma-2-9b
+links:
+  official: null
+  model_card: https://huggingface.co/rtzr/ko-gemma-2-9b-it
+  huggingface: https://huggingface.co/rtzr/ko-gemma-2-9b-it
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/rtzr/ko-gemma-2-9b-it
+last_verified: '2026-07-22'
+verification_status: official-source

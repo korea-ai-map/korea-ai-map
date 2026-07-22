@@ -1,0 +1,39 @@
+name: KULLM (구름) Polyglot 12.8B v2
+organization_id: korea-university-nlpai-lab
+model_family: KULLM
+status: active
+modalities:
+  - text
+tasks:
+  - text-generation
+  - chat
+parameter_count:
+  value: 12898631680
+  disclosure: confident
+context_length:
+  value: 2048
+  confidence: likely
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+base_model: EleutherAI/polyglot-ko-12.8b
+links:
+  official: null
+  model_card: https://huggingface.co/nlpai-lab/kullm-polyglot-12.8b-v2
+  huggingface: https://huggingface.co/nlpai-lab/kullm-polyglot-12.8b-v2
+  github: https://github.com/nlpai-lab/KULLM
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/nlpai-lab/kullm-polyglot-12.8b-v2
+last_verified: '2026-07-22'
+verification_status: official-source

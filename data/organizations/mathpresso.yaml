@@ -1,0 +1,23 @@
+name_ko: 매스프레소
+name_en: Mathpresso (QANDA)
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://mathpresso.com
+founded_year: 2015
+ai_core_level: ai_native
+categories:
+  - edtech
+  - ocr
+  - adaptive-learning
+  - ai-tutor
+status: active
+description_ko: AI 학습 플랫폼 콴다(QANDA)를 운영하는 에듀테크 기업. 사진 기반 문제풀이 검색과 수학 특화 모델 MathGPT를 제공한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://mathpresso.com
+last_verified: '2026-07-22'
+verification_status: official-source

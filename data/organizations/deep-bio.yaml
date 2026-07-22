@@ -1,0 +1,23 @@
+name_ko: 딥바이오
+name_en: Deep Bio
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.deepbio.co.kr
+founded_year: 2017
+ai_core_level: ai_native
+categories:
+  - medical-ai
+  - digital-pathology
+  - cancer-diagnosis
+  - medical-imaging
+status: active
+description_ko: 디지털 병리 기반 암 진단 AI 기업. 전립선·유방암 병리영상 분석 솔루션 DeepDx 라인을 제공한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.deepbio.co.kr
+last_verified: '2026-07-22'
+verification_status: official-source

@@ -1,0 +1,22 @@
+name_ko: 이준범 (beomi, 개인 기여자)
+name_en: Junbum Lee (beomi)
+organization_type: open-source-community
+country: KR
+website: https://huggingface.co/beomi
+ai_core_level: model_builder
+categories:
+  - open-weights
+  - korean-llm
+status: active
+description_ko: 한국어 오픈소스 모델·데이터를 다수 공개한 개인 기여자. KcBERT·OPEN-SOLAR-KO·Llama-2-Ko 등을 배포했다.
+models:
+  - open-solar-ko-10.7b
+products: []
+open_source_links:
+  - https://huggingface.co/beomi
+  - https://github.com/Beomi
+sources:
+  - type: huggingface
+    url: https://huggingface.co/beomi
+last_verified: '2026-07-22'
+verification_status: needs-review

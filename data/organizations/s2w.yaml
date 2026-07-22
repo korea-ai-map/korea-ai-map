@@ -1,0 +1,23 @@
+name_ko: 에스투더블유
+name_en: S2W
+organization_type: startup
+country: KR
+headquarters: Seongnam
+website: https://s2w.inc
+founded_year: 2018
+ai_core_level: model_builder
+categories:
+  - security-ai
+  - dark-web
+  - cyber-threat-intelligence
+  - llm
+status: active
+description_ko: 다크웹·사이버 위협 인텔리전스 AI 기업. 다크웹 분석 플랫폼과 보안 특화 자체 LLM을 개발한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://s2w.inc
+last_verified: '2026-07-22'
+verification_status: needs-review

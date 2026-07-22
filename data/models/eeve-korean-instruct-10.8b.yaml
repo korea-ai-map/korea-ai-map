@@ -1,0 +1,40 @@
+name: EEVE-Korean-Instruct-10.8B-v1.0
+model_family: EEVE-Korean
+status: active
+modalities:
+  - text
+tasks:
+  - text-generation
+  - chat
+parameter_count:
+  value: 10800000000
+  disclosure: confident
+context_length:
+  value: 4096
+  confidence: likely
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+base_model: yanolja/EEVE-Korean-10.8B-v1.0
+links:
+  official: null
+  model_card: https://huggingface.co/yanolja/EEVE-Korean-Instruct-10.8B-v1.0
+  huggingface: https://huggingface.co/yanolja/EEVE-Korean-Instruct-10.8B-v1.0
+  github: null
+  paper: https://arxiv.org/abs/2402.14714
+sources:
+  - type: model-card
+    url: https://huggingface.co/yanolja/EEVE-Korean-Instruct-10.8B-v1.0
+last_verified: '2026-07-22'
+verification_status: official-source
+organization_id: yanolja

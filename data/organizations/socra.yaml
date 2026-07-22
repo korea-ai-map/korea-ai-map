@@ -1,0 +1,22 @@
+name_ko: 소크라 (구 뤼이드)
+name_en: Socra (formerly Riiid)
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://corp.socra.ai
+founded_year: 2014
+ai_core_level: ai_native
+categories:
+  - edtech
+  - adaptive-learning
+  - ai-tutor
+status: active
+description_ko: AI 튜터 Santa로 알려진 에듀테크 기업 뤼이드(Riiid)가 Socra로 리브랜딩. 딥러닝 지식추적 기반 맞춤학습을 제공한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://corp.socra.ai
+last_verified: '2026-07-22'
+verification_status: official-source

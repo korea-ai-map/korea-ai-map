@@ -1,0 +1,22 @@
+name_ko: 원프레딕트
+name_en: OnePredict
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://onepredict.ai
+founded_year: 2016
+ai_core_level: ai_native
+categories:
+  - industrial-ai
+  - predictive-maintenance
+  - manufacturing
+status: active
+description_ko: 설비 상태진단·예지보전(PHM) 산업 AI 기업. 발전·중공업 등 설비 데이터를 분석해 고장을 예측하는 솔루션을 제공한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://onepredict.ai
+last_verified: '2026-07-22'
+verification_status: needs-review

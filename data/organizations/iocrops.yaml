@@ -1,0 +1,22 @@
+name_ko: 아이오크롭스
+name_en: ioCrops
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.iocrops.com
+founded_year: 2018
+ai_core_level: ai_native
+categories:
+  - agritech
+  - robotics
+  - smart-farm
+status: active
+description_ko: AI·로보틱스 기반 농업 생산 자동화 기업. AI 온실 로봇 HERMAI, 데이터 기반 재배 솔루션 ioFarm 등을 제공한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.iocrops.com/
+last_verified: '2026-07-22'
+verification_status: official-source

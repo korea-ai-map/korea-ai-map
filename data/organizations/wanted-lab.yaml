@@ -1,0 +1,20 @@
+name_ko: 원티드랩
+name_en: Wanted Lab
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.wanted.co.kr
+ai_core_level: ai_enabled
+categories:
+  - hr-ai
+  - recruiting
+status: active
+description_ko: AI 매칭 기반 채용 플랫폼 원티드를 운영. 공고 매칭, 이력서·면접 코칭, 커리어 서비스를 제공한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.wanted.co.kr/
+last_verified: '2026-07-22'
+verification_status: official-source

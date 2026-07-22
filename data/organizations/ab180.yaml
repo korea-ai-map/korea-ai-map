@@ -1,0 +1,23 @@
+name_ko: 에이비일팔공
+name_en: AB180
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.ab180.co
+founded_year: 2015
+ai_core_level: ai_enabled
+categories:
+  - marketing-ai
+  - adtech
+  - attribution
+  - analytics
+status: active
+description_ko: 마케팅·애드테크 기업. 크로스플랫폼 어트리뷰션 Airbridge를 중심으로 AI 예측·부정광고 방지 등 마케팅 솔루션을 제공한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.ab180.co
+last_verified: '2026-07-22'
+verification_status: official-source

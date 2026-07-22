@@ -1,0 +1,23 @@
+name_ko: 트위니
+name_en: Twinny
+organization_type: startup
+country: KR
+headquarters: Daejeon
+website: https://twinny.ai
+founded_year: 2015
+ai_core_level: ai_native
+categories:
+  - robotics
+  - logistics
+  - amr
+  - physical-ai
+status: active
+description_ko: 물류·제조 현장용 자율주행 물류로봇(AMR/AGV) 기업. 대형 실내 자율주행·군집제어와 플릿 관리 플랫폼을 개발한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://twinny.ai
+last_verified: '2026-07-22'
+verification_status: official-source

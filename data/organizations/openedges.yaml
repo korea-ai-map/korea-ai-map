@@ -1,0 +1,23 @@
+name_ko: 오픈엣지테크놀로지
+name_en: OPENEDGES Technology
+organization_type: corporate
+country: KR
+headquarters: Seoul
+website: https://www.openedges.com
+founded_year: 2017
+ai_core_level: ai_infrastructure
+categories:
+  - ai-chip
+  - semiconductor-ip
+  - npu
+  - memory-subsystem
+status: active
+description_ko: 메모리 서브시스템·NPU 반도체 IP 전문기업. DDR PHY/컨트롤러, NoC, AI용 NPU IP를 공급하며 2022년 코스닥 상장.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.openedges.com
+last_verified: '2026-07-22'
+verification_status: official-source

@@ -1,0 +1,23 @@
+name_ko: 슈퍼브에이아이
+name_en: Superb AI
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.superb-ai.com
+founded_year: 2018
+ai_core_level: ai_infrastructure
+categories:
+  - mlops
+  - data-labeling
+  - computer-vision
+  - industrial-ai
+status: active
+description_ko: 비전 AI 데이터·MLOps 플랫폼 기업. 라벨링부터 학습·배포·모니터링까지 통합 파이프라인과 산업용 비전 파운데이션 모델 VFM ZERO를 제공한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.superb-ai.com
+last_verified: '2026-07-22'
+verification_status: official-source

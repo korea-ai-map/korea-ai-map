@@ -1,0 +1,40 @@
+name: 42dot LLM-SFT-1.3B
+model_family: 42dot LLM
+status: active
+modalities:
+  - text
+tasks:
+  - text-generation
+  - chat
+parameter_count:
+  value: 1300000000
+  disclosure: confident
+context_length:
+  value: 4096
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: CC-BY-NC-4.0
+  commercial_use: prohibited
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+base_model: 42dot/42dot_LLM-PLM-1.3B
+links:
+  official: null
+  model_card: https://huggingface.co/42dot/42dot_LLM-SFT-1.3B
+  huggingface: https://huggingface.co/42dot/42dot_LLM-SFT-1.3B
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/42dot/42dot_LLM-SFT-1.3B
+last_verified: '2026-07-22'
+verification_status: official-source
+organization_id: 42dot

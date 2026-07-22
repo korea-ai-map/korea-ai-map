@@ -1,0 +1,21 @@
+name_ko: 아우토크립트
+name_en: AUTOCRYPT
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://autocrypt.io
+ai_core_level: ai_enabled
+categories:
+  - security-ai
+  - mobility
+  - automotive-security
+status: active
+description_ko: 모빌리티·로보틱스 등 물리 AI 시스템을 보호하는 사이버-물리 보안 기업. V2X, Plug&Charge, 차량 내부 보안 및 ISO/SAE 21434·UN R155 대응 플랫폼을 제공한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://autocrypt.io/
+last_verified: '2026-07-22'
+verification_status: official-source

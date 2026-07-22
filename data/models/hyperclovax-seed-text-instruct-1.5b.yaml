@@ -1,0 +1,39 @@
+name: HyperCLOVAX-SEED-Text-Instruct-1.5B
+organization_id: naver-cloud
+model_family: HyperCLOVA X SEED
+status: active
+modalities:
+  - text
+tasks:
+  - text-generation
+  - chat
+parameter_count:
+  value: 1500000000
+  disclosure: confident
+context_length:
+  value: 16000
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: HyperCLOVA X SEED Model License
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+links:
+  official: null
+  model_card: https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Text-Instruct-1.5B
+  huggingface: https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Text-Instruct-1.5B
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Text-Instruct-1.5B
+last_verified: '2026-07-22'
+verification_status: official-source
