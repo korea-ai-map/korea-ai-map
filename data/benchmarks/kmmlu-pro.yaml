@@ -1,0 +1,12 @@
+name: KMMLU-Pro
+organization_id: lg-ai-research
+category: domain-specific
+description_ko: 한국 국가전문자격 시험 기반의 한국어 전문지식 평가 벤치마크. KMMLU-Redux와 함께 2025년 LG AI연구원이 공개한 전문가급 한국어 평가 스위트.
+url: https://huggingface.co/datasets/LGAI-EXAONE/KMMLU-Pro
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/LGAI-EXAONE/KMMLU-Pro
+  - type: paper
+    url: https://arxiv.org/abs/2507.08924
+last_verified: '2026-07-22'
+verification_status: official-source

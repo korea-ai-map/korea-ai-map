@@ -1,0 +1,28 @@
+name_ko: 하이퍼엑셀
+name_en: HyperAccel
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://hyperaccel.ai
+founded_year: 2023
+ai_core_level: ai_infrastructure
+categories:
+  - ai-chip
+  - llm-inference
+  - lpu
+  - hardware
+status: active
+description_ko: >-
+  2023년 설립된 LLM 추론 특화 AI 반도체(LPU) 팹리스 스타트업. GPU 대비 저전력·저비용으로 생성형 AI 추론을 처리하며, 2024년 말 약 550억원 규모 시리즈A를 유치했다. 삼성 4nm 공정
+  기반 ASIC Bertha 시리즈와 추론 시스템을 공급한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://hyperaccel.ai/
+  - type: official-website
+    url: >-
+      https://hyperaccel.ai/hyperaccel-raises-55-billion-krw-in-series-a-funding-for-llm-focused-ai-semiconductor-development/
+last_verified: '2026-07-22'
+verification_status: official-source

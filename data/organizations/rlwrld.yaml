@@ -1,0 +1,28 @@
+name_ko: 리얼월드
+name_en: RLWRLD
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.rlwrld.ai
+founded_year: 2024
+ai_core_level: foundation_model
+categories:
+  - robotics-foundation-model
+  - physical-ai
+  - dexterous-manipulation
+  - robot-learning
+status: active
+description_ko: >-
+  퓨처플레이 창업자 류중희가 설립한 로보틱스 파운데이션 모델(RFM) 스타트업. 실세계·제조 데이터 기반으로 로봇이 사람처럼 손을 쓰는 정교한 조작(dexterity) 지능을 개발하며, 대표 모델 RLDX-1은
+  5지 로봇손 조작에 특화. 2025년 해시드 주도로 LG전자·SKT·KDDI·ANA 등이 참여한 약 210억원 시드 투자와 함께 출범했다.
+models:
+  - rldx-1
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.rlwrld.ai/en
+  - type: press
+    url: https://www.therobotreport.com/rlwrld-releases-rldx-1-a-dexterity-first-foundation-model-for-robot-hands/
+last_verified: '2026-07-22'
+verification_status: official-source

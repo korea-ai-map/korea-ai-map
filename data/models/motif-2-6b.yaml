@@ -1,0 +1,41 @@
+name: Motif-2.6B
+organization_id: motif-technologies
+model_family: motif
+release_date: '2025-08-14'
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - text-generation
+parameter_count:
+  value: 2600000000
+  disclosure: confident
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: true
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+benchmark_results: []
+links:
+  official: https://motiftech.io
+  model_card: https://huggingface.co/Motif-Technologies/Motif-2.6B
+  huggingface: https://huggingface.co/Motif-Technologies/Motif-2.6B
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/Motif-Technologies/Motif-2.6B
+last_verified: '2026-07-22'
+verification_status: official-source

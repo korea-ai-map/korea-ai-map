@@ -1,0 +1,23 @@
+name_ko: 레니게이드 맥스
+name_en: RNGD-MAX
+organization_id: furiosaai
+categories:
+  - ai-chip
+  - inference-chip
+  - npu
+  - data-center
+target_users:
+  - enterprise
+  - datacenter
+delivery_type:
+  - hardware
+models_used: []
+model_ownership: unknown
+pricing_public: false
+status: beta
+website: https://furiosa.ai
+sources:
+  - type: press
+    url: https://www.sisajournal-e.com/news/articleView.html?idxno=419519
+last_verified: '2026-07-22'
+verification_status: needs-review

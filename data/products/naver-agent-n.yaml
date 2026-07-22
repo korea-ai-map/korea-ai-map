@@ -1,0 +1,22 @@
+name_ko: 에이전트 N
+name_en: Agent N
+organization_id: naver-cloud
+categories:
+  - ai-agent
+  - productivity
+target_users:
+  - consumer
+  - enterprise
+delivery_type:
+  - saas
+models_used:
+  - hyperclova-x
+model_ownership: own-model
+pricing_public: false
+status: beta
+website: https://navercorp.com
+sources:
+  - type: press
+    url: https://www.aitimes.com/news/articleView.html?idxno=211020
+last_verified: '2026-07-22'
+verification_status: needs-review

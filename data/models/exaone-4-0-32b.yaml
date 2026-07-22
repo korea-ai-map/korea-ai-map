@@ -1,0 +1,58 @@
+name: EXAONE 4.0 32B
+organization_id: lg-ai-research
+model_family: exaone
+release_date: '2025-07-15'
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+  - coding
+  - tool-use
+parameter_count:
+  value: 32000000000
+  disclosure: confident
+context_length:
+  value: 131072
+  confidence: confident
+availability:
+  api: true
+  weights: true
+  demo: true
+license:
+  name: EXAONE AI Model License 1.2-NC
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+  - es
+benchmark_results:
+  - benchmark: MMLU-Redux
+    score: 92.3
+    metric: accuracy
+    source: https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B
+  - benchmark: AIME 2025
+    score: 85.3
+    metric: accuracy
+    source: https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B
+  - benchmark: LiveCodeBench v5
+    score: 72.6
+    metric: accuracy
+    source: https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B
+links:
+  official: https://www.lgresearch.ai
+  model_card: https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B
+  huggingface: https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B
+  github: https://github.com/LG-AI-EXAONE/EXAONE-4.0
+  paper: https://arxiv.org/abs/2507.11407
+sources:
+  - type: model-card
+    url: https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B
+  - type: paper
+    url: https://arxiv.org/abs/2507.11407
+last_verified: '2026-07-22'
+verification_status: verified

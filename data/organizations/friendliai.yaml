@@ -1,0 +1,27 @@
+name_ko: 프렌들리에이아이
+name_en: FriendliAI
+organization_type: startup
+country: KR
+headquarters: Seoul / Redwood City
+website: https://friendli.ai
+founded_year: 2021
+ai_core_level: ai_infrastructure
+categories:
+  - llm-inference
+  - ai-infrastructure
+  - gpu-optimization
+  - inference-engine
+status: active
+description_ko: >-
+  LLM 추론(inference) 최적화 실행 엔진을 개발하는 AI 인프라 스타트업. 자체 추론 엔진으로 GPU 비용을 크게 절감한다고 밝히며, 2025년 2,000만 달러 규모 시드 익스텐션 라운드를 유치해 추론
+  플랫폼 사업을 가속했다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://friendli.ai/blog/friendliai-raises-20m-in-seed-extension-round
+  - type: press
+    url: https://siliconangle.com/2025/08/29/friendliai-raises-20m-funding-accelerate-ai-inference-workloads/
+last_verified: '2026-07-22'
+verification_status: official-source

@@ -1,0 +1,42 @@
+name: RLDX-1
+organization_id: rlwrld
+model_family: RLDX
+status: active
+modalities:
+  - image
+  - video
+tasks:
+  - dexterous-manipulation
+  - robot-control
+parameter_count:
+  value: null
+  disclosure: undisclosed
+context_length:
+  value: null
+  confidence: not-applicable
+availability:
+  api: false
+  weights: false
+  demo: false
+license:
+  name: proprietary
+  commercial_use: unknown
+deployment:
+  cloud: false
+  on_premise: true
+languages:
+  - en
+benchmark_results: []
+links:
+  official: https://www.rlwrld.ai
+  model_card: null
+  huggingface: null
+  github: null
+  paper: null
+sources:
+  - type: official-website
+    url: https://www.rlwrld.ai/en
+  - type: press
+    url: https://www.therobotreport.com/rlwrld-releases-rldx-1-a-dexterity-first-foundation-model-for-robot-hands/
+last_verified: '2026-07-22'
+verification_status: needs-review

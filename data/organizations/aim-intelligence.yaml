@@ -1,0 +1,24 @@
+name_ko: 에임인텔리전스
+name_en: AIM Intelligence
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.aim-intelligence.com
+ai_core_level: research_only
+categories:
+  - ai-safety
+  - red-teaming
+  - benchmark
+status: active
+description_ko: AI 안전성·레드팀 전문 한국 스타트업. KT·Microsoft·한국 AI안전연구소(AISI) 등과 협력해 10개국 문화·언어 기반 다국어 안전성 벤치마크 XL-SafetyBench를 주도 개발했다.
+models: []
+products: []
+open_source_links:
+  - https://github.com/AIM-Intelligence/XL-SafetyBench
+sources:
+  - type: github
+    url: https://github.com/AIM-Intelligence/XL-SafetyBench
+  - type: paper
+    url: https://arxiv.org/abs/2605.05662
+last_verified: '2026-07-22'
+verification_status: official-source

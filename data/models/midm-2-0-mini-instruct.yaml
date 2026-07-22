@@ -1,0 +1,45 @@
+name: Mi:dm 2.0 Mini Instruct
+organization_id: kt
+model_family: midm
+release_date: '2025-07-04'
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - instruction-following
+parameter_count:
+  value: 2300000000
+  disclosure: confident
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: MIT
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+benchmark_results:
+  - benchmark: IFEval
+    score: 73.6
+    metric: accuracy
+    source: https://huggingface.co/K-intelligence/Midm-2.0-Mini-Instruct
+links:
+  official: https://kode.kt.com/blog/article/3935
+  model_card: https://huggingface.co/K-intelligence/Midm-2.0-Mini-Instruct
+  huggingface: https://huggingface.co/K-intelligence/Midm-2.0-Mini-Instruct
+  github: https://github.com/K-intelligence-Midm/Midm-2.0
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/K-intelligence/Midm-2.0-Mini-Instruct
+last_verified: '2026-07-22'
+verification_status: verified

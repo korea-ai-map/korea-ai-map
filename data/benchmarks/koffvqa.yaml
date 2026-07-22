@@ -1,0 +1,9 @@
+name: KOFFVQA
+category: multimodal
+description_ko: 한국어 시각언어모델(VLM)을 객관적으로 평가하는 자유형식 VQA 벤치마크. 이미지와 채점 기준이 짝지어진 275개 문항으로 VLM 성능을 세밀하게 평가한다.
+url: https://arxiv.org/abs/2503.23730
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2503.23730
+last_verified: '2026-07-22'
+verification_status: official-source

@@ -1,0 +1,14 @@
+name: UltraFineWeb-ko-synth
+organization_id: kaist
+category: korean-corpus
+description_ko: KAIST MLP Lab의 KORMo 프로젝트에서 공개한 대규모 한국어 합성 사전학습 코퍼스. 완전 공개 한국어 학습 데이터의 일부로 배포됐다.
+languages:
+  - ko
+url: https://huggingface.co/datasets/KORMo-Team/UltraFineWeb-ko-synth
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/KORMo-Team/UltraFineWeb-ko-synth
+  - type: paper
+    url: https://arxiv.org/abs/2510.09426
+last_verified: '2026-07-22'
+verification_status: official-source

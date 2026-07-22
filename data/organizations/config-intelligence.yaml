@@ -1,0 +1,27 @@
+name_ko: 컨피그인텔리전스
+name_en: Config Intelligence
+organization_type: startup
+country: KR
+headquarters: San Jose / Seoul
+website: https://config.inc
+founded_year: 2024
+ai_core_level: foundation_model
+categories:
+  - robotics-foundation-model
+  - physical-ai
+  - robot-learning
+  - data-infrastructure
+status: active
+description_ko: >-
+  KAIST 김재철AI대학원 교수 서민준이 2024년 미국 새너제이에서 설립한 로보틱스 파운데이션 모델(RFM) 기업. 로봇의 실제 행동 학습을 위한 대규모 피지컬 AI 행동 데이터 인프라와 로봇 파운데이션 모델을
+  개발. 2026년 삼성벤처투자 주도로 삼성·현대차·LG·SKT·카카오벤처스 등이 참여한 400억원 규모 시드 투자를 유치했다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://config.inc/
+  - type: press
+    url: https://www.unicornfactory.co.kr/article/2026051515062913746
+last_verified: '2026-07-22'
+verification_status: official-source

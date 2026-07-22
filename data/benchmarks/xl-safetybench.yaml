@@ -1,0 +1,12 @@
+name: XL-SafetyBench
+organization_id: aim-intelligence
+category: safety
+description_ko: 한국 등 10개국 언어·문화 기반의 다국어 LLM 안전성·문화 민감성 벤치마크. 약 5,500개 테스트 케이스로 구성. 에임인텔리전스 주도, KT·Microsoft·한국 AISI 등 협력.
+url: https://github.com/AIM-Intelligence/XL-SafetyBench
+sources:
+  - type: github
+    url: https://github.com/AIM-Intelligence/XL-SafetyBench
+  - type: paper
+    url: https://arxiv.org/abs/2605.05662
+last_verified: '2026-07-22'
+verification_status: official-source

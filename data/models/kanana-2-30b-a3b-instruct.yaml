@@ -1,0 +1,54 @@
+name: Kanana 2 30B A3B Instruct
+organization_id: kakao
+model_family: kanana
+release_date: '2025-12-19'
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+  - tool-use
+  - coding
+parameter_count:
+  value: 30000000000
+  disclosure: confident
+context_length:
+  value: 32768
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Kanana License
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+  - ja
+  - zh
+base_model: kanana-2-30b-a3b-base
+benchmark_results:
+  - benchmark: IFEval
+    score: 84.47
+    metric: prompt-strict
+    source: https://huggingface.co/kakaocorp/kanana-2-30b-a3b-instruct
+  - benchmark: GSM8K
+    score: 91.89
+    metric: accuracy
+    source: https://huggingface.co/kakaocorp/kanana-2-30b-a3b-instruct
+links:
+  official: https://tech.kakao.com/posts/804
+  model_card: https://huggingface.co/kakaocorp/kanana-2-30b-a3b-instruct
+  huggingface: https://huggingface.co/kakaocorp/kanana-2-30b-a3b-instruct
+  github: https://github.com/kakao/kanana-2
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/kakaocorp/kanana-2-30b-a3b-instruct
+last_verified: '2026-07-22'
+verification_status: verified

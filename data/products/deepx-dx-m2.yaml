@@ -1,0 +1,24 @@
+name_ko: DX-M2
+name_en: DEEPX DX-M2
+organization_id: deepx
+categories:
+  - ai-chip
+  - npu
+  - edge-ai
+  - physical-ai
+target_users:
+  - robotics
+  - automotive
+  - edge
+delivery_type:
+  - hardware
+models_used: []
+model_ownership: unknown
+pricing_public: false
+status: beta
+website: https://deepx.ai
+sources:
+  - type: press
+    url: https://www.etnews.com/20260116000161
+last_verified: '2026-07-22'
+verification_status: needs-review

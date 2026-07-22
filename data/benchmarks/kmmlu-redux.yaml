@@ -1,0 +1,12 @@
+name: KMMLU-Redux
+organization_id: lg-ai-research
+category: korean-understanding
+description_ko: 기존 KMMLU를 재구성한 벤치마크. 한국 국가기술자격 시험 기반 2,587문항으로 정답 유출·오류·오염을 수작업 검수로 제거해 신뢰성을 높였다. EXAONE 4.0과 함께 2025년 공개.
+url: https://huggingface.co/datasets/LGAI-EXAONE/KMMLU-Redux
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/LGAI-EXAONE/KMMLU-Redux
+  - type: paper
+    url: https://arxiv.org/abs/2507.08924
+last_verified: '2026-07-22'
+verification_status: official-source

@@ -1,0 +1,44 @@
+name: Motif-2-12.7B-Instruct
+organization_id: motif-technologies
+model_family: motif
+release_date: '2025-11-07'
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+parameter_count:
+  value: 12700000000
+  disclosure: confident
+context_length:
+  value: 32768
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: true
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+base_model: Motif-2-12.7B-Base
+benchmark_results: []
+links:
+  official: https://motiftech.io
+  model_card: https://huggingface.co/Motif-Technologies/Motif-2-12.7B-Instruct
+  huggingface: https://huggingface.co/Motif-Technologies/Motif-2-12.7B-Instruct
+  github: null
+  paper: https://arxiv.org/abs/2511.07464
+sources:
+  - type: model-card
+    url: https://huggingface.co/Motif-Technologies/Motif-2-12.7B-Instruct
+  - type: paper
+    url: https://arxiv.org/abs/2511.07464
+last_verified: '2026-07-22'
+verification_status: official-source

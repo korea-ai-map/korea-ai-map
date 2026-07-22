@@ -1,0 +1,9 @@
+name: KMMMU
+category: multimodal
+description_ko: 한국 문화·제도 맥락의 멀티모달 이해를 평가하는 네이티브 한국어 벤치마크. 9개 학문 분야 시험 기반 3,466문항으로 구성되며 한국 특화 문항에서 모델 간 성능 격차가 크게 나타난다.
+url: https://arxiv.org/abs/2604.13058
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2604.13058
+last_verified: '2026-07-22'
+verification_status: needs-review

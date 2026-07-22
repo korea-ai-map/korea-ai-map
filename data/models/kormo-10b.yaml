@@ -1,0 +1,42 @@
+name: KORMo-10B
+organization_id: kaist
+model_family: KORMo
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+parameter_count:
+  value: 10000000000
+  disclosure: confident
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+benchmark_results: []
+links:
+  official: https://huggingface.co/KORMo-Team
+  model_card: https://huggingface.co/KORMo-Team/KORMo-10B-base
+  huggingface: https://huggingface.co/KORMo-Team/KORMo-10B-base
+  github: null
+  paper: https://arxiv.org/abs/2510.09426
+sources:
+  - type: huggingface
+    url: https://huggingface.co/KORMo-Team/KORMo-10B-base
+  - type: paper
+    url: https://arxiv.org/abs/2510.09426
+last_verified: '2026-07-22'
+verification_status: needs-review

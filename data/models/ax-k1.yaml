@@ -1,0 +1,60 @@
+name: A.X K1
+organization_id: skt
+model_family: A.X
+release_date: '2026-01-14'
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+  - coding
+  - math
+parameter_count:
+  value: 519000000000
+  disclosure: confident
+context_length:
+  value: 131072
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: true
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+  - zh
+  - ja
+  - es
+benchmark_results:
+  - benchmark: AIME25
+    score: 89.8
+    metric: accuracy
+    source: https://huggingface.co/skt/A.X-K1
+  - benchmark: MMLU-Pro
+    score: 81.5
+    metric: accuracy
+    source: https://huggingface.co/skt/A.X-K1
+  - benchmark: HumanEval+
+    score: 87.2
+    metric: pass@1
+    source: https://huggingface.co/skt/A.X-K1
+links:
+  official: https://sktax.chat
+  model_card: https://huggingface.co/skt/A.X-K1
+  huggingface: https://huggingface.co/skt/A.X-K1
+  github: https://github.com/SKT-AI/A.X-K1
+  paper: https://arxiv.org/abs/2601.09200
+sources:
+  - type: model-card
+    url: https://huggingface.co/skt/A.X-K1
+  - type: paper
+    url: https://arxiv.org/abs/2601.09200
+last_verified: '2026-07-22'
+verification_status: verified

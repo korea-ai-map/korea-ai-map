@@ -1,0 +1,52 @@
+name: HyperCLOVA X SEED Think 14B
+organization_id: naver-cloud
+model_family: hyperclova-x
+release_date: '2025-06-27'
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+  - tool-use
+parameter_count:
+  value: 14740000000
+  disclosure: confident
+context_length:
+  value: 32768
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: HyperCLOVA X SEED Model License
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+benchmark_results:
+  - benchmark: MATH500
+    score: 93.8
+    metric: accuracy
+    source: https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-14B
+  - benchmark: HumanEval
+    score: 94.5
+    metric: pass@1
+    source: https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-14B
+links:
+  official: https://navercorp.com/en/tech/hyperclovax
+  model_card: https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-14B
+  huggingface: https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-14B
+  github: null
+  paper: https://arxiv.org/abs/2506.22403
+sources:
+  - type: model-card
+    url: https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-14B
+  - type: paper
+    url: https://arxiv.org/abs/2506.22403
+last_verified: '2026-07-22'
+verification_status: verified

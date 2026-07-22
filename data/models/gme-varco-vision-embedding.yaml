@@ -1,0 +1,44 @@
+name: GME-VARCO-VISION-Embedding
+organization_id: ncsoft
+model_family: varco-vision
+release_date: '2025-11-04'
+status: active
+modalities:
+  - text
+  - image
+  - video
+tasks:
+  - embedding
+  - retrieval
+parameter_count:
+  value: 8000000000
+  disclosure: confident
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: CC-BY-NC-4.0
+  commercial_use: prohibited
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - en
+  - ko
+base_model: Qwen2-VL-7B-Instruct
+benchmark_results: []
+links:
+  official: null
+  model_card: https://huggingface.co/NCSOFT/GME-VARCO-VISION-Embedding
+  huggingface: https://huggingface.co/NCSOFT/GME-VARCO-VISION-Embedding
+  github: null
+  paper: https://arxiv.org/abs/2512.16925
+sources:
+  - type: model-card
+    url: https://huggingface.co/NCSOFT/GME-VARCO-VISION-Embedding
+last_verified: '2026-07-22'
+verification_status: verified

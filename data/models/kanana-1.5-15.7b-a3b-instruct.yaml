@@ -1,0 +1,41 @@
+name: Kanana 1.5 15.7B A3B Instruct
+organization_id: kakao
+model_family: kanana
+release_date: '2025-07-24'
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - instruction-following
+parameter_count:
+  value: 15700000000
+  disclosure: confident
+context_length:
+  value: 32768
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Kanana License
+  commercial_use: unknown
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+benchmark_results: []
+links:
+  official: null
+  model_card: https://huggingface.co/kakaocorp/kanana-1.5-15.7b-a3b-instruct
+  huggingface: https://huggingface.co/kakaocorp/kanana-1.5-15.7b-a3b-instruct
+  github: https://github.com/kakao/kanana
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/kakaocorp/kanana-1.5-15.7b-a3b-instruct
+last_verified: '2026-07-22'
+verification_status: official-source
