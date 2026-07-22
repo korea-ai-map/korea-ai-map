@@ -13,7 +13,9 @@ categories:
   - rag
   - speech
 status: acquired
-description_ko: 2015년 설립된 대화형 AI 기업. NLU/STT/TTS/MRC와 LLM 애플리케이션 제품군 BELLA를 제공한다. 2024년 메타넷에 인수됨.
+description_ko: >-
+  2015년 설립된 대화형 AI 기업. NLU/STT/TTS/MRC와 LLM 애플리케이션 제품군 BELLA를 제공한다. 2024년 7월 메타넷티플랫폼에 인수되어 메타넷 그룹 계열사로 편입되었으며, 인수 후에도
+  BELLA 등 서비스는 계속 운영 중이다.
 models:
   - bella-llm
 products: []
@@ -21,5 +23,5 @@ open_source_links: []
 sources:
   - type: official-website
     url: https://www.skelterlabs.com
-last_verified: "2026-07-22"
-verification_status: needs-review
+last_verified: '2026-07-22'
+verification_status: official-source

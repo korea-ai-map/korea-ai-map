@@ -2,7 +2,7 @@ name_ko: 셀렉트스타
 name_en: Selectstar
 organization_type: startup
 country: KR
-headquarters: Seongnam
+headquarters: 서울 강남구
 website: https://selectstar.ai
 founded_year: 2018
 ai_core_level: ai_infrastructure
@@ -13,13 +13,15 @@ categories:
   - ai-reliability-verification
 status: active
 description_ko: >-
-  AI 학습데이터 수집·가공 크라우드소싱 플랫폼 기업. 데이터 품질관리·검증 기술과 딥러닝 기반 반자동 어노테이션 기술을 보유하며 다수 고객사에 데이터/AI 신뢰성 검증 솔루션 DATUMO를 제공.
-  (스노우플레이크가 인수한 미국 Select Star와는 별개 기업)
+  2018년 KAIST 창업팀에서 시작한 AI 학습데이터·평가 솔루션 기업. 크라우드소싱 데이터 수집·라벨링 플랫폼과 데이터 큐레이션 SaaS Datumo FST, 생성형 AI 신뢰성 검증 솔루션 DATUMO
+  Eval 등을 제공한다. Datumo는 사명이 아니라 제품·솔루션 브랜드이며 법인명은 여전히 셀렉트스타다. (스노우플레이크가 인수한 미국 Select Star와는 별개 기업)
 models: []
 products: []
 open_source_links: []
 sources:
   - type: press
     url: https://en.wowtale.net/2025/08/12/231872/
+  - type: official-website
+    url: https://selectstar.ai/company/
 last_verified: '2026-07-22'
-verification_status: community-reviewed
+verification_status: official-source

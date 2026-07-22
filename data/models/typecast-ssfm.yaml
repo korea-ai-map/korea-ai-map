@@ -35,5 +35,7 @@ links:
 sources:
   - type: official-website
     url: https://typecast.ai/docs/ko/overview
+  - type: official-website
+    url: https://typecast.ai/learn/text-to-voice-ai-api-ssfm-3-0/
 last_verified: '2026-07-22'
-verification_status: needs-review
+verification_status: official-source
