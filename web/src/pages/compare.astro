@@ -102,14 +102,15 @@ const base = import.meta.env.BASE_URL;
   <style>
     #f-q { width: 100%; padding: 0.6rem 0.8rem; border: 1px solid var(--line); border-radius: var(--radius);
            background: var(--card); color: var(--fg); font-size: 1rem; margin-bottom: 0.8rem; }
-    .picker { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.3rem;
+    .picker { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr)); gap: 0.3rem;
               max-height: 240px; overflow-y: auto; border: 1px solid var(--line); border-radius: var(--radius); padding: 0.6rem; }
     .pick { display: block; font-size: 0.9rem; padding: 0.2rem 0.3rem; border-radius: 4px; cursor: pointer; }
     .pick.on { background: color-mix(in srgb, var(--link) 12%, transparent); }
     .pick input[disabled] + * { opacity: 0.4; }
-    .table-wrap { overflow-x: auto; margin-top: 1.2rem; }
-    table.cmp { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
-    table.cmp th, table.cmp td { border: 1px solid var(--line); padding: 0.5rem 0.7rem; text-align: left; vertical-align: top; }
+    .table-wrap { overflow-x: auto; max-width: 100%; margin-top: 1.2rem; }
+    /* width:max-content 로 표가 내용만큼만 넓어지고 래퍼 안에서 가로 스크롤 → 페이지 폭을 넘기지 않음 */
+    table.cmp { border-collapse: collapse; width: max-content; min-width: 100%; font-size: 0.9rem; }
+    table.cmp th, table.cmp td { border: 1px solid var(--line); padding: 0.5rem 0.7rem; text-align: left; vertical-align: top; white-space: nowrap; }
     table.cmp thead th { background: var(--card); }
     table.cmp tbody th { color: var(--muted); font-weight: 500; white-space: nowrap; }
   </style>

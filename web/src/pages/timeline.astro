@@ -1,0 +1,94 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { url } from '../lib/url';
+
+const [models, orgs] = await Promise.all([getCollection('models'), getCollection('organizations')]);
+const orgName = (id: string) => orgs.find((o) => o.id === id)?.data.name_ko ?? id;
+
+type Ev = { year: number; date: string; kind: string; label: string; sub: string; href: string };
+const events: Ev[] = [];
+
+// 모델 출시 (release_date 있는 것)
+for (const m of models) {
+  if (!m.data.release_date) continue;
+  events.push({
+    year: Number(m.data.release_date.slice(0, 4)),
+    date: m.data.release_date, kind: '모델 출시',
+    label: m.data.name, sub: orgName(m.data.organization_id),
+    href: url(`/models/${m.id}/`),
+  });
+}
+// 기업 설립 (founded_year 있는 것)
+for (const o of orgs) {
+  if (!o.data.founded_year) continue;
+  events.push({
+    year: o.data.founded_year, date: String(o.data.founded_year), kind: '조직 설립',
+    label: o.data.name_ko, sub: o.data.name_en, href: url(`/organizations/${o.id}/`),
+  });
+}
+
+// 연도 내림차순, 같은 해는 날짜 내림차순
+events.sort((a, b) => b.date.localeCompare(a.date) || b.year - a.year);
+const years = [...new Set(events.map((e) => e.year))].sort((a, b) => b - a);
+const byYear = years.map((y) => ({ year: y, events: events.filter((e) => e.year === y) }));
+---
+<Base title="타임라인 — Korea AI Map" description="한국 AI 모델 출시·조직 설립 연대기">
+  <h1>타임라인</h1>
+  <p class="lead">한국 AI 모델 출시와 조직 설립을 연대순으로 정리했습니다. 출시일이 확인된 항목만 표시합니다.</p>
+
+  <div class="filters">
+    <label class="chk"><input type="checkbox" id="f-model" checked /> 모델 출시</label>
+    <label class="chk"><input type="checkbox" id="f-org" checked /> 조직 설립</label>
+  </div>
+
+  <div class="timeline">
+    {byYear.map((y) => (
+      <section class="yr" data-year={y.year}>
+        <h2>{y.year}</h2>
+        <ul>
+          {y.events.map((e) => (
+            <li class="ev" data-kind={e.kind === '모델 출시' ? 'model' : 'org'}>
+              <span class={`k ${e.kind === '모델 출시' ? 'k-model' : 'k-org'}`}>{e.kind}</span>
+              <a href={e.href}>{e.label}</a>
+              <span class="muted"> · {e.sub}</span>
+              {e.date.length > 4 && <span class="muted date"> ({e.date})</span>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+
+  <script>
+    const fm = document.getElementById('f-model') as HTMLInputElement;
+    const fo = document.getElementById('f-org') as HTMLInputElement;
+    const evs = Array.from(document.querySelectorAll('.ev')) as HTMLElement[];
+    const yrs = Array.from(document.querySelectorAll('.yr')) as HTMLElement[];
+    function apply() {
+      for (const e of evs) {
+        const k = e.dataset.kind;
+        e.hidden = (k === 'model' && !fm.checked) || (k === 'org' && !fo.checked);
+      }
+      for (const y of yrs) y.hidden = y.querySelectorAll('.ev:not([hidden])').length === 0;
+    }
+    [fm, fo].forEach((el) => el.addEventListener('change', apply));
+    apply();
+  </script>
+
+  <style>
+    .filters { display: flex; gap: 1rem; margin: 1rem 0 1.5rem; }
+    .chk { display: inline-flex; align-items: center; gap: 0.3rem; font-size: 0.9rem; color: var(--muted); }
+    .timeline { border-left: 2px solid var(--line); padding-left: 1.1rem; margin-left: 0.3rem; }
+    .yr { margin-bottom: 1.4rem; position: relative; }
+    .yr h2 { margin: 0 0 0.5rem; border: 0; font-size: 1.25rem; }
+    .yr h2::before { content: ''; position: absolute; left: calc(-1.1rem - 6px); top: 0.4rem;
+      width: 9px; height: 9px; border-radius: 50%; background: var(--link); }
+    .timeline ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.35rem; }
+    .ev { font-size: 0.92rem; }
+    .k { display: inline-block; font-size: 0.72rem; padding: 0.05em 0.45em; border-radius: 5px; margin-right: 0.4rem; border: 1px solid currentColor; }
+    .k-model { color: var(--info); }
+    .k-org { color: var(--ok); }
+    .date { font-size: 0.82rem; }
+  </style>
+</Base>

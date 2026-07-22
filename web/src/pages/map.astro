@@ -1,0 +1,97 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { url } from '../lib/url';
+
+const orgs = await getCollection('organizations');
+
+// AI 핵심도별 그룹 (PRD 6.4). 생태계의 구조적 층위를 보여준다.
+const groups: { key: string; label: string; desc: string }[] = [
+  { key: 'foundation_model', label: '파운데이션 모델', desc: '자체 기반 모델을 개발' },
+  { key: 'model_builder', label: '모델 빌더', desc: '자체 학습·파인튜닝 모델 보유' },
+  { key: 'ai_infrastructure', label: 'AI 인프라', desc: 'AI 개발·운영 인프라 제공' },
+  { key: 'ai_native', label: 'AI 네이티브', desc: 'AI가 제품 전체의 핵심' },
+  { key: 'ai_enabled', label: 'AI 통합', desc: '기존 제품에 AI 기능 통합' },
+  { key: 'research_only', label: '연구', desc: '연구 중심 조직·프로젝트' },
+  { key: 'unverified', label: '미확인', desc: '충분한 근거 미확인' },
+];
+
+// 산업 분야 태그 집계(필터용)
+const allCats = [...new Set(orgs.flatMap((o) => o.data.categories ?? []))].sort();
+
+const byGroup = groups
+  .map((g) => ({ ...g, orgs: orgs.filter((o) => o.data.ai_core_level === g.key).sort((a, b) => a.data.name_ko.localeCompare(b.data.name_ko, 'ko')) }))
+  .filter((g) => g.orgs.length > 0);
+---
+<Base title="생태계 지도 — Korea AI Map" description="한국 AI 조직을 AI 핵심도·분야별로 조망">
+  <h1>생태계 지도</h1>
+  <p class="lead">한국 AI 조직을 <strong>AI 핵심도</strong>(생태계 층위)별로 배치했습니다. 총 {orgs.length}개 조직.</p>
+
+  <div class="filters">
+    <input id="f-q" type="search" placeholder="조직 검색…" autocomplete="off" />
+    <select id="f-cat" aria-label="산업 분야">
+      <option value="">분야: 전체</option>
+      {allCats.map((c) => <option value={c}>{c}</option>)}
+    </select>
+  </div>
+
+  <div id="map">
+    {byGroup.map((g) => (
+      <section class="layer" data-group={g.key}>
+        <h2>{g.label} <span class="count">{g.orgs.length}</span></h2>
+        <p class="muted layer-desc">{g.desc}</p>
+        <div class="chips">
+          {g.orgs.map((o) => (
+            <a class="chip" href={url(`/organizations/${o.id}/`)}
+              data-name={`${o.data.name_ko} ${o.data.name_en}`.toLowerCase()}
+              data-cats={(o.data.categories ?? []).join(' ')}>
+              {o.data.name_ko}
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+  <p id="empty" class="muted" hidden>조건에 맞는 조직이 없습니다.</p>
+
+  <script>
+    const chips = Array.from(document.querySelectorAll('.chip')) as HTMLElement[];
+    const layers = Array.from(document.querySelectorAll('.layer')) as HTMLElement[];
+    const fq = document.getElementById('f-q') as HTMLInputElement;
+    const fc = document.getElementById('f-cat') as HTMLSelectElement;
+    const empty = document.getElementById('empty')!;
+
+    function apply() {
+      const q = fq.value.trim().toLowerCase();
+      let total = 0;
+      for (const c of chips) {
+        const ok = (!q || c.dataset.name!.includes(q)) &&
+          (!fc.value || (c.dataset.cats || '').split(' ').includes(fc.value));
+        c.hidden = !ok;
+        if (ok) total++;
+      }
+      // 빈 레이어는 통째로 숨김 + 레이어별 카운트 갱신
+      for (const l of layers) {
+        const visible = l.querySelectorAll('.chip:not([hidden])').length;
+        l.hidden = visible === 0;
+        const cnt = l.querySelector('.count');
+        if (cnt) cnt.textContent = String(visible);
+      }
+      empty.hidden = total !== 0;
+    }
+    [fq, fc].forEach((el) => el.addEventListener('input', apply));
+    apply();
+  </script>
+
+  <style>
+    .filters { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1rem 0 1.5rem; }
+    .filters input, .filters select { padding: 0.4rem 0.6rem; border: 1px solid var(--line); border-radius: 6px; background: var(--card); color: var(--fg); font-size: 0.9rem; }
+    .layer { margin-bottom: 1.6rem; }
+    .layer h2 { margin-bottom: 0.1rem; }
+    .layer-desc { margin: 0 0 0.7rem; font-size: 0.85rem; }
+    .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .chip { display: inline-block; padding: 0.35rem 0.7rem; border: 1px solid var(--line); border-radius: 999px;
+            background: var(--card); color: var(--fg); font-size: 0.9rem; }
+    .chip:hover { border-color: var(--link); color: var(--link); text-decoration: none; }
+  </style>
+</Base>

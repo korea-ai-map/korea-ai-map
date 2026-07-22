@@ -9,6 +9,8 @@ const nav = [
   ['데이터셋', 'datasets'],
   ['벤치마크', 'benchmarks'],
   ['오픈소스', 'open-source'],
+  ['지도', 'map'],
+  ['타임라인', 'timeline'],
   ['비교', 'compare'],
   ['검색', 'search'],
 ];
@@ -106,7 +108,7 @@ const nav = [
       }
 
       /* 카드 목록 */
-      .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 0.9rem; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: 0.9rem; }
       .card {
         border: 1px solid var(--line); border-radius: var(--radius); padding: 0.9rem 1rem;
         background: var(--card); display: flex; flex-direction: column; gap: 0.4rem;
