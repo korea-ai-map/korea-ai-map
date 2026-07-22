@@ -8,7 +8,8 @@ const [models, orgs] = await Promise.all([getCollection('models'), getCollection
 const orgName = (id: string) => orgs.find((o) => o.id === id)?.data.name_ko ?? id;
 const items = models.sort((a, b) => (b.data.release_date ?? '').localeCompare(a.data.release_date ?? ''));
 ---
-<Base title="모델 — Korea AI Map">
+<Base title="한국 AI 모델 — LLM·비전·멀티모달·임베딩·음성 | Korea AI Map"
+  description="HyperCLOVA X, EXAONE, Solar, Kanana, A.X 등 한국에서 개발된 AI 모델을 파라미터 수·컨텍스트 길이·라이선스·공개 범위와 함께 정리했습니다. 모달리티와 상업 이용 가능 여부로 필터링하고 서로 비교할 수 있습니다.">
   <h1>모델 <span class="count" id="count">{items.length}</span></h1>
   <p class="lead">한국 AI 모델.</p>
 

@@ -5,7 +5,8 @@ import StatusBadge from '../../components/StatusBadge.astro';
 import { url } from '../../lib/url';
 const items = (await getCollection('benchmarks')).sort((a, b) => a.data.name.localeCompare(b.data.name));
 ---
-<Base title="벤치마크 — Korea AI Map">
+<Base title="한국어 AI 벤치마크 — KLUE·KMMLU·HAE-RAE | Korea AI Map"
+  description="KLUE, KMMLU, HAE-RAE Bench, KoBEST, LogicKor 등 한국어 언어모델을 평가하는 벤치마크를 분야·논문·공식 출처와 함께 정리했습니다. 한국어 이해·수학·추론·안전성 등 평가 기준을 한눈에 확인할 수 있습니다.">
   <h1>벤치마크 <span class="count">{items.length}</span></h1>
   <p class="lead">한국어 AI 평가 벤치마크.</p>
   <div class="grid">

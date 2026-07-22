@@ -15,8 +15,20 @@ const repoTypeLabel: Record<string, string> = {
   'github-repo': 'GitHub 저장소', 'huggingface-model': 'Hugging Face 모델', framework: '프레임워크',
   'eval-tool': '평가 도구', 'inference-tool': '추론/배포 도구', 'agent-mcp': '에이전트/MCP',
 };
+const metaDesc = d.description_ko
+  ? d.description_ko.slice(0, 155)
+  : `${d.name}은(는) 한국어 AI 관련 오픈소스(${repoTypeLabel[d.repo_type] ?? d.repo_type})입니다. 저장소·라이선스·공식 출처 기반 정보를 제공합니다.`;
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareSourceCode',
+  name: d.name,
+  description: d.description_ko ?? metaDesc,
+  codeRepository: d.url,
+  ...(d.language ? { programmingLanguage: d.language } : {}),
+  ...(d.license ? { license: d.license } : {}),
+};
 ---
-<Base title={`${d.name} — Korea AI Map`}>
+<Base title={`${d.name} — 한국 AI 오픈소스 | Korea AI Map`} description={metaDesc} jsonld={jsonld}>
   <p class="backlink"><a href={url('/open-source/')}>← 오픈소스</a></p>
   <h1>{d.name}</h1>
   <p class="lead">{repoTypeLabel[d.repo_type] ?? d.repo_type} · <StatusBadge status={d.verification_status} /></p>

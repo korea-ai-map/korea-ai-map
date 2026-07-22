@@ -11,8 +11,20 @@ export async function getStaticPaths() {
 }
 const { x, org } = Astro.props;
 const d = x.data;
+const metaDesc = d.description_ko
+  ? d.description_ko.slice(0, 155)
+  : `${d.name}은(는) 한국어 AI를 위한 ${d.category} 데이터셋입니다. 언어·라이선스·공식 출처 기반 정보를 제공합니다.`;
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'Dataset',
+  name: d.name,
+  description: d.description_ko ?? metaDesc,
+  inLanguage: d.languages ?? ['ko'],
+  ...(d.license ? { license: d.license } : {}),
+  ...(d.url ? { url: d.url } : {}),
+};
 ---
-<Base title={`${d.name} — Korea AI Map`}>
+<Base title={`${d.name} — 한국어 AI 데이터셋 | Korea AI Map`} description={metaDesc} jsonld={jsonld}>
   <p class="backlink"><a href={url('/datasets/')}>← 데이터셋</a></p>
   <h1>{d.name}</h1>
   <p class="lead">{d.category} · <StatusBadge status={d.verification_status} /></p>

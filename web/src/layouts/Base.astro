@@ -1,7 +1,40 @@
 ---
 import { url } from '../lib/url';
-interface Props { title: string; description?: string }
-const { title, description } = Astro.props;
+interface Props {
+  title: string;
+  description?: string;
+  /** 페이지별 추가 JSON-LD (Dataset, Organization 등). 없으면 사이트 기본만. */
+  jsonld?: Record<string, any>;
+}
+const SITE_DESC =
+  '한국에서 실제 개발·운영되는 AI 모델·기업·제품·오픈소스·데이터셋·벤치마크를 공식 출처 및 검증 상태와 함께 한곳에 모은 오픈 데이터베이스입니다. 국산 LLM부터 AI 반도체·의료·법률·금융 AI까지 116개 이상 항목을 검색하고 비교할 수 있습니다.';
+const { title, description = SITE_DESC, jsonld } = Astro.props;
+
+// 절대 URL (canonical / OG). Astro.site + base 기준.
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const ogImage = new URL(url('/og.png'), Astro.site).href;
+
+// 사이트 전역 구조화 데이터 (WebSite + Organization)
+const siteLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': new URL(url('/'), Astro.site).href + '#website',
+      name: 'Korea AI Map',
+      url: new URL(url('/'), Astro.site).href,
+      description: SITE_DESC,
+      inLanguage: 'ko',
+    },
+    {
+      '@type': 'Organization',
+      '@id': new URL(url('/'), Astro.site).href + '#org',
+      name: 'Korea AI Map',
+      url: new URL(url('/'), Astro.site).href,
+      description: '한국 AI 생태계를 기록하는 독립 오픈 데이터 프로젝트',
+    },
+  ],
+};
 const nav = [
   ['조직', 'organizations'],
   ['모델', 'models'],
@@ -20,7 +53,30 @@ const nav = [
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
-    {description && <meta name="description" content={description} />}
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#1a1a1a" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Korea AI Map" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:locale" content="ko_KR" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+
+    <link rel="sitemap" type="application/xml" href={url('/sitemap-index.xml')} />
+
+    <script type="application/ld+json" set:html={JSON.stringify(siteLd)} />
+    {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
   </head>
   <body>
     <header class="site-header">

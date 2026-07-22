@@ -5,7 +5,8 @@ import StatusBadge from '../../components/StatusBadge.astro';
 import { url } from '../../lib/url';
 const items = (await getCollection('open-source')).sort((a, b) => a.data.name.localeCompare(b.data.name));
 ---
-<Base title="오픈소스 — Korea AI Map">
+<Base title="한국 AI 오픈소스 — GitHub·Hugging Face | Korea AI Map"
+  description="polyglot-ko, KoAlpaca, Open Ko-LLM Leaderboard 등 한국어 AI 관련 오픈소스 프로젝트를 저장소 유형·언어·라이선스·공식 출처와 함께 정리했습니다. 한국어 모델·평가 도구·프레임워크를 확인할 수 있습니다.">
   <h1>오픈소스 <span class="count">{items.length}</span></h1>
   <p class="lead">한국어 AI 관련 GitHub·Hugging Face 프로젝트.</p>
   <div class="grid">

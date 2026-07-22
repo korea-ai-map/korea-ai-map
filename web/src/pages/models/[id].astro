@@ -39,8 +39,22 @@ const linkPairs = [
   ['공식', links.official], ['모델 카드', links.model_card], ['Hugging Face', links.huggingface],
   ['GitHub', links.github], ['논문', links.paper],
 ].filter(([, v]) => v);
+
+const orgKo = org ? org.data.name_ko : d.organization_id;
+const metaDesc = `${d.name}은(는) ${orgKo}가 개발한 한국 AI 모델입니다. 파라미터 ${paramText(d.parameter_count)}, 컨텍스트 ${ctxText(d.context_length)}, 라이선스 ${d.license?.name ?? '미상'}(상업 이용 ${commercial[d.license?.commercial_use] ?? '미상'}) 등 공식 출처 기반 정보를 제공합니다.`;
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: d.name,
+  applicationCategory: 'Artificial Intelligence',
+  operatingSystem: 'Cloud / On-premise',
+  inLanguage: d.languages ?? ['ko'],
+  author: { '@type': 'Organization', name: orgKo },
+  license: d.license?.name,
+  url: new URL(Astro.url.pathname, Astro.site).href,
+};
 ---
-<Base title={`${d.name} — Korea AI Map`}>
+<Base title={`${d.name} — 한국 AI 모델 | Korea AI Map`} description={metaDesc} jsonld={jsonld}>
   <p class="backlink"><a href={url('/models/')}>← 모델</a></p>
   <h1>{d.name}</h1>
   <p class="lead">

@@ -34,8 +34,21 @@ const typeLabel: Record<string, string> = {
 const statusLabel: Record<string, string> = {
   active: '운영 중', acquired: '피인수', merged: '합병', dormant: '휴면', closed: '종료',
 };
+const metaDesc = d.description_ko
+  ? d.description_ko.slice(0, 155)
+  : `${d.name_ko}(${d.name_en})는 한국의 AI 조직입니다. AI 핵심도 ${coreLevelLabel[d.ai_core_level] ?? d.ai_core_level}, 개발 모델과 제품, 공식 출처 기반 정보를 제공합니다.`;
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: d.name_en || d.name_ko,
+  alternateName: d.name_ko,
+  url: d.website ?? new URL(Astro.url.pathname, Astro.site).href,
+  ...(d.founded_year ? { foundingDate: String(d.founded_year) } : {}),
+  ...(d.headquarters ? { address: d.headquarters } : {}),
+  description: d.description_ko,
+};
 ---
-<Base title={`${d.name_ko} — Korea AI Map`} description={d.description_ko}>
+<Base title={`${d.name_ko} — 한국 AI 조직 | Korea AI Map`} description={metaDesc} jsonld={jsonld}>
   <p class="backlink"><a href={url('/organizations/')}>← 조직</a></p>
   <h1>{d.name_ko}</h1>
   <p class="lead">{d.name_en} · <StatusBadge status={d.verification_status} /></p>

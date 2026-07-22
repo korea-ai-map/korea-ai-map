@@ -1,0 +1,24 @@
+# Korea AI Map
+
+> 한국에서 실제 개발·운영되는 AI 모델·기업·제품·오픈소스·데이터셋·벤치마크를 공식 출처 및 검증 상태와 함께 정리한 독립 오픈 데이터베이스입니다. 모든 항목에 출처(sources)와 검증 상태(verification_status), 최종 검증일이 부착됩니다.
+
+## 주요 페이지
+
+- [조직](https://korea-ai-map.github.io/korea-ai-map/organizations/): 한국 AI 기업·연구소·스타트업 목록 (네이버·카카오·LG AI연구원·업스테이지 등)
+- [모델](https://korea-ai-map.github.io/korea-ai-map/models/): 한국 AI 모델 (HyperCLOVA X·EXAONE·Solar·Kanana·A.X·Mi:dm 등)
+- [제품](https://korea-ai-map.github.io/korea-ai-map/products/): AI 제품·서비스·AI 반도체(NPU)
+- [데이터셋](https://korea-ai-map.github.io/korea-ai-map/datasets/): 한국어 AI 데이터셋 (KorQuAD·모두의 말뭉치·AI-Hub 등)
+- [벤치마크](https://korea-ai-map.github.io/korea-ai-map/benchmarks/): 한국어 AI 벤치마크 (KLUE·KMMLU·HAE-RAE·LogicKor 등)
+- [오픈소스](https://korea-ai-map.github.io/korea-ai-map/open-source/): 한국 AI 오픈소스 (polyglot-ko·KoAlpaca 등)
+- [검색](https://korea-ai-map.github.io/korea-ai-map/search/): 통합 검색
+- [모델 비교](https://korea-ai-map.github.io/korea-ai-map/compare/): 모델 스펙 나란히 비교
+
+## 데이터
+
+- 전체 데이터(JSON): https://korea-ai-map.github.io/korea-ai-map/data/all.json
+- 원본 데이터(YAML) 및 방법론: https://github.com/korea-ai-map/korea-ai-map
+- 데이터 라이선스: CC BY 4.0
+
+## 방침
+
+등재는 추천·인증 또는 투자 의견을 의미하지 않습니다. 확인되지 않은 수치(파라미터 수 등)는 추정하지 않고 '미공개'로 표기합니다.

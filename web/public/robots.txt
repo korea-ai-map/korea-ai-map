@@ -1,0 +1,20 @@
+# Korea AI Map — 모든 크롤러 및 AI 에이전트 허용
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://korea-ai-map.github.io/korea-ai-map/sitemap-index.xml

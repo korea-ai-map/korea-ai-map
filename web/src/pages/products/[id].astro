@@ -14,8 +14,18 @@ const d = p.data;
 const ownership: Record<string, string> = { 'own-model': '자체 모델', 'external-model': '외부 모델', hybrid: '혼합', unknown: '미상' };
 const statusLabel: Record<string, string> = { active: '운영 중', beta: '베타', deprecated: '지원 중단', archived: '보존' };
 const name = d.name_ko ?? d.name_en;
+const orgKo = org ? org.data.name_ko : d.organization_id;
+const metaDesc = `${name}은(는) ${orgKo}의 AI 제품·서비스입니다. 분야 ${(d.categories ?? []).join(', ') || '미상'}, 모델 보유 ${ownership[d.model_ownership] ?? '미상'} 등 공식 출처 기반 정보를 제공합니다.`;
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: name,
+  applicationCategory: 'Artificial Intelligence',
+  author: { '@type': 'Organization', name: orgKo },
+  ...(d.website ? { url: d.website } : {}),
+};
 ---
-<Base title={`${name} — Korea AI Map`}>
+<Base title={`${name} — 한국 AI 제품·서비스 | Korea AI Map`} description={metaDesc} jsonld={jsonld}>
   <p class="backlink"><a href={url('/products/')}>← 제품</a></p>
   <h1>{name}</h1>
   <p class="lead">
