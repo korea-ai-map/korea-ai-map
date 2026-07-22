@@ -1,0 +1,13 @@
+title: 'XL-SafetyBench: A Country-Grounded Cross-Cultural Benchmark for LLM Safety and Cultural Sensitivity'
+venue: arXiv
+year: 2026
+arxiv_id: '2605.05662'
+url: https://arxiv.org/abs/2605.05662
+abstract_ko: 10개 국가-언어 쌍 5,500개 테스트 케이스로 구성된 다국어 안전성 벤치마크로, 탈옥 견고성과 문화적 민감성을 함께 평가한다.
+related_ids:
+  - xl-safetybench
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2605.05662
+last_verified: '2026-07-22'
+verification_status: verified

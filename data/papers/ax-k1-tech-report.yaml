@@ -1,0 +1,15 @@
+title: A.X K1 Technical Report
+authors_org: SK Telecom
+venue: arXiv
+year: 2026
+arxiv_id: '2601.09200'
+url: https://arxiv.org/abs/2601.09200
+abstract_ko: SKT의 519B 파라미터 MoE 모델로 10조 토큰을 학습했으며, 제어 가능한 추론 기능과 강력한 한국어 지원을 갖춘다.
+related_ids:
+  - ax-k1
+  - skt
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2601.09200
+last_verified: '2026-07-22'
+verification_status: verified

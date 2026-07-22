@@ -1,0 +1,14 @@
+title: 'KorQuAD1.0: Korean QA Dataset for Machine Reading Comprehension'
+authors_org: LG CNS
+venue: arXiv
+year: 2019
+arxiv_id: '1909.07005'
+url: https://arxiv.org/abs/1909.07005
+abstract_ko: 한국어 위키백과 기반 7만여 개 질의응답 쌍으로 구성된 대규모 기계독해(추출형) 데이터셋 KorQuAD 1.0.
+related_ids:
+  - korquad
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/1909.07005
+last_verified: '2026-07-22'
+verification_status: verified

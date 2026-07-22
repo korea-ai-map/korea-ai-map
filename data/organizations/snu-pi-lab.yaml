@@ -1,0 +1,21 @@
+name_ko: 서울대 PI 연구실
+name_en: SNU PI Lab
+organization_type: university-lab
+country: KR
+headquarters: Seoul
+website: https://pi.snu.ac.kr/
+ai_core_level: research_only
+categories:
+  - nlp
+  - multimodal
+  - robotics
+status: active
+description_ko: 유영재(Youngjae Yu) 교수가 이끄는 서울대 컴퓨터공학부 소속 연구실. 자연어처리·비전언어·로봇/임베디드 AI를 위한 멀티모달 지능을 연구한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://pi.snu.ac.kr/
+last_verified: '2026-07-22'
+verification_status: official-source

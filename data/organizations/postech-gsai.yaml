@@ -1,0 +1,24 @@
+name_ko: 포스텍 인공지능대학원
+name_en: POSTECH Graduate School of Artificial Intelligence
+organization_type: university-lab
+country: KR
+headquarters: Pohang
+website: https://ai.postech.ac.kr/
+founded_year: 2020
+ai_core_level: research_only
+categories:
+  - ml-theory
+  - computer-vision
+  - nlp
+  - multimodal
+  - reinforcement-learning
+status: active
+description_ko: 2020년 개원한 포스텍의 인공지능 특화 대학원. 과기정통부 AI대학원 지원사업 선정 기관으로 AI·데이터사이언스 전 분야를 연구·교육한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://ai.postech.ac.kr/
+last_verified: '2026-07-22'
+verification_status: official-source

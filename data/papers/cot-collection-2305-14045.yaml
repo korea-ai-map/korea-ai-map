@@ -1,0 +1,14 @@
+title: 'The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning'
+authors_org: KAIST (Minjoon Seo 그룹)
+venue: EMNLP 2023
+year: 2023
+arxiv_id: '2305.14045'
+url: https://arxiv.org/abs/2305.14045
+abstract_ko: 184만 개 추론 근거(CoT)로 구성된 대규모 데이터셋을 구축하고 이를 이용한 CoT 파인튜닝으로 언어모델의 제로샷·퓨샷 추론 능력을 향상.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2305.14045
+last_verified: '2026-07-22'
+verification_status: verified

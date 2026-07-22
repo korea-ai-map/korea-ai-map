@@ -1,0 +1,22 @@
+name_ko: UNIST 인공지능대학원
+name_en: UNIST Graduate School of Artificial Intelligence
+organization_type: university-lab
+country: KR
+headquarters: Ulsan
+website: https://aigs.unist.ac.kr/eng/
+ai_core_level: research_only
+categories:
+  - ml-theory
+  - computer-vision
+  - nlp
+  - reinforcement-learning
+status: active
+description_ko: UNIST의 인공지능 특화 대학원. 실제 데이터·SW/HW 인프라 기반의 현장형 연구와 AI 인재 양성을 목표로 한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://aigs.unist.ac.kr/eng/
+last_verified: '2026-07-22'
+verification_status: official-source

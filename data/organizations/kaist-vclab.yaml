@@ -1,0 +1,20 @@
+name_ko: KAIST 비주얼 컴퓨팅 연구실 (VCLAB)
+name_en: KAIST Visual Computing Lab (VCLAB)
+organization_type: university-lab
+country: KR
+headquarters: Daejeon
+website: https://vclab.kaist.ac.kr/
+ai_core_level: research_only
+categories:
+  - computer-vision
+  - multimodal
+status: active
+description_ko: 김민혁(Min H. Kim) 교수가 이끄는 KAIST 전산학부 소속 연구실. 컴퓨터 그래픽스·비전·이미징·컬러 분야를 연구한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://vclab.kaist.ac.kr/
+last_verified: '2026-07-22'
+verification_status: official-source

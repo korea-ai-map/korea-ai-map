@@ -1,0 +1,16 @@
+title: Motif 2 12.7B technical report
+authors_org: Motif Technologies
+venue: arXiv
+year: 2025
+arxiv_id: '2511.07464'
+url: https://arxiv.org/abs/2511.07464
+abstract_ko: Grouped Differential Attention과 최적화 기법을 결합해 제한된 연산 예산에서 더 큰 모델급 성능을 내는 12.7B 모델 Motif 2 기술보고서.
+related_ids:
+  - motif-2-12-7b-instruct
+  - motif-2-6b
+  - motif-technologies
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2511.07464
+last_verified: '2026-07-22'
+verification_status: verified

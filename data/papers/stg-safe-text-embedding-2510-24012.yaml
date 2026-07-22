@@ -1,0 +1,15 @@
+title: Training-Free Safe Text Embedding Guidance for Text-to-Image Diffusion Models
+authors_org: KAIST (AAILab) · NAVER
+venue: NeurIPS 2025
+year: 2025
+arxiv_id: '2510.24012'
+url: https://arxiv.org/abs/2510.24012
+abstract_ko: 재학습이나 입력 필터링 없이 샘플링 과정에서 텍스트 임베딩을 안전 방향으로 유도(STG)하는 학습 불필요 기법. 예상 디노이즈 출력에 안전 함수를 적용해 유해 생성을 완화.
+related_ids:
+  - kaist
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2510.24012
+last_verified: '2026-07-22'
+verification_status: verified

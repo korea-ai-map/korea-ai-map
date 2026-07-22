@@ -1,0 +1,13 @@
+title: 'KMMMU: Evaluation of Massive Multi-discipline Multimodal Understanding in Korean Language and Context'
+venue: arXiv
+year: 2026
+arxiv_id: '2604.13058'
+url: https://arxiv.org/abs/2604.13058
+abstract_ko: 9개 학문 분야 3,466개 시험 문항으로 구성된 한국어 멀티모달 벤치마크로, 한국 문화·제도 맥락에서의 멀티모달 이해력을 평가한다.
+related_ids:
+  - kmmmu
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2604.13058
+last_verified: '2026-07-22'
+verification_status: verified

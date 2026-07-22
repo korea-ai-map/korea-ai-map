@@ -1,0 +1,14 @@
+title: 'KOBEST: Korean Balanced Evaluation of Significant Tasks'
+authors_org: SK Telecom / Enliple
+venue: COLING
+year: 2022
+arxiv_id: '2204.04541'
+url: https://arxiv.org/abs/2204.04541
+abstract_ko: 전문 언어학자가 설계한 5개 한국어 다운스트림 과제 벤치마크로, 고급 언어 지식과 추론 능력을 평가한다.
+related_ids:
+  - kobest
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2204.04541
+last_verified: '2026-07-22'
+verification_status: verified

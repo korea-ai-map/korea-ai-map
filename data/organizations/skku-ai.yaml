@@ -1,0 +1,23 @@
+name_ko: 성균관대 인공지능대학원
+name_en: SKKU Graduate School of Artificial Intelligence
+organization_type: university-lab
+country: KR
+headquarters: Suwon
+website: https://ai.skku.edu/
+founded_year: 2019
+ai_core_level: research_only
+categories:
+  - ml-theory
+  - computer-vision
+  - nlp
+  - multimodal
+status: active
+description_ko: 2019년 과기정통부 AI대학원 지원사업에 선정되어 설립된 성균관대 인공지능대학원. 현장 중심 AI 혁신·융합 교육과 연구를 수행한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://ai.skku.edu/
+last_verified: '2026-07-22'
+verification_status: official-source

@@ -1,0 +1,16 @@
+title: HyperCLOVA X THINK Technical Report
+authors_org: NAVER Cloud
+venue: arXiv
+year: 2025
+arxiv_id: '2506.22403'
+url: https://arxiv.org/abs/2506.22403
+abstract_ko: 6조 토큰으로 사전학습한 추론 특화 한국어·영어 모델로, 128K 컨텍스트와 한국어 벤치마크 경쟁력을 낮은 학습 연산으로 달성했다.
+related_ids:
+  - hyperclovax-seed-think-14b
+  - hyperclovax-seed-think-32b
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2506.22403
+last_verified: '2026-07-22'
+verification_status: verified

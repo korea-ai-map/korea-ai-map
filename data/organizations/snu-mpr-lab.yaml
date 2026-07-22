@@ -1,0 +1,21 @@
+name_ko: 서울대 기계지각·추론 연구실 (MPR)
+name_en: SNU Machine Perception and Reasoning Lab
+organization_type: university-lab
+country: KR
+headquarters: Seoul
+website: https://snumprlab.github.io/
+ai_core_level: research_only
+categories:
+  - computer-vision
+  - multimodal
+  - robotics
+status: active
+description_ko: 최종현(Jonghyun Choi) 교수가 이끄는 서울대 전기정보공학부 소속 연구실. 컴퓨터비전·멀티모달/임베디드 AI·연속학습을 연구한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://snumprlab.github.io/
+last_verified: '2026-07-22'
+verification_status: official-source

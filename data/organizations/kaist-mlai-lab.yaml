@@ -1,0 +1,23 @@
+name_ko: KAIST 머신러닝·인공지능 연구실 (MLAI)
+name_en: KAIST Machine Learning and Artificial Intelligence Lab (MLAI)
+organization_type: university-lab
+country: KR
+headquarters: Seoul
+website: https://www.mlai-kaist.com/
+ai_core_level: research_only
+categories:
+  - computer-vision
+  - nlp
+  - multimodal
+  - ml-theory
+status: active
+description_ko: 황성주(Sung Ju Hwang) 교수가 이끄는 KAIST 김재철AI대학원·전산학부 소속 연구실. 컴퓨터비전·생성모델·언어이해·AI for science 등 딥러닝 전반을 연구한다.
+models: []
+products: []
+open_source_links:
+  - https://github.com/mlai-kaist
+sources:
+  - type: official-website
+    url: https://www.mlai-kaist.com/
+last_verified: '2026-07-22'
+verification_status: official-source

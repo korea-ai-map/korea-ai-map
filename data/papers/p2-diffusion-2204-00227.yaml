@@ -1,0 +1,14 @@
+title: Perception Prioritized Training of Diffusion Models
+authors_org: 서울대학교 (Sungroh Yoon 그룹)
+venue: CVPR 2022
+year: 2022
+arxiv_id: '2204.00227'
+url: https://arxiv.org/abs/2204.00227
+abstract_ko: 확산 모델 학습에서 노이즈 수준별 손실 가중치를 재설계(P2)해, 지각적으로 중요한 콘텐츠 학습 단계를 우선시함으로써 생성 품질을 향상.
+related_ids:
+  - snu-dsail
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2204.00227
+last_verified: '2026-07-22'
+verification_status: verified

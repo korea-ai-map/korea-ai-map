@@ -1,0 +1,22 @@
+name_ko: KAIST 머신러닝·인텔리전스 연구실 (MLILAB)
+name_en: KAIST Machine Learning and Intelligence Laboratory (MLILAB)
+organization_type: university-lab
+country: KR
+headquarters: Seoul
+website: https://mli.kaist.ac.kr/
+ai_core_level: research_only
+categories:
+  - ml-theory
+  - multimodal
+  - nlp
+  - computer-vision
+status: active
+description_ko: 양은호(Eunho Yang) 교수가 이끄는 KAIST 김재철AI대학원·전산학부 소속 연구실. 머신러닝 알고리즘·멀티모달 학습·대규모 언어모델·헬스케어 AI를 연구한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://mli.kaist.ac.kr/
+last_verified: '2026-07-22'
+verification_status: official-source

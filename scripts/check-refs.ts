@@ -38,6 +38,9 @@ const checkRef = (ok: boolean, e: { file: string }, field: string, val: string) 
   if (!ok) err(`${e.file}: ${field} → 존재하지 않는 참조 '${val}'`);
 };
 
+// 논문 related_ids 는 모든 컬렉션의 id 를 가리킬 수 있음
+const anyId = new Set(all.map((e) => e.id));
+
 for (const e of all) {
   const d = e.data;
   if (d.organization_id && !orgIds.has(d.organization_id))
@@ -46,6 +49,7 @@ for (const e of all) {
   for (const m of d.models ?? []) checkRef(modelIds.has(m), e, 'models', m);
   for (const p of d.products ?? []) checkRef(productIds.has(p), e, 'products', p);
   for (const m of d.models_used ?? []) checkRef(modelIds.has(m), e, 'models_used', m);
+  for (const r of d.related_ids ?? []) checkRef(anyId.has(r), e, 'related_ids', r);
 }
 
 console.log(`check-refs: 항목 ${all.length}개 검사`);

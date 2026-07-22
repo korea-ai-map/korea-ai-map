@@ -12,6 +12,7 @@ export const COLLECTIONS = [
   'open-source',
   'datasets',
   'benchmarks',
+  'papers',
 ] as const;
 
 export type Collection = (typeof COLLECTIONS)[number];

@@ -1,0 +1,15 @@
+title: 'KORMo: Korean Open Reasoning Model for Everyone'
+authors_org: Korea University (NLP&AI Lab)
+venue: arXiv
+year: 2025
+arxiv_id: '2510.09426'
+url: https://arxiv.org/abs/2510.09426
+abstract_ko: 합성 데이터를 주로 사용해 학습한 10.8B 한국어·영어 오픈 추론 모델로, 균형 잡힌 합성 데이터가 대규모 사전학습에서 불안정을 초래하지 않음을 보인다.
+related_ids:
+  - kormo-10b
+  - korea-university-nlpai-lab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2510.09426
+last_verified: '2026-07-22'
+verification_status: verified

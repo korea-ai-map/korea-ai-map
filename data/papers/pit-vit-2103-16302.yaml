@@ -1,0 +1,14 @@
+title: Rethinking Spatial Dimensions of Vision Transformers (PiT)
+authors_org: NAVER AI Lab
+venue: ICCV 2021
+year: 2021
+arxiv_id: '2103.16302'
+url: https://arxiv.org/abs/2103.16302
+abstract_ko: CNN의 공간 차원 축소 원리를 ViT에 도입해 풀링 기반 토큰 축소를 적용한 Pooling-based Vision Transformer(PiT)를 제안, 성능·효율 개선.
+related_ids:
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2103.16302
+last_verified: '2026-07-22'
+verification_status: verified

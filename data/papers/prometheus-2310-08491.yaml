@@ -1,0 +1,15 @@
+title: 'Prometheus: Inducing Fine-grained Evaluation Capability in Language Models'
+authors_org: KAIST · NAVER AI Lab (Minjoon Seo 등)
+venue: ICLR 2024
+year: 2024
+arxiv_id: '2310.08491'
+url: https://arxiv.org/abs/2310.08491
+abstract_ko: 사용자 정의 평가 기준(rubric)에 따라 장문 응답을 세밀하게 채점하도록 학습된 오픈소스 평가 특화 LLM. GPT-4에 준하는 평가 상관도를 달성.
+related_ids:
+  - kaist
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2310.08491
+last_verified: '2026-07-22'
+verification_status: verified

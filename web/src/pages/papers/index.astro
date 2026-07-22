@@ -1,0 +1,24 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import StatusBadge from '../../components/StatusBadge.astro';
+import { url } from '../../lib/url';
+
+const items = (await getCollection('papers')).sort((a, b) =>
+  (b.data.year ?? 0) - (a.data.year ?? 0) || a.data.title.localeCompare(b.data.title));
+---
+<Base title="한국 AI 논문 — 모델·벤치마크 기술보고서·연구 | Korea AI Map"
+  description="한국에서 개발된 AI 모델·벤치마크의 기술보고서와 한국 연구진이 주도한 대표 AI 논문을 arXiv·DOI 공식 출처와 함께 정리했습니다. 각 논문은 카탈로그의 모델·조직·벤치마크와 상호 연결됩니다.">
+  <h1>논문 <span class="count">{items.length}</span></h1>
+  <p class="lead">한국 AI 모델·벤치마크의 기술보고서와 한국 연구진 주도 대표 논문. 최신 연도순.</p>
+  <div class="grid">
+    {items.map((p) => (
+      <a class="card" href={url(`/papers/${p.id}/`)}>
+        <h3>{p.data.title}</h3>
+        <div class="sub">{[p.data.authors_org, p.data.venue, p.data.year].filter(Boolean).join(' · ')}</div>
+        <div><StatusBadge status={p.data.verification_status} /></div>
+        {p.data.abstract_ko && <p class="desc">{p.data.abstract_ko.slice(0, 90)}{p.data.abstract_ko.length > 90 ? '…' : ''}</p>}
+      </a>
+    ))}
+  </div>
+</Base>

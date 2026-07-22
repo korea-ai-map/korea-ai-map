@@ -1,0 +1,23 @@
+name_ko: GIST 인공지능대학원 (AI융합학과)
+name_en: GIST Artificial Intelligence Graduate School
+organization_type: university-lab
+country: KR
+headquarters: Gwangju
+website: https://aieng.gist.ac.kr/
+founded_year: 2019
+ai_core_level: research_only
+categories:
+  - ml-theory
+  - computer-vision
+  - nlp
+  - reinforcement-learning
+status: active
+description_ko: 2019년 개원해 과기정통부 AI대학원 지원사업에 선정된 GIST의 인공지능대학원(AI융합학과). 머신러닝·컴퓨터비전·NLP 등 핵심 AI 분야를 연구한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://aieng.gist.ac.kr/aieng/sub01_04.do
+last_verified: '2026-07-22'
+verification_status: official-source

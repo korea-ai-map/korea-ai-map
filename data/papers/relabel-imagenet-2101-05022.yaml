@@ -1,0 +1,14 @@
+title: 'Re-labeling ImageNet: from Single to Multi-Labels, from Global to Localized Labels'
+authors_org: NAVER AI Lab
+venue: CVPR 2021
+year: 2021
+arxiv_id: '2101.05022'
+url: https://arxiv.org/abs/2101.05022
+abstract_ko: ImageNet의 단일 라벨 한계를 지적하고, 다중·지역화 라벨(ReLabel)을 부여해 랜덤 크롭과의 라벨 불일치를 해소하며 분류 정확도를 크게 향상.
+related_ids:
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2101.05022
+last_verified: '2026-07-22'
+verification_status: verified

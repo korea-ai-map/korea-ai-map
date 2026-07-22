@@ -238,6 +238,24 @@ export const benchmarkSchema = z.object({
   verification_status: verificationStatus,
 });
 
+/* ---------- 논문 (PRD 7.1 최우선 출처) ---------- */
+
+export const paperSchema = z.object({
+  title: z.string(),
+  authors_org: z.string().optional(), // 주도 기관/저자 소속
+  venue: z.string().optional(), // arXiv, ACL, EMNLP, NeurIPS ...
+  year: z.number().int().optional(),
+  arxiv_id: z.string().optional(),
+  url: z.string().url(),
+  doi: z.string().optional(),
+  abstract_ko: z.string().optional(),
+  // 연결되는 카탈로그 id (모델/조직/벤치마크/데이터셋). check-refs 가 존재 검사.
+  related_ids: z.array(z.string()).default([]),
+  sources: z.array(sourceSchema).min(1),
+  last_verified: isoDate,
+  verification_status: verificationStatus,
+});
+
 /** 컬렉션 이름 → 스키마. gen-json-schema.ts 가 그대로 순회한다. */
 export const schemaMap = {
   organizations: organizationSchema,
@@ -246,6 +264,7 @@ export const schemaMap = {
   'open-source': openSourceSchema,
   datasets: datasetSchema,
   benchmarks: benchmarkSchema,
+  papers: paperSchema,
 } as const;
 
 export type SchemaMap = typeof schemaMap;

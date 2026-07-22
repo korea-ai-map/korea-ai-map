@@ -1,0 +1,15 @@
+title: 'KorNLI and KorSTS: New Benchmark Datasets for Korean Natural Language Understanding'
+authors_org: Kakao Brain
+venue: Findings of EMNLP
+year: 2020
+arxiv_id: '2004.03289'
+url: https://arxiv.org/abs/2004.03289
+abstract_ko: 카카오브레인이 영어 데이터셋을 번역해 구축한 한국어 자연어추론(KorNLI)·의미유사도(KorSTS) 두 벤치마크 데이터셋과 베이스라인 모델.
+related_ids:
+  - kornli-korsts
+  - kakao
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2004.03289
+last_verified: '2026-07-22'
+verification_status: verified

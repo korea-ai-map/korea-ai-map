@@ -1,0 +1,22 @@
+name_ko: KAIST 머신러닝·비전 연구실 (MLV)
+name_en: KAIST Machine Learning and Vision Lab (MLV)
+organization_type: university-lab
+country: KR
+headquarters: Daejeon
+website: https://www.hyunwoojkim.com/home
+founded_year: 2025
+ai_core_level: research_only
+categories:
+  - computer-vision
+  - ml-theory
+  - multimodal
+status: active
+description_ko: 김현우(Hyunwoo J. Kim) 교수가 2025년 KAIST에서 시작한 연구실. 머신러닝과 컴퓨터비전을 중심으로 연구한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.hyunwoojkim.com/home
+last_verified: '2026-07-22'
+verification_status: official-source

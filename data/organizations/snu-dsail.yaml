@@ -1,0 +1,21 @@
+name_ko: 서울대 데이터사이언스·인공지능 연구실
+name_en: SNU Data Science and Artificial Intelligence Laboratory
+organization_type: university-lab
+country: KR
+headquarters: Seoul
+website: https://data.snu.ac.kr/
+ai_core_level: research_only
+categories:
+  - ml-theory
+  - multimodal
+  - nlp
+status: active
+description_ko: 윤성로(Sungroh Yoon) 교수가 이끄는 서울대 전기정보공학부 소속 연구실. 딥러닝·생성/에이전틱 AI·AI 기반 바이오·지능정보시스템을 연구한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://data.snu.ac.kr/
+last_verified: '2026-07-22'
+verification_status: official-source

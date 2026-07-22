@@ -1,0 +1,15 @@
+title: 'V-Agent: An Interactive Video Search System Using Vision-Language Models'
+authors_org: NCSOFT
+venue: arXiv
+year: 2025
+arxiv_id: '2512.16925'
+url: https://arxiv.org/abs/2512.16925
+abstract_ko: 엔씨소프트의 비전언어모델 기반 대화형 영상 검색 시스템으로, GME-VARCO-VISION-Embedding 멀티모달 임베딩을 활용해 시각·음성 정보를 통합 검색한다.
+related_ids:
+  - gme-varco-vision-embedding
+  - ncsoft
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2512.16925
+last_verified: '2026-07-22'
+verification_status: needs-review

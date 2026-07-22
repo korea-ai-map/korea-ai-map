@@ -1,0 +1,14 @@
+title: 'Puzzle Mix: Exploiting Saliency and Local Statistics for Optimal Mixup'
+authors_org: 서울대학교 (Hyun Oh Song 그룹)
+venue: ICML 2020
+year: 2020
+arxiv_id: '2009.06962'
+url: https://arxiv.org/abs/2009.06962
+abstract_ko: 이미지의 saliency 정보와 지역 통계를 활용해 최적 혼합 마스크를 찾는 데이터 증강 기법. 기존 mixup/CutMix 대비 일반화 성능과 적대적 견고성을 향상.
+related_ids:
+  - snu-aiis
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2009.06962
+last_verified: '2026-07-22'
+verification_status: verified

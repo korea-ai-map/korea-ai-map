@@ -1,0 +1,16 @@
+title: 'SOLAR 10.7B: Scaling Large Language Models with Simple yet Effective Depth Up-Scaling'
+authors_org: Upstage
+venue: arXiv
+year: 2023
+arxiv_id: '2312.15166'
+url: https://arxiv.org/abs/2312.15166
+abstract_ko: 업스테이지가 제안한 depth up-scaling 기법으로 MoE 없이 효율적으로 모델을 확장해 더 큰 경쟁 모델을 능가하는 SOLAR 10.7B를 소개한다.
+related_ids:
+  - solar-10-7b
+  - solar-open-100b
+  - upstage
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2312.15166
+last_verified: '2026-07-22'
+verification_status: verified

@@ -15,6 +15,7 @@ import {
   openSourceSchema,
   datasetSchema,
   benchmarkSchema,
+  paperSchema,
 } from './schemas';
 
 const yaml = (dir: string) => glob({ pattern: '**/*.yaml', base: `../data/${dir}` });
@@ -25,6 +26,7 @@ const products = defineCollection({ loader: yaml('products'), schema: productSch
 const openSource = defineCollection({ loader: yaml('open-source'), schema: openSourceSchema });
 const datasets = defineCollection({ loader: yaml('datasets'), schema: datasetSchema });
 const benchmarks = defineCollection({ loader: yaml('benchmarks'), schema: benchmarkSchema });
+const papers = defineCollection({ loader: yaml('papers'), schema: paperSchema });
 
 export const collections = {
   organizations,
@@ -33,4 +35,5 @@ export const collections = {
   'open-source': openSource,
   datasets,
   benchmarks,
+  papers,
 };

@@ -1,0 +1,15 @@
+title: 'HAE-RAE Bench: Evaluation of Korean Knowledge in Language Models'
+authors_org: HAE-RAE
+venue: arXiv
+year: 2023
+arxiv_id: '2309.02706'
+url: https://arxiv.org/abs/2309.02706
+abstract_ko: 4개 도메인 6개 과제로 구성된 한국어 벤치마크로, 영어에서 전이 가능한 능력이 아닌 한국 고유 문화·언어 지식을 평가한다.
+related_ids:
+  - hae-rae-bench
+  - haerae-hub
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2309.02706
+last_verified: '2026-07-22'
+verification_status: verified

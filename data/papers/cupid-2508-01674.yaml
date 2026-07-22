@@ -1,0 +1,16 @@
+title: 'CUPID: Evaluating Personalized and Contextualized Alignment of LLMs from Interactions'
+authors_org: KAIST · 서울대 · NAVER AI Lab
+venue: COLM 2025
+year: 2025
+arxiv_id: '2508.01674'
+url: https://arxiv.org/abs/2508.01674
+abstract_ko: 사용자가 상호작용에서 드러내는 맥락적 선호를 추론·적용하는 개인화 정렬 능력을 평가하는 벤치마크(756개 세션). 최신 LLM들이 다중턴 선호 추론에서 큰 한계를 보임을 확인.
+related_ids:
+  - kaist
+  - snu-aiis
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2508.01674
+last_verified: '2026-07-22'
+verification_status: verified

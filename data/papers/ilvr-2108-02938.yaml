@@ -1,0 +1,14 @@
+title: 'ILVR: Conditioning Method for Denoising Diffusion Probabilistic Models'
+authors_org: 서울대학교 (Sungroh Yoon 그룹)
+venue: ICCV 2021
+year: 2021
+arxiv_id: '2108.02938'
+url: https://arxiv.org/abs/2108.02938
+abstract_ko: 추가 학습 없이 참조 이미지의 저주파 성분으로 DDPM 샘플링을 조건화(ILVR)해, 이미지 변환·편집 등 다양한 생성 방향을 제어하는 방법.
+related_ids:
+  - snu-dsail
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2108.02938
+last_verified: '2026-07-22'
+verification_status: verified

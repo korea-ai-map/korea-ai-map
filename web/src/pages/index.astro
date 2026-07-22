@@ -3,9 +3,9 @@ import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import { url } from '../lib/url';
 
-const [organizations, models, products, openSource, datasets, benchmarks] = await Promise.all([
+const [organizations, models, products, openSource, datasets, benchmarks, papers] = await Promise.all([
   getCollection('organizations'), getCollection('models'), getCollection('products'),
-  getCollection('open-source'), getCollection('datasets'), getCollection('benchmarks'),
+  getCollection('open-source'), getCollection('datasets'), getCollection('benchmarks'), getCollection('papers'),
 ]);
 
 const cards = [
@@ -15,6 +15,7 @@ const cards = [
   { label: '데이터셋', slug: 'datasets', count: datasets.length, desc: '한국어 학습 데이터' },
   { label: '벤치마크', slug: 'benchmarks', count: benchmarks.length, desc: '한국어 평가' },
   { label: '오픈소스', slug: 'open-source', count: openSource.length, desc: 'GitHub·Hugging Face' },
+  { label: '논문', slug: 'papers', count: papers.length, desc: '기술보고서·연구 논문' },
 ];
 const total = cards.reduce((s, c) => s + c.count, 0);
 ---

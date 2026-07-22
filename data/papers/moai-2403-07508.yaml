@@ -1,0 +1,14 @@
+title: 'MoAI: Mixture of All Intelligence for Large Language and Vision Models'
+authors_org: KAIST (Yong Man Ro 그룹)
+venue: ECCV 2024
+year: 2024
+arxiv_id: '2403.07508'
+url: https://arxiv.org/abs/2403.07508
+abstract_ko: 외부 세분화·검출·SGG·OCR 모델의 출력을 보조 시각정보로 활용하고, MoAI-Compressor와 MoAI-Mixer로 이를 융합해 모델 크기 확장 없이 성능을 향상한 대규모 시각-언어 모델.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2403.07508
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,15 @@
+title: 'MPViT: Multi-Path Vision Transformer for Dense Prediction'
+authors_org: ETRI · KAIST
+venue: CVPR 2022
+year: 2022
+arxiv_id: '2112.11010'
+url: https://arxiv.org/abs/2112.11010
+abstract_ko: 다양한 스케일의 패치 임베딩을 병렬 경로로 처리하는 멀티패스 ViT를 제안해, 분류·검출·분할 등 밀집 예측 과제에서 강력한 성능을 달성.
+related_ids:
+  - etri
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2112.11010
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,63 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import StatusBadge from '../../components/StatusBadge.astro';
+import Sources from '../../components/Sources.astro';
+import { url, correctionUrl } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const [papers, orgs, models, benchmarks, datasets] = await Promise.all([
+    getCollection('papers'), getCollection('organizations'), getCollection('models'),
+    getCollection('benchmarks'), getCollection('datasets'),
+  ]);
+  // id → {label, coll} 역참조 맵
+  const map = new Map<string, { label: string; coll: string }>();
+  for (const o of orgs) map.set(o.id, { label: o.data.name_ko, coll: 'organizations' });
+  for (const m of models) map.set(m.id, { label: m.data.name, coll: 'models' });
+  for (const b of benchmarks) map.set(b.id, { label: b.data.name, coll: 'benchmarks' });
+  for (const d of datasets) map.set(d.id, { label: d.data.name, coll: 'datasets' });
+  return papers.map((p) => ({
+    params: { id: p.id },
+    props: { p, related: (p.data.related_ids ?? []).map((rid: string) => ({ rid, ...(map.get(rid) ?? {}) })).filter((r: any) => r.label) },
+  }));
+}
+const { p, related } = Astro.props;
+const d = p.data;
+const metaDesc = d.abstract_ko
+  ? d.abstract_ko.slice(0, 155)
+  : `${d.title} — ${[d.authors_org, d.venue, d.year].filter(Boolean).join(', ')}. 한국 AI 관련 논문.`;
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'ScholarlyArticle',
+  name: d.title,
+  headline: d.title,
+  ...(d.year ? { datePublished: String(d.year) } : {}),
+  ...(d.authors_org ? { author: { '@type': 'Organization', name: d.authors_org } } : {}),
+  ...(d.doi ? { sameAs: `https://doi.org/${d.doi}` } : {}),
+  url: d.url,
+};
+---
+<Base title={`${d.title} — 한국 AI 논문 | Korea AI Map`} description={metaDesc} jsonld={jsonld}>
+  <p class="backlink"><a href={url('/papers/')}>← 논문</a></p>
+  <h1 style="font-size:1.35rem">{d.title}</h1>
+  <p class="lead">{[d.authors_org, d.venue, d.year].filter(Boolean).join(' · ')} · <StatusBadge status={d.verification_status} /></p>
+  {d.abstract_ko && <p>{d.abstract_ko}</p>}
+
+  <dl class="fields">
+    {d.arxiv_id && <><dt>arXiv</dt><dd>{d.arxiv_id}</dd></>}
+    {d.doi && <><dt>DOI</dt><dd>{d.doi}</dd></>}
+    <dt>원문</dt><dd><a href={d.url} target="_blank" rel="noopener">{d.url}</a></dd>
+  </dl>
+
+  {related.length > 0 && (
+    <>
+      <h2>관련 항목</h2>
+      <ul>
+        {related.map((r: any) => <li><a href={url(`/${r.coll}/${r.rid}/`)}>{r.label}</a></li>)}
+      </ul>
+    </>
+  )}
+
+  <Sources sources={d.sources} lastVerified={d.last_verified} />
+  <div class="actions"><a class="btn" href={correctionUrl(d.title)} target="_blank" rel="noopener">✎ 정보 수정 제안</a></div>
+</Base>

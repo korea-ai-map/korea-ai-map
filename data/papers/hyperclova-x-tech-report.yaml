@@ -1,0 +1,15 @@
+title: HyperCLOVA X Technical Report
+authors_org: NAVER Cloud
+venue: arXiv
+year: 2024
+arxiv_id: '2404.01954'
+url: https://arxiv.org/abs/2404.01954
+abstract_ko: 네이버 클라우드의 HyperCLOVA X 기술보고서로, 한국어·영어 이중언어 역량과 한국 문화 이해·안전성을 강조한 LLM 제품군을 소개한다.
+related_ids:
+  - hyperclova-x
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2404.01954
+last_verified: '2026-07-22'
+verification_status: verified

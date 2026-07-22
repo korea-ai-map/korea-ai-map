@@ -1,0 +1,16 @@
+title: 'Kanana: Compute-efficient Bilingual Language Models'
+authors_org: Kakao
+venue: arXiv
+year: 2025
+arxiv_id: '2502.18934'
+url: https://arxiv.org/abs/2502.18934
+abstract_ko: 카카오의 한국어·영어 이중언어 모델 Kanana 시리즈로, 유사 모델 대비 훨씬 적은 연산으로 경쟁력 있는 성능을 낸다.
+related_ids:
+  - kanana-1.5-8b-instruct
+  - kanana-2-30b-a3b-instruct
+  - kakao
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2502.18934
+last_verified: '2026-07-22'
+verification_status: verified

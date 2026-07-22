@@ -1,0 +1,16 @@
+title: 'From KMMLU-Redux to KMMLU-Pro: A Professional Korean Benchmark Suite for LLM Evaluation'
+authors_org: HAE-RAE
+venue: arXiv
+year: 2025
+arxiv_id: '2507.08924'
+url: https://arxiv.org/abs/2507.08924
+abstract_ko: 기술 자격시험 기반 KMMLU-Redux와 전문 면허시험 기반 KMMLU-Pro 두 전문가급 한국어 벤치마크로, 실무 산업 지식 영역에서 LLM 성능을 평가한다.
+related_ids:
+  - kmmlu-redux
+  - kmmlu-pro
+  - haerae-hub
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2507.08924
+last_verified: '2026-07-22'
+verification_status: verified

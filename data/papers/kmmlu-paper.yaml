@@ -1,0 +1,15 @@
+title: 'KMMLU: Measuring Massive Multitask Language Understanding in Korean'
+authors_org: HAE-RAE
+venue: arXiv
+year: 2024
+arxiv_id: '2402.11548'
+url: https://arxiv.org/abs/2402.11548
+abstract_ko: 45개 주제 35,030개 객관식 문항으로 구성된 한국어 벤치마크로, GPT-4 등 최신 모델도 60%를 넘기지 못함을 보인다.
+related_ids:
+  - kmmlu
+  - haerae-hub
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2402.11548
+last_verified: '2026-07-22'
+verification_status: verified

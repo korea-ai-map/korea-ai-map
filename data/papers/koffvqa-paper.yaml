@@ -1,0 +1,15 @@
+title: 'KOFFVQA: An Objectively Evaluated Free-form VQA Benchmark for Large Vision-Language Models in the Korean Language'
+authors_org: NCSOFT
+venue: arXiv
+year: 2025
+arxiv_id: '2503.23730'
+url: https://arxiv.org/abs/2503.23730
+abstract_ko: 275개 이미지-질문 쌍과 객관적 채점 기준으로 구성된 한국어 자유형 VQA 벤치마크로, 심판 모델의 주관적 평가에 의존하지 않고 VLM을 평가한다.
+related_ids:
+  - koffvqa
+  - ncsoft
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2503.23730
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,22 @@
+name_ko: KAIST 알고리즘 지능 연구실 (ALIN-LAB)
+name_en: KAIST Algorithmic Intelligence Laboratory (ALIN-LAB)
+organization_type: university-lab
+country: KR
+headquarters: Daejeon
+website: https://alinlab.kaist.ac.kr/
+founded_year: 2015
+ai_core_level: research_only
+categories:
+  - ml-theory
+  - computer-vision
+  - reinforcement-learning
+status: active
+description_ko: 신진우(Jinwoo Shin) 교수가 이끄는 KAIST 김재철AI대학원 소속 연구실. 시각 표현 학습·few-shot 일반화·분자 생성 등 머신러닝 알고리즘을 연구한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://alinlab.kaist.ac.kr/
+last_verified: '2026-07-22'
+verification_status: official-source

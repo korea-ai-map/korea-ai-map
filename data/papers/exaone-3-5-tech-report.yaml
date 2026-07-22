@@ -1,0 +1,15 @@
+title: 'EXAONE 3.5: Series of Large Language Models for Real-world Use Cases'
+authors_org: LG AI Research
+venue: arXiv
+year: 2024
+arxiv_id: '2412.04862'
+url: https://arxiv.org/abs/2412.04862
+abstract_ko: LG AI Research의 EXAONE 3.5 기술보고서로, 2.4B·7.8B·32B 세 가지 instruction-tuned 모델을 소개하며 강력한 명령 수행과 장문 이해 성능을 보고한다.
+related_ids:
+  - exaone-3.5
+  - lg-ai-research
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2412.04862
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,16 @@
+title: VARCO-VISION-2.0 Technical Report
+authors_org: NCSOFT
+venue: arXiv
+year: 2025
+arxiv_id: '2509.10105'
+url: https://arxiv.org/abs/2509.10105
+abstract_ko: 엔씨소프트의 한국어·영어 오픈웨이트 비전언어모델 VARCO-VISION-2.0(14B, 1.7B) 기술보고서로, 다중 이미지 이해와 레이아웃 인식 OCR을 지원한다.
+related_ids:
+  - varco-vision-2-0-14b
+  - varco-vision-2-0-1-7b-ocr
+  - ncsoft
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2509.10105
+last_verified: '2026-07-22'
+verification_status: verified

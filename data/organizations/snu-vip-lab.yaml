@@ -1,0 +1,21 @@
+name_ko: 서울대 시각정보처리 연구실 (VIP)
+name_en: SNU Visual Information Processing Lab
+organization_type: university-lab
+country: KR
+headquarters: Seoul
+website: http://vip.joonseok.net/
+ai_core_level: research_only
+categories:
+  - computer-vision
+  - multimodal
+  - ml-theory
+status: active
+description_ko: 이준석(Joonseok Lee) 교수가 이끄는 서울대 소속 연구실. 시각 정보 처리·멀티모달 학습·추천/표현 학습을 연구한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: http://vip.joonseok.net/
+last_verified: '2026-07-22'
+verification_status: official-source
