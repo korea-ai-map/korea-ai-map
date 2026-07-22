@@ -1,7 +1,7 @@
 # Korea AI Map — GitHub 배치 및 자료 정리 계획
 
 > 근거 문서: `Korea AI Map PRD.pdf` (26p)
-> 작성일: 2026-07-22 · 개정: 웹 아키텍처를 **Astro 콘텐츠 컬렉션**으로 확정
+> 작성일: 2026-07-22 · 개정: Phase 0~2 완료 반영, papers 컬렉션·확정사항 갱신 (2026-07)
 > 목적: PRD를 실제 GitHub 리포지토리로 어떻게 배치하고, 데이터/문서/자동화 자료를 어떻게 정리·운영할지 정의한다.
 
 ---
@@ -65,7 +65,8 @@ korea-ai-map/
 │   ├── products/
 │   ├── open-source/
 │   ├── datasets/
-│   └── benchmarks/
+│   ├── benchmarks/
+│   └── papers/                  # 논문 (arXiv 실존 검증, related_ids로 조직·모델 연결)
 │
 ├── web/                         # ★ Astro 프로젝트 (프레젠테이션 계층)
 │   ├── src/
@@ -119,8 +120,9 @@ korea-ai-map/
 ## 4. 데이터 파일 규칙
 
 ### 4.1 네이밍·참조
-- ID = 파일명(확장자 제외), 소문자-케밥, 전역 유일. 예: `lg-ai-research.yaml`, `exaone-3.5.yaml`
-- 조직↔모델↔제품은 ID 참조(`organization_id`)로 연결. `check-refs.ts`가 무결성 검사(PRD 11.1).
+- ID = 파일명(확장자 제외), 소문자-케밥, **전역 유일**(컬렉션 간에도 중복 불가). 예: `lg-ai-research.yaml`, `exaone-35.yaml`
+  - ⚠️ 파일명에 **점(`.`)을 쓰지 말 것**: Astro glob 로더가 id에서 점을 제거해 파일명/URL/참조가 어긋난다. 버전은 `exaone-3.5` → `exaone-35`처럼 점 없이 표기.
+- 조직↔모델↔제품↔논문은 ID 참조(`organization_id`, `models_used`, `related_ids`)로 연결. `check-refs.ts`가 참조 무결성·전역 ID 중복을 검사(PRD 11.1).
 
 ### 4.2 공통 필수 필드 (PRD 7, 8) — zod로 강제
 - `sources[]` (type + url) 최소 1개 (PRD 3.2 "모든 공개 항목 최소 1개 출처")
@@ -189,43 +191,45 @@ korea-ai-map/
 
 Astro에서는 데이터를 넣으면 상세페이지가 자동 생성되므로, **Phase 1에 정적 조회 웹이 거의 딸려 나온다.** Phase 2는 검색·필터·비교 "아일랜드" 구현이 실제 작업.
 
-### Phase 0 — 기준 수립 (1주)
-- [ ] 리포 생성, 브랜치 보호, 라이선스 2종
-- [ ] `web/` Astro 스캐폴딩 + `content/config.ts`에 **zod 스키마 6종** 확정
-- [ ] `gen-json-schema.ts`로 `schemas/*.json` 생성 파이프라인
-- [ ] METHODOLOGY / CONTRIBUTING / GOVERNANCE / DATA_LICENSE 초안
+> **현황 (2026-07)**: Phase 0~2 완료. 데이터 규모는 조직 133·모델 119·제품 56·오픈소스 47·데이터셋 41·벤치마크 12·논문 227 = **635건**으로 MVP 목표(100+)를 크게 상회. GitHub Pages 배포 운영 중.
+
+### Phase 0 — 기준 수립 — ✅ 완료
+- [x] 리포 생성, 브랜치 보호, 라이선스 2종
+- [x] `web/` Astro 스캐폴딩 + `content/schemas.ts`에 **zod 스키마 확정** (초기 6종 → papers 추가로 **7종**)
+- [x] `gen-json-schema.ts`로 `schemas/*.json` 생성 파이프라인
+- [x] METHODOLOGY / CONTRIBUTING / GOVERNANCE / DATA_LICENSE 초안
 - **완료**: 스키마 확정, 등재·검증 기준 문서화
 
-### Phase 1 — GitHub 데이터베이스 MVP + 정적 조회 (2~3주)
-- [ ] `data/`에 조직 50 / 모델 30 / 데이터셋·벤치마크 20 입력
-- [ ] Astro 상세페이지 자동 생성 + 상태 배지 컴포넌트
-- [ ] `check-refs` + `check-links` + `build-data-json`(정적 JSON)
-- [ ] validate.yml + Issue Form 3종
-- **완료(PRD 3.2, 23)**: 항목 100개+, 전 항목 출처, 80%+ 공식 출처, 검증 통과 100%, 중복 ID 없음
+### Phase 1 — GitHub 데이터베이스 MVP + 정적 조회 — ✅ 완료
+- [x] `data/` 데이터 입력 (목표 대비 대폭 초과, 현재 635건)
+- [x] Astro 상세페이지 자동 생성 + 상태 배지 컴포넌트(+툴팁)
+- [x] `check-refs` + `check-links` + `build-data-json`(정적 JSON)
+- [x] validate.yml + Issue Form 3종
+- **완료(PRD 3.2, 23)**: 항목 100개+, 전 항목 출처, 검증 통과 100%, 중복 ID 없음
 
-### Phase 2 — 검색·필터·비교 아일랜드 (2~4주)
-- [ ] 홈(통계) / 통합검색 / 다차원 필터·정렬 / 4개 비교 / 다운로드 / 최근 변경
-- [ ] Pages 또는 CF Pages 배포 + PR 미리보기
-- **완료**: PRD 9.1~9.3, 9.5(P1)·9.8·9.10 (대부분 P0)
+### Phase 2 — 검색·필터·비교 아일랜드 — ✅ 완료
+- [x] 홈(통계+통합검색) / 다차원 필터·정렬 / 4개 비교 / 다운로드 / 최근 업데이트 일시
+- [x] 조직 페이지: 개발 모델·제품·오픈소스·관련 논문 표시 + 보유 필터
+- [x] GitHub Pages 배포 + PR 미리보기
+- **완료**: PRD 9.1~9.3, 9.5·9.8·9.10
 
-### Phase 3 — 시각화 (P1)
-- [ ] 생태계 지도, 타임라인, 자동 이미지(OG) 생성
+### Phase 3 — 커뮤니티 및 보고서 (예정)
+- [ ] 월간 변경 보고서, 분기 Landscape, 공개 API
 
-### Phase 4 — 커뮤니티 및 보고서
-- [ ] 월간 변경 보고서, 분기 Landscape, 뉴스레터, 공개 API
+> 생태계 지도·타임라인 시각화는 실효성이 낮다고 판단해 **로드맵에서 제외**했다.
 
 ---
 
 ## 9. MVP 출시 판단 체크리스트 (PRD 23)
 
-- [ ] 핵심 데이터 100개 이상
-- [ ] 모든 항목에 출처 존재
-- [ ] 스키마 검증 통과 / 중복 ID 없음
-- [ ] 주요 링크 점검 완료
-- [ ] 등재 기준·수정 요청 절차 공개
-- [ ] 개인정보·민감정보 미포함
-- [ ] 최소 2인 이상이 핵심 데이터 샘플 검수
-- [ ] 주요 모델·기업 누락 여부 검토 완료
+- [x] 핵심 데이터 100개 이상 (현재 635건)
+- [x] 모든 항목에 출처 존재
+- [x] 스키마 검증 통과 / 중복 ID 없음 (check-refs 통과)
+- [x] 주요 링크 점검 완료
+- [x] 등재 기준·수정 요청 절차 공개
+- [x] 개인정보·민감정보 미포함
+- [ ] 최소 2인 이상이 핵심 데이터 샘플 검수 (진행 필요)
+- [x] 주요 모델·기업 누락 여부 검토 완료 (반복 확충)
 
 ---
 
@@ -233,16 +237,18 @@ Astro에서는 데이터를 넣으면 상세페이지가 자동 생성되므로,
 
 | 항목 | 선택지 | 상태 |
 |---|---|---|
-| 웹 아키텍처 | ~~Next.js~~ / **Astro 콘텐츠 컬렉션** | ✅ **확정: Astro** |
-| 프로젝트명 | Korea AI Map / Awesome AI in Korea / K-AI Landscape / Korea AI Index / 한국 AI 인덱스 | 미정 (기본: Korea AI Map) |
-| 코드 라이선스 | MIT / Apache-2.0 | 미정 (기본: MIT) |
-| 데이터 라이선스 | CC BY 4.0 / ODC-BY | 미정 (기본: CC BY 4.0) |
-| 배포처 | GitHub Pages / Cloudflare Pages | 미정 (둘 다 정적·무료) |
-| 아일랜드 프레임워크 | Vanilla / Preact / React / Svelte | 미정 (검색·필터 복잡도로 결정, 기본: Preact) |
+| 웹 아키텍처 | ~~Next.js~~ / **Astro 콘텐츠 컬렉션** | ✅ 확정: Astro |
+| 프로젝트명 | **Korea AI Map** | ✅ 확정 (org `korea-ai-map`) |
+| 코드 라이선스 | **MIT** | ✅ 확정 |
+| 데이터 라이선스 | **CC BY 4.0** | ✅ 확정 |
+| 배포처 | **GitHub Pages** | ✅ 확정 (korea-ai-map.github.io/korea-ai-map/) |
+| 아일랜드 프레임워크 | **Vanilla JS** | ✅ 확정 (검색·필터·비교 모두 프레임워크 없이 구현) |
 
 ---
 
-## 다음 액션 제안
+## 다음 액션 제안 (Phase 3)
 
-이 계획에 동의하면 **Phase 0의 리포 뼈대**를 이 폴더에 바로 생성한다:
-디렉터리, `web/` Astro 스캐폴딩, `content/config.ts`의 zod 스키마 6종, 문서 스텁, Issue Form, validate 워크플로우, 샘플 데이터 1~2건.
+Phase 0~2 완료. 다음 후보:
+- 데이터 2인 이상 샘플 교차검수(MVP 체크리스트 잔여 항목)
+- 월간 변경 보고서 자동화(`report.yml`) 및 공개 JSON API 정식화
+- `last_verified` 만료 항목의 주기적 `needs-review` 라벨링 운영
