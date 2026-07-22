@@ -2,6 +2,10 @@ id: vrew
 name_ko: 브루
 name_en: Vrew
 organization_id: voyagerx
+description_ko: >-
+  음성을 텍스트로 변환해 문서처럼 영상을 편집하는 올인원 AI 영상 편집기. 자동 자막 생성, 음성인식(STT) 기반 텍스트 편집, AI 음성 재생성(TTS), 무음 구간 자동 제거, 생성형 AI를 통한
+  성우·이미지·대본 생성 기능을 제공한다. Mac/Windows/Linux 및 웹에서 사용 가능하며 Free/Light/Standard/Business 요금제가 공개되어 있다. 공식 페이지에서는 사용되는 개별 AI
+  모델의 명칭이나 자체·외부 모델 여부를 구체적으로 명시하지 않는다.
 categories:
   - video-editing
   - speech-to-text

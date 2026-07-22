@@ -2,6 +2,7 @@ id: knowledge-studio
 name_ko: 날리지 스튜디오
 name_en: Knowledge Studio
 organization_id: saltlux
+description_ko: AI와 그래프 데이터베이스(Graph DB) 기술을 융합해 흩어진 지식을 연결하고 가치 있는 데이터로 재구성하는 지식그래프 솔루션.
 categories:
   - knowledge-graph
   - nlp

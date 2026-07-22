@@ -2,6 +2,7 @@ id: goover
 name_ko: 구버
 name_en: Goover
 organization_id: saltlux
+description_ko: 초거대 AI 검색 에이전트 서비스. 대화형 질의응답과 맞춤 정보 수집·추천, 관심 주제 기반 심층 리포트(보고서) 자동 생성, 토픽 트래킹 등 초개인화 검색 경험을 제공한다.
 categories:
   - ai-search
   - agent

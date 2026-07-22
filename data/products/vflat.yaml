@@ -2,6 +2,9 @@ id: vflat
 name_ko: 브이플랫
 name_en: vFlat
 organization_id: voyagerx
+description_ko: >-
+  모바일 문서·책 스캔 앱. 문서 자동 인식 및 크롭, 휘어진 책 페이지 자동 평탄화(dewarping), 스캔 시 손가락 제거, OCR 텍스트 인식, 두 페이지 동시 스캔 기능을 제공하며 PDF/JPG로
+  변환한다. iOS·Android에서 제공된다.
 categories:
   - document-scan
   - ocr

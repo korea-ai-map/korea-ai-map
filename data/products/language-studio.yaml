@@ -2,6 +2,7 @@ id: language-studio
 name_ko: 랭귀지 스튜디오
 name_en: Language Studio
 organization_id: saltlux
+description_ko: 다양한 인공지능 서비스에 필요한 맞춤형 언어모델을 구축하는 초거대 언어모델 구축 플랫폼.
 categories:
   - llm
   - nlp

@@ -2,6 +2,7 @@ id: talkbot-studio
 name_ko: 톡봇 스튜디오
 name_en: Talkbot Studio
 organization_id: saltlux
+description_ko: 대화형 AI 챗봇 솔루션. 고객의 발화를 이해하고 맥락과 숨은 의도를 파악해 응대하는 AI 챗봇으로 소개된다.
 categories:
   - conversational-ai
   - chatbot

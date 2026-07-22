@@ -2,6 +2,7 @@ id: luxia-on
 name_ko: 루시아 온
 name_en: LUXIA-ON
 organization_id: saltlux
+description_ko: 초거대 언어모델 루시아와 GPU를 하드웨어에 일체형으로 탑재한 설치형 생성AI 어플라이언스. LLM·RAG를 내장해 전원만 켜면 사내 데이터 유출 걱정 없이 즉시 생성형 AI를 도입·사용할 수 있도록 설계되었다.
 categories:
   - generative-ai
   - llm

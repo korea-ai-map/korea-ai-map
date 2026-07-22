@@ -2,6 +2,7 @@ id: voc-studio
 name_ko: VOC 스튜디오
 name_en: VOC STUDIO
 organization_id: voyagerx
+description_ko: AI 기반 고객의 소리(VoC) 분석 솔루션. 기업의 고객 피드백을 수집·분석하는 엔터프라이즈 제품이다.
 categories:
   - voc-analytics
   - nlp

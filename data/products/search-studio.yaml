@@ -2,6 +2,7 @@ id: search-studio
 name_ko: 서치 스튜디오
 name_en: Search Studio
 organization_id: saltlux
+description_ko: LMM(대형 멀티모달 모델)과 결합한 AI 검색 엔진. 필요한 정보를 빠르고 정확하게 통합 검색해 정답을 제시한다.
 categories:
   - ai-search
   - multimodal

@@ -15,7 +15,9 @@ const ownership: Record<string, string> = { 'own-model': '자체 모델', 'exter
 const statusLabel: Record<string, string> = { active: '운영 중', beta: '베타', deprecated: '지원 중단', archived: '보존' };
 const name = d.name_ko ?? d.name_en;
 const orgKo = org ? org.data.name_ko : d.organization_id;
-const metaDesc = `${name}은(는) ${orgKo}의 AI 제품·서비스입니다. 분야 ${(d.categories ?? []).join(', ') || '미상'}, 모델 보유 ${ownership[d.model_ownership] ?? '미상'} 등 공식 출처 기반 정보를 제공합니다.`;
+const metaDesc = d.description_ko
+  ? d.description_ko.slice(0, 155)
+  : `${name}은(는) ${orgKo}의 AI 제품·서비스입니다. 분야 ${(d.categories ?? []).join(', ') || '미상'}, 모델 보유 ${ownership[d.model_ownership] ?? '미상'} 등 공식 출처 기반 정보를 제공합니다.`;
 const jsonld = {
   '@context': 'https://schema.org',
   '@type': 'SoftwareApplication',
@@ -33,6 +35,7 @@ const jsonld = {
     {org ? <a href={url(`/organizations/${org.id}/`)}>{org.data.name_ko}</a> : d.organization_id}
     · <StatusBadge status={d.verification_status} />
   </p>
+  {d.description_ko && <p>{d.description_ko}</p>}
 
   <dl class="fields">
     <dt>상태</dt><dd>{statusLabel[d.status] ?? d.status}</dd>

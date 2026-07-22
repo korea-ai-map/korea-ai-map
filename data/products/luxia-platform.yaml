@@ -2,6 +2,9 @@ id: luxia-platform
 name_ko: 루시아 플랫폼
 name_en: LUXIA Platform
 organization_id: saltlux
+description_ko: >-
+  기업용 초거대 언어모델 루시아 GPT 기반의 LLM·RAG 운영 플랫폼. 고객 데이터를 학습해 도메인 맞춤형 생성 AI 서비스를 제공하며, RAG와 지식그래프 연계로 근거 기반 답변과 권한 관리 기반 내부 데이터
+  접근·보안을 지원한다. 루시아 API를 제공한다.
 categories:
   - llm
   - rag

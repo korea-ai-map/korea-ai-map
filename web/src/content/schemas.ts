@@ -158,6 +158,7 @@ export const productSchema = z.object({
   name_ko: z.string(),
   name_en: z.string(),
   organization_id: z.string(),
+  description_ko: z.string().optional(),
   categories: z.array(z.string()).default([]),
   target_users: z.array(z.string()).default([]),
   delivery_type: z.array(z.string()).default([]), // api, saas, on-premise, agent ...

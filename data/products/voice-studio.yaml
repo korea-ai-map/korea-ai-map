@@ -2,6 +2,7 @@ id: voice-studio
 name_ko: 보이스 스튜디오
 name_en: Voice Studio
 organization_id: saltlux
+description_ko: 음성인식(STT)과 음성합성(TTS) 솔루션. 사용자의 음성을 인식하고 사람 같은 다양한 목소리로 합성해 발화한다.
 categories:
   - speech
   - tts
