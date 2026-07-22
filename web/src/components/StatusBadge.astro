@@ -1,20 +1,68 @@
 ---
 // 검증 상태 배지 — 색상만이 아니라 아이콘+텍스트로 표현 (PRD 15.2)
+// 호버/포커스 시 의미 설명 툴팁 표시 (설명 출처: METHODOLOGY.md 3.2)
 interface Props { status: string }
 const { status } = Astro.props;
 
-const map: Record<string, { label: string; cls: string; icon: string }> = {
-  verified:            { label: '검증 완료',      cls: 'b-ok',     icon: '✓' },
-  'official-source':   { label: '공식 출처 확인',  cls: 'b-info',   icon: '◆' },
-  'community-reviewed':{ label: '커뮤니티 검토',   cls: 'b-info',   icon: '◇' },
-  submitted:           { label: '신규 제보',       cls: 'b-dim',    icon: '·' },
-  'needs-review':      { label: '검토 필요',       cls: 'b-warn',   icon: '⚠' },
-  outdated:            { label: '오래된 정보',     cls: 'b-warn',   icon: '⧗' },
-  disputed:            { label: '이견 존재',       cls: 'b-danger', icon: '!' },
-  archived:            { label: '종료/보존',       cls: 'b-dim',    icon: '▢' },
+const map: Record<string, { label: string; cls: string; icon: string; desc: string }> = {
+  verified:            { label: '검증 완료',      cls: 'b-ok',     icon: '✓', desc: '복수의 신뢰 가능한 출처로 검증되었습니다.' },
+  'official-source':   { label: '공식 출처 확인',  cls: 'b-info',   icon: '◆', desc: '공식 출처 1개 이상으로 확인되었습니다.' },
+  'community-reviewed':{ label: '커뮤니티 검토',   cls: 'b-info',   icon: '◇', desc: '커뮤니티 검토가 완료되었습니다.' },
+  submitted:           { label: '신규 제보',       cls: 'b-dim',    icon: '·', desc: '신규 제보 상태로, 아직 검증되지 않았습니다.' },
+  'needs-review':      { label: '검토 필요',       cls: 'b-warn',   icon: '⚠', desc: '정보 재검토가 필요합니다. 일부 값이 공식 출처로 확인되지 않았습니다.' },
+  outdated:            { label: '오래된 정보',     cls: 'b-warn',   icon: '⧗', desc: '마지막 검증일이 기준 주기를 초과했습니다.' },
+  disputed:            { label: '이견 존재',       cls: 'b-danger', icon: '!', desc: '이해관계자 간 이견이 존재하는 항목입니다.' },
+  archived:            { label: '종료/보존',       cls: 'b-dim',    icon: '▢', desc: '서비스 또는 프로젝트가 종료되어 보존 중입니다.' },
 };
-const s = map[status] ?? { label: status, cls: 'b-dim', icon: '·' };
+const s = map[status] ?? { label: status, cls: 'b-dim', icon: '·', desc: '' };
+const aria = s.desc ? `검증 상태: ${s.label} — ${s.desc}` : `검증 상태: ${s.label}`;
 ---
-<span class={`badge ${s.cls}`} title={status}>
-  <span class="dot" aria-hidden="true">{s.icon}</span>{s.label}
+<span class="badge-wrap">
+  <span class={`badge ${s.cls}`} tabindex="0" role="note" aria-label={aria}>
+    <span class="dot" aria-hidden="true">{s.icon}</span>{s.label}
+  </span>
+  {s.desc && (
+    <span class="tip" role="tooltip">
+      <strong>{s.label}</strong>{s.desc}
+    </span>
+  )}
 </span>
+
+<style>
+  .badge-wrap { position: relative; display: inline-block; }
+  .badge { cursor: help; }
+  .badge:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+
+  .tip {
+    position: absolute;
+    bottom: calc(100% + 6px);
+    left: 0;
+    z-index: 20;
+    width: max-content;
+    max-width: 240px;
+    padding: 0.5rem 0.65rem;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--bg);
+    color: var(--fg);
+    font-size: 0.8rem;
+    line-height: 1.45;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(2px);
+    transition: opacity 0.12s ease, transform 0.12s ease, visibility 0.12s;
+    pointer-events: none;
+    white-space: normal;
+    text-align: left;
+  }
+  .tip strong { display: block; margin-bottom: 0.15rem; }
+
+  /* 배지 또는 래퍼에 호버/포커스 시 표시 */
+  .badge-wrap:hover .tip,
+  .badge:focus-visible + .tip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+</style>
