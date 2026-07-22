@@ -1,0 +1,14 @@
+title: 'Self-Explore: Enhancing Mathematical Reasoning in Language Models with Fine-grained Rewards'
+authors_org: KAIST
+venue: EMNLP 2024 Findings
+year: 2024
+arxiv_id: '2404.10346'
+url: https://arxiv.org/abs/2404.10346
+abstract_ko: 세밀한 보상을 활용해 언어 모델의 수학 추론 능력을 스스로 탐색하며 향상시킨다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2404.10346
+last_verified: '2026-07-22'
+verification_status: verified

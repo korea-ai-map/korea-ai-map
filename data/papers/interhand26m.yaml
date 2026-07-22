@@ -1,0 +1,13 @@
+title: 'InterHand2.6M: A Dataset and Baseline for 3D Interacting Hand Pose Estimation from a Single RGB Image'
+authors_org: 서울대학교
+venue: ECCV 2020
+year: 2020
+arxiv_id: '2008.09309'
+url: https://arxiv.org/abs/2008.09309
+abstract_ko: 상호작용하는 양손의 3D 포즈 추정을 위한 대규모 데이터셋 InterHand2.6M과 InterNet 베이스라인을 공개한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2008.09309
+last_verified: '2026-07-22'
+verification_status: verified

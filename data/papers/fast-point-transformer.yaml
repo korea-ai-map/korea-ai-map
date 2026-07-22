@@ -1,0 +1,14 @@
+title: Fast Point Transformer
+authors_org: POSTECH
+venue: CVPR 2022
+year: 2022
+arxiv_id: '2112.04702'
+url: https://arxiv.org/abs/2112.04702
+abstract_ko: 복셀 해싱 기반 이웃 탐색과 경량 자기어텐션으로 대규모 3D 포인트 클라우드를 빠르게 처리하는 Fast Point Transformer.
+related_ids:
+  - postech-gsai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2112.04702
+last_verified: '2026-07-22'
+verification_status: verified

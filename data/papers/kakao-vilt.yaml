@@ -1,0 +1,14 @@
+title: 'ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision'
+authors_org: Kakao Enterprise
+venue: ICML 2021
+year: 2021
+arxiv_id: '2102.03334'
+url: https://arxiv.org/abs/2102.03334
+abstract_ko: 무거운 영역 검출·합성곱 시각 임베딩 없이 이미지 패치를 그대로 트랜스포머에 넣는 경량 비전-언어 모델. 시각 임베딩을 대폭 단순화해 수십 배 빠르면서 경쟁력 있는 성능을 낸다.
+related_ids:
+  - kakao
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2102.03334
+last_verified: '2026-07-22'
+verification_status: verified

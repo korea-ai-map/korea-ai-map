@@ -1,0 +1,14 @@
+title: 'Guided-TTS 2: A Diffusion Model for High-quality Adaptive Text-to-Speech with Untranscribed Data'
+authors_org: 서울대 DSAIL
+venue: arXiv
+year: 2022
+arxiv_id: '2205.15370'
+url: https://arxiv.org/abs/2205.15370
+abstract_ko: 전사 없는 목표 화자 음성만으로 고품질 적응형 TTS를 구현하는 확산 모델.
+related_ids:
+  - snu-dsail
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2205.15370
+last_verified: '2026-07-22'
+verification_status: verified

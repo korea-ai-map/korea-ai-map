@@ -1,0 +1,14 @@
+title: 'HOTR: End-to-End Human-Object Interaction Detection with Transformers'
+authors_org: 고려대학교, Kakao Brain
+venue: CVPR 2021
+year: 2021
+arxiv_id: '2104.13682'
+url: https://arxiv.org/abs/2104.13682
+abstract_ko: 트랜스포머로 사람·물체·상호작용 삼중항을 직접 예측하는 종단간 HOI 검출기 HOTR로 후처리 없이 빠른 추론을 달성한다.
+related_ids:
+  - kakao
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2104.13682
+last_verified: '2026-07-22'
+verification_status: verified

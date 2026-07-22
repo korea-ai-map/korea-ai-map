@@ -1,0 +1,14 @@
+title: Provable Benefit of Cutout and CutMix for Feature Learning
+authors_org: KAIST
+venue: NeurIPS 2024
+year: 2024
+arxiv_id: '2410.23672'
+url: https://arxiv.org/abs/2410.23672
+abstract_ko: 패치 단위 데이터 증강(Cutout, CutMix)이 2층 신경망 특징 학습에 주는 이론적 이득을 분석·증명.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2410.23672
+last_verified: '2026-07-22'
+verification_status: verified

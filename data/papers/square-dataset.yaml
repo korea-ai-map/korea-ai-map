@@ -1,0 +1,16 @@
+title: >-
+  SQuARe: A Large-Scale Dataset of Sensitive Questions and Acceptable Responses Created Through Human-Machine
+  Collaboration
+authors_org: NAVER AI Lab
+venue: ACL 2023
+year: 2023
+arxiv_id: '2305.17696'
+url: https://arxiv.org/abs/2305.17696
+abstract_ko: 민감한 질문과 수용 가능한 응답으로 구성된 대규모 한국어 데이터셋을 인간-기계 협업으로 구축했다.
+related_ids:
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2305.17696
+last_verified: '2026-07-22'
+verification_status: verified

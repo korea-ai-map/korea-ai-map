@@ -1,0 +1,14 @@
+title: Diffusion Models already have a Semantic Latent Space
+authors_org: 연세대
+venue: ICLR
+year: 2023
+arxiv_id: '2210.10960'
+url: https://arxiv.org/abs/2210.10960
+abstract_ko: 확산 모델의 h-space라는 의미 잠재공간을 발견해 비대칭 역과정(Asyrp)으로 속성을 편집한다.
+related_ids:
+  - yonsei-ai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2210.10960
+last_verified: '2026-07-22'
+verification_status: verified

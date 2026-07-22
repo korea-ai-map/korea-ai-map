@@ -1,0 +1,14 @@
+title: 'CLIcK: A Benchmark Dataset of Cultural and Linguistic Intelligence in Korean'
+authors_org: KAIST
+venue: LREC-COLING 2024
+year: 2024
+arxiv_id: '2403.06412'
+url: https://arxiv.org/abs/2403.06412
+abstract_ko: 한국의 문화적·언어적 지능을 평가하는 벤치마크 데이터셋이다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2403.06412
+last_verified: '2026-07-22'
+verification_status: verified

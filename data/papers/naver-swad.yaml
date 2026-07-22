@@ -1,0 +1,14 @@
+title: 'SWAD: Domain Generalization by Seeking Flat Minima'
+authors_org: NAVER AI Lab
+venue: NeurIPS 2021
+year: 2021
+arxiv_id: '2102.08604'
+url: https://arxiv.org/abs/2102.08604
+abstract_ko: 평평한(flat) 손실 최소점을 찾으면 도메인 일반화가 향상됨을 이론·실험으로 보이고, 학습 중 가중치를 밀집 평균하는 SWAD를 제안해 다수 DG 벤치마크에서 SOTA를 달성한다.
+related_ids:
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2102.08604
+last_verified: '2026-07-22'
+verification_status: verified

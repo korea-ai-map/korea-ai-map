@@ -1,0 +1,14 @@
+title: 'Neural Analysis and Synthesis: Reconstructing Speech from Self-Supervised Representations'
+authors_org: Supertone / 서울대
+venue: NeurIPS
+year: 2021
+arxiv_id: '2110.14513'
+url: https://arxiv.org/abs/2110.14513
+abstract_ko: 자기지도 표현으로부터 음성을 분석·재합성하는 프레임워크로, 음높이·음색을 분리해 음성변환과 조작을 가능하게 한다.
+related_ids:
+  - supertone
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2110.14513
+last_verified: '2026-07-22'
+verification_status: verified

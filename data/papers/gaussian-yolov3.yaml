@@ -1,0 +1,13 @@
+title: 'Gaussian YOLOv3: An Accurate and Fast Object Detector Using Localization Uncertainty for Autonomous Driving'
+authors_org: 서울대학교
+venue: ICCV 2019
+year: 2019
+arxiv_id: '1904.04620'
+url: https://arxiv.org/abs/1904.04620
+abstract_ko: YOLOv3의 바운딩박스 예측에 가우시안 모델링을 도입해 위치 불확실성을 추정하고 자율주행용 실시간 객체검출의 정확도를 높인다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/1904.04620
+last_verified: '2026-07-22'
+verification_status: verified

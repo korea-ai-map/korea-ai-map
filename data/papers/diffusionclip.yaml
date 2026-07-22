@@ -1,0 +1,14 @@
+title: 'DiffusionCLIP: Text-Guided Diffusion Models for Robust Image Manipulation'
+authors_org: KAIST
+venue: CVPR
+year: 2022
+arxiv_id: '2110.02711'
+url: https://arxiv.org/abs/2110.02711
+abstract_ko: 확산 모델과 CLIP을 결합해 텍스트 프롬프트만으로 이미지를 강건하게 편집·조작하는 방법.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2110.02711
+last_verified: '2026-07-22'
+verification_status: verified

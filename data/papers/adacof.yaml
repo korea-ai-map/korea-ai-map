@@ -1,0 +1,14 @@
+title: 'AdaCoF: Adaptive Collaboration of Flows for Video Frame Interpolation'
+authors_org: 연세대학교
+venue: CVPR 2020
+year: 2020
+arxiv_id: '1907.10244'
+url: https://arxiv.org/abs/1907.10244
+abstract_ko: 각 픽셀마다 적응적 커널과 오프셋으로 흐름을 협업 추정하는 AdaCoF로 비디오 프레임 보간을 수행한다.
+related_ids:
+  - yonsei-ai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/1907.10244
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,14 @@
+title: Practical Sharpness-Aware Minimization Cannot Converge All the Way to Optima
+authors_org: KAIST
+venue: NeurIPS 2023
+year: 2023
+arxiv_id: '2306.09850'
+url: https://arxiv.org/abs/2306.09850
+abstract_ko: 고정 섭동 크기와 그래디언트 정규화를 쓰는 실전 SAM이 최적점에 완전히 수렴하지 못함을 증명.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2306.09850
+last_verified: '2026-07-22'
+verification_status: verified

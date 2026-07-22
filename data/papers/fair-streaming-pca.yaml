@@ -1,0 +1,14 @@
+title: 'Fair Streaming Principal Component Analysis: Statistical and Algorithmic Viewpoint'
+authors_org: KAIST
+venue: NeurIPS 2023
+year: 2023
+arxiv_id: '2310.18593'
+url: https://arxiv.org/abs/2310.18593
+abstract_ko: 공정 PCA에 대해 PAFO 학습가능성 개념을 제시하고 메모리 효율적 알고리즘(FNPM)을 제안. 공정 PCA 최초의 통계적 보장 제공.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2310.18593
+last_verified: '2026-07-22'
+verification_status: verified

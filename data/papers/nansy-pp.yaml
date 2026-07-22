@@ -1,0 +1,14 @@
+title: 'NANSY++: Unified Voice Synthesis with Neural Analysis and Synthesis'
+authors_org: Supertone
+venue: ICLR
+year: 2023
+arxiv_id: '2211.09407'
+url: https://arxiv.org/abs/2211.09407
+abstract_ko: 신경 분석-합성 프레임워크를 확장해 TTS·음성변환·가창합성·음성 디자인을 하나의 통합 백본으로 처리하는 음성 합성 모델.
+related_ids:
+  - supertone
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2211.09407
+last_verified: '2026-07-22'
+verification_status: verified

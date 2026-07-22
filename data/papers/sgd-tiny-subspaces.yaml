@@ -1,0 +1,14 @@
+title: Does SGD really happen in tiny subspaces?
+authors_org: KAIST
+venue: ICLR 2025
+year: 2025
+arxiv_id: '2405.16002'
+url: https://arxiv.org/abs/2405.16002
+abstract_ko: SGD가 저차원 지배 부분공간에서 이뤄진다는 통념을 반박하고, 이 정렬이 본질적이 아니라 허상임을 실험적으로 규명.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2405.16002
+last_verified: '2026-07-22'
+verification_status: verified

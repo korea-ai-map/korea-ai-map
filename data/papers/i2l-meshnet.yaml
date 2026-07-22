@@ -1,0 +1,13 @@
+title: 'I2L-MeshNet: Image-to-Lixel Prediction Network for Accurate 3D Human Pose and Mesh Estimation from a Single RGB Image'
+authors_org: 서울대학교
+venue: ECCV 2020
+year: 2020
+arxiv_id: '2008.03713'
+url: https://arxiv.org/abs/2008.03713
+abstract_ko: 단일 RGB 이미지에서 lixel 기반 히트맵 예측으로 3D 인체 포즈와 메쉬를 정밀 복원하는 I2L-MeshNet.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2008.03713
+last_verified: '2026-07-22'
+verification_status: verified

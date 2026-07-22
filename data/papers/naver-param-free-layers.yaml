@@ -1,0 +1,14 @@
+title: Learning Features with Parameter-Free Layers
+authors_org: NAVER AI Lab
+venue: ICLR 2022
+year: 2022
+arxiv_id: '2202.02777'
+url: https://arxiv.org/abs/2202.02777
+abstract_ko: 학습 파라미터가 없는 연산(맥스풀링 등)만으로도 유용한 특징을 학습할 수 있음을 보이고, 파라미터-프리 층으로 네트워크를 효율화해 정확도-효율 균형을 개선한다.
+related_ids:
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2202.02777
+last_verified: '2026-07-22'
+verification_status: verified

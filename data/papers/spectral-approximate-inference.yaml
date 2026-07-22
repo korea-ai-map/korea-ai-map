@@ -1,0 +1,14 @@
+title: Spectral Approximate Inference
+authors_org: KAIST
+venue: ICML 2019
+year: 2019
+arxiv_id: '1905.05348'
+url: https://arxiv.org/abs/1905.05348
+abstract_ko: 그래프 모델의 분배함수 근사를 스펙트럼 기반으로 접근해 저계수 결합 행렬에 대한 다항시간 근사와 스펙트럼 평균장 알고리즘을 제안.
+related_ids:
+  - kaist-mlilab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/1905.05348
+last_verified: '2026-07-22'
+verification_status: verified

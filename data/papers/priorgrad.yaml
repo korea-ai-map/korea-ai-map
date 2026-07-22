@@ -1,0 +1,14 @@
+title: 'PriorGrad: Improving Conditional Denoising Diffusion Models with Data-Dependent Adaptive Prior'
+authors_org: 서울대 DSAIL / MSR
+venue: ICLR
+year: 2022
+arxiv_id: '2106.06406'
+url: https://arxiv.org/abs/2106.06406
+abstract_ko: 데이터 의존적 적응형 프라이어를 도입해 조건부 디노이징 확산 모델의 보코더·음향모델 성능을 향상시킨다.
+related_ids:
+  - snu-dsail
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2106.06406
+last_verified: '2026-07-22'
+verification_status: verified

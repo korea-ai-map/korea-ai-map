@@ -1,0 +1,14 @@
+title: 'Sparse DETR: Efficient End-to-End Object Detection with Learnable Sparsity'
+authors_org: Kakao Brain
+venue: ICLR 2022
+year: 2021
+arxiv_id: '2111.14330'
+url: https://arxiv.org/abs/2111.14330
+abstract_ko: 디코더가 참조하는 인코더 토큰만 선택적으로 갱신하도록 학습 가능한 희소성을 도입해 DETR 계열의 연산량을 크게 줄인 검출기. 적은 토큰으로도 정확도를 유지·향상한다.
+related_ids:
+  - kakao
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2111.14330
+last_verified: '2026-07-22'
+verification_status: verified

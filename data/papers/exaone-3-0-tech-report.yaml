@@ -1,0 +1,14 @@
+title: EXAONE 3.0 7.8B Instruction Tuned Language Model
+authors_org: LG AI Research
+venue: arXiv
+year: 2024
+arxiv_id: '2408.03541'
+url: https://arxiv.org/abs/2408.03541
+abstract_ko: LG AI연구원이 공개한 7.8B 규모의 명령어 튜닝 이중언어 대규모 언어 모델이다.
+related_ids:
+  - lg-ai-research
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2408.03541
+last_verified: '2026-07-22'
+verification_status: verified

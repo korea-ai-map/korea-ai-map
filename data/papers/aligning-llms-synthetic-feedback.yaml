@@ -1,0 +1,14 @@
+title: Aligning Large Language Models through Synthetic Feedback
+authors_org: NAVER Cloud
+venue: EMNLP 2023
+year: 2023
+arxiv_id: '2305.13735'
+url: https://arxiv.org/abs/2305.13735
+abstract_ko: 사람 주석 없이 합성 피드백만으로 대규모 언어 모델을 정렬하는 방법을 제안한다.
+related_ids:
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2305.13735
+last_verified: '2026-07-22'
+verification_status: verified

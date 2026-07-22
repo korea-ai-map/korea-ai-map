@@ -1,0 +1,15 @@
+title: 'Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models'
+authors_org: KAIST & LG AI Research
+venue: EMNLP 2024
+year: 2024
+arxiv_id: '2405.01535'
+url: https://arxiv.org/abs/2405.01535
+abstract_ko: 다른 언어 모델의 응답을 평가하는 데 특화된 오픈소스 평가 전용 언어 모델이다.
+related_ids:
+  - kaist
+  - lg-ai-research
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2405.01535
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,14 @@
+title: Self-Calibrating Neural Radiance Fields
+authors_org: POSTECH
+venue: ICCV 2021
+year: 2021
+arxiv_id: '2108.13826'
+url: https://arxiv.org/abs/2108.13826
+abstract_ko: 카메라 내·외부 파라미터를 사전 보정 없이 자체 보정하며 장면을 학습하는 Self-Calibrating NeRF.
+related_ids:
+  - postech-gsai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2108.13826
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,14 @@
+title: 'KorNAT: LLM Alignment Benchmark for Korean Social Values and Common Knowledge'
+authors_org: KAIST
+venue: ACL 2024 Findings
+year: 2024
+arxiv_id: '2402.13605'
+url: https://arxiv.org/abs/2402.13605
+abstract_ko: 한국 사회 가치관과 상식에 대한 LLM 정렬 정도를 측정하는 벤치마크이다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2402.13605
+last_verified: '2026-07-22'
+verification_status: verified

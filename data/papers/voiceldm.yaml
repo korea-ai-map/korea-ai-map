@@ -1,0 +1,14 @@
+title: 'VoiceLDM: Text-to-Speech with Environmental Context'
+authors_org: KAIST
+venue: ICASSP
+year: 2024
+arxiv_id: '2309.13664'
+url: https://arxiv.org/abs/2309.13664
+abstract_ko: 내용 프롬프트와 환경 설명 프롬프트를 함께 받아 배경 음향 맥락이 반영된 음성을 생성하는 잠재 확산 TTS.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2309.13664
+last_verified: '2026-07-22'
+verification_status: verified

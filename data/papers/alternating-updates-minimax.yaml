@@ -1,0 +1,14 @@
+title: Fundamental Benefit of Alternating Updates in Minimax Optimization
+authors_org: KAIST
+venue: ICML 2024
+year: 2024
+arxiv_id: '2402.10475'
+url: https://arxiv.org/abs/2402.10475
+abstract_ko: 미니맥스 최적화에서 교대 경사법(Alt-GDA)이 동시 갱신보다 빠름을 증명하고, 외삽 기반 Alex-GDA로 더 적은 계산으로 빠른 수렴을 달성.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2402.10475
+last_verified: '2026-07-22'
+verification_status: verified

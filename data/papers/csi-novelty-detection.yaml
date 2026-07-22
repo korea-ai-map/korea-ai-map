@@ -1,0 +1,14 @@
+title: 'CSI: Novelty Detection via Contrastive Learning on Distributionally Shifted Instances'
+authors_org: KAIST
+venue: NeurIPS 2020
+year: 2020
+arxiv_id: '2007.08176'
+url: https://arxiv.org/abs/2007.08176
+abstract_ko: 대조학습에 분포 이동 증강을 결합해 샘플의 이동 증강본과 대조함으로써 신규성/이상치를 탐지하는 CSI 제안.
+related_ids:
+  - kaist-alinlab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2007.08176
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,14 @@
+title: 'XVFI: eXtreme Video Frame Interpolation'
+authors_org: KAIST
+venue: ICCV 2021
+year: 2021
+arxiv_id: '2103.16206'
+url: https://arxiv.org/abs/2103.16206
+abstract_ko: 4K 대변위 상황을 위한 재귀적 다중스케일 공유 구조의 XVFI와 X4K1000FPS 데이터셋을 제안한다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2103.16206
+last_verified: '2026-07-22'
+verification_status: verified

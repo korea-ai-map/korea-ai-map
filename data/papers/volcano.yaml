@@ -1,0 +1,14 @@
+title: 'Volcano: Mitigating Multimodal Hallucination through Self-Feedback Guided Revision'
+authors_org: KAIST
+venue: NAACL
+year: 2024
+arxiv_id: '2311.07362'
+url: https://arxiv.org/abs/2311.07362
+abstract_ko: 모델 스스로 피드백을 생성·수정하는 자기 피드백 방식으로 멀티모달 환각(hallucination)을 완화한다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2311.07362
+last_verified: '2026-07-22'
+verification_status: verified

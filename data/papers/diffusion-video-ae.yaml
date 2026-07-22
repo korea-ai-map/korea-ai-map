@@ -1,0 +1,15 @@
+title: 'Diffusion Video Autoencoders: Toward Temporally Consistent Face Video Editing via Disentangled Video Encoding'
+authors_org: KAIST, NAVER AI Lab
+venue: CVPR 2023
+year: 2023
+arxiv_id: '2212.02802'
+url: https://arxiv.org/abs/2212.02802
+abstract_ko: 신원·모션 특징을 분리 인코딩하는 확산 비디오 오토인코더로 시간적으로 일관된 얼굴 비디오 편집을 달성한다.
+related_ids:
+  - kaist
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2212.02802
+last_verified: '2026-07-22'
+verification_status: verified

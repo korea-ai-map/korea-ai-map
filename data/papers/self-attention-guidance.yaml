@@ -1,0 +1,13 @@
+title: Improving Sample Quality of Diffusion Models Using Self-Attention Guidance
+authors_org: 고려대
+venue: ICCV
+year: 2023
+arxiv_id: '2210.00939'
+url: https://arxiv.org/abs/2210.00939
+abstract_ko: 모델의 셀프 어텐션 맵으로 블러 가이던스를 만들어 조건 없이도 확산 표본 품질을 향상시킨다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2210.00939
+last_verified: '2026-07-22'
+verification_status: verified

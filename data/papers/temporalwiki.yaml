@@ -1,0 +1,14 @@
+title: 'TemporalWiki: A Lifelong Benchmark for Training and Evaluating Ever-Evolving Language Models'
+authors_org: KAIST
+venue: EMNLP 2022
+year: 2022
+arxiv_id: '2204.14211'
+url: https://arxiv.org/abs/2204.14211
+abstract_ko: 끊임없이 변하는 언어 모델을 학습·평가하기 위한 평생 학습 벤치마크를 제안한다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2204.14211
+last_verified: '2026-07-22'
+verification_status: verified

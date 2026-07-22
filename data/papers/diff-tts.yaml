@@ -1,0 +1,13 @@
+title: 'Diff-TTS: A Denoising Diffusion Model for Text-to-Speech'
+authors_org: 서울대
+venue: Interspeech
+year: 2021
+arxiv_id: '2104.01409'
+url: https://arxiv.org/abs/2104.01409
+abstract_ko: 디노이징 확산 확률 모델을 TTS에 최초로 적용해 멜스펙트로그램을 생성하는 비자기회귀 음성합성 모델.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2104.01409
+last_verified: '2026-07-22'
+verification_status: verified

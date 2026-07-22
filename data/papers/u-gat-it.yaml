@@ -1,0 +1,16 @@
+title: >-
+  U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image
+  Translation
+authors_org: NCSOFT
+venue: ICLR
+year: 2020
+arxiv_id: '1907.10830'
+url: https://arxiv.org/abs/1907.10830
+abstract_ko: 어텐션 모듈과 적응형 레이어-인스턴스 정규화(AdaLIN)로 형태 변화가 큰 이미지 간 변환을 비지도로 수행한다.
+related_ids:
+  - ncsoft
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/1907.10830
+last_verified: '2026-07-22'
+verification_status: verified

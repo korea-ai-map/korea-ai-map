@@ -1,0 +1,13 @@
+title: 'FickleNet: Weakly and Semi-supervised Semantic Image Segmentation using Stochastic Inference'
+authors_org: 서울대학교
+venue: CVPR 2019
+year: 2019
+arxiv_id: '1902.10421'
+url: https://arxiv.org/abs/1902.10421
+abstract_ko: 확률적 은닉 유닛 선택으로 다양한 위치화 맵을 생성해 약지도 의미론적 분할 성능을 향상한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/1902.10421
+last_verified: '2026-07-22'
+verification_status: verified

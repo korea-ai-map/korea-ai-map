@@ -1,0 +1,14 @@
+title: Minimum Width for Universal Approximation
+authors_org: KAIST
+venue: ICLR 2021
+year: 2021
+arxiv_id: '2006.08859'
+url: https://arxiv.org/abs/2006.08859
+abstract_ko: 보편 근사에 필요한 신경망의 최소 너비를 정밀 규명. ReLU 망에서 Lp 함수 보편 근사에 필요한 최소 너비가 정확히 max{d_x+1, d_y}임을 증명.
+related_ids:
+  - kaist-alinlab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2006.08859
+last_verified: '2026-07-22'
+verification_status: verified

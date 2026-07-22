@@ -1,0 +1,14 @@
+title: Adversarial Self-Supervised Contrastive Learning
+authors_org: KAIST
+venue: NeurIPS 2020
+year: 2020
+arxiv_id: '2006.07589'
+url: https://arxiv.org/abs/2006.07589
+abstract_ko: 라벨 없이 적대적 강건성을 학습하는 Robust Contrastive Learning(RoCL) 제안. 무라벨 데이터의 적대적 섭동과 증강본 간 유사도를 최대화.
+related_ids:
+  - kaist-mlai-lab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2006.07589
+last_verified: '2026-07-22'
+verification_status: verified

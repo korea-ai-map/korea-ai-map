@@ -1,0 +1,14 @@
+title: Learning to Quantize Deep Networks by Optimizing Quantization Intervals with Task Loss
+authors_org: Samsung Advanced Institute of Technology (SAIT)
+venue: CVPR 2019
+year: 2018
+arxiv_id: '1808.05779'
+url: https://arxiv.org/abs/1808.05779
+abstract_ko: 양자화 구간(interval) 자체를 태스크 손실로 학습해 가중치·활성값을 함께 양자화하는 QIL. 극저비트에서도 정확도 손실을 최소화하는 학습 가능한 양자화 기법을 제안한다.
+related_ids:
+  - samsung-research
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/1808.05779
+last_verified: '2026-07-22'
+verification_status: verified

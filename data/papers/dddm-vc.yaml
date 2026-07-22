@@ -1,0 +1,15 @@
+title: >-
+  DDDM-VC: Decoupled Denoising Diffusion Models with Disentangled Representation and Prior Mixup for Robust Voice
+  Conversion
+authors_org: 고려대
+venue: AAAI
+year: 2024
+arxiv_id: '2305.15816'
+url: https://arxiv.org/abs/2305.15816
+abstract_ko: 속성별로 분리된 디노이징 확산과 프라이어 믹스업으로 강건한 음성변환을 수행한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2305.15816
+last_verified: '2026-07-22'
+verification_status: verified

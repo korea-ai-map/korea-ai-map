@@ -1,0 +1,14 @@
+title: 'SGDA with shuffling: faster convergence for nonconvex-PL minimax optimization'
+authors_org: KAIST
+venue: ICLR 2023
+year: 2023
+arxiv_id: '2210.05995'
+url: https://arxiv.org/abs/2210.05995
+abstract_ko: 무작위 재셔플링 SGDA의 비볼록-PL 미니맥스 최적화 수렴을 분석하고 복원 추출 대비 개선된 수렴률을 증명.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2210.05995
+last_verified: '2026-07-22'
+verification_status: verified

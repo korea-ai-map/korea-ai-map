@@ -1,0 +1,14 @@
+title: Provable Memorization via Deep Neural Networks using Sub-linear Parameters
+authors_org: KAIST
+venue: COLT 2021
+year: 2021
+arxiv_id: '2010.13363'
+url: https://arxiv.org/abs/2010.13363
+abstract_ko: 심층 신경망이 N개 입력-라벨 쌍을 O(N^{2/3}) 서브선형 파라미터로 암기할 수 있음을 증명하고 깊이의 이득을 규명.
+related_ids:
+  - kaist-alinlab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2010.13363
+last_verified: '2026-07-22'
+verification_status: verified

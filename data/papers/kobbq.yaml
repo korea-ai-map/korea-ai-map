@@ -1,0 +1,14 @@
+title: 'KoBBQ: Korean Bias Benchmark for Question Answering'
+authors_org: KAIST
+venue: TACL 2024
+year: 2024
+arxiv_id: '2307.16778'
+url: https://arxiv.org/abs/2307.16778
+abstract_ko: 질의응답에서 언어 모델의 사회적 편향을 측정하는 한국어 벤치마크를 제안한다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2307.16778
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,15 @@
+title: Knowledge Unlearning for Mitigating Privacy Risks in Language Models
+authors_org: KAIST
+venue: ACL 2023
+year: 2023
+arxiv_id: '2210.01504'
+url: https://arxiv.org/abs/2210.01504
+abstract_ko: 언어 모델의 프라이버시 위험을 줄이기 위해 특정 지식을 잊게 하는 언러닝 기법을 제안한다.
+related_ids:
+  - kaist
+  - lg-ai-research
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2210.01504
+last_verified: '2026-07-22'
+verification_status: verified

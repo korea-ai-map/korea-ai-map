@@ -1,0 +1,14 @@
+title: Accelerating Reinforcement Learning with Value-Conditional State Entropy Exploration
+authors_org: KAIST
+venue: NeurIPS 2023
+year: 2023
+arxiv_id: '2305.19476'
+url: https://arxiv.org/abs/2305.19476
+abstract_ko: 상태 엔트로피 탐색이 과제 보상과 결합될 때의 저가치 편향을 해결하는 가치 조건부 상태 엔트로피(VCSE)를 제안.
+related_ids:
+  - kaist-alinlab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2305.19476
+last_verified: '2026-07-22'
+verification_status: verified

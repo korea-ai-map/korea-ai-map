@@ -1,0 +1,14 @@
+title: 'ViDT: An Efficient and Effective Fully Transformer-based Object Detector'
+authors_org: NAVER AI Lab
+venue: ICLR 2022
+year: 2022
+arxiv_id: '2204.07962'
+url: https://arxiv.org/abs/2204.07962
+abstract_ko: 비전 트랜스포머 백본에 검출 토큰을 결합한 ViDT를 확장해, 인코더-프리 구조와 다중스케일 특징으로 정확도-속도 균형이 뛰어난 완전 트랜스포머 객체 검출기를 제안한다.
+related_ids:
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2204.07962
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,13 @@
+title: 'InfoNeRF: Ray Entropy Minimization for Few-Shot Neural Volume Rendering'
+authors_org: 서울대학교
+venue: CVPR 2022
+year: 2022
+arxiv_id: '2112.15399'
+url: https://arxiv.org/abs/2112.15399
+abstract_ko: 광선 밀도의 엔트로피 최소화 정규화로 소수 시점만으로도 신경 볼륨 렌더링을 학습하는 InfoNeRF.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2112.15399
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,14 @@
+title: 'Position Coupling: Improving Length Generalization of Arithmetic Transformers Using Task Structure'
+authors_org: KAIST
+venue: NeurIPS 2024
+year: 2024
+arxiv_id: '2405.20671'
+url: https://arxiv.org/abs/2405.20671
+abstract_ko: 관련 토큰에 동일 위치 식별자를 부여하는 Position Coupling으로 산술 트랜스포머의 길이 일반화를 크게 개선.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2405.20671
+last_verified: '2026-07-22'
+verification_status: verified

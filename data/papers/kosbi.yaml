@@ -1,0 +1,14 @@
+title: 'KoSBi: A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Application'
+authors_org: NAVER AI Lab
+venue: ACL 2023
+year: 2023
+arxiv_id: '2305.17701'
+url: https://arxiv.org/abs/2305.17701
+abstract_ko: 안전한 대규모 언어 모델 활용을 위해 사회적 편향 위험을 완화하는 한국어 데이터셋이다.
+related_ids:
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2305.17701
+last_verified: '2026-07-22'
+verification_status: verified

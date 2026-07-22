@@ -1,0 +1,14 @@
+title: 'PLASTIC: Improving Input and Label Plasticity for Sample Efficient Reinforcement Learning'
+authors_org: KAIST
+venue: NeurIPS 2023
+year: 2023
+arxiv_id: '2306.10711'
+url: https://arxiv.org/abs/2306.10711
+abstract_ko: 강화학습 표본 효율을 위해 입력 가소성과 라벨 가소성을 구분하고 손실 지형 평탄화와 그래디언트 전파 개선을 결합한 PLASTIC 기법.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2306.10711
+last_verified: '2026-07-22'
+verification_status: verified

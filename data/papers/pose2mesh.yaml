@@ -1,0 +1,13 @@
+title: 'Pose2Mesh: Graph Convolutional Network for 3D Human Pose and Mesh Recovery from a 2D Human Pose'
+authors_org: 서울대학교
+venue: ECCV 2020
+year: 2020
+arxiv_id: '2008.09047'
+url: https://arxiv.org/abs/2008.09047
+abstract_ko: 2D 포즈로부터 그래프 컨볼루션 네트워크로 3D 인체 포즈와 메쉬 정점을 직접 회귀하는 Pose2Mesh.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2008.09047
+last_verified: '2026-07-22'
+verification_status: verified

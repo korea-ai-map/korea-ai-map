@@ -1,0 +1,14 @@
+title: 'DASH: Warm-Starting Neural Network Training in Stationary Settings without Loss of Plasticity'
+authors_org: KAIST
+venue: NeurIPS 2024
+year: 2024
+arxiv_id: '2410.23495'
+url: https://arxiv.org/abs/2410.23495
+abstract_ko: warm-start 시 가소성 손실의 주원인을 노이즈 암기로 규명하고, 유용한 표현은 보존하며 암기된 노이즈만 축소하는 DASH 제안.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2410.23495
+last_verified: '2026-07-22'
+verification_status: verified

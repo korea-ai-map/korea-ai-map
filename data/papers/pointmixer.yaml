@@ -1,0 +1,15 @@
+title: 'PointMixer: MLP-Mixer for Point Cloud Understanding'
+authors_org: KAIST, POSTECH
+venue: ECCV 2022
+year: 2022
+arxiv_id: '2111.11187'
+url: https://arxiv.org/abs/2111.11187
+abstract_ko: 토큰믹싱 MLP를 소프트맥스로 대체해 비정형 3D 점군에 적용 가능한 MLP-Mixer 구조 PointMixer를 제안한다.
+related_ids:
+  - kaist
+  - postech-gsai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2111.11187
+last_verified: '2026-07-22'
+verification_status: verified

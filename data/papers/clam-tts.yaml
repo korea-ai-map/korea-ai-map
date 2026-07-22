@@ -1,0 +1,13 @@
+title: 'CLaM-TTS: Improving Neural Codec Language Model for Zero-Shot Text-to-Speech'
+authors_org: KRAFTON
+venue: ICLR
+year: 2024
+arxiv_id: '2404.02781'
+url: https://arxiv.org/abs/2404.02781
+abstract_ko: 확률적 잔차 벡터양자화와 멜 코덱 언어모델로 제로샷 TTS의 품질과 효율을 개선한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2404.02781
+last_verified: '2026-07-22'
+verification_status: verified

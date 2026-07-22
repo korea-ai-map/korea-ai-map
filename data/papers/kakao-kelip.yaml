@@ -1,0 +1,14 @@
+title: Large-scale Bilingual Language-Image Contrastive Learning
+authors_org: Kakao Brain
+venue: ICLRW 2022
+year: 2022
+arxiv_id: '2203.14463'
+url: https://arxiv.org/abs/2203.14463
+abstract_ko: 한국어·영어 이중언어 캡션 11억 쌍으로 CLIP 스타일 대조학습을 수행한 KELIP. 다국어 이미지-텍스트 정합 성능과 언어 간 편향을 분석하고 모델을 공개했다.
+related_ids:
+  - kakao
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2203.14463
+last_verified: '2026-07-22'
+verification_status: verified

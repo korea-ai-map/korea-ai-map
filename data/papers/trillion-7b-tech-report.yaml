@@ -1,0 +1,15 @@
+title: Trillion 7B Technical Report
+authors_org: Trillion Labs
+venue: arXiv
+year: 2025
+arxiv_id: '2504.15431'
+url: https://arxiv.org/abs/2504.15431
+abstract_ko: 트릴리온랩스가 공개한 7B 규모의 다국어 대규모 언어 모델 기술 보고서이다.
+related_ids:
+  - trillion-labs
+  - trillion-7b-preview
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2504.15431
+last_verified: '2026-07-22'
+verification_status: verified

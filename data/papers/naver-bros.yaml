@@ -1,0 +1,14 @@
+title: 'BROS: A Pre-trained Language Model Focusing on Text and Layout for Better Key Information Extraction from Documents'
+authors_org: NAVER Clova
+venue: AAAI 2022
+year: 2021
+arxiv_id: '2108.04539'
+url: https://arxiv.org/abs/2108.04539
+abstract_ko: 문서의 텍스트와 2D 공간 배치(layout)를 함께 인코딩하는 사전학습 언어모델 BROS. 상대적 위치 인코딩과 영역 마스킹 목적함수로 문서 핵심정보 추출(KIE)에서 이미지 없이도 강력한 성능을 낸다.
+related_ids:
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2108.04539
+last_verified: '2026-07-22'
+verification_status: verified

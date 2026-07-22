@@ -1,0 +1,14 @@
+title: 'Tighter Lower Bounds for Shuffling SGD: Random Permutations and Beyond'
+authors_org: KAIST
+venue: ICML 2023
+year: 2023
+arxiv_id: '2303.07160'
+url: https://arxiv.org/abs/2303.07160
+abstract_ko: 비복원 추출 SGD의 수렴 하한을 분석해 강볼록·볼록 설정에서 상·하한 간극을 닫고 임의 순열 기반 SGD로 확장한 이론 논문.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2303.07160
+last_verified: '2026-07-22'
+verification_status: verified

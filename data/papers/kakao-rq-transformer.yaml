@@ -1,0 +1,14 @@
+title: Autoregressive Image Generation using Residual Quantization
+authors_org: Kakao Brain
+venue: CVPR 2022
+year: 2022
+arxiv_id: '2203.01941'
+url: https://arxiv.org/abs/2203.01941
+abstract_ko: 잔차 양자화(RQ-VAE)로 이미지를 짧은 코드 시퀀스로 표현하고 RQ-Transformer로 자기회귀 생성하는 기법. 고해상도 이미지를 적은 토큰으로 효율적으로 생성한다.
+related_ids:
+  - kakao
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2203.01941
+last_verified: '2026-07-22'
+verification_status: verified

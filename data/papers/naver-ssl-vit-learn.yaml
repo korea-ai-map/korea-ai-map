@@ -1,0 +1,14 @@
+title: What Do Self-Supervised Vision Transformers Learn?
+authors_org: NAVER AI Lab
+venue: ICLR 2023
+year: 2023
+arxiv_id: '2305.00729'
+url: https://arxiv.org/abs/2305.00729
+abstract_ko: 대조학습(CL)과 마스크 이미지 모델링(MIM)이 ViT에서 각각 무엇을 학습하는지 비교 분석. 두 방식이 상호보완적임을 밝히고 결합 전략을 제시한다.
+related_ids:
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2305.00729
+last_verified: '2026-07-22'
+verification_status: verified

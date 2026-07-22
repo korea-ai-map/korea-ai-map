@@ -1,0 +1,14 @@
+title: Rethinking Channel Dimensions for Efficient Model Design
+authors_org: NAVER AI Lab
+venue: CVPR 2021
+year: 2020
+arxiv_id: '2007.00992'
+url: https://arxiv.org/abs/2007.00992
+abstract_ko: 네트워크 각 층의 채널 구성(확장 비율)이 표현력에 미치는 영향을 분석하고, 채널 차원을 재설계해 효율적이고 성능 좋은 백본 ReXNet을 제안한다.
+related_ids:
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2007.00992
+last_verified: '2026-07-22'
+verification_status: verified

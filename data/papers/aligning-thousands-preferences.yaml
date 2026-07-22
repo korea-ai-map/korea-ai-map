@@ -1,0 +1,14 @@
+title: Aligning to Thousands of Preferences via System Message Generalization
+authors_org: KAIST
+venue: NeurIPS 2024
+year: 2024
+arxiv_id: '2405.17977'
+url: https://arxiv.org/abs/2405.17977
+abstract_ko: 시스템 메시지 일반화를 통해 수천 가지 다양한 사용자 선호에 정렬하는 방법을 제안한다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2405.17977
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,14 @@
+title: Preservation of the Global Knowledge by Not-True Distillation in Federated Learning
+authors_org: KAIST
+venue: NeurIPS 2022
+year: 2022
+arxiv_id: '2106.03097'
+url: https://arxiv.org/abs/2106.03097
+abstract_ko: 연합학습의 병목이 망각일 수 있음을 지적하고, not-true 클래스에 대한 전역 관점을 보존하는 FedNTD를 제안.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2106.03097
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,14 @@
+title: 'CenterMask: Real-Time Anchor-Free Instance Segmentation'
+authors_org: ETRI
+venue: CVPR 2020
+year: 2020
+arxiv_id: '1911.06667'
+url: https://arxiv.org/abs/1911.06667
+abstract_ko: FCOS 검출기에 공간 어텐션 기반 마스크 분기와 개선된 VoVNetV2 백본을 결합한 실시간 앵커프리 인스턴스 분할 기법.
+related_ids:
+  - etri
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/1911.06667
+last_verified: '2026-07-22'
+verification_status: verified

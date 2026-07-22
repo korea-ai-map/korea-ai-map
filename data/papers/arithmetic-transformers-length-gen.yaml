@@ -1,0 +1,14 @@
+title: Arithmetic Transformers Can Length-Generalize in Both Operand Length and Count
+authors_org: KAIST
+venue: ICLR 2025
+year: 2025
+arxiv_id: '2410.15787'
+url: https://arxiv.org/abs/2410.15787
+abstract_ko: 산술 과제에서 트랜스포머의 길이 일반화를 피연산자 길이·개수 양쪽에서 개선. 다단계 Position Coupling과 스크래치패드로 2~3배 일반화 달성.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2410.15787
+last_verified: '2026-07-22'
+verification_status: verified

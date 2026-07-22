@@ -1,0 +1,14 @@
+title: 'RenyiCL: Contrastive Representation Learning with Skew Renyi Divergence'
+authors_org: KAIST
+venue: NeurIPS 2022
+year: 2022
+arxiv_id: '2208.06270'
+url: https://arxiv.org/abs/2208.06270
+abstract_ko: 강한 증강의 트레이드오프를 Rényi 발산으로 다루어 어려운 음성·쉬운 양성 샘플링을 동시에 수행하는 대조학습 RenyiCL.
+related_ids:
+  - kaist-alinlab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2208.06270
+last_verified: '2026-07-22'
+verification_status: verified

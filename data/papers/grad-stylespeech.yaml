@@ -1,0 +1,14 @@
+title: 'Grad-StyleSpeech: Any-speaker Adaptive Text-to-Speech Synthesis with Diffusion Models'
+authors_org: KAIST
+venue: ICASSP
+year: 2023
+arxiv_id: '2211.09383'
+url: https://arxiv.org/abs/2211.09383
+abstract_ko: 스타일 기반 확산 모델로 임의 화자의 짧은 참조 음성만으로 적응형 TTS를 생성한다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2211.09383
+last_verified: '2026-07-22'
+verification_status: verified

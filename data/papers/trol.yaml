@@ -1,0 +1,14 @@
+title: 'TroL: Traversal of Layers for Large Language and Vision Models'
+authors_org: KAIST
+venue: EMNLP
+year: 2024
+arxiv_id: '2406.12246'
+url: https://arxiv.org/abs/2406.12246
+abstract_ko: 레이어를 재사용·순회하는 방식으로 파라미터를 늘리지 않고 효율적인 대형 비전언어 모델(VLM)을 구현한다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2406.12246
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,14 @@
+title: Dimension Agnostic Neural Processes
+authors_org: KAIST
+venue: ICLR 2025
+year: 2025
+arxiv_id: '2502.20661'
+url: https://arxiv.org/abs/2502.20661
+abstract_ko: 입력 차원이 달라도 처리 가능한 Dimension Aggregator Block을 도입한 뉴럴 프로세스(DANP)로 다양한 차원의 회귀 과제에 대응.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2502.20661
+last_verified: '2026-07-22'
+verification_status: verified

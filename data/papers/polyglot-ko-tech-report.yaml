@@ -1,0 +1,15 @@
+title: 'A Technical Report for Polyglot-Ko: Open-Source Large-Scale Korean Language Models'
+authors_org: TUNiB / EleutherAI Polyglot Team
+venue: arXiv
+year: 2023
+arxiv_id: '2306.02254'
+url: https://arxiv.org/abs/2306.02254
+abstract_ko: 대규모 한국어 오픈소스 언어 모델 Polyglot-Ko에 대한 기술 보고서이다.
+related_ids:
+  - polyglot-ko
+  - eleutherai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2306.02254
+last_verified: '2026-07-22'
+verification_status: verified

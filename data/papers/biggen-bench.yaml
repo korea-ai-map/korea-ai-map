@@ -1,0 +1,14 @@
+title: 'The BiGGen Bench: A Principled Benchmark for Fine-grained Evaluation of Language Models with Language Models'
+authors_org: KAIST
+venue: NAACL 2025
+year: 2025
+arxiv_id: '2406.05761'
+url: https://arxiv.org/abs/2406.05761
+abstract_ko: 언어 모델을 평가자로 사용하는 원칙적이고 세밀한 언어 모델 평가 벤치마크이다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2406.05761
+last_verified: '2026-07-22'
+verification_status: verified

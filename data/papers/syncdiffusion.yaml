@@ -1,0 +1,14 @@
+title: 'SyncDiffusion: Coherent Montage via Synchronized Joint Diffusions'
+authors_org: KAIST
+venue: NeurIPS
+year: 2023
+arxiv_id: '2306.05178'
+url: https://arxiv.org/abs/2306.05178
+abstract_ko: 여러 확산 과정을 지각적 유사도로 동기화해 이음새 없는 파노라마·몽타주 이미지를 생성한다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2306.05178
+last_verified: '2026-07-22'
+verification_status: verified

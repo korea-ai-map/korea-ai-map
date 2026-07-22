@@ -1,0 +1,14 @@
+title: 'UnivNet: A Neural Vocoder with Multi-Resolution Spectrogram Discriminators for High-Fidelity Waveform Generation'
+authors_org: Kakao Enterprise
+venue: Interspeech
+year: 2021
+arxiv_id: '2106.07889'
+url: https://arxiv.org/abs/2106.07889
+abstract_ko: 다중 해상도 스펙트로그램 판별기를 사용해 전 대역폭에서 고충실도 파형을 생성하는 신경 보코더.
+related_ids:
+  - kakao
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2106.07889
+last_verified: '2026-07-22'
+verification_status: verified

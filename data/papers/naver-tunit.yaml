@@ -1,0 +1,14 @@
+title: Rethinking the Truly Unsupervised Image-to-Image Translation
+authors_org: Clova AI Research, NAVER
+venue: ICCV 2021
+year: 2020
+arxiv_id: '2006.06500'
+url: https://arxiv.org/abs/2006.06500
+abstract_ko: 도메인 라벨이나 쌍 데이터 없이 이미지-이미지 변환을 학습하는 완전 비지도 방법(TUNIT). 유사 도메인을 스스로 군집화하는 가이딩 네트워크로 라벨 없는 다중 도메인 변환을 달성한다.
+related_ids:
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2006.06500
+last_verified: '2026-07-22'
+verification_status: verified

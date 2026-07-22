@@ -1,0 +1,14 @@
+title: 'EXAONE Deep: Reasoning Enhanced Language Models'
+authors_org: LG AI Research
+venue: arXiv
+year: 2025
+arxiv_id: '2503.12524'
+url: https://arxiv.org/abs/2503.12524
+abstract_ko: 수학·과학·코딩 추론 능력을 강화한 EXAONE 계열 추론 특화 언어 모델이다.
+related_ids:
+  - lg-ai-research
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2503.12524
+last_verified: '2026-07-22'
+verification_status: verified

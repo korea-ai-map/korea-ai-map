@@ -1,0 +1,14 @@
+title: 'CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features'
+authors_org: NAVER Clova AI Research
+venue: ICCV 2019
+year: 2019
+arxiv_id: '1905.04899'
+url: https://arxiv.org/abs/1905.04899
+abstract_ko: 학습 이미지의 패치를 잘라 다른 이미지에 붙이고 라벨도 면적 비율로 섞는 데이터 증강 기법. 정보 손실 없이 지역화 가능한 특징을 학습해 분류·검출·전이학습 성능과 강건성을 크게 향상시킨다.
+related_ids:
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/1905.04899
+last_verified: '2026-07-22'
+verification_status: verified

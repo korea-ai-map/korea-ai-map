@@ -1,0 +1,14 @@
+title: 'SeiT: Storage-Efficient Vision Training with Tokens Using 1% of Pixel Storage'
+authors_org: NAVER AI Lab
+venue: ICCV 2023
+year: 2023
+arxiv_id: '2303.11114'
+url: https://arxiv.org/abs/2303.11114
+abstract_ko: 이미지를 픽셀 대신 이산 토큰으로 저장·학습해 저장공간을 픽셀의 1%로 줄이면서도 정확도를 유지하는 저장효율 비전 학습(SeiT) 기법을 제안한다.
+related_ids:
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2303.11114
+last_verified: '2026-07-22'
+verification_status: verified

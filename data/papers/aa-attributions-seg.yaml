@@ -1,0 +1,13 @@
+title: Anti-Adversarially Manipulated Attributions for Weakly and Semi-Supervised Semantic Segmentation
+authors_org: 서울대학교
+venue: CVPR 2021
+year: 2021
+arxiv_id: '2103.08896'
+url: https://arxiv.org/abs/2103.08896
+abstract_ko: 적대적 방향의 역조작으로 클래스 위치화 맵(CAM)을 확장해 약지도·준지도 의미론적 분할 정확도를 높인다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2103.08896
+last_verified: '2026-07-22'
+verification_status: verified

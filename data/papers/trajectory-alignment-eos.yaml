@@ -1,0 +1,14 @@
+title: 'Trajectory Alignment: Understanding the Edge of Stability Phenomenon via Bifurcation Theory'
+authors_org: KAIST
+venue: NeurIPS 2023
+year: 2023
+arxiv_id: '2307.04204'
+url: https://arxiv.org/abs/2307.04204
+abstract_ko: 경사하강 학습의 Edge of Stability 현상을 분기 이론으로 규명하고, 서로 다른 학습 궤적이 공통 분기 다이어그램에 정렬됨을 증명.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2307.04204
+last_verified: '2026-07-22'
+verification_status: verified

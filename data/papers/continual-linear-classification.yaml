@@ -1,0 +1,14 @@
+title: Convergence and Implicit Bias of Gradient Descent on Continual Linear Classification
+authors_org: KAIST
+venue: ICLR 2025
+year: 2025
+arxiv_id: '2504.12712'
+url: https://arxiv.org/abs/2504.12712
+abstract_ko: 여러 선형 분류 과제를 순차 학습하는 연속학습의 수렴성과 암묵적 편향을 분석하고, 순환 학습 시 망각이 0으로 수렴함을 증명.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2504.12712
+last_verified: '2026-07-22'
+verification_status: verified

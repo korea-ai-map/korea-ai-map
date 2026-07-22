@@ -1,0 +1,14 @@
+title: 'Prometheus-Vision: Vision-Language Model as a Judge for Fine-Grained Evaluation'
+authors_org: KAIST
+venue: ACL Findings
+year: 2024
+arxiv_id: '2401.06591'
+url: https://arxiv.org/abs/2401.06591
+abstract_ko: 세밀한 평가 기준에 따라 다른 VLM의 출력을 채점하는 오픈소스 비전언어 평가자(judge) 모델.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2401.06591
+last_verified: '2026-07-22'
+verification_status: verified

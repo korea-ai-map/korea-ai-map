@@ -1,0 +1,14 @@
+title: 'LangBridge: Multilingual Reasoning Without Multilingual Supervision'
+authors_org: KAIST
+venue: ACL 2024
+year: 2024
+arxiv_id: '2401.10695'
+url: https://arxiv.org/abs/2401.10695
+abstract_ko: 다국어 감독 없이도 언어 모델의 다국어 추론 능력을 확장하는 방법을 제안한다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2401.10695
+last_verified: '2026-07-22'
+verification_status: verified

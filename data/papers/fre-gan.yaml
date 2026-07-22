@@ -1,0 +1,13 @@
+title: 'Fre-GAN: Adversarial Frequency-consistent Audio Synthesis'
+authors_org: 고려대
+venue: Interspeech
+year: 2021
+arxiv_id: '2106.02297'
+url: https://arxiv.org/abs/2106.02297
+abstract_ko: 주파수 일관성을 유지하는 적대적 생성 방식으로 스펙트럼 왜곡을 줄여 고품질 오디오를 합성하는 보코더.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2106.02297
+last_verified: '2026-07-22'
+verification_status: verified

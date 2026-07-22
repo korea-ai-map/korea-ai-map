@@ -1,0 +1,14 @@
+title: OCR-free Document Understanding Transformer
+authors_org: NAVER Clova
+venue: ECCV 2022
+year: 2021
+arxiv_id: '2111.15664'
+url: https://arxiv.org/abs/2111.15664
+abstract_ko: 별도 OCR 엔진 없이 문서 이미지를 직접 읽어 구조화 정보를 출력하는 엔드투엔드 트랜스포머 Donut. OCR 오류 전파와 비용 문제를 없애고 문서 파싱·분류·VQA에서 우수한 성능을 낸다.
+related_ids:
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2111.15664
+last_verified: '2026-07-22'
+verification_status: verified

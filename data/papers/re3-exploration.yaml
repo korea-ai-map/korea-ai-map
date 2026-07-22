@@ -1,0 +1,14 @@
+title: State Entropy Maximization with Random Encoders for Efficient Exploration
+authors_org: KAIST
+venue: ICML 2021
+year: 2021
+arxiv_id: '2102.09430'
+url: https://arxiv.org/abs/2102.09430
+abstract_ko: 고정 무작위 인코더 표현 위 k-최근접 이웃으로 상태 엔트로피를 추정해 내재 보상으로 쓰는 RE3 탐색 기법.
+related_ids:
+  - kaist-alinlab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2102.09430
+last_verified: '2026-07-22'
+verification_status: verified

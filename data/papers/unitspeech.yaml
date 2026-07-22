@@ -1,0 +1,14 @@
+title: 'UnitSpeech: Speaker-adaptive Speech Synthesis with Untranscribed Data'
+authors_org: 서울대 DSAIL
+venue: Interspeech
+year: 2023
+arxiv_id: '2306.16083'
+url: https://arxiv.org/abs/2306.16083
+abstract_ko: 전사 없는 짧은 참조 음성만으로 확산 모델을 미세조정해 화자 적응형 TTS를 수행한다.
+related_ids:
+  - snu-dsail
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2306.16083
+last_verified: '2026-07-22'
+verification_status: verified

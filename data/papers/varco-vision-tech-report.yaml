@@ -1,0 +1,15 @@
+title: 'VARCO-VISION: Expanding Frontiers in Korean Vision-Language Models'
+authors_org: NCSOFT
+venue: arXiv
+year: 2024
+arxiv_id: '2411.19103'
+url: https://arxiv.org/abs/2411.19103
+abstract_ko: 엔씨소프트가 공개한 OCR·그라운딩 기능을 갖춘 한국어-영어 시각-언어 모델(VARCO-VISION)이다.
+related_ids:
+  - ncsoft
+  - varco-vision-2-0-14b
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2411.19103
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,14 @@
+title: 'Soft Truncation: A Universal Training Technique of Score-based Diffusion Model for High Precision Score Estimation'
+authors_org: KAIST
+venue: ICML
+year: 2022
+arxiv_id: '2106.05527'
+url: https://arxiv.org/abs/2106.05527
+abstract_ko: 점수 기반 확산 모델의 학습 시 노이즈 레벨을 소프트하게 절단해 고정밀 스코어 추정과 표본 품질을 개선하는 범용 학습 기법.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2106.05527
+last_verified: '2026-07-22'
+verification_status: verified

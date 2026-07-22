@@ -1,0 +1,14 @@
+title: Exploiting Spatial Dimensions of Latent in GAN for Real-time Image Editing
+authors_org: NAVER Clova
+venue: CVPR 2021
+year: 2021
+arxiv_id: '2104.14754'
+url: https://arxiv.org/abs/2104.14754
+abstract_ko: 공간 차원을 가진 잠재 표현(stylemap)을 도입해 GAN 기반 이미지 편집을 실시간으로 수행하는 StyleMapGAN. 최적화 없이 정확한 임베딩과 지역 편집·이미지 보간을 가능케 한다.
+related_ids:
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2104.14754
+last_verified: '2026-07-22'
+verification_status: verified

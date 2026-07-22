@@ -1,0 +1,15 @@
+title: 'Glow-TTS: A Generative Flow for Text-to-Speech via Monotonic Alignment Search'
+authors_org: Kakao Enterprise / 서울대
+venue: NeurIPS
+year: 2020
+arxiv_id: '2005.11129'
+url: https://arxiv.org/abs/2005.11129
+abstract_ko: 단조 정렬 탐색(MAS)을 도입한 흐름 기반 생성 TTS로, 외부 정렬기 없이 병렬적으로 빠르고 강건한 음성합성을 수행한다.
+related_ids:
+  - kakao
+  - snu-dsail
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2005.11129
+last_verified: '2026-07-22'
+verification_status: verified
