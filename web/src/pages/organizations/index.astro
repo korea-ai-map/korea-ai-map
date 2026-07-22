@@ -1,0 +1,28 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import StatusBadge from '../../components/StatusBadge.astro';
+import { url } from '../../lib/url';
+
+const items = (await getCollection('organizations')).sort((a, b) =>
+  a.data.name_ko.localeCompare(b.data.name_ko, 'ko'));
+
+const coreLevelLabel: Record<string, string> = {
+  foundation_model: '파운데이션 모델', model_builder: '모델 빌더', ai_native: 'AI 네이티브',
+  ai_infrastructure: 'AI 인프라', ai_enabled: 'AI 통합', research_only: '연구', unverified: '미확인',
+};
+---
+<Base title="조직 — Korea AI Map">
+  <h1>조직 <span class="count">{items.length}</span></h1>
+  <p class="lead">한국 AI 기업·연구조직·스타트업.</p>
+  <div class="grid">
+    {items.map((o) => (
+      <a class="card" href={url(`/organizations/${o.id}/`)}>
+        <h3>{o.data.name_ko}</h3>
+        <div class="sub">{o.data.name_en} · {coreLevelLabel[o.data.ai_core_level] ?? o.data.ai_core_level}</div>
+        <div><StatusBadge status={o.data.verification_status} /></div>
+        {o.data.description_ko && <p class="desc">{o.data.description_ko.slice(0, 90)}{o.data.description_ko.length > 90 ? '…' : ''}</p>}
+      </a>
+    ))}
+  </div>
+</Base>

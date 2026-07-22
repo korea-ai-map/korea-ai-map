@@ -1,0 +1,24 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import StatusBadge from '../../components/StatusBadge.astro';
+import { url } from '../../lib/url';
+
+const [products, orgs] = await Promise.all([getCollection('products'), getCollection('organizations')]);
+const orgName = (id: string) => orgs.find((o) => o.id === id)?.data.name_ko ?? id;
+const items = products.sort((a, b) => (a.data.name_en ?? '').localeCompare(b.data.name_en ?? ''));
+---
+<Base title="제품/서비스 — Korea AI Map">
+  <h1>제품 및 서비스 <span class="count">{items.length}</span></h1>
+  <p class="lead">AI 제품·칩·인프라.</p>
+  <div class="grid">
+    {items.map((p) => (
+      <a class="card" href={url(`/products/${p.id}/`)}>
+        <h3>{p.data.name_ko ?? p.data.name_en}</h3>
+        <div class="sub">{orgName(p.data.organization_id)}</div>
+        <div><StatusBadge status={p.data.verification_status} /></div>
+        <div>{p.data.categories?.slice(0, 3).map((x: string) => <span class="tag">{x}</span>)}</div>
+      </a>
+    ))}
+  </div>
+</Base>

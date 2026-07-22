@@ -1,0 +1,21 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import StatusBadge from '../../components/StatusBadge.astro';
+import { url } from '../../lib/url';
+const items = (await getCollection('benchmarks')).sort((a, b) => a.data.name.localeCompare(b.data.name));
+---
+<Base title="벤치마크 — Korea AI Map">
+  <h1>벤치마크 <span class="count">{items.length}</span></h1>
+  <p class="lead">한국어 AI 평가 벤치마크.</p>
+  <div class="grid">
+    {items.map((x) => (
+      <a class="card" href={url(`/benchmarks/${x.id}/`)}>
+        <h3>{x.data.name}</h3>
+        <div class="sub">{x.data.category}</div>
+        <div><StatusBadge status={x.data.verification_status} /></div>
+        {x.data.description_ko && <p class="desc">{x.data.description_ko.slice(0, 80)}…</p>}
+      </a>
+    ))}
+  </div>
+</Base>

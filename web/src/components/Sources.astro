@@ -1,0 +1,15 @@
+---
+interface Source { type: string; url: string }
+interface Props { sources?: Source[]; lastVerified?: string }
+const { sources = [], lastVerified } = Astro.props;
+---
+<h2>출처 및 검증</h2>
+<ul class="sources">
+  {sources.map((s) => (
+    <li>
+      <span class="src-type">[{s.type}]</span>{' '}
+      <a href={s.url} target="_blank" rel="noopener noreferrer">{s.url}</a>
+    </li>
+  ))}
+</ul>
+{lastVerified && <p class="muted">마지막 검증일: {lastVerified}</p>}

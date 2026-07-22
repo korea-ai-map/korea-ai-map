@@ -1,0 +1,33 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import StatusBadge from '../../components/StatusBadge.astro';
+import Sources from '../../components/Sources.astro';
+import { url, correctionUrl } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const [os, orgs] = await Promise.all([getCollection('open-source'), getCollection('organizations')]);
+  return os.map((x) => ({ params: { id: x.id }, props: { x, org: orgs.find((o) => o.id === x.data.organization_id) } }));
+}
+const { x, org } = Astro.props;
+const d = x.data;
+const repoTypeLabel: Record<string, string> = {
+  'github-repo': 'GitHub 저장소', 'huggingface-model': 'Hugging Face 모델', framework: '프레임워크',
+  'eval-tool': '평가 도구', 'inference-tool': '추론/배포 도구', 'agent-mcp': '에이전트/MCP',
+};
+---
+<Base title={`${d.name} — Korea AI Map`}>
+  <p class="backlink"><a href={url('/open-source/')}>← 오픈소스</a></p>
+  <h1>{d.name}</h1>
+  <p class="lead">{repoTypeLabel[d.repo_type] ?? d.repo_type} · <StatusBadge status={d.verification_status} /></p>
+  {d.description_ko && <p>{d.description_ko}</p>}
+  <dl class="fields">
+    {org && <><dt>조직</dt><dd><a href={url(`/organizations/${org.id}/`)}>{org.data.name_ko}</a></dd></>}
+    <dt>저장소</dt><dd><a href={d.url} target="_blank" rel="noopener">{d.url}</a></dd>
+    {d.language && <><dt>주 언어</dt><dd>{d.language}</dd></>}
+    {d.license && <><dt>라이선스</dt><dd>{d.license}</dd></>}
+    {d.stars != null && <><dt>Stars</dt><dd>{d.stars.toLocaleString()}</dd></>}
+  </dl>
+  <Sources sources={d.sources} lastVerified={d.last_verified} />
+  <div class="actions"><a class="btn" href={correctionUrl(d.name)} target="_blank" rel="noopener">✎ 정보 수정 제안</a></div>
+</Base>

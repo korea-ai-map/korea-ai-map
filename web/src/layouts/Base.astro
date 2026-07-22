@@ -1,0 +1,133 @@
+---
+import { url } from '../lib/url';
+interface Props { title: string; description?: string }
+const { title, description } = Astro.props;
+const nav = [
+  ['조직', 'organizations'],
+  ['모델', 'models'],
+  ['제품', 'products'],
+  ['데이터셋', 'datasets'],
+  ['벤치마크', 'benchmarks'],
+  ['오픈소스', 'open-source'],
+];
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href={url('/')}>Korea AI Map</a>
+      <nav>
+        {nav.map(([label, slug]) => <a href={url(`/${slug}/`)}>{label}</a>)}
+      </nav>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer>
+      <p>
+        본 프로젝트는 한국 AI 생태계를 객관적으로 기록하기 위한 독립 오픈 데이터 프로젝트입니다.
+        등재는 추천·인증 또는 투자 의견을 의미하지 않습니다.
+      </p>
+      <p class="muted">
+        <a href="https://github.com/korea-ai-map/korea-ai-map">GitHub</a> ·
+        데이터 <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+      </p>
+    </footer>
+
+    <style is:global>
+      :root {
+        --bg: #ffffff; --fg: #1a1a1a; --muted: #666; --line: #e2e2e2;
+        --card: #fafafa; --link: #1a5fb4; --accent: #1a1a1a;
+        --ok: #1a7f37; --info: #1a5fb4; --warn: #9a6700; --dim: #8a8a8a; --danger: #b42318;
+        --radius: 8px; --maxw: 960px;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #16181c; --fg: #e6e6e6; --muted: #9aa0a6; --line: #2c2f36;
+          --card: #1d2026; --link: #6ea8fe; --accent: #e6e6e6;
+          --ok: #4ac26b; --info: #6ea8fe; --warn: #d4a72c; --dim: #8a8a8a; --danger: #ff7b72;
+        }
+      }
+      * { box-sizing: border-box; }
+      html { -webkit-text-size-adjust: 100%; }
+      body {
+        margin: 0; background: var(--bg); color: var(--fg);
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+        line-height: 1.6; font-size: 16px;
+      }
+      a { color: var(--link); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      main { max-width: var(--maxw); margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+
+      .site-header {
+        max-width: var(--maxw); margin: 0 auto; padding: 1rem;
+        display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; align-items: baseline;
+        border-bottom: 1px solid var(--line);
+      }
+      .brand { font-weight: 700; font-size: 1.1rem; color: var(--fg); }
+      .site-header nav { display: flex; flex-wrap: wrap; gap: 0.25rem 0.9rem; font-size: 0.9rem; }
+
+      footer {
+        max-width: var(--maxw); margin: 0 auto; padding: 1.5rem 1rem 3rem;
+        border-top: 1px solid var(--line); color: var(--muted); font-size: 0.85rem;
+      }
+      footer p { margin: 0.3rem 0; }
+      .muted { color: var(--muted); }
+
+      h1 { font-size: 1.6rem; margin: 0.2rem 0 0.3rem; }
+      h2 { font-size: 1.15rem; margin: 1.6rem 0 0.6rem; border-bottom: 1px solid var(--line); padding-bottom: 0.3rem; }
+      .lead { color: var(--muted); margin-top: 0; }
+
+      /* 배지 */
+      .badge {
+        display: inline-flex; align-items: center; gap: 0.3em;
+        font-size: 0.78rem; padding: 0.1em 0.55em; border-radius: 999px;
+        border: 1px solid currentColor; white-space: nowrap; line-height: 1.4;
+      }
+      .badge .dot { font-size: 0.9em; }
+      .b-ok { color: var(--ok); } .b-info { color: var(--info); }
+      .b-warn { color: var(--warn); } .b-dim { color: var(--dim); } .b-danger { color: var(--danger); }
+      .tag {
+        display: inline-block; font-size: 0.78rem; padding: 0.1em 0.5em;
+        border: 1px solid var(--line); border-radius: 6px; color: var(--muted); margin: 0 0.2em 0.2em 0;
+      }
+
+      /* 카드 목록 */
+      .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 0.9rem; }
+      .card {
+        border: 1px solid var(--line); border-radius: var(--radius); padding: 0.9rem 1rem;
+        background: var(--card); display: flex; flex-direction: column; gap: 0.4rem;
+      }
+      .card h3 { margin: 0; font-size: 1rem; }
+      .card .sub { color: var(--muted); font-size: 0.85rem; }
+      .card .desc { font-size: 0.88rem; margin: 0; }
+
+      /* 상세 정의 목록 */
+      dl.fields { display: grid; grid-template-columns: max-content 1fr; gap: 0.35rem 1rem; margin: 0.5rem 0; }
+      dl.fields dt { color: var(--muted); font-size: 0.9rem; }
+      dl.fields dd { margin: 0; }
+      @media (max-width: 560px) { dl.fields { grid-template-columns: 1fr; gap: 0.1rem 0; } dl.fields dd { margin-bottom: 0.5rem; } }
+
+      ul.sources { padding-left: 1.1rem; margin: 0.3rem 0; font-size: 0.9rem; }
+      ul.sources li { margin: 0.15rem 0; }
+      .src-type { color: var(--muted); }
+
+      .actions { margin-top: 1.5rem; }
+      .btn {
+        display: inline-block; border: 1px solid var(--line); border-radius: var(--radius);
+        padding: 0.4rem 0.9rem; font-size: 0.9rem; color: var(--fg); background: var(--card);
+      }
+      .backlink { font-size: 0.9rem; }
+      .count { color: var(--muted); font-weight: 400; font-size: 0.9rem; }
+    </style>
+  </body>
+</html>

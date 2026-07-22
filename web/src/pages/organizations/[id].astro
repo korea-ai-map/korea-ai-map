@@ -1,0 +1,78 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import StatusBadge from '../../components/StatusBadge.astro';
+import Sources from '../../components/Sources.astro';
+import { url, correctionUrl } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const [orgs, models, products] = await Promise.all([
+    getCollection('organizations'), getCollection('models'), getCollection('products'),
+  ]);
+  return orgs.map((o) => ({
+    params: { id: o.id },
+    props: {
+      o,
+      models: models.filter((m) => m.data.organization_id === o.id),
+      products: products.filter((p) => p.data.organization_id === o.id),
+    },
+  }));
+}
+const { o, models, products } = Astro.props;
+const d = o.data;
+
+const coreLevelLabel: Record<string, string> = {
+  foundation_model: '파운데이션 모델 개발', model_builder: '모델 빌더 (자체 학습/파인튜닝)',
+  ai_native: 'AI 네이티브', ai_infrastructure: 'AI 인프라 제공', ai_enabled: 'AI 기능 통합',
+  research_only: '연구 중심', unverified: '미확인',
+};
+const typeLabel: Record<string, string> = {
+  corporate: '기업', 'corporate-research-lab': '기업 연구소', startup: '스타트업',
+  'university-lab': '대학 연구실', 'government-research': '정부 연구', 'public-institution': '공공기관',
+  'non-profit': '비영리', 'open-source-community': '오픈소스 커뮤니티',
+};
+const statusLabel: Record<string, string> = {
+  active: '운영 중', acquired: '피인수', merged: '합병', dormant: '휴면', closed: '종료',
+};
+---
+<Base title={`${d.name_ko} — Korea AI Map`} description={d.description_ko}>
+  <p class="backlink"><a href={url('/organizations/')}>← 조직</a></p>
+  <h1>{d.name_ko}</h1>
+  <p class="lead">{d.name_en} · <StatusBadge status={d.verification_status} /></p>
+  {d.description_ko && <p>{d.description_ko}</p>}
+
+  <dl class="fields">
+    <dt>유형</dt><dd>{typeLabel[d.organization_type] ?? d.organization_type}</dd>
+    <dt>AI 핵심도</dt><dd>{coreLevelLabel[d.ai_core_level] ?? d.ai_core_level}</dd>
+    <dt>상태</dt><dd>{statusLabel[d.status] ?? d.status}</dd>
+    {d.headquarters && <><dt>본사</dt><dd>{d.headquarters}</dd></>}
+    {d.founded_year && <><dt>설립</dt><dd>{d.founded_year}</dd></>}
+    {d.website && <><dt>웹사이트</dt><dd><a href={d.website} target="_blank" rel="noopener">{d.website}</a></dd></>}
+    {d.categories?.length > 0 && <><dt>분야</dt><dd>{d.categories.map((c: string) => <span class="tag">{c}</span>)}</dd></>}
+  </dl>
+
+  {models.length > 0 && (
+    <>
+      <h2>개발 모델 <span class="count">{models.length}</span></h2>
+      <ul>{models.map((m) => <li><a href={url(`/models/${m.id}/`)}>{m.data.name}</a></li>)}</ul>
+    </>
+  )}
+  {products.length > 0 && (
+    <>
+      <h2>제품 및 서비스 <span class="count">{products.length}</span></h2>
+      <ul>{products.map((p) => <li><a href={url(`/products/${p.id}/`)}>{p.data.name_ko ?? p.data.name_en}</a></li>)}</ul>
+    </>
+  )}
+  {d.open_source_links?.length > 0 && (
+    <>
+      <h2>오픈소스</h2>
+      <ul>{d.open_source_links.map((l: string) => <li><a href={l} target="_blank" rel="noopener">{l}</a></li>)}</ul>
+    </>
+  )}
+
+  <Sources sources={d.sources} lastVerified={d.last_verified} />
+
+  <div class="actions">
+    <a class="btn" href={correctionUrl(d.name_ko)} target="_blank" rel="noopener">✎ 정보 수정 제안</a>
+  </div>
+</Base>

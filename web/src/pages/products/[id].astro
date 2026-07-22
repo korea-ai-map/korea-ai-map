@@ -1,0 +1,38 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import StatusBadge from '../../components/StatusBadge.astro';
+import Sources from '../../components/Sources.astro';
+import { url, correctionUrl } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const [products, orgs] = await Promise.all([getCollection('products'), getCollection('organizations')]);
+  return products.map((p) => ({ params: { id: p.id }, props: { p, org: orgs.find((o) => o.id === p.data.organization_id) } }));
+}
+const { p, org } = Astro.props;
+const d = p.data;
+const ownership: Record<string, string> = { 'own-model': '자체 모델', 'external-model': '외부 모델', hybrid: '혼합', unknown: '미상' };
+const statusLabel: Record<string, string> = { active: '운영 중', beta: '베타', deprecated: '지원 중단', archived: '보존' };
+const name = d.name_ko ?? d.name_en;
+---
+<Base title={`${name} — Korea AI Map`}>
+  <p class="backlink"><a href={url('/products/')}>← 제품</a></p>
+  <h1>{name}</h1>
+  <p class="lead">
+    {d.name_en && d.name_en !== name ? `${d.name_en} · ` : ''}
+    {org ? <a href={url(`/organizations/${org.id}/`)}>{org.data.name_ko}</a> : d.organization_id}
+    · <StatusBadge status={d.verification_status} />
+  </p>
+
+  <dl class="fields">
+    <dt>상태</dt><dd>{statusLabel[d.status] ?? d.status}</dd>
+    <dt>모델 보유</dt><dd>{ownership[d.model_ownership] ?? d.model_ownership}</dd>
+    {d.categories?.length > 0 && <><dt>분야</dt><dd>{d.categories.map((c: string) => <span class="tag">{c}</span>)}</dd></>}
+    {d.target_users?.length > 0 && <><dt>대상</dt><dd>{d.target_users.map((c: string) => <span class="tag">{c}</span>)}</dd></>}
+    {d.delivery_type?.length > 0 && <><dt>제공 형태</dt><dd>{d.delivery_type.map((c: string) => <span class="tag">{c}</span>)}</dd></>}
+    {d.website && <><dt>웹사이트</dt><dd><a href={d.website} target="_blank" rel="noopener">{d.website}</a></dd></>}
+  </dl>
+
+  <Sources sources={d.sources} lastVerified={d.last_verified} />
+  <div class="actions"><a class="btn" href={correctionUrl(name)} target="_blank" rel="noopener">✎ 정보 수정 제안</a></div>
+</Base>

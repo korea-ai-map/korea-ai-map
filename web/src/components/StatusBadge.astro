@@ -1,0 +1,20 @@
+---
+// 검증 상태 배지 — 색상만이 아니라 아이콘+텍스트로 표현 (PRD 15.2)
+interface Props { status: string }
+const { status } = Astro.props;
+
+const map: Record<string, { label: string; cls: string; icon: string }> = {
+  verified:            { label: '검증 완료',      cls: 'b-ok',     icon: '✓' },
+  'official-source':   { label: '공식 출처 확인',  cls: 'b-info',   icon: '◆' },
+  'community-reviewed':{ label: '커뮤니티 검토',   cls: 'b-info',   icon: '◇' },
+  submitted:           { label: '신규 제보',       cls: 'b-dim',    icon: '·' },
+  'needs-review':      { label: '검토 필요',       cls: 'b-warn',   icon: '⚠' },
+  outdated:            { label: '오래된 정보',     cls: 'b-warn',   icon: '⧗' },
+  disputed:            { label: '이견 존재',       cls: 'b-danger', icon: '!' },
+  archived:            { label: '종료/보존',       cls: 'b-dim',    icon: '▢' },
+};
+const s = map[status] ?? { label: status, cls: 'b-dim', icon: '·' };
+---
+<span class={`badge ${s.cls}`} title={status}>
+  <span class="dot" aria-hidden="true">{s.icon}</span>{s.label}
+</span>

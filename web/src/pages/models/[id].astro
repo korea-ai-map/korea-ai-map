@@ -1,0 +1,77 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import StatusBadge from '../../components/StatusBadge.astro';
+import Sources from '../../components/Sources.astro';
+import { url, correctionUrl } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const [models, orgs] = await Promise.all([getCollection('models'), getCollection('organizations')]);
+  return models.map((m) => ({
+    params: { id: m.id },
+    props: { m, org: orgs.find((o) => o.id === m.data.organization_id) },
+  }));
+}
+const { m, org } = Astro.props;
+const d = m.data;
+
+// 파라미터 수를 사람이 읽기 쉽게 (미공개면 명시)
+function paramText(pc?: { value: number | null; disclosure: string }) {
+  if (!pc || pc.value == null) return '미공개';
+  const b = pc.value / 1e9;
+  const n = b >= 1 ? `${Number.isInteger(b) ? b : b.toFixed(1)}B` : `${(pc.value / 1e6).toFixed(0)}M`;
+  return pc.disclosure && pc.disclosure !== 'confident' ? `${n} (추정)` : n;
+}
+function ctxText(cl?: { value: number | null }) {
+  if (!cl || cl.value == null) return '미공개';
+  return cl.value.toLocaleString() + ' 토큰';
+}
+const commercial: Record<string, string> = { allowed: '가능', restricted: '제한적', prohibited: '불가', unknown: '미상' };
+const statusLabel: Record<string, string> = { active: '운영 중', announced: '발표됨(미배포)', deprecated: '지원 중단', archived: '보존' };
+const avail = [
+  d.availability?.api && 'API',
+  d.availability?.weights && '가중치 공개',
+  d.availability?.demo && '데모',
+].filter(Boolean).join(' · ') || '미상';
+const deploy = [d.deployment?.cloud && '클라우드', d.deployment?.on_premise && '온프레미스'].filter(Boolean).join(' · ');
+const links = d.links ?? {};
+const linkPairs = [
+  ['공식', links.official], ['모델 카드', links.model_card], ['Hugging Face', links.huggingface],
+  ['GitHub', links.github], ['논문', links.paper],
+].filter(([, v]) => v);
+---
+<Base title={`${d.name} — Korea AI Map`}>
+  <p class="backlink"><a href={url('/models/')}>← 모델</a></p>
+  <h1>{d.name}</h1>
+  <p class="lead">
+    {org ? <a href={url(`/organizations/${org.id}/`)}>{org.data.name_ko}</a> : d.organization_id}
+    · <StatusBadge status={d.verification_status} />
+  </p>
+
+  <dl class="fields">
+    <dt>상태</dt><dd>{statusLabel[d.status] ?? d.status}</dd>
+    {d.release_date && <><dt>출시일</dt><dd>{d.release_date}</dd></>}
+    {d.model_family && <><dt>모델 계열</dt><dd>{d.model_family}</dd></>}
+    <dt>모달리티</dt><dd>{d.modalities?.map((x: string) => <span class="tag">{x}</span>)}</dd>
+    {d.tasks?.length > 0 && <><dt>태스크</dt><dd>{d.tasks.map((x: string) => <span class="tag">{x}</span>)}</dd></>}
+    <dt>파라미터 수</dt><dd>{paramText(d.parameter_count)}</dd>
+    <dt>컨텍스트 길이</dt><dd>{ctxText(d.context_length)}</dd>
+    <dt>공개 범위</dt><dd>{avail}</dd>
+    <dt>라이선스</dt><dd>{d.license?.name} — 상업 이용 {commercial[d.license?.commercial_use] ?? d.license?.commercial_use}</dd>
+    {deploy && <><dt>배포</dt><dd>{deploy}</dd></>}
+    {d.languages?.length > 0 && <><dt>지원 언어</dt><dd>{d.languages.join(', ')}</dd></>}
+  </dl>
+
+  {linkPairs.length > 0 && (
+    <>
+      <h2>링크</h2>
+      <ul>{linkPairs.map(([label, href]) => <li>{label}: <a href={href as string} target="_blank" rel="noopener">{href}</a></li>)}</ul>
+    </>
+  )}
+
+  <Sources sources={d.sources} lastVerified={d.last_verified} />
+
+  <div class="actions">
+    <a class="btn" href={correctionUrl(d.name)} target="_blank" rel="noopener">✎ 정보 수정 제안</a>
+  </div>
+</Base>

@@ -1,0 +1,26 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import StatusBadge from '../../components/StatusBadge.astro';
+import Sources from '../../components/Sources.astro';
+import { url, correctionUrl } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const [benchmarks, orgs] = await Promise.all([getCollection('benchmarks'), getCollection('organizations')]);
+  return benchmarks.map((x) => ({ params: { id: x.id }, props: { x, org: orgs.find((o) => o.id === x.data.organization_id) } }));
+}
+const { x, org } = Astro.props;
+const d = x.data;
+---
+<Base title={`${d.name} — Korea AI Map`}>
+  <p class="backlink"><a href={url('/benchmarks/')}>← 벤치마크</a></p>
+  <h1>{d.name}</h1>
+  <p class="lead">{d.category} · <StatusBadge status={d.verification_status} /></p>
+  {d.description_ko && <p>{d.description_ko}</p>}
+  <dl class="fields">
+    {org && <><dt>제작 조직</dt><dd><a href={url(`/organizations/${org.id}/`)}>{org.data.name_ko}</a></dd></>}
+    {d.url && <><dt>URL</dt><dd><a href={d.url} target="_blank" rel="noopener">{d.url}</a></dd></>}
+  </dl>
+  <Sources sources={d.sources} lastVerified={d.last_verified} />
+  <div class="actions"><a class="btn" href={correctionUrl(d.name)} target="_blank" rel="noopener">✎ 정보 수정 제안</a></div>
+</Base>

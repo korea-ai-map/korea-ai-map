@@ -1,0 +1,24 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import StatusBadge from '../../components/StatusBadge.astro';
+import { url } from '../../lib/url';
+
+const [models, orgs] = await Promise.all([getCollection('models'), getCollection('organizations')]);
+const orgName = (id: string) => orgs.find((o) => o.id === id)?.data.name_ko ?? id;
+const items = models.sort((a, b) => (b.data.release_date ?? '').localeCompare(a.data.release_date ?? ''));
+---
+<Base title="모델 — Korea AI Map">
+  <h1>모델 <span class="count">{items.length}</span></h1>
+  <p class="lead">한국 AI 모델. 최신 출시순.</p>
+  <div class="grid">
+    {items.map((m) => (
+      <a class="card" href={url(`/models/${m.id}/`)}>
+        <h3>{m.data.name}</h3>
+        <div class="sub">{orgName(m.data.organization_id)}{m.data.release_date ? ` · ${m.data.release_date}` : ''}</div>
+        <div><StatusBadge status={m.data.verification_status} /></div>
+        <div>{m.data.modalities?.map((x: string) => <span class="tag">{x}</span>)}</div>
+      </a>
+    ))}
+  </div>
+</Base>

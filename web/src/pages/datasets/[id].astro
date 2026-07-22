@@ -1,0 +1,28 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import StatusBadge from '../../components/StatusBadge.astro';
+import Sources from '../../components/Sources.astro';
+import { url, correctionUrl } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const [datasets, orgs] = await Promise.all([getCollection('datasets'), getCollection('organizations')]);
+  return datasets.map((x) => ({ params: { id: x.id }, props: { x, org: orgs.find((o) => o.id === x.data.organization_id) } }));
+}
+const { x, org } = Astro.props;
+const d = x.data;
+---
+<Base title={`${d.name} — Korea AI Map`}>
+  <p class="backlink"><a href={url('/datasets/')}>← 데이터셋</a></p>
+  <h1>{d.name}</h1>
+  <p class="lead">{d.category} · <StatusBadge status={d.verification_status} /></p>
+  {d.description_ko && <p>{d.description_ko}</p>}
+  <dl class="fields">
+    {org && <><dt>구축 조직</dt><dd><a href={url(`/organizations/${org.id}/`)}>{org.data.name_ko}</a></dd></>}
+    {d.languages?.length > 0 && <><dt>언어</dt><dd>{d.languages.join(', ')}</dd></>}
+    {d.license && <><dt>라이선스</dt><dd>{d.license}</dd></>}
+    {d.url && <><dt>URL</dt><dd><a href={d.url} target="_blank" rel="noopener">{d.url}</a></dd></>}
+  </dl>
+  <Sources sources={d.sources} lastVerified={d.last_verified} />
+  <div class="actions"><a class="btn" href={correctionUrl(d.name)} target="_blank" rel="noopener">✎ 정보 수정 제안</a></div>
+</Base>

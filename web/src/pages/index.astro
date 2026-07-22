@@ -1,45 +1,36 @@
 ---
-// Phase 0 홈 스텁 — 데이터가 스키마를 통과해 로드되는지 확인하는 최소 페이지.
-// Phase 1~2 에서 통계·검색·필터로 확장한다 (PRD 9.1, 9.2).
 import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { url } from '../lib/url';
 
 const [organizations, models, products, openSource, datasets, benchmarks] = await Promise.all([
-  getCollection('organizations'),
-  getCollection('models'),
-  getCollection('products'),
-  getCollection('open-source'),
-  getCollection('datasets'),
-  getCollection('benchmarks'),
+  getCollection('organizations'), getCollection('models'), getCollection('products'),
+  getCollection('open-source'), getCollection('datasets'), getCollection('benchmarks'),
 ]);
 
-const stats = [
-  { label: '조직', count: organizations.length },
-  { label: '모델', count: models.length },
-  { label: '제품', count: products.length },
-  { label: '오픈소스', count: openSource.length },
-  { label: '데이터셋', count: datasets.length },
-  { label: '벤치마크', count: benchmarks.length },
+const cards = [
+  { label: '조직', slug: 'organizations', count: organizations.length, desc: '기업·연구조직·스타트업' },
+  { label: '모델', slug: 'models', count: models.length, desc: 'LLM·비전·멀티모달' },
+  { label: '제품/서비스', slug: 'products', count: products.length, desc: 'AI 제품·칩·인프라' },
+  { label: '데이터셋', slug: 'datasets', count: datasets.length, desc: '한국어 학습 데이터' },
+  { label: '벤치마크', slug: 'benchmarks', count: benchmarks.length, desc: '한국어 평가' },
+  { label: '오픈소스', slug: 'open-source', count: openSource.length, desc: 'GitHub·Hugging Face' },
 ];
+const total = cards.reduce((s, c) => s + c.count, 0);
 ---
+<Base title="Korea AI Map" description="검증 가능한 근거로 연결한 한국 AI 생태계 오픈 데이터베이스">
+  <h1>Korea AI Map</h1>
+  <p class="lead">한국에서 실제로 개발·운영되는 AI 기술과 조직을 검증 가능한 근거로 연결한 오픈 데이터베이스입니다. 현재 <strong>{total}</strong>개 항목.</p>
 
-<html lang="ko">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Korea AI Map</title>
-  </head>
-  <body style="font-family: system-ui, sans-serif; max-width: 720px; margin: 3rem auto; padding: 0 1rem;">
-    <h1>Korea AI Map</h1>
-    <p>한국 AI 생태계를 검증 가능한 근거로 연결한 오픈 데이터베이스.</p>
+  <div class="grid">
+    {cards.map((c) => (
+      <a class="card" href={url(`/${c.slug}/`)}>
+        <h3>{c.label} <span class="count">{c.count}</span></h3>
+        <p class="desc muted">{c.desc}</p>
+      </a>
+    ))}
+  </div>
 
-    <h2>데이터 현황</h2>
-    <ul>
-      {stats.map((s) => <li>{s.label}: <strong>{s.count}</strong></li>)}
-    </ul>
-
-    <p style="color:#666; font-size: 0.85rem;">
-      본 프로젝트는 한국 AI 생태계를 객관적으로 기록하기 위한 독립 오픈 데이터 프로젝트입니다.
-      등재는 추천·인증 또는 투자 의견을 의미하지 않습니다.
-    </p>
-  </body>
-</html>
+  <h2>이 프로젝트에 대하여</h2>
+  <p>모든 항목에는 <strong>출처</strong>와 <strong>검증 상태</strong>, <strong>최종 검증일</strong>이 부착됩니다. 확인되지 않은 수치(파라미터 수 등)는 추정하지 않고 <em>미공개</em>로 표기합니다. 데이터는 <a href="https://github.com/korea-ai-map/korea-ai-map">GitHub</a>에서 관리되며 누구나 제보·수정을 제안할 수 있습니다.</p>
+</Base>
