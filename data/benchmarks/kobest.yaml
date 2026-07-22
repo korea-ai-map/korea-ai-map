@@ -1,0 +1,12 @@
+name: KoBEST
+organization_id: skt
+category: korean-understanding
+description_ko: 전문 한국어 언어학자가 설계한 5개 한국어 다운스트림 태스크로 구성된 벤치마크. 고급 한국어 언어 지식을 요구하며, 사람이 직접 주석·검수하여 데이터 품질을 확보했다.
+url: https://huggingface.co/datasets/skt/kobest_v1
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2204.04541
+  - type: huggingface
+    url: https://huggingface.co/datasets/skt/kobest_v1
+last_verified: "2026-07-22"
+verification_status: verified

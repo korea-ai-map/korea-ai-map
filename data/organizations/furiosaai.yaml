@@ -1,0 +1,29 @@
+name_ko: 퓨리오사AI
+name_en: FuriosaAI Inc.
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://furiosa.ai
+founded_year: 2017
+ai_core_level: ai_infrastructure
+categories:
+  - ai-chip
+  - npu
+  - inference-accelerator
+  - infrastructure
+status: active
+description_ko: >-
+  2017년 설립된 한국 AI 반도체 팹리스 스타트업으로 전 삼성·AMD 엔지니어 백준호가 이끈다. AI 추론용 칩에 특화되어 1세대 비전 NPU WARBOY와 2세대 추론 가속기 RNGD(Renegade)를
+  출시했다. 2025년 Meta의 인수 제안을 거절하고 독립 노선을 유지했다.
+models: []
+products:
+  - furiosaai-warboy
+  - furiosaai-rngd
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://furiosa.ai
+  - type: official-website
+    url: https://developer.furiosa.ai/latest/en/overview/rngd.html
+last_verified: "2026-07-22"
+verification_status: official-source

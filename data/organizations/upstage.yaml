@@ -1,0 +1,29 @@
+name_ko: 업스테이지
+name_en: Upstage
+organization_type: startup
+country: KR
+headquarters: Yongin
+website: https://www.upstage.ai
+founded_year: 2020
+ai_core_level: foundation_model
+categories:
+  - llm
+  - foundation-model
+  - document-ai
+  - ocr
+  - enterprise-ai
+status: active
+description_ko: 2020년 김성훈 대표가 설립한 AI 기업. Solar 계열 LLM과 Document AI/OCR을 개발하며 오픈웨이트 모델을 Hugging Face에 공개한다.
+models:
+  - solar-open-100b
+  - solar-10-7b
+products: []
+open_source_links:
+  - https://huggingface.co/upstage
+sources:
+  - type: official-website
+    url: https://www.upstage.ai/about
+  - type: huggingface
+    url: https://huggingface.co/upstage
+last_verified: "2026-07-22"
+verification_status: verified

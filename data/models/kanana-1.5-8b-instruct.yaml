@@ -1,0 +1,42 @@
+name: Kanana 1.5 8B Instruct
+organization_id: kakao
+model_family: Kanana
+release_date: "2025-05-23"
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - coding
+  - reasoning
+  - function-calling
+parameter_count:
+  value: 8000000000
+  disclosure: confident
+context_length:
+  value: 32768
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+links:
+  official: null
+  model_card: https://huggingface.co/kakaocorp/kanana-1.5-8b-instruct-2505
+  huggingface: https://huggingface.co/kakaocorp/kanana-1.5-8b-instruct-2505
+  github: https://github.com/kakao/kanana
+  paper: https://arxiv.org/abs/2502.18934
+sources:
+  - type: model-card
+    url: https://huggingface.co/kakaocorp/kanana-1.5-8b-instruct-2505
+last_verified: "2026-07-22"
+verification_status: verified

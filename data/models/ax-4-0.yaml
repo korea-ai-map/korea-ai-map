@@ -1,0 +1,40 @@
+name: A.X 4.0
+organization_id: skt
+model_family: A.X
+release_date: "2025-07-03"
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+parameter_count:
+  value: 72000000000
+  disclosure: confident
+context_length:
+  value: 131072
+  confidence: confident
+availability:
+  api: true
+  weights: true
+  demo: true
+license:
+  name: Qwen License
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+links:
+  official: https://sktax.chat
+  model_card: https://huggingface.co/skt/A.X-4.0
+  huggingface: https://huggingface.co/skt/A.X-4.0
+  github: https://github.com/SKT-AI/A.X-4.0
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/skt/A.X-4.0
+last_verified: "2026-07-22"
+verification_status: verified

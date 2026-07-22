@@ -1,0 +1,40 @@
+name: LLM42
+organization_id: 42maru
+model_family: LLM42
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - rag
+  - question-answering
+parameter_count:
+  value: null
+  disclosure: undisclosed
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: true
+  weights: false
+  demo: false
+license:
+  name: proprietary
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+links:
+  official: https://www.42maru.ai
+  model_card: null
+  huggingface: null
+  github: null
+  paper: null
+sources:
+  - type: official-website
+    url: https://www.42maru.ai
+last_verified: "2026-07-22"
+verification_status: needs-review

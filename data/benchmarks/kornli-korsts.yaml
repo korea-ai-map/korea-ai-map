@@ -1,0 +1,11 @@
+name: KorNLI and KorSTS
+category: korean-understanding
+description_ko: 한국어 자연어추론(NLI)과 의미적 텍스트 유사도(STS)를 위한 벤치마크 데이터셋. Kakao Brain이 공개했으며, 학습셋은 기계번역, 검증·테스트셋은 사람이 직접 번역했다.
+url: https://github.com/kakaobrain/KorNLUDatasets
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2004.03289
+  - type: github
+    url: https://github.com/kakaobrain/KorNLUDatasets
+last_verified: "2026-07-22"
+verification_status: verified

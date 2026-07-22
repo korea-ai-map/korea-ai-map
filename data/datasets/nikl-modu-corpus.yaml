@@ -1,0 +1,11 @@
+name: 모두의 말뭉치 (NIKL Corpus)
+category: korean-corpus
+description_ko: 국립국어원이 구축·공개하는 대규모 한국어 말뭉치 모음. 문어·구어·웹·메신저·대화·병렬·수어 등 다양한 유형의 말뭉치를 포함하며, 이용 약관에 따른 인증 및 신청 절차를 거쳐 다운로드한다.
+languages:
+  - ko
+url: https://corpus.korean.go.kr
+sources:
+  - type: gov
+    url: https://corpus.korean.go.kr
+last_verified: "2026-07-22"
+verification_status: official-source

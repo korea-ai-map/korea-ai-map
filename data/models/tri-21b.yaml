@@ -1,0 +1,44 @@
+name: Tri-21B
+organization_id: trillion-labs
+model_family: Tri
+release_date: "2025-02-01"
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+  - coding
+  - math
+  - instruction-following
+parameter_count:
+  value: 20730000000
+  disclosure: confident
+context_length:
+  value: 8192
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Trillion Labs AI Model License
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+  - ja
+links:
+  official: null
+  model_card: https://huggingface.co/trillionlabs/Tri-21B
+  huggingface: https://huggingface.co/trillionlabs/Tri-21B
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/trillionlabs/Tri-21B
+last_verified: "2026-07-22"
+verification_status: verified

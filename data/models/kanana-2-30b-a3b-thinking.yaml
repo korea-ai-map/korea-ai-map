@@ -1,0 +1,43 @@
+name: Kanana 2 30B A3B Thinking
+organization_id: kakao
+model_family: Kanana
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+  - tool-use
+  - agentic
+parameter_count:
+  value: 30000000000
+  disclosure: likely
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+  - ja
+  - zh
+links:
+  official: null
+  model_card: https://huggingface.co/kakaocorp/kanana-2-30b-a3b-thinking
+  huggingface: https://huggingface.co/kakaocorp/kanana-2-30b-a3b-thinking
+  github: https://github.com/kakao/kanana
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/kakaocorp/kanana-2-30b-a3b-thinking
+last_verified: "2026-07-22"
+verification_status: needs-review

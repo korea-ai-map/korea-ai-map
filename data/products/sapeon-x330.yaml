@@ -1,0 +1,25 @@
+name_ko: X330
+name_en: SAPEON X330
+organization_id: sapeon
+categories:
+  - ai-chip
+  - npu
+  - inference-accelerator
+  - datacenter
+target_users:
+  - enterprise
+  - datacenter
+delivery_type:
+  - hardware
+  - on-premise
+models_used: []
+model_ownership: external-model
+pricing_public: false
+status: active
+website: https://www.sapeon.com
+sources:
+  - type: press
+    url: >-
+      https://www.globenewswire.com/news-release/2023/11/16/2781749/0/en/SAPEON-launches-X330-AI-semiconductor-for-data-centers.html
+last_verified: "2026-07-22"
+verification_status: needs-review

@@ -1,0 +1,16 @@
+name: KorQuAD
+category: qa
+description_ko: >-
+  한국어 기계독해(MRC) 데이터셋. KorQuAD 1.0은 한국어 위키백과 문서 기반 7만여 개의 사람이 생성한 질문-답변 쌍(추출형)으로 구성되며, KorQuAD 2.0은 HTML 문서 기반 10만여 개 규모로
+  확장되었다.
+languages:
+  - ko
+license: CC BY-ND 2.0 KR
+url: https://korquad.github.io/
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/1909.07005
+  - type: official-website
+    url: https://korquad.github.io/
+last_verified: "2026-07-22"
+verification_status: verified

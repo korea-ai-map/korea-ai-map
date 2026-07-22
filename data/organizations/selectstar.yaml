@@ -1,0 +1,25 @@
+name_ko: 셀렉트스타
+name_en: Selectstar
+organization_type: startup
+country: KR
+headquarters: Seongnam
+website: https://selectstar.ai
+founded_year: 2018
+ai_core_level: ai_infrastructure
+categories:
+  - ai-training-data
+  - data-annotation
+  - crowdsourcing
+  - ai-reliability-verification
+status: active
+description_ko: >-
+  AI 학습데이터 수집·가공 크라우드소싱 플랫폼 기업. 데이터 품질관리·검증 기술과 딥러닝 기반 반자동 어노테이션 기술을 보유하며 다수 고객사에 데이터/AI 신뢰성 검증 솔루션 DATUMO를 제공.
+  (스노우플레이크가 인수한 미국 Select Star와는 별개 기업)
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: press
+    url: https://en.wowtale.net/2025/08/12/231872/
+last_verified: "2026-07-22"
+verification_status: needs-review

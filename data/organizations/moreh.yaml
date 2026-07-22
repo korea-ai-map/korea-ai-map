@@ -1,0 +1,29 @@
+name_ko: 모레
+name_en: Moreh, Inc.
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://moreh.io
+founded_year: 2020
+ai_core_level: ai_infrastructure
+categories:
+  - infrastructure
+  - ai-software
+  - gpu-cluster
+  - inference-software
+status: active
+description_ko: >-
+  2020년 조강원 등이 설립한 초대규모 AI 인프라 소프트웨어 기업. 통합 소프트웨어 스택 MoAI 플랫폼을 개발한다. PyTorch/TensorFlow와 호환되며 NVIDIA뿐 아니라 AMD GPU 등 다양한
+  가속기 백엔드를 지원한다.
+models: []
+products:
+  - moreh-moai
+open_source_links:
+  - https://github.com/moreh-dev/moai-examples
+sources:
+  - type: official-website
+    url: https://moreh.io
+  - type: official-website
+    url: https://moreh.io/ko/about/
+last_verified: "2026-07-22"
+verification_status: official-source

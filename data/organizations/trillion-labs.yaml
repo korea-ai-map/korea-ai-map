@@ -1,0 +1,26 @@
+name_ko: 트릴리온랩스
+name_en: Trillion Labs
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://trillionlabs.co
+founded_year: 2024
+ai_core_level: foundation_model
+categories:
+  - llm
+  - foundation-model
+  - multilingual
+  - sovereign-ai
+status: active
+description_ko: 2024년 설립된 소버린 AI 지향 스타트업. 창업자는 네이버 HyperCLOVA X 사전학습 참여 경력 보유. 처음부터 사전학습한 Trillion/Tri 계열 한국어 중심 다국어 모델을 오픈소스로 공개한다.
+models:
+  - tri-21b
+  - trillion-7b-preview
+products: []
+open_source_links:
+  - https://huggingface.co/trillionlabs
+sources:
+  - type: huggingface
+    url: https://huggingface.co/trillionlabs
+last_verified: "2026-07-22"
+verification_status: official-source

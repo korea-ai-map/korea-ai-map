@@ -1,0 +1,25 @@
+name_ko: 포티투마루
+name_en: 42Maru
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.42maru.ai
+founded_year: 2015
+ai_core_level: model_builder
+categories:
+  - nlp
+  - question-answering
+  - rag
+  - llm
+  - enterprise-ai
+status: active
+description_ko: 2015년 설립된 자연어 이해·질의응답(QA) 전문 스타트업. Deep Semantic QA 플랫폼 기반 경량 기업용 LLM LLM42와 RAG 솔루션을 제공한다.
+models:
+  - llm42
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.42maru.ai
+last_verified: "2026-07-22"
+verification_status: needs-review

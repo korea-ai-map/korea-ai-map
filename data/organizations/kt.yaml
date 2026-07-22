@@ -1,0 +1,28 @@
+name_ko: KT
+name_en: KT Corporation
+organization_type: corporate
+country: KR
+headquarters: Seongnam
+website: https://www.kt.com
+founded_year: 1981
+ai_core_level: foundation_model
+categories:
+  - foundation-model
+  - sovereign-llm
+  - open-weights
+  - korea-centric-ai
+status: active
+description_ko: KT가 자체 기술로 개발한 Korea-centric LLM Mi:dm(믿음) 계열을 운영한다. Mi:dm 2.0은 KT 자회사 K-intelligence를 통해 오픈 공개된다.
+models:
+  - midm-2-0-base
+products: []
+open_source_links:
+  - https://huggingface.co/K-intelligence
+  - https://github.com/K-intelligence-Midm/Midm-2.0
+sources:
+  - type: huggingface
+    url: https://huggingface.co/K-intelligence/Midm-2.0-Base-Instruct
+  - type: official-website
+    url: https://github.com/K-intelligence-Midm/Midm-2.0
+last_verified: "2026-07-22"
+verification_status: verified

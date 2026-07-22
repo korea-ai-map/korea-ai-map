@@ -1,0 +1,13 @@
+name: Polyglot-Ko
+repo_type: github-repo
+url: https://github.com/EleutherAI/polyglot
+description_ko: EleutherAI polyglot 팀이 공개한 대규모 한국어 오토리그레시브 언어모델 시리즈. 1.3B, 3.8B, 5.8B, 12.8B 규모가 있으며 TUNiB이 큐레이션한 대규모 한국어 데이터로 학습되었다.
+language: Python
+license: Apache-2.0
+sources:
+  - type: github
+    url: https://github.com/EleutherAI/polyglot
+  - type: huggingface
+    url: https://huggingface.co/EleutherAI/polyglot-ko-1.3b
+last_verified: "2026-07-22"
+verification_status: verified

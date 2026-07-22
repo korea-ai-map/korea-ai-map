@@ -1,0 +1,24 @@
+name_ko: 레니게이드
+name_en: RNGD (Renegade)
+organization_id: furiosaai
+categories:
+  - ai-chip
+  - npu
+  - inference-accelerator
+  - llm
+target_users:
+  - enterprise
+  - datacenter
+delivery_type:
+  - hardware
+  - on-premise
+models_used: []
+model_ownership: external-model
+pricing_public: false
+status: active
+website: https://furiosa.ai/rngd
+sources:
+  - type: official-website
+    url: https://developer.furiosa.ai/latest/en/overview/rngd.html
+last_verified: "2026-07-22"
+verification_status: official-source

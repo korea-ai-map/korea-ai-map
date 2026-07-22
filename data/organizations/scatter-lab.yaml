@@ -1,0 +1,29 @@
+name_ko: 스캐터랩
+name_en: Scatter Lab
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.scatterlab.co.kr
+founded_year: 2011
+ai_core_level: model_builder
+categories:
+  - conversational-ai
+  - companion-ai
+  - entertainment
+  - small-language-model
+status: active
+description_ko: >-
+  일상대화·감성대화 AI 기업. AI 챗봇 이루다와 AI 캐릭터 엔터테인먼트 서비스 제타(Zeta)를 운영. 외부 LLM API에 의존하지 않고 자체 소형언어모델(sLLM) 핑퐁-1, Spotwrite-1을
+  개발·서비스에 적용.
+models:
+  - pingpong-1
+  - spotwrite-1
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.scatterlab.co.kr
+  - type: official-website
+    url: https://blog.scatterlab.co.kr/interview-mlresearch
+last_verified: "2026-07-22"
+verification_status: official-source

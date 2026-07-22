@@ -1,0 +1,39 @@
+name: 핑퐁-1 (Pingpong-1)
+organization_id: scatter-lab
+model_family: Pingpong
+status: active
+modalities:
+  - text
+tasks:
+  - conversational-ai
+  - emotional-dialogue
+  - copywriting
+parameter_count:
+  value: null
+  disclosure: undisclosed
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: false
+  demo: false
+license:
+  name: proprietary
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: false
+languages:
+  - ko
+links:
+  official: https://blog.scatterlab.co.kr/
+  model_card: null
+  huggingface: null
+  github: null
+  paper: null
+sources:
+  - type: press
+    url: https://www.ajunews.com/view/20231116153344865
+last_verified: "2026-07-22"
+verification_status: needs-review

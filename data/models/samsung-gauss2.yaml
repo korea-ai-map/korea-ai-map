@@ -1,0 +1,43 @@
+name: Samsung Gauss2
+organization_id: samsung-research
+model_family: Samsung Gauss
+release_date: "2024-11-21"
+status: announced
+modalities:
+  - text
+  - image
+tasks:
+  - chat
+  - coding
+  - multimodal
+parameter_count:
+  value: null
+  disclosure: undisclosed
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: false
+  demo: false
+license:
+  name: proprietary
+  commercial_use: unknown
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+links:
+  official: https://research.samsung.com/artificial-intelligence
+  model_card: null
+  huggingface: null
+  github: null
+  paper: null
+sources:
+  - type: press
+    url: >-
+      https://news.samsung.com/global/samsung-electronics-hosts-samsung-developer-conference-korea-2024-unveils-its-improved-gen-ai-model
+last_verified: "2026-07-22"
+verification_status: official-source

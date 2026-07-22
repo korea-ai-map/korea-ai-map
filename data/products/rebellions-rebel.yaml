@@ -1,0 +1,24 @@
+name_ko: 리벨
+name_en: REBEL
+organization_id: rebellions
+categories:
+  - ai-chip
+  - npu
+  - inference-accelerator
+  - chiplet
+target_users:
+  - enterprise
+  - datacenter
+delivery_type:
+  - hardware
+  - on-premise
+models_used: []
+model_ownership: external-model
+pricing_public: false
+status: beta
+website: https://rebellions.ai
+sources:
+  - type: official-website
+    url: https://rebellions.ai/newsroom/rebellions-and-sapeon-korea-complete-merger-launching-koreas-first-ai-chip-unicorn/
+last_verified: "2026-07-22"
+verification_status: needs-review

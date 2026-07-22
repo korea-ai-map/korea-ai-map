@@ -1,0 +1,42 @@
+name: SOLAR-10.7B v1.0
+organization_id: upstage
+model_family: Solar
+release_date: "2023-12-23"
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - instruction-following
+parameter_count:
+  value: 10700000000
+  disclosure: confident
+context_length:
+  value: 4096
+  confidence: likely
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - en
+  - ko
+links:
+  official: https://www.upstage.ai
+  model_card: https://huggingface.co/upstage/SOLAR-10.7B-v1.0
+  huggingface: https://huggingface.co/upstage/SOLAR-10.7B-v1.0
+  github: null
+  paper: https://arxiv.org/abs/2312.15166
+sources:
+  - type: model-card
+    url: https://huggingface.co/upstage/SOLAR-10.7B-v1.0
+  - type: paper
+    url: https://arxiv.org/abs/2312.15166
+last_verified: "2026-07-22"
+verification_status: verified

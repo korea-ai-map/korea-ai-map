@@ -1,0 +1,41 @@
+name: Trillion-7B-preview
+organization_id: trillion-labs
+model_family: Trillion
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+  - instruction-following
+parameter_count:
+  value: null
+  disclosure: undisclosed
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Trillion Labs AI Model License
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+  - ja
+links:
+  official: null
+  model_card: https://huggingface.co/trillionlabs/Trillion-7B-preview
+  huggingface: https://huggingface.co/trillionlabs/Trillion-7B-preview
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/trillionlabs/Trillion-7B-preview
+last_verified: "2026-07-22"
+verification_status: needs-review

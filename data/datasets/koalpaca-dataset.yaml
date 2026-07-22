@@ -1,0 +1,13 @@
+name: KoAlpaca Dataset
+category: korean-corpus
+description_ko: Stanford Alpaca 방식을 한국어에 적용한 한국어 instruction-following 데이터셋. v1.1a는 약 2만1천여 건의 instruction/input/output으로 구성된다.
+languages:
+  - ko
+url: https://huggingface.co/datasets/beomi/KoAlpaca-v1.1a
+sources:
+  - type: github
+    url: https://github.com/Beomi/KoAlpaca
+  - type: huggingface
+    url: https://huggingface.co/datasets/beomi/KoAlpaca-v1.1a
+last_verified: "2026-07-22"
+verification_status: verified

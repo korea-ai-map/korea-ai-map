@@ -1,0 +1,27 @@
+name_ko: 사피온
+name_en: SAPEON Korea Inc.
+organization_type: corporate-research-lab
+country: KR
+headquarters: Seoul
+website: https://www.sapeon.com
+founded_year: 2021
+ai_core_level: ai_infrastructure
+categories:
+  - ai-chip
+  - npu
+  - inference-accelerator
+  - datacenter
+status: merged
+description_ko: SK텔레콤이 설립한 데이터센터용 AI 반도체(NPU) 기업. 추론 칩 X330 등을 개발했다. 2024년 12월 리벨리온과 합병을 완료해 통합 법인명은 Rebellions가 되었다.
+models: []
+products:
+  - sapeon-x330
+open_source_links: []
+sources:
+  - type: press
+    url: >-
+      https://www.globenewswire.com/news-release/2023/11/16/2781749/0/en/SAPEON-launches-X330-AI-semiconductor-for-data-centers.html
+  - type: official-website
+    url: https://rebellions.ai/newsroom/rebellions-and-sapeon-korea-complete-merger-launching-koreas-first-ai-chip-unicorn/
+last_verified: "2026-07-22"
+verification_status: official-source

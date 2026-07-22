@@ -1,0 +1,28 @@
+name_ko: SK텔레콤
+name_en: SK Telecom
+organization_type: corporate
+country: KR
+headquarters: Seoul
+website: https://www.sktelecom.com
+founded_year: 1984
+ai_core_level: foundation_model
+categories:
+  - foundation-model
+  - sovereign-llm
+  - open-weights
+  - telco-ai
+status: active
+description_ko: SK텔레콤이 개발·공개하는 한국어 특화 LLM A.X(에이닷 X) 계열을 운영한다. 대형 모델과 경량·비전 모델을 오픈 웨이트로 제공한다.
+models:
+  - ax-4-0
+products: []
+open_source_links:
+  - https://huggingface.co/skt
+  - https://github.com/SKT-AI
+sources:
+  - type: huggingface
+    url: https://huggingface.co/skt
+  - type: model-card
+    url: https://huggingface.co/skt/A.X-4.0
+last_verified: "2026-07-22"
+verification_status: verified

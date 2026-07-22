@@ -1,0 +1,25 @@
+name_ko: 워보이
+name_en: WARBOY
+organization_id: furiosaai
+categories:
+  - ai-chip
+  - npu
+  - inference-accelerator
+  - computer-vision
+target_users:
+  - enterprise
+  - datacenter
+  - edge
+delivery_type:
+  - hardware
+  - on-premise
+models_used: []
+model_ownership: external-model
+pricing_public: false
+status: active
+website: https://furiosa.ai/warboy
+sources:
+  - type: official-website
+    url: https://furiosa.ai/warboy/specs
+last_verified: "2026-07-22"
+verification_status: official-source

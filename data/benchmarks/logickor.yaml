@@ -1,0 +1,11 @@
+name: LogicKor
+category: math-reasoning
+description_ko: >-
+  한국어 언어모델의 다분야 사고력을 측정하는 멀티턴 벤치마크. 추론·수학·글쓰기·코딩·이해·국어(문법) 등 6개 카테고리 42개 멀티턴 프롬프트로 구성되며, 강력한 LLM을 심판(LLM-as-a-judge)으로
+  사용해 평가한다. 2024-10-17자로 리포지토리가 읽기 전용으로 아카이브되었다.
+url: https://github.com/instructkr/LogicKor
+sources:
+  - type: github
+    url: https://github.com/instructkr/LogicKor
+last_verified: "2026-07-22"
+verification_status: verified

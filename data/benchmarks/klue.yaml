@@ -1,0 +1,11 @@
+name: KLUE (Korean Language Understanding Evaluation)
+category: korean-understanding
+description_ko: 한국어 자연어이해(NLU) 벤치마크. 주제 분류, 의미 유사도(STS), 자연어추론(NLI), 개체명 인식(NER), 관계 추출, 의존 구문 분석, 기계독해(MRC), 대화 상태 추적 등 8개 태스크로 구성된다.
+url: https://klue-benchmark.com
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2105.09680
+  - type: github
+    url: https://github.com/KLUE-benchmark/KLUE
+last_verified: "2026-07-22"
+verification_status: verified

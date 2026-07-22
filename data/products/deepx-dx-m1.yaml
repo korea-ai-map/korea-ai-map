@@ -1,0 +1,26 @@
+name_ko: DX-M1
+name_en: DX-M1
+organization_id: deepx
+categories:
+  - ai-chip
+  - npu
+  - edge-ai
+  - inference-accelerator
+target_users:
+  - enterprise
+  - edge
+  - embedded
+delivery_type:
+  - hardware
+  - on-premise
+  - embedded
+models_used: []
+model_ownership: external-model
+pricing_public: false
+status: active
+website: https://deepx.ai/products/dx-m1/
+sources:
+  - type: official-website
+    url: https://deepx.ai/products/dx-m1/
+last_verified: "2026-07-22"
+verification_status: official-source

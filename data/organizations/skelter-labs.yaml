@@ -1,0 +1,25 @@
+name_ko: 스켈터랩스
+name_en: Skelter Labs
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.skelterlabs.com
+founded_year: 2015
+ai_core_level: ai_native
+categories:
+  - conversational-ai
+  - nlu
+  - llm-application
+  - rag
+  - speech
+status: acquired
+description_ko: 2015년 설립된 대화형 AI 기업. NLU/STT/TTS/MRC와 LLM 애플리케이션 제품군 BELLA를 제공한다. 2024년 메타넷에 인수됨.
+models:
+  - bella-llm
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.skelterlabs.com
+last_verified: "2026-07-22"
+verification_status: needs-review

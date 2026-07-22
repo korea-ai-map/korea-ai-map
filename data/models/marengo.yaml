@@ -1,0 +1,44 @@
+name: Marengo
+organization_id: twelve-labs
+model_family: Marengo
+status: active
+modalities:
+  - video
+  - audio
+  - image
+  - text
+tasks:
+  - video-search
+  - cross-modal-retrieval
+  - embedding-generation
+  - classification
+parameter_count:
+  value: null
+  disclosure: undisclosed
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: true
+  weights: false
+  demo: true
+license:
+  name: proprietary
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: false
+languages:
+  - en
+  - ko
+links:
+  official: https://www.twelvelabs.io/product/models-overview
+  model_card: https://docs.twelvelabs.io/docs/concepts/models
+  huggingface: null
+  github: null
+  paper: null
+sources:
+  - type: official-website
+    url: https://www.twelvelabs.io/product/models-overview
+last_verified: "2026-07-22"
+verification_status: official-source

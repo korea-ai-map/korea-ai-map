@@ -1,0 +1,14 @@
+name: Open Ko-LLM Leaderboard (Ko-H5)
+organization_id: upstage
+category: korean-understanding
+description_ko: >-
+  Upstage와 한국지능정보사회진흥원(NIA)이 2023년 개설한 한국어 LLM 평가 리더보드. 영어 Open LLM Leaderboard를 미러링하되 비공개 테스트셋을 포함하는 Ko-H5 벤치마크를 자체
+  구축하여 한국어 특성과 문화를 반영한다.
+url: https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2405.20574
+  - type: huggingface
+    url: https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard
+last_verified: "2026-07-22"
+verification_status: verified

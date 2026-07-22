@@ -1,0 +1,40 @@
+name: BELLA LLM
+organization_id: skelter-labs
+model_family: BELLA
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - question-answering
+  - rag
+parameter_count:
+  value: null
+  disclosure: undisclosed
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: true
+  weights: false
+  demo: false
+license:
+  name: proprietary
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+links:
+  official: https://www.skelterlabs.com
+  model_card: null
+  huggingface: null
+  github: null
+  paper: null
+sources:
+  - type: official-website
+    url: https://www.skelterlabs.com
+last_verified: "2026-07-22"
+verification_status: needs-review

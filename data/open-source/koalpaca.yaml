@@ -1,0 +1,12 @@
+name: KoAlpaca
+repo_type: github-repo
+url: https://github.com/Beomi/KoAlpaca
+description_ko: Stanford Alpaca를 한국어에 적용한 오픈소스 프로젝트. 한국어 instruction 데이터셋 구축과 instruction-tuned 한국어 모델(KoAlpaca-Polyglot 등)을 제공한다.
+language: Python
+sources:
+  - type: github
+    url: https://github.com/Beomi/KoAlpaca
+  - type: huggingface
+    url: https://huggingface.co/beomi/KoAlpaca-Polyglot-12.8B
+last_verified: "2026-07-22"
+verification_status: verified

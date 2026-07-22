@@ -1,0 +1,23 @@
+name_ko: 알체라
+name_en: Alchera
+organization_type: corporate
+country: KR
+headquarters: Seongnam
+website: https://www.alchera.ai
+founded_year: 2016
+ai_core_level: model_builder
+categories:
+  - vision-ai
+  - face-recognition
+  - anomaly-detection
+  - video-recognition
+status: active
+description_ko: 삼성종합기술원 출신 연구진이 설립한 Vision AI 기업. 얼굴인식, 이상상황 감지, AI 학습데이터 제작 등 자체 영상/얼굴 인식 AI 모델을 SDK·API로 금융·공공기관에 제공. 2020년 코스닥 상장.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.alchera.ai/company/overview
+last_verified: "2026-07-22"
+verification_status: official-source

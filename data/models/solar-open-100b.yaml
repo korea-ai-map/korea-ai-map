@@ -1,0 +1,41 @@
+name: Solar Open 100B
+organization_id: upstage
+model_family: Solar
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+  - coding
+  - instruction-following
+parameter_count:
+  value: 102600000000
+  disclosure: confident
+context_length:
+  value: 131072
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: true
+license:
+  name: Upstage Solar License
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+links:
+  official: https://www.upstage.ai
+  model_card: https://huggingface.co/upstage/Solar-Open-100B
+  huggingface: https://huggingface.co/upstage/Solar-Open-100B
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/upstage/Solar-Open-100B
+last_verified: "2026-07-22"
+verification_status: verified

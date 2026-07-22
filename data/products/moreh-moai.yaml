@@ -1,0 +1,25 @@
+name_ko: MoAI 플랫폼
+name_en: MoAI Platform
+organization_id: moreh
+categories:
+  - infrastructure
+  - ai-software
+  - gpu-cluster
+  - inference-software
+target_users:
+  - enterprise
+  - datacenter
+delivery_type:
+  - software
+  - on-premise
+  - cloud
+models_used: []
+model_ownership: external-model
+pricing_public: false
+status: active
+website: https://moreh.io
+sources:
+  - type: official-website
+    url: https://moreh.io
+last_verified: "2026-07-22"
+verification_status: official-source

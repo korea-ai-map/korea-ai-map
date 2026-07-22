@@ -1,0 +1,29 @@
+name_ko: 카카오
+name_en: Kakao Corp.
+organization_type: corporate
+country: KR
+headquarters: Jeju
+website: https://www.kakaocorp.com
+founded_year: 2010
+ai_core_level: foundation_model
+categories:
+  - foundation-model
+  - open-weights
+  - agentic-ai
+  - multimodal
+status: active
+description_ko: 카카오가 개발·공개하는 자체 AI 모델 Kanana(카나나) 계열을 운영한다. 카카오브레인의 AI 역량이 카카오 본사로 통합되었으며, 모델은 kakaocorp 공식 계정으로 오픈 공개된다.
+models:
+  - kanana-1.5-8b-instruct
+  - kanana-2-30b-a3b-thinking
+products: []
+open_source_links:
+  - https://huggingface.co/kakaocorp
+  - https://github.com/kakao/kanana
+sources:
+  - type: huggingface
+    url: https://huggingface.co/kakaocorp
+  - type: model-card
+    url: https://huggingface.co/kakaocorp/kanana-1.5-8b-instruct-2505
+last_verified: "2026-07-22"
+verification_status: verified

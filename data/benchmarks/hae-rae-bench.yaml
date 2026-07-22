@@ -1,0 +1,11 @@
+name: HAE-RAE Bench
+category: korean-understanding
+description_ko: 한국어 고유 지식과 문화적 맥락 이해 능력을 평가하는 벤치마크. 어휘·역사·일반 상식·독해 등 4개 영역 6개 태스크로 구성되며, 영어에서 전이된 지식만으로는 풀기 어렵도록 설계되었다.
+url: https://huggingface.co/datasets/HAERAE-HUB/HAE_RAE_BENCH_1.0
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2309.02706
+  - type: huggingface
+    url: https://huggingface.co/datasets/HAERAE-HUB/HAE_RAE_BENCH_1.0
+last_verified: "2026-07-22"
+verification_status: verified

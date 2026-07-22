@@ -1,0 +1,38 @@
+name: Spotwrite-1
+organization_id: scatter-lab
+model_family: Spotwrite
+status: active
+modalities:
+  - text
+tasks:
+  - conversational-ai
+  - character-roleplay-dialogue
+parameter_count:
+  value: null
+  disclosure: undisclosed
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: false
+  demo: false
+license:
+  name: proprietary
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: false
+languages:
+  - ko
+links:
+  official: https://blog.scatterlab.co.kr/interview-mlresearch
+  model_card: null
+  huggingface: null
+  github: null
+  paper: null
+sources:
+  - type: official-website
+    url: https://blog.scatterlab.co.kr/interview-mlresearch
+last_verified: "2026-07-22"
+verification_status: official-source

@@ -1,0 +1,42 @@
+name: HyperCLOVA X
+organization_id: naver-cloud
+model_family: HyperCLOVA X
+release_date: "2023-08-24"
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+parameter_count:
+  value: null
+  disclosure: undisclosed
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: true
+  weights: false
+  demo: true
+license:
+  name: proprietary
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: false
+languages:
+  - ko
+  - en
+links:
+  official: https://navercorp.com/en/tech/hyperclovax
+  model_card: null
+  huggingface: null
+  github: null
+  paper: https://arxiv.org/abs/2404.01954
+sources:
+  - type: official-website
+    url: https://navercorp.com/en/tech/hyperclovax
+  - type: paper
+    url: https://arxiv.org/abs/2404.01954
+last_verified: "2026-07-22"
+verification_status: official-source

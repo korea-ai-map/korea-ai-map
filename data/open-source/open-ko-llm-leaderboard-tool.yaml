@@ -1,0 +1,13 @@
+name: Open Ko-LLM Leaderboard (평가 플랫폼)
+organization_id: upstage
+repo_type: eval-tool
+url: https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard
+description_ko: Upstage-NIA가 운영하는 한국어 LLM 자동 평가·순위 플랫폼(Hugging Face Space). 제출된 모델을 Ko-H5 벤치마크로 자동 평가하여 리더보드를 제공한다.
+language: Python
+sources:
+  - type: huggingface
+    url: https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard
+  - type: paper
+    url: https://arxiv.org/abs/2405.20574
+last_verified: "2026-07-22"
+verification_status: verified

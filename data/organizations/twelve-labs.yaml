@@ -1,0 +1,29 @@
+name_ko: 트웰브랩스
+name_en: Twelve Labs
+organization_type: startup
+country: KR
+headquarters: San Francisco (Seoul office)
+website: https://www.twelvelabs.io
+founded_year: 2021
+ai_core_level: foundation_model
+categories:
+  - video-understanding
+  - multimodal-ai
+  - video-search
+  - video-embedding
+status: active
+description_ko: >-
+  한국인 창업자들이 설립한 영상 이해 파운데이션 모델 기업. 멀티모달 검색·임베딩 모델 Marengo와 영상-언어 생성 모델 Pegasus를 개발. 본사는 샌프란시스코, 서울에 사무소 운영. Amazon
+  Bedrock 등을 통해 모델 제공.
+models:
+  - marengo
+  - pegasus
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.twelvelabs.io/product/models-overview
+  - type: official-website
+    url: https://aws.amazon.com/about-aws/whats-new/2025/07/twelvelabs-models-fully-managed-amazon-bedrock/
+last_verified: "2026-07-22"
+verification_status: official-source

@@ -1,0 +1,42 @@
+name: HyperCLOVAX-SEED-Think-32B
+organization_id: naver-cloud
+model_family: HyperCLOVA X SEED
+status: active
+modalities:
+  - text
+  - image
+  - video
+tasks:
+  - chat
+  - reasoning
+  - vision
+parameter_count:
+  value: 33000000000
+  disclosure: confident
+context_length:
+  value: 131072
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: HyperCLOVA X SEED Model License
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+links:
+  official: null
+  model_card: https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-32B
+  huggingface: https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-32B
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-32B
+last_verified: "2026-07-22"
+verification_status: verified

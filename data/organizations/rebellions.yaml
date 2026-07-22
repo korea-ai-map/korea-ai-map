@@ -1,0 +1,29 @@
+name_ko: 리벨리온
+name_en: Rebellions Inc.
+organization_type: startup
+country: KR
+headquarters: Seongnam
+website: https://rebellions.ai
+founded_year: 2020
+ai_core_level: ai_infrastructure
+categories:
+  - ai-chip
+  - npu
+  - inference-accelerator
+  - infrastructure
+status: active
+description_ko: >-
+  2020년 설립된 한국 AI 반도체(NPU) 팹리스 스타트업. 데이터센터용 AI 추론 가속기 ATOM을 상용화했고 칩렛 기반 차세대 칩 REBEL을 개발 중이다. 2024년 12월 SK텔레콤 계열 SAPEON
+  Korea와 합병을 완료해 존속법인 Rebellions로 통합, 한국 최초의 AI 반도체 유니콘이 되었다.
+models: []
+products:
+  - rebellions-atom
+  - rebellions-rebel
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://rebellions.ai
+  - type: official-website
+    url: https://rebellions.ai/newsroom/rebellions-and-sapeon-korea-complete-merger-launching-koreas-first-ai-chip-unicorn/
+last_verified: "2026-07-22"
+verification_status: official-source

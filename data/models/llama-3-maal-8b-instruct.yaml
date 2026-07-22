@@ -1,0 +1,39 @@
+name: Llama-3-MAAL-8B-Instruct-v0.1
+organization_id: maum-ai
+model_family: MAAL
+status: active
+modalities:
+  - text
+tasks:
+  - instruction-following
+  - multilingual-chat
+parameter_count:
+  value: 8000000000
+  disclosure: confident
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Llama 3 Community License
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+links:
+  official: https://maum.ai
+  model_card: https://huggingface.co/maum-ai/Llama-3-MAAL-8B-Instruct-v0.1
+  huggingface: https://huggingface.co/maum-ai/Llama-3-MAAL-8B-Instruct-v0.1
+  github: null
+  paper: null
+sources:
+  - type: huggingface
+    url: https://huggingface.co/maum-ai/Llama-3-MAAL-8B-Instruct-v0.1
+last_verified: "2026-07-22"
+verification_status: official-source

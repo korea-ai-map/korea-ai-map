@@ -1,0 +1,40 @@
+name: Mi:dm 2.0 Base Instruct
+organization_id: kt
+model_family: Mi:dm
+release_date: "2025-07-04"
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+parameter_count:
+  value: 11500000000
+  disclosure: confident
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: true
+  weights: true
+  demo: false
+license:
+  name: MIT
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+links:
+  official: https://github.com/K-intelligence-Midm/Midm-2.0
+  model_card: https://huggingface.co/K-intelligence/Midm-2.0-Base-Instruct
+  huggingface: https://huggingface.co/K-intelligence/Midm-2.0-Base-Instruct
+  github: https://github.com/K-intelligence-Midm/Midm-2.0
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/K-intelligence/Midm-2.0-Base-Instruct
+last_verified: "2026-07-22"
+verification_status: verified

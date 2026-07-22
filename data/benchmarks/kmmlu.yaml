@@ -1,0 +1,13 @@
+name: KMMLU
+category: korean-understanding
+description_ko: >-
+  인문학부터 STEM까지 45개 과목에 걸친 35,030개 전문가 수준 객관식 문항으로 구성된 한국어 벤치마크. 기존 영어 벤치마크의 번역이 아니라 한국어 원본 시험에서 수집하여 한국어의 언어적·문화적 특성을
+  반영한다.
+url: https://huggingface.co/datasets/HAERAE-HUB/KMMLU
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2402.11548
+  - type: huggingface
+    url: https://huggingface.co/datasets/HAERAE-HUB/KMMLU
+last_verified: "2026-07-22"
+verification_status: verified
