@@ -60,6 +60,8 @@ const nav = [
         }
       }
       * { box-sizing: border-box; }
+      /* hidden 속성이 .card 등의 display 선언보다 우선하도록 강제 (필터 숨김 동작) */
+      [hidden] { display: none !important; }
       html { -webkit-text-size-adjust: 100%; }
       body {
         margin: 0; background: var(--bg); color: var(--fg);
