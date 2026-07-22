@@ -18,6 +18,14 @@ const cards = [
   { label: '논문', slug: 'papers', count: papers.length, desc: '기술보고서·연구 논문' },
 ];
 const total = cards.reduce((s, c) => s + c.count, 0);
+
+// 최근 업데이트 = 빌드(배포) 시각. KST 로 표기.
+const buildDate = new Date();
+const updatedKST = new Intl.DateTimeFormat('ko-KR', {
+  timeZone: 'Asia/Seoul',
+  year: 'numeric', month: '2-digit', day: '2-digit',
+  hour: '2-digit', minute: '2-digit', hour12: false,
+}).format(buildDate);
 ---
 <Base title="Korea AI Map — 한국 AI 모델·기업·데이터셋 오픈 데이터베이스">
   <h1>Korea AI Map</h1>
@@ -34,4 +42,10 @@ const total = cards.reduce((s, c) => s + c.count, 0);
 
   <h2>이 프로젝트에 대하여</h2>
   <p>모든 항목에는 <strong>출처</strong>와 <strong>검증 상태</strong>, <strong>최종 검증일</strong>이 부착됩니다. 확인되지 않은 수치(파라미터 수 등)는 추정하지 않고 <em>미공개</em>로 표기합니다. 데이터는 <a href="https://github.com/korea-ai-map/korea-ai-map">GitHub</a>에서 관리되며 누구나 제보·수정을 제안할 수 있습니다.</p>
+
+  <p class="updated">최근 업데이트: <time datetime={buildDate.toISOString()}>{updatedKST}</time> (KST)</p>
+
+  <style>
+    .updated { margin-top: 2rem; color: var(--muted); font-size: 0.85rem; text-align: right; }
+  </style>
 </Base>
