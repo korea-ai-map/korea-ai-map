@@ -60,7 +60,28 @@ const linkPairs = [
     <dt>라이선스</dt><dd>{d.license?.name} — 상업 이용 {commercial[d.license?.commercial_use] ?? d.license?.commercial_use}</dd>
     {deploy && <><dt>배포</dt><dd>{deploy}</dd></>}
     {d.languages?.length > 0 && <><dt>지원 언어</dt><dd>{d.languages.join(', ')}</dd></>}
+    {d.base_model && <><dt>기반 모델</dt><dd>{d.base_model}</dd></>}
   </dl>
+
+  {d.benchmark_results?.length > 0 && (
+    <>
+      <h2>벤치마크 결과</h2>
+      <table class="bench">
+        <thead><tr><th>벤치마크</th><th>점수</th><th>지표</th><th>출처</th></tr></thead>
+        <tbody>
+          {d.benchmark_results.map((b: any) => (
+            <tr>
+              <td>{b.benchmark}</td>
+              <td>{b.score}</td>
+              <td>{b.metric ?? '—'}</td>
+              <td>{b.source ? <a href={b.source} target="_blank" rel="noopener">링크</a> : '—'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <p class="muted" style="font-size:0.8rem">벤치마크 점수는 각 출처의 보고값이며 측정 조건이 다를 수 있습니다.</p>
+    </>
+  )}
 
   {linkPairs.length > 0 && (
     <>
@@ -74,4 +95,10 @@ const linkPairs = [
   <div class="actions">
     <a class="btn" href={correctionUrl(d.name)} target="_blank" rel="noopener">✎ 정보 수정 제안</a>
   </div>
+
+  <style>
+    table.bench { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
+    table.bench th, table.bench td { border: 1px solid var(--line); padding: 0.4rem 0.7rem; text-align: left; }
+    table.bench thead th { background: var(--card); color: var(--muted); font-weight: 500; }
+  </style>
 </Base>

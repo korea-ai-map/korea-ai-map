@@ -125,6 +125,19 @@ export const modelSchema = z.object({
     })
     .optional(),
   languages: z.array(z.string()).default([]),
+  // 파생/기반 모델 (모델 계보, PRD 24). 처음부터 사전학습한 모델은 생략하거나 "from-scratch".
+  base_model: z.string().optional(),
+  // 벤치마크 결과 (PRD 9.4 모델 상세). benchmark 는 benchmarks 컬렉션 id 또는 표기명.
+  benchmark_results: z
+    .array(
+      z.object({
+        benchmark: z.string(),
+        score: z.number(),
+        metric: z.string().optional(), // accuracy, exact-match, pass@1 등
+        source: z.string().url().optional(),
+      }),
+    )
+    .default([]),
   links: z
     .object({
       official: z.string().url().nullable().optional(),

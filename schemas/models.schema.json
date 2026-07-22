@@ -157,6 +157,36 @@
           },
           "default": []
         },
+        "base_model": {
+          "type": "string"
+        },
+        "benchmark_results": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "benchmark": {
+                "type": "string"
+              },
+              "score": {
+                "type": "number"
+              },
+              "metric": {
+                "type": "string"
+              },
+              "source": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "required": [
+              "benchmark",
+              "score"
+            ],
+            "additionalProperties": false
+          },
+          "default": []
+        },
         "links": {
           "type": "object",
           "properties": {
