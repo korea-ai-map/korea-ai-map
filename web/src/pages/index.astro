@@ -1,0 +1,45 @@
+---
+// Phase 0 홈 스텁 — 데이터가 스키마를 통과해 로드되는지 확인하는 최소 페이지.
+// Phase 1~2 에서 통계·검색·필터로 확장한다 (PRD 9.1, 9.2).
+import { getCollection } from 'astro:content';
+
+const [organizations, models, products, openSource, datasets, benchmarks] = await Promise.all([
+  getCollection('organizations'),
+  getCollection('models'),
+  getCollection('products'),
+  getCollection('open-source'),
+  getCollection('datasets'),
+  getCollection('benchmarks'),
+]);
+
+const stats = [
+  { label: '조직', count: organizations.length },
+  { label: '모델', count: models.length },
+  { label: '제품', count: products.length },
+  { label: '오픈소스', count: openSource.length },
+  { label: '데이터셋', count: datasets.length },
+  { label: '벤치마크', count: benchmarks.length },
+];
+---
+
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Korea AI Map</title>
+  </head>
+  <body style="font-family: system-ui, sans-serif; max-width: 720px; margin: 3rem auto; padding: 0 1rem;">
+    <h1>Korea AI Map</h1>
+    <p>한국 AI 생태계를 검증 가능한 근거로 연결한 오픈 데이터베이스.</p>
+
+    <h2>데이터 현황</h2>
+    <ul>
+      {stats.map((s) => <li>{s.label}: <strong>{s.count}</strong></li>)}
+    </ul>
+
+    <p style="color:#666; font-size: 0.85rem;">
+      본 프로젝트는 한국 AI 생태계를 객관적으로 기록하기 위한 독립 오픈 데이터 프로젝트입니다.
+      등재는 추천·인증 또는 투자 의견을 의미하지 않습니다.
+    </p>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+name: validate
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # 1) 참조 무결성 · ID 중복 (파일 간 관계)
+      - name: Install root deps
+        run: npm install
+      - name: Check references
+        run: npm run check:refs
+
+      # 2) 스키마 · 필수필드 · enum · 형식 (zod = astro build)
+      - name: Install web deps
+        working-directory: web
+        run: npm install
+      - name: Astro build (schema validation)
+        working-directory: web
+        run: npm run build
+
+      # 3) 링크 점검 (보고용, 실패해도 게이트를 막지 않음 — PRD 11.3)
+      - name: Check links (report only)
+        run: npm run check:links
+        continue-on-error: true

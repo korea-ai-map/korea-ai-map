@@ -1,0 +1,68 @@
+name: "신규 등재 제보"
+description: "새 조직·모델·제품·오픈소스·데이터셋·벤치마크를 제보합니다."
+title: "[등재] "
+labels: ["submitted", "new-entry"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        등재·검증 기준은 [METHODOLOGY.md](../blob/main/METHODOLOGY.md)를 먼저 읽어 주세요.
+        모든 항목에는 **공식 출처**가 필요합니다.
+  - type: dropdown
+    id: type
+    attributes:
+      label: 유형
+      options: ["조직", "모델", "제품/서비스", "오픈소스", "데이터셋", "벤치마크"]
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: 이름 (한글/영문)
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: 공식 웹사이트
+    validations:
+      required: true
+  - type: input
+    id: developer
+    attributes:
+      label: 개발 주체
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 설명
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 공식 출처 (최소 1개, 한 줄에 하나)
+      placeholder: |
+        https://example.com/model-card
+        https://arxiv.org/abs/...
+    validations:
+      required: true
+  - type: input
+    id: affiliation
+    attributes:
+      label: 제출자 소속
+    validations:
+      required: true
+  - type: dropdown
+    id: conflict
+    attributes:
+      label: 이해관계 여부
+      description: 해당 기업 임직원·투자자·자문·유료계약·특수관계·경쟁사 소속 등
+      options: ["없음", "있음 (아래에 설명)"]
+    validations:
+      required: true
+  - type: textarea
+    id: conflict_detail
+    attributes:
+      label: 이해관계 설명 (있는 경우)

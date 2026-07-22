@@ -1,0 +1,147 @@
+{
+  "$ref": "#/definitions/organizations",
+  "definitions": {
+    "organizations": {
+      "type": "object",
+      "properties": {
+        "name_ko": {
+          "type": "string"
+        },
+        "name_en": {
+          "type": "string"
+        },
+        "organization_type": {
+          "type": "string",
+          "enum": [
+            "corporate",
+            "corporate-research-lab",
+            "startup",
+            "university-lab",
+            "government-research",
+            "public-institution",
+            "non-profit",
+            "open-source-community"
+          ]
+        },
+        "country": {
+          "type": "string",
+          "default": "KR"
+        },
+        "headquarters": {
+          "type": "string"
+        },
+        "website": {
+          "type": "string",
+          "format": "uri"
+        },
+        "founded_year": {
+          "type": "integer"
+        },
+        "ai_core_level": {
+          "type": "string",
+          "enum": [
+            "foundation_model",
+            "model_builder",
+            "ai_native",
+            "ai_infrastructure",
+            "ai_enabled",
+            "research_only",
+            "unverified"
+          ]
+        },
+        "categories": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "active",
+            "acquired",
+            "merged",
+            "dormant",
+            "closed"
+          ]
+        },
+        "description_ko": {
+          "type": "string"
+        },
+        "models": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "products": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "open_source_links": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          },
+          "default": []
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "required": [
+              "type",
+              "url"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        },
+        "last_verified": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "verification_status": {
+          "type": "string",
+          "enum": [
+            "verified",
+            "official-source",
+            "community-reviewed",
+            "submitted",
+            "needs-review",
+            "outdated",
+            "disputed",
+            "archived"
+          ]
+        }
+      },
+      "required": [
+        "name_ko",
+        "name_en",
+        "organization_type",
+        "ai_core_level",
+        "status",
+        "sources",
+        "last_verified",
+        "verification_status"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

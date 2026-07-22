@@ -1,0 +1,44 @@
+# 샘플 데이터 (Phase 0). 실제 검증은 Phase 1에서 수행.
+name: EXAONE 3.5
+organization_id: lg-ai-research
+model_family: exaone
+release_date: "2024-12-09"
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+  - coding
+parameter_count:
+  value: 32000000000   # 32B (2.4B / 7.8B / 32B 라인업 중 대표)
+  disclosure: confident
+context_length:
+  value: 32768
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: EXAONE AI Model License
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+links:
+  official: https://www.lgresearch.ai
+  model_card: null
+  huggingface: https://huggingface.co/LGAI-EXAONE
+  github: null
+  paper: null
+sources:
+  - type: official-website
+    url: https://www.lgresearch.ai
+  - type: huggingface
+    url: https://huggingface.co/LGAI-EXAONE
+last_verified: "2026-07-20"
+verification_status: official-source

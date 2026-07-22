@@ -1,0 +1,22 @@
+{
+  "name": "korea-ai-map",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "검증 가능한 근거로 연결한 한국 AI 생태계 오픈 데이터베이스",
+  "scripts": {
+    "check:refs": "tsx scripts/check-refs.ts",
+    "check:links": "tsx scripts/check-links.ts",
+    "gen:schema": "tsx scripts/gen-json-schema.ts",
+    "build:data": "tsx scripts/build-data-json.ts",
+    "validate": "npm run check:refs && npm run check:links"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.10.0",
+    "js-yaml": "^4.1.0",
+    "tsx": "^4.19.2",
+    "zod": "^3.24.1",
+    "zod-to-json-schema": "^3.24.1"
+  }
+}

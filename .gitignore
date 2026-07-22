@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# build output
+dist/
+web/dist/
+web/.astro/
+# 빌드로 생성되는 통합 JSON (원본은 data/)
+web/public/data/
+
+# env
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+npm-debug.log*
+
+# 기획 원문 (공개 여부는 별도 판단 — 필요 시 강제 추가)
+Korea AI Map PRD.pdf
+
+# os / editor
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp

@@ -1,0 +1,122 @@
+{
+  "$ref": "#/definitions/products",
+  "definitions": {
+    "products": {
+      "type": "object",
+      "properties": {
+        "name_ko": {
+          "type": "string"
+        },
+        "name_en": {
+          "type": "string"
+        },
+        "organization_id": {
+          "type": "string"
+        },
+        "categories": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "target_users": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "delivery_type": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "models_used": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "model_ownership": {
+          "type": "string",
+          "enum": [
+            "own-model",
+            "external-model",
+            "hybrid",
+            "unknown"
+          ]
+        },
+        "pricing_public": {
+          "type": "boolean"
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "active",
+            "beta",
+            "deprecated",
+            "archived"
+          ]
+        },
+        "website": {
+          "type": "string",
+          "format": "uri"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "required": [
+              "type",
+              "url"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        },
+        "last_verified": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "verification_status": {
+          "type": "string",
+          "enum": [
+            "verified",
+            "official-source",
+            "community-reviewed",
+            "submitted",
+            "needs-review",
+            "outdated",
+            "disputed",
+            "archived"
+          ]
+        }
+      },
+      "required": [
+        "name_ko",
+        "name_en",
+        "organization_id",
+        "model_ownership",
+        "status",
+        "sources",
+        "last_verified",
+        "verification_status"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}
