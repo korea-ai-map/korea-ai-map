@@ -1,0 +1,12 @@
+name: Korean UnSmile Dataset
+category: safety
+description_ko: 여성·인종·종교 등 10개 범주로 라벨링한 약 1만8천 문장 규모의 한국어 혐오표현 멀티라벨 데이터셋이다.
+languages:
+  - ko
+license: CC BY-NC-ND 4.0
+url: https://github.com/smilegate-ai/korean_unsmile_dataset
+sources:
+  - type: github
+    url: https://github.com/smilegate-ai/korean_unsmile_dataset
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,23 @@
+name_ko: QA42
+name_en: QA42
+organization_id: 42maru
+categories:
+  - search-rag
+  - enterprise-ai
+  - document-ai
+target_users:
+  - enterprise
+delivery_type:
+  - saas
+  - on-premise
+models_used:
+  - llm42
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.42maru.ai/
+sources:
+  - type: official-website
+    url: https://www.42maru.ai/
+last_verified: '2026-07-22'
+verification_status: official-source

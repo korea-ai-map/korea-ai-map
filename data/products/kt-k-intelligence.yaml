@@ -1,0 +1,25 @@
+name_ko: K 인텔리전스 스위트
+name_en: K Intelligence Suite
+organization_id: kt
+categories:
+  - enterprise-ai
+  - agent
+  - search-rag
+target_users:
+  - enterprise
+  - developer
+delivery_type:
+  - saas
+  - on-premise
+  - api
+models_used:
+  - midm-2-0-base
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://ai.kt.com/
+sources:
+  - type: official-website
+    url: https://ai.kt.com/
+last_verified: '2026-07-22'
+verification_status: official-source

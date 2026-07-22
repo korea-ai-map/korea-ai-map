@@ -1,0 +1,25 @@
+name_ko: 메디허브 스트로크
+name_en: MEDIHUB STROKE
+organization_id: jlk
+categories:
+  - medical-imaging
+  - neurology
+  - diagnostics
+  - medical-ai
+target_users:
+  - hospital
+  - clinician
+delivery_type:
+  - on-premise
+  - medical-device
+models_used:
+  - jlk-jbs-01k
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.jlkgroup.com
+sources:
+  - type: official-website
+    url: https://www.jlkgroup.com/
+last_verified: '2026-07-22'
+verification_status: official-source

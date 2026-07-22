@@ -1,0 +1,21 @@
+name_ko: 도큐먼트 파스
+name_en: Document Parse
+organization_id: upstage
+categories:
+  - document-ai
+target_users:
+  - enterprise
+  - developer
+delivery_type:
+  - api
+  - saas
+models_used: []
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://console.upstage.ai/docs/capabilities/document-parse
+sources:
+  - type: official-website
+    url: https://console.upstage.ai/docs/capabilities/document-parse
+last_verified: '2026-07-22'
+verification_status: official-source

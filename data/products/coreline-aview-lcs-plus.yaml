@@ -1,0 +1,23 @@
+name_ko: AVIEW LCS Plus
+name_en: AVIEW LCS Plus
+organization_id: coreline-soft
+categories:
+  - medical-imaging
+  - radiology
+  - cancer-screening
+target_users:
+  - hospital
+  - radiologist
+delivery_type:
+  - on-premise
+  - medical-device
+models_used: []
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.corelinesoft.com
+sources:
+  - type: official-website
+    url: https://www.corelinesoft.com/en/
+last_verified: '2026-07-22'
+verification_status: official-source

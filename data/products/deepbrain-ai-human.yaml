@@ -1,0 +1,21 @@
+name_ko: AI 휴먼
+name_en: AI Human
+organization_id: deepbrain-ai
+categories:
+  - avatar
+  - customer-support
+target_users:
+  - enterprise
+delivery_type:
+  - saas
+  - on-premise
+models_used: []
+model_ownership: hybrid
+pricing_public: true
+status: active
+website: https://aistudios.com/aihuman
+sources:
+  - type: official-website
+    url: https://aistudios.com/aihuman
+last_verified: '2026-07-22'
+verification_status: official-source

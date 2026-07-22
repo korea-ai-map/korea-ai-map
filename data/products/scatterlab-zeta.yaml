@@ -1,0 +1,22 @@
+name_ko: 제타
+name_en: Zeta
+organization_id: scatter-lab
+categories:
+  - avatar
+  - content-generation
+target_users:
+  - consumer
+delivery_type:
+  - app
+  - web-service
+models_used:
+  - pingpong-1
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://scatterlab.co.kr/
+sources:
+  - type: official-website
+    url: https://scatterlab.co.kr/
+last_verified: '2026-07-22'
+verification_status: needs-review

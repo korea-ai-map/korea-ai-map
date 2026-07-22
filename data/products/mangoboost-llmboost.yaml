@@ -1,0 +1,23 @@
+name_ko: LLM부스트
+name_en: LLMBoost
+organization_id: mangoboost
+categories:
+  - inference-software
+  - infrastructure
+  - llm-serving
+target_users:
+  - enterprise
+  - datacenter
+  - developer
+delivery_type:
+  - software
+models_used: []
+model_ownership: external-model
+pricing_public: false
+status: active
+website: https://www.mangoboost.io
+sources:
+  - type: official-website
+    url: https://github.com/MangoBoost
+last_verified: '2026-07-22'
+verification_status: needs-review

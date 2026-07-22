@@ -1,0 +1,21 @@
+name_ko: 모나
+name_en: MONA
+organization_id: qraft-technologies
+categories:
+  - enterprise-ai
+  - fintech
+target_users:
+  - enterprise
+delivery_type:
+  - saas
+  - api
+models_used: []
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.qraftec.com/
+sources:
+  - type: official-website
+    url: https://www.qraftec.com/
+last_verified: '2026-07-22'
+verification_status: official-source

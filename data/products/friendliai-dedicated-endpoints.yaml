@@ -1,0 +1,23 @@
+name_ko: 프렌들리 전용 엔드포인트
+name_en: Friendli Dedicated Endpoints
+organization_id: friendliai
+categories:
+  - inference-software
+  - infrastructure
+  - llm-serving
+target_users:
+  - enterprise
+  - developer
+delivery_type:
+  - cloud
+  - api
+models_used: []
+model_ownership: external-model
+pricing_public: false
+status: active
+website: https://friendli.ai
+sources:
+  - type: official-website
+    url: https://www.friendli.ai/
+last_verified: '2026-07-22'
+verification_status: official-source

@@ -1,0 +1,14 @@
+name: KOLD
+category: safety
+description_ko: 네이버 뉴스·유튜브 댓글에 공격성·대상·스팬을 세밀하게 라벨링한 한국어 혐오·공격 표현 데이터셋이다.
+languages:
+  - ko
+license: CC BY-NC-SA 4.0
+url: https://github.com/boychaboy/KOLD
+sources:
+  - type: github
+    url: https://github.com/boychaboy/KOLD
+  - type: paper
+    url: https://arxiv.org/abs/2205.11315
+last_verified: '2026-07-22'
+verification_status: verified

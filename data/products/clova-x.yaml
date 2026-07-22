@@ -1,0 +1,23 @@
+name_ko: 클로바 X
+name_en: CLOVA X
+organization_id: naver-cloud
+categories:
+  - content-generation
+  - search-rag
+  - agent
+target_users:
+  - consumer
+delivery_type:
+  - web-service
+  - app
+models_used:
+  - hyperclova-x
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://clova-x.naver.com/
+sources:
+  - type: official-website
+    url: https://clova-x.naver.com/
+last_verified: '2026-07-22'
+verification_status: needs-review

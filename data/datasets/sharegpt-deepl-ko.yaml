@@ -1,0 +1,12 @@
+name: ShareGPT DeepL 한국어 (KoVicuna)
+category: korean-corpus
+description_ko: ShareGPT 대화 약 62만 건을 한국어로 번역한 멀티턴 대화·instruction 데이터셋이다.
+languages:
+  - ko
+license: CC BY 2.0 KR
+url: https://huggingface.co/datasets/junelee/sharegpt_deepl_ko
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/junelee/sharegpt_deepl_ko
+last_verified: '2026-07-22'
+verification_status: verified

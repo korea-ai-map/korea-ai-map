@@ -1,0 +1,22 @@
+name_ko: 코난 서치
+name_en: Konan Search
+organization_id: konan-technology
+categories:
+  - search-rag
+  - enterprise-ai
+target_users:
+  - enterprise
+delivery_type:
+  - on-premise
+  - saas
+models_used:
+  - konan-llm
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.konantech.com/
+sources:
+  - type: official-website
+    url: https://www.konantech.com/
+last_verified: '2026-07-22'
+verification_status: official-source

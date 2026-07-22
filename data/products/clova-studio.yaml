@@ -1,0 +1,24 @@
+name_ko: 클로바 스튜디오
+name_en: CLOVA Studio
+organization_id: naver-cloud
+categories:
+  - enterprise-ai
+  - content-generation
+  - agent
+target_users:
+  - enterprise
+  - developer
+delivery_type:
+  - saas
+  - api
+models_used:
+  - hyperclova-x
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.ncloud.com/product/aiService/clovaStudio
+sources:
+  - type: official-website
+    url: https://www.ncloud.com/product/aiService/clovaStudio
+last_verified: '2026-07-22'
+verification_status: official-source

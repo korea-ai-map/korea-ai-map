@@ -1,0 +1,15 @@
+name: SQuARe
+organization_id: naver-cloud
+category: safety
+description_ko: 민감한 질문과 수용 가능한 응답을 인간-기계 협업으로 구축한 대규모 한국어 안전성 데이터셋이다.
+languages:
+  - ko
+license: MIT
+url: https://github.com/naver-ai/korean-safety-benchmarks
+sources:
+  - type: github
+    url: https://github.com/naver-ai/korean-safety-benchmarks
+  - type: paper
+    url: https://arxiv.org/abs/2305.17696
+last_verified: '2026-07-22'
+verification_status: verified

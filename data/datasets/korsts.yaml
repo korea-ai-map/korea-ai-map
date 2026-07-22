@@ -1,0 +1,15 @@
+name: KorSTS
+organization_id: kakao
+category: qa
+description_ko: 영어 STS-B를 번역·구축한 한국어 의미 유사도(STS) 데이터셋으로 문장쌍에 0~5 유사도 점수를 부여한다.
+languages:
+  - ko
+license: CC BY-SA 4.0
+url: https://github.com/kakaobrain/kor-nlu-datasets
+sources:
+  - type: github
+    url: https://github.com/kakaobrain/kor-nlu-datasets
+  - type: paper
+    url: https://arxiv.org/abs/2004.03289
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,21 @@
+name_ko: 빅케이스
+name_en: BigCase
+organization_id: law-and-company
+categories:
+  - legal-ai
+  - legal-research
+target_users:
+  - lawyer
+  - legal-team
+delivery_type:
+  - saas
+models_used: []
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://bigcase.ai
+sources:
+  - type: official-website
+    url: https://bigcase.ai/
+last_verified: '2026-07-22'
+verification_status: needs-review

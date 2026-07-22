@@ -1,0 +1,13 @@
+name: KVQA
+organization_id: skt
+category: multimodal
+description_ko: 시각장애인 대상 이미지·질문·답변으로 구성된 한국어 시각질의응답(VQA) 데이터셋이다.
+languages:
+  - ko
+license: Korean VQA License
+url: https://github.com/SKTBrain/KVQA
+sources:
+  - type: github
+    url: https://github.com/SKTBrain/KVQA
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,21 @@
+name_ko: 솔라 LLM API
+name_en: Solar LLM API
+organization_id: upstage
+categories:
+  - enterprise-ai
+  - content-generation
+target_users:
+  - developer
+  - enterprise
+delivery_type:
+  - api
+models_used: []
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://console.upstage.ai/docs/capabilities/chat
+sources:
+  - type: official-website
+    url: https://console.upstage.ai/docs/capabilities/chat
+last_verified: '2026-07-22'
+verification_status: official-source

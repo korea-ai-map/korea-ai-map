@@ -1,0 +1,22 @@
+name_ko: AI 스튜디오스
+name_en: AI Studios
+organization_id: deepbrain-ai
+categories:
+  - content-generation
+  - avatar
+target_users:
+  - enterprise
+  - consumer
+delivery_type:
+  - saas
+  - web-service
+models_used: []
+model_ownership: own-model
+pricing_public: true
+status: active
+website: https://www.aistudios.com/
+sources:
+  - type: official-website
+    url: https://www.aistudios.com/
+last_verified: '2026-07-22'
+verification_status: official-source

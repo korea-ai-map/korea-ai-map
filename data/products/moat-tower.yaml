@@ -1,0 +1,20 @@
+name_ko: 타워
+name_en: Tower
+organization_id: doomoolmori
+categories:
+  - enterprise-ai
+  - agent
+target_users:
+  - enterprise
+delivery_type:
+  - saas
+models_used: []
+model_ownership: hybrid
+pricing_public: false
+status: active
+website: https://moatai.io/
+sources:
+  - type: official-website
+    url: https://moatai.io/
+last_verified: '2026-07-22'
+verification_status: needs-review

@@ -1,0 +1,23 @@
+name_ko: 에이닷
+name_en: A. (A dot)
+organization_id: skt
+categories:
+  - agent
+  - voice
+  - content-generation
+target_users:
+  - consumer
+delivery_type:
+  - app
+  - web-service
+models_used:
+  - ax-4-0
+model_ownership: hybrid
+pricing_public: false
+status: active
+website: https://adot.ai/
+sources:
+  - type: official-website
+    url: https://adot.ai/
+last_verified: '2026-07-22'
+verification_status: official-source

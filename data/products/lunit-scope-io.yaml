@@ -1,0 +1,25 @@
+name_ko: 루닛 스코프 IO
+name_en: Lunit SCOPE IO
+organization_id: lunit
+categories:
+  - pathology
+  - oncology
+  - precision-medicine
+  - medical-ai
+target_users:
+  - hospital
+  - pathologist
+  - pharma
+delivery_type:
+  - on-premise
+models_used:
+  - lunit-scope
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.lunit.io
+sources:
+  - type: official-website
+    url: https://www.lunit.io/en/products
+last_verified: '2026-07-22'
+verification_status: official-source

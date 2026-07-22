@@ -1,0 +1,22 @@
+name_ko: 수다
+name_en: SUDA
+organization_id: maum-ai
+categories:
+  - customer-support
+  - voice
+  - avatar
+target_users:
+  - enterprise
+delivery_type:
+  - saas
+  - on-premise
+models_used: []
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.maum.ai/
+sources:
+  - type: official-website
+    url: https://www.maum.ai/
+last_verified: '2026-07-22'
+verification_status: official-source

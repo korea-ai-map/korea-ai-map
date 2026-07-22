@@ -1,0 +1,23 @@
+name_ko: 망고 DPU
+name_en: Mango DPU
+organization_id: mangoboost
+categories:
+  - dpu
+  - infrastructure
+  - accelerator
+  - data-center
+target_users:
+  - enterprise
+  - datacenter
+delivery_type:
+  - hardware
+models_used: []
+model_ownership: unknown
+pricing_public: false
+status: active
+website: https://www.mangoboost.io
+sources:
+  - type: official-website
+    url: https://github.com/MangoBoost
+last_verified: '2026-07-22'
+verification_status: needs-review

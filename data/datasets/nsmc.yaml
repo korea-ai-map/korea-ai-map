@@ -1,0 +1,12 @@
+name: NSMC (Naver Sentiment Movie Corpus)
+category: korean-corpus
+description_ko: 네이버 영화 리뷰 20만 건에 긍/부정 라벨을 부여한 한국어 감성 분석 코퍼스다.
+languages:
+  - ko
+license: CC0 1.0
+url: https://github.com/e9t/nsmc
+sources:
+  - type: github
+    url: https://github.com/e9t/nsmc
+last_verified: '2026-07-22'
+verification_status: verified

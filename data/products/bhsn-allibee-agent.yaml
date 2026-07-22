@@ -1,0 +1,23 @@
+name_ko: 앨리비 에이전트
+name_en: Allibee Agent
+organization_id: bhsn
+categories:
+  - legal-ai
+  - ai-agent
+  - contract-analysis
+target_users:
+  - enterprise
+  - legal-team
+delivery_type:
+  - saas
+models_used:
+  - bhsn-legal-llm
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://bhsn.ai
+sources:
+  - type: official-website
+    url: https://allibee.ai/
+last_verified: '2026-07-22'
+verification_status: official-source

@@ -1,0 +1,25 @@
+name_ko: 트웰브랩스 영상 이해 플랫폼
+name_en: TwelveLabs Video Understanding Platform
+organization_id: twelve-labs
+categories:
+  - search-rag
+  - content-generation
+  - video
+target_users:
+  - enterprise
+  - developer
+delivery_type:
+  - api
+  - saas
+models_used:
+  - marengo
+  - pegasus
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.twelvelabs.io/
+sources:
+  - type: official-website
+    url: https://www.twelvelabs.io/
+last_verified: '2026-07-22'
+verification_status: official-source

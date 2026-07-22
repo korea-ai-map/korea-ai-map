@@ -1,0 +1,15 @@
+name: KorNLI
+organization_id: kakao
+category: qa
+description_ko: SNLI·MNLI·XNLI를 한국어로 옮긴 자연어추론 데이터셋으로 함의·중립·모순 3범주 라벨을 제공한다.
+languages:
+  - ko
+license: CC BY-SA 4.0
+url: https://github.com/kakaobrain/kor-nlu-datasets
+sources:
+  - type: github
+    url: https://github.com/kakaobrain/kor-nlu-datasets
+  - type: paper
+    url: https://arxiv.org/abs/2004.03289
+last_verified: '2026-07-22'
+verification_status: verified

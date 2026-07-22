@@ -1,0 +1,24 @@
+name_ko: M4CXR
+name_en: M4CXR
+organization_id: deepnoid
+categories:
+  - medical-imaging
+  - radiology
+  - generative-ai
+  - chest-xray
+target_users:
+  - hospital
+  - radiologist
+delivery_type:
+  - on-premise
+  - medical-device
+models_used: []
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.deepnoid.com
+sources:
+  - type: official-website
+    url: https://www.deepnoid.com/en/
+last_verified: '2026-07-22'
+verification_status: official-source

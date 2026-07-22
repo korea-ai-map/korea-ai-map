@@ -1,0 +1,22 @@
+name_ko: 알파로
+name_en: AlphaLaw
+organization_id: intellicon
+categories:
+  - legal-ai
+  - contract-analysis
+target_users:
+  - lawyer
+  - legal-team
+  - enterprise
+delivery_type:
+  - saas
+models_used: []
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.intellicon.co.kr
+sources:
+  - type: official-website
+    url: https://www.intellicon.co.kr/
+last_verified: '2026-07-22'
+verification_status: official-source

@@ -1,0 +1,24 @@
+name_ko: 딥카스
+name_en: VUNO Med DeepCARS
+organization_id: vuno
+categories:
+  - medical-ai
+  - clinical-decision-support
+  - patient-monitoring
+target_users:
+  - hospital
+  - clinician
+delivery_type:
+  - on-premise
+  - medical-device
+models_used:
+  - vuno-med-deepcars
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.vuno.co
+sources:
+  - type: official-website
+    url: https://www.vuno.co/en
+last_verified: '2026-07-22'
+verification_status: official-source

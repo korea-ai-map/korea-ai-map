@@ -1,0 +1,20 @@
+name_ko: 비토
+name_en: VITO
+organization_id: return-zero
+categories:
+  - voice
+target_users:
+  - consumer
+delivery_type:
+  - app
+models_used:
+  - vito-speech
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.vito.ai/
+sources:
+  - type: official-website
+    url: https://www.vito.ai/
+last_verified: '2026-07-22'
+verification_status: official-source

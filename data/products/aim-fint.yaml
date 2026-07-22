@@ -1,0 +1,20 @@
+name_ko: 핀트
+name_en: Fint
+organization_id: aim
+categories:
+  - enterprise-ai
+  - fintech
+target_users:
+  - consumer
+delivery_type:
+  - app
+models_used: []
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.getaim.co/
+sources:
+  - type: official-website
+    url: https://www.getaim.co/
+last_verified: '2026-07-22'
+verification_status: official-source

@@ -1,0 +1,24 @@
+name_ko: 스톰
+name_en: STORM
+organization_id: sionic-ai
+categories:
+  - agent
+  - search-rag
+  - enterprise-ai
+target_users:
+  - enterprise
+  - developer
+delivery_type:
+  - api
+  - saas
+  - on-premise
+models_used: []
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://sionic.ai/
+sources:
+  - type: official-website
+    url: https://sionic.ai/
+last_verified: '2026-07-22'
+verification_status: official-source

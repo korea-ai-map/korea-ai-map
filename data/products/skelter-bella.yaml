@@ -1,0 +1,24 @@
+name_ko: 벨라
+name_en: BELLA
+organization_id: skelter-labs
+categories:
+  - customer-support
+  - search-rag
+  - enterprise-ai
+target_users:
+  - enterprise
+delivery_type:
+  - saas
+  - api
+  - on-premise
+models_used:
+  - bella-llm
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.skelterlabs.com/
+sources:
+  - type: official-website
+    url: https://www.skelterlabs.com/
+last_verified: '2026-07-22'
+verification_status: official-source

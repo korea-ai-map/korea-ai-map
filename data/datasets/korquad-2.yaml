@@ -1,0 +1,12 @@
+name: KorQuAD 2.0
+category: qa
+description_ko: HTML 문서 기반으로 확장한 한국어 기계독해 데이터셋으로 표·리스트 등 복잡한 문서 구조에서 10만여 개 질의응답을 제공한다.
+languages:
+  - ko
+license: CC BY-ND 2.0 KR
+url: https://korquad.github.io/
+sources:
+  - type: official-website
+    url: https://korquad.github.io/
+last_verified: '2026-07-22'
+verification_status: official-source

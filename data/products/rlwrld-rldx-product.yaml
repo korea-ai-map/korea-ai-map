@@ -1,0 +1,24 @@
+name_ko: RLDX-1 로봇 파운데이션 모델
+name_en: RLDX-1 (product)
+organization_id: rlwrld
+categories:
+  - robotics
+  - physical-ai
+  - foundation-model
+target_users:
+  - enterprise
+  - developer
+  - robotics-manufacturer
+delivery_type:
+  - software
+models_used:
+  - rldx-1
+model_ownership: own-model
+pricing_public: false
+status: beta
+website: https://rlwrld.ai
+sources:
+  - type: official-website
+    url: https://rlwrld.ai/
+last_verified: '2026-07-22'
+verification_status: needs-review

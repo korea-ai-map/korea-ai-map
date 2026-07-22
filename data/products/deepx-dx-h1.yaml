@@ -1,0 +1,23 @@
+name_ko: DX-H1
+name_en: DX-H1
+organization_id: deepx
+categories:
+  - ai-chip
+  - npu
+  - inference-chip
+  - data-center
+target_users:
+  - enterprise
+  - datacenter
+delivery_type:
+  - hardware
+models_used: []
+model_ownership: unknown
+pricing_public: false
+status: beta
+website: https://deepx.ai
+sources:
+  - type: official-website
+    url: https://deepx.ai/products/
+last_verified: '2026-07-22'
+verification_status: needs-review

@@ -1,0 +1,15 @@
+name: ClovaCall
+organization_id: naver-cloud
+category: speech
+description_ko: 식당 예약 도메인 콜센터 상황의 한국어 발화 약 11만 쌍으로 구성된 음성인식 데이터셋이다.
+languages:
+  - ko
+license: Non-commercial research only
+url: https://github.com/clovaai/ClovaCall
+sources:
+  - type: github
+    url: https://github.com/clovaai/ClovaCall
+  - type: paper
+    url: https://arxiv.org/abs/2004.09367
+last_verified: '2026-07-22'
+verification_status: verified

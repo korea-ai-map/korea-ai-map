@@ -1,0 +1,14 @@
+name: LBox Open
+category: domain-specific
+description_ko: 판례 15만 건 기반의 사건명 분류·법령 분류·형량/민사 판결 예측·요약 등 한국어 법률 NLP 벤치마크 데이터셋이다.
+languages:
+  - ko
+license: CC BY-NC 4.0
+url: https://github.com/lbox-kr/lbox-open
+sources:
+  - type: github
+    url: https://github.com/lbox-kr/lbox-open
+  - type: paper
+    url: https://arxiv.org/abs/2206.05224
+last_verified: '2026-07-22'
+verification_status: verified

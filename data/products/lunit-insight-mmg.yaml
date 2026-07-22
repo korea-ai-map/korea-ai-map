@@ -1,0 +1,24 @@
+name_ko: 루닛 인사이트 MMG
+name_en: Lunit INSIGHT MMG
+organization_id: lunit
+categories:
+  - medical-imaging
+  - radiology
+  - cancer-screening
+  - diagnostics
+target_users:
+  - hospital
+  - radiologist
+delivery_type:
+  - on-premise
+  - medical-device
+models_used: []
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.lunit.io
+sources:
+  - type: official-website
+    url: https://www.lunit.io/en/products
+last_verified: '2026-07-22'
+verification_status: official-source

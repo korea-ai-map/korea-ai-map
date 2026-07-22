@@ -1,0 +1,22 @@
+name_ko: 포르테 55X
+name_en: Forte 55X
+organization_id: hyperaccel
+categories:
+  - ai-chip
+  - inference-chip
+  - lpu
+target_users:
+  - enterprise
+  - datacenter
+delivery_type:
+  - hardware
+models_used: []
+model_ownership: unknown
+pricing_public: false
+status: active
+website: https://hyperaccel.ai
+sources:
+  - type: official-website
+    url: https://hyperaccel.ai/
+last_verified: '2026-07-22'
+verification_status: official-source

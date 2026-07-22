@@ -1,0 +1,23 @@
+name_ko: 불리오
+name_en: Boolio
+organization_id: doomoolmori
+categories:
+  - fintech
+  - robo-advisor
+  - wealth-management
+target_users:
+  - consumer
+  - retail-investor
+delivery_type:
+  - app
+  - saas
+models_used: []
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.boolio.co.kr
+sources:
+  - type: official-website
+    url: https://www.boolio.co.kr/
+last_verified: '2026-07-22'
+verification_status: official-source

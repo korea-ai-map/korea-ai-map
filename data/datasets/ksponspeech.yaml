@@ -1,0 +1,14 @@
+name: KsponSpeech
+category: speech
+description_ko: 약 1,000시간 규모의 한국어 자유발화 음성과 전사문으로 구성된 대규모 ASR 데이터셋이다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: https://aihub.or.kr/
+sources:
+  - type: paper
+    url: https://www.mdpi.com/2076-3417/10/19/6936
+  - type: gov
+    url: https://aihub.or.kr/
+last_verified: '2026-07-22'
+verification_status: official-source

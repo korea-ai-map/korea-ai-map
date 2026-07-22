@@ -1,0 +1,12 @@
+name: KoWikiText
+category: korean-corpus
+description_ko: 한국어 위키백과 덤프에서 추출한 약 133만 문서 규모의 한국어 코퍼스다.
+languages:
+  - ko
+license: CC BY-SA 3.0
+url: https://huggingface.co/datasets/heegyu/kowikitext
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/heegyu/kowikitext
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,12 @@
+name: OpenOrca-KO
+category: qa
+description_ko: OpenOrca에서 약 2만 건을 표본 추출해 번역한 단계적 추론 기반 한국어 instruction 데이터셋이다.
+languages:
+  - ko
+license: MIT
+url: https://huggingface.co/datasets/kyujinpy/OpenOrca-KO
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/kyujinpy/OpenOrca-KO
+last_verified: '2026-07-22'
+verification_status: verified

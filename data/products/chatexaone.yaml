@@ -1,0 +1,23 @@
+name_ko: 챗엑사원
+name_en: ChatEXAONE
+organization_id: lg-ai-research
+categories:
+  - enterprise-ai
+  - agent
+  - search-rag
+target_users:
+  - enterprise
+delivery_type:
+  - saas
+  - on-premise
+models_used:
+  - exaone-4-5-33b
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.lgresearch.ai/exaone
+sources:
+  - type: official-website
+    url: https://www.lgresearch.ai/exaone
+last_verified: '2026-07-22'
+verification_status: official-source

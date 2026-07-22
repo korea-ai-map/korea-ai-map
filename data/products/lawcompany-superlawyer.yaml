@@ -1,0 +1,22 @@
+name_ko: 슈퍼로이어
+name_en: SuperLawyer
+organization_id: law-and-company
+categories:
+  - document-ai
+  - search-rag
+  - enterprise-ai
+target_users:
+  - enterprise
+delivery_type:
+  - saas
+  - web-service
+models_used: []
+model_ownership: hybrid
+pricing_public: false
+status: active
+website: https://www.lawcompany.co.kr/
+sources:
+  - type: official-website
+    url: https://www.lawcompany.co.kr/
+last_verified: '2026-07-22'
+verification_status: official-source

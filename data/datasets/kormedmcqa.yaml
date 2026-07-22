@@ -1,0 +1,14 @@
+name: KorMedMCQA
+category: domain-specific
+description_ko: 의사·간호사·약사·치과의사 국가시험 기반 7,469개 문항으로 구성된 한국어 의료 객관식 QA 데이터셋이다.
+languages:
+  - ko
+license: CC BY-NC 2.0
+url: https://huggingface.co/datasets/sean0042/KorMedMCQA
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/sean0042/KorMedMCQA
+  - type: paper
+    url: https://arxiv.org/abs/2403.01469
+last_verified: '2026-07-22'
+verification_status: verified
