@@ -13,11 +13,42 @@ const coreLevelLabel: Record<string, string> = {
 };
 ---
 <Base title="조직 — Korea AI Map">
-  <h1>조직 <span class="count">{items.length}</span></h1>
+  <h1>조직 <span class="count" id="count">{items.length}</span></h1>
   <p class="lead">한국 AI 기업·연구조직·스타트업.</p>
-  <div class="grid">
+
+  <div class="filters">
+    <input id="f-q" type="search" placeholder="이름 검색…" autocomplete="off" />
+    <select id="f-type" aria-label="유형">
+      <option value="">유형: 전체</option>
+      <option value="corporate">기업</option><option value="corporate-research-lab">기업 연구소</option>
+      <option value="startup">스타트업</option><option value="university-lab">대학 연구실</option>
+      <option value="government-research">정부 연구</option><option value="public-institution">공공기관</option>
+      <option value="non-profit">비영리</option><option value="open-source-community">오픈소스 커뮤니티</option>
+    </select>
+    <select id="f-core" aria-label="AI 핵심도">
+      <option value="">핵심도: 전체</option>
+      <option value="foundation_model">파운데이션 모델</option><option value="model_builder">모델 빌더</option>
+      <option value="ai_native">AI 네이티브</option><option value="ai_infrastructure">AI 인프라</option>
+      <option value="ai_enabled">AI 통합</option><option value="research_only">연구</option>
+    </select>
+    <select id="f-status" aria-label="상태">
+      <option value="">상태: 전체</option>
+      <option value="active">운영 중</option><option value="acquired">피인수</option>
+      <option value="merged">합병</option><option value="dormant">휴면</option><option value="closed">종료</option>
+    </select>
+    <label class="chk"><input type="checkbox" id="f-model" /> 자체 모델 보유</label>
+    <label class="chk"><input type="checkbox" id="f-os" /> 오픈소스 보유</label>
+  </div>
+
+  <div class="grid" id="list">
     {items.map((o) => (
-      <a class="card" href={url(`/organizations/${o.id}/`)}>
+      <a class="card" href={url(`/organizations/${o.id}/`)}
+        data-name={`${o.data.name_ko} ${o.data.name_en}`.toLowerCase()}
+        data-type={o.data.organization_type}
+        data-core={o.data.ai_core_level}
+        data-status={o.data.status}
+        data-hasmodels={String((o.data.models?.length ?? 0) > 0)}
+        data-hasos={String((o.data.open_source_links?.length ?? 0) > 0)}>
         <h3>{o.data.name_ko}</h3>
         <div class="sub">{o.data.name_en} · {coreLevelLabel[o.data.ai_core_level] ?? o.data.ai_core_level}</div>
         <div><StatusBadge status={o.data.verification_status} /></div>
@@ -25,4 +56,44 @@ const coreLevelLabel: Record<string, string> = {
       </a>
     ))}
   </div>
+  <p id="empty" class="muted" hidden>조건에 맞는 조직이 없습니다.</p>
+
+  <script>
+    const list = document.getElementById('list')!;
+    const cards = Array.from(list.children) as HTMLElement[];
+    const count = document.getElementById('count')!;
+    const empty = document.getElementById('empty')!;
+    const ctl = (id: string) => document.getElementById(id) as HTMLInputElement | HTMLSelectElement;
+    const fq = ctl('f-q'), fType = ctl('f-type'), fCore = ctl('f-core'), fStat = ctl('f-status'),
+      fModel = ctl('f-model') as HTMLInputElement, fOs = ctl('f-os') as HTMLInputElement;
+
+    function apply() {
+      const q = fq.value.trim().toLowerCase();
+      let shown = 0;
+      for (const c of cards) {
+        const ok =
+          (!q || c.dataset.name!.includes(q)) &&
+          (!fType.value || c.dataset.type === fType.value) &&
+          (!fCore.value || c.dataset.core === fCore.value) &&
+          (!fStat.value || c.dataset.status === fStat.value) &&
+          (!fModel.checked || c.dataset.hasmodels === 'true') &&
+          (!fOs.checked || c.dataset.hasos === 'true');
+        c.hidden = !ok;
+        if (ok) shown++;
+      }
+      count.textContent = String(shown);
+      empty.hidden = shown !== 0;
+    }
+    [fq, fType, fCore, fStat, fModel, fOs].forEach((el) => el.addEventListener('input', apply));
+    apply();
+  </script>
+
+  <style>
+    .filters { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1rem 0 1.3rem; }
+    .filters input[type="search"], .filters select {
+      padding: 0.4rem 0.6rem; border: 1px solid var(--line); border-radius: 6px;
+      background: var(--card); color: var(--fg); font-size: 0.9rem;
+    }
+    .filters .chk { display: inline-flex; align-items: center; gap: 0.3rem; font-size: 0.9rem; color: var(--muted); }
+  </style>
 </Base>

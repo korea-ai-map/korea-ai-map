@@ -9,11 +9,44 @@ const orgName = (id: string) => orgs.find((o) => o.id === id)?.data.name_ko ?? i
 const items = models.sort((a, b) => (b.data.release_date ?? '').localeCompare(a.data.release_date ?? ''));
 ---
 <Base title="모델 — Korea AI Map">
-  <h1>모델 <span class="count">{items.length}</span></h1>
-  <p class="lead">한국 AI 모델. 최신 출시순.</p>
-  <div class="grid">
+  <h1>모델 <span class="count" id="count">{items.length}</span></h1>
+  <p class="lead">한국 AI 모델.</p>
+
+  <div class="filters">
+    <input id="f-q" type="search" placeholder="이름 검색…" autocomplete="off" />
+    <select id="f-modality" aria-label="모달리티">
+      <option value="">모달리티: 전체</option>
+      <option value="text">텍스트</option><option value="image">이미지</option>
+      <option value="video">비디오</option><option value="audio">오디오</option>
+    </select>
+    <select id="f-commercial" aria-label="상업 이용">
+      <option value="">상업이용: 전체</option>
+      <option value="allowed">가능</option><option value="restricted">제한적</option>
+      <option value="prohibited">불가</option><option value="unknown">미상</option>
+    </select>
+    <select id="f-status" aria-label="상태">
+      <option value="">상태: 전체</option>
+      <option value="active">운영 중</option><option value="announced">발표됨</option>
+      <option value="deprecated">지원 중단</option><option value="archived">보존</option>
+    </select>
+    <label class="chk"><input type="checkbox" id="f-weights" /> 가중치 공개</label>
+    <select id="f-sort" aria-label="정렬">
+      <option value="release">최신 출시순</option>
+      <option value="name">이름순</option>
+      <option value="verified">최근 검증순</option>
+    </select>
+  </div>
+
+  <div class="grid" id="list">
     {items.map((m) => (
-      <a class="card" href={url(`/models/${m.id}/`)}>
+      <a class="card" href={url(`/models/${m.id}/`)}
+        data-name={m.data.name.toLowerCase()}
+        data-modalities={(m.data.modalities ?? []).join(' ')}
+        data-commercial={m.data.license?.commercial_use ?? 'unknown'}
+        data-status={m.data.status}
+        data-weights={String(m.data.availability?.weights ?? false)}
+        data-release={m.data.release_date ?? ''}
+        data-verified={m.data.last_verified ?? ''}>
         <h3>{m.data.name}</h3>
         <div class="sub">{orgName(m.data.organization_id)}{m.data.release_date ? ` · ${m.data.release_date}` : ''}</div>
         <div><StatusBadge status={m.data.verification_status} /></div>
@@ -21,4 +54,54 @@ const items = models.sort((a, b) => (b.data.release_date ?? '').localeCompare(a.
       </a>
     ))}
   </div>
+  <p id="empty" class="muted" hidden>조건에 맞는 모델이 없습니다.</p>
+
+  <script>
+    const list = document.getElementById('list')!;
+    const cards = Array.from(list.children) as HTMLElement[];
+    const count = document.getElementById('count')!;
+    const empty = document.getElementById('empty')!;
+    const ctl = (id: string) => document.getElementById(id) as HTMLInputElement | HTMLSelectElement;
+    const fq = ctl('f-q'), fMod = ctl('f-modality'), fCom = ctl('f-commercial'),
+      fStat = ctl('f-status'), fW = ctl('f-weights') as HTMLInputElement, fSort = ctl('f-sort');
+
+    function apply() {
+      const q = fq.value.trim().toLowerCase();
+      let shown = 0;
+      for (const c of cards) {
+        const ok =
+          (!q || c.dataset.name!.includes(q)) &&
+          (!fMod.value || (c.dataset.modalities || '').split(' ').includes(fMod.value)) &&
+          (!fCom.value || c.dataset.commercial === fCom.value) &&
+          (!fStat.value || c.dataset.status === fStat.value) &&
+          (!fW.checked || c.dataset.weights === 'true');
+        c.hidden = !ok;
+        if (ok) shown++;
+      }
+      count.textContent = String(shown);
+      empty.hidden = shown !== 0;
+      sort();
+    }
+    function sort() {
+      const key = (fSort as HTMLSelectElement).value;
+      const visible = cards.filter((c) => !c.hidden);
+      visible.sort((a, b) => {
+        if (key === 'name') return a.dataset.name!.localeCompare(b.dataset.name!);
+        if (key === 'verified') return (b.dataset.verified || '').localeCompare(a.dataset.verified || '');
+        return (b.dataset.release || '').localeCompare(a.dataset.release || '');
+      });
+      visible.forEach((c) => list.appendChild(c));
+    }
+    [fq, fMod, fCom, fStat, fW, fSort].forEach((el) => el.addEventListener('input', apply));
+    apply();
+  </script>
+
+  <style>
+    .filters { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1rem 0 1.3rem; }
+    .filters input[type="search"], .filters select {
+      padding: 0.4rem 0.6rem; border: 1px solid var(--line); border-radius: 6px;
+      background: var(--card); color: var(--fg); font-size: 0.9rem;
+    }
+    .filters .chk { display: inline-flex; align-items: center; gap: 0.3rem; font-size: 0.9rem; color: var(--muted); }
+  </style>
 </Base>
