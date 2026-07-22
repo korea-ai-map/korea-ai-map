@@ -1,0 +1,12 @@
+name: KR-SBERT
+organization_id: snu-aiis
+repo_type: github-repo
+url: https://github.com/snunlp/KR-SBERT
+description_ko: 서울대 전산언어학연구실이 개발한 한국어 특화 Sentence-BERT 문장 임베딩 모델.
+language: Python
+license: MIT
+sources:
+  - type: github
+    url: https://github.com/snunlp/KR-SBERT
+last_verified: '2026-07-22'
+verification_status: verified

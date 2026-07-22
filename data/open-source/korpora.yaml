@@ -1,0 +1,11 @@
+name: Korpora (Korean Corpora Archives)
+repo_type: framework
+url: https://github.com/ko-nlp/Korpora
+description_ko: 흩어진 한국어 말뭉치를 표준화된 인터페이스로 내려받고 전처리하게 해주는 코퍼스 도구.
+language: Python
+license: CC-BY-4.0
+sources:
+  - type: github
+    url: https://github.com/ko-nlp/Korpora
+last_verified: '2026-07-22'
+verification_status: verified

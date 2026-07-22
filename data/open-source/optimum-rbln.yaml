@@ -1,0 +1,12 @@
+name: Optimum-RBLN
+organization_id: rebellions
+repo_type: inference-tool
+url: https://github.com/rebellions-sw/optimum-rbln
+description_ko: 리벨리온이 공개한 Hugging Face Optimum 확장. Transformers·Diffusers 모델을 RBLN NPU에서 효율적으로 추론하도록 RBLN SDK와 연동한다.
+language: Python
+license: Apache-2.0
+sources:
+  - type: github
+    url: https://github.com/rebellions-sw/optimum-rbln
+last_verified: '2026-07-22'
+verification_status: official-source

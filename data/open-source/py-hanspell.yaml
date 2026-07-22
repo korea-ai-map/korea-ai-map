@@ -1,0 +1,11 @@
+name: py-hanspell
+repo_type: framework
+url: https://github.com/ssut/py-hanspell
+description_ko: 네이버 맞춤법 검사기를 활용한 파이썬 한국어 맞춤법 교정 라이브러리.
+language: Python
+license: MIT
+sources:
+  - type: github
+    url: https://github.com/ssut/py-hanspell
+last_verified: '2026-07-22'
+verification_status: needs-review

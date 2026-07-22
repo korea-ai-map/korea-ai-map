@@ -1,0 +1,11 @@
+name: LogicKor (repo)
+organization_id: instructkr
+repo_type: eval-tool
+url: https://github.com/instructkr/LogicKor
+description_ko: instructkr 커뮤니티의 한국어 LLM 다분야 추론·논리 평가 벤치마크 및 실행 하네스. 2024년 10월 이후 아카이브(읽기 전용).
+language: Python
+sources:
+  - type: github
+    url: https://github.com/instructkr/LogicKor
+last_verified: '2026-07-22'
+verification_status: official-source

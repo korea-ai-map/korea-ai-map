@@ -1,0 +1,10 @@
+name: Llama-2-Ko
+repo_type: huggingface-model
+url: https://huggingface.co/beomi/llama-2-ko-7b
+description_ko: Llama 2에 한국어 어휘 확장과 추가 사전학습을 적용한 한국어 특화 LLaMA 계열 모델.
+language: Python
+sources:
+  - type: huggingface
+    url: https://huggingface.co/beomi/llama-2-ko-7b
+last_verified: '2026-07-22'
+verification_status: needs-review

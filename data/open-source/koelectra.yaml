@@ -1,0 +1,11 @@
+name: KoELECTRA
+repo_type: github-repo
+url: https://github.com/monologg/KoELECTRA
+description_ko: 약 34GB 한국어 코퍼스로 학습한 ELECTRA 기반 한국어 사전학습 모델(Base/Small, v1-v3).
+language: Python
+license: Apache-2.0
+sources:
+  - type: github
+    url: https://github.com/monologg/KoELECTRA
+last_verified: '2026-07-22'
+verification_status: verified

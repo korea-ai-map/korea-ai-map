@@ -1,0 +1,14 @@
+name: Donut (구현)
+organization_id: naver-cloud
+repo_type: github-repo
+url: https://github.com/clovaai/donut
+description_ko: NAVER Clova AI Research의 공식 구현(ECCV 2022). OCR 엔진 없이 문서를 엔드투엔드로 이해하는 트랜스포머로 합성 문서 생성기 SynthDoG를 함께 제공한다.
+language: Python
+license: MIT
+sources:
+  - type: github
+    url: https://github.com/clovaai/donut
+  - type: paper
+    url: https://arxiv.org/abs/2111.15664
+last_verified: '2026-07-22'
+verification_status: official-source

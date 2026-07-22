@@ -1,0 +1,11 @@
+name: KcBERT (repo)
+repo_type: github-repo
+url: https://github.com/Beomi/KcBERT
+description_ko: 정제된 문어가 아닌 한국어 뉴스 댓글로 학습해 구어·신조어·오타에 강한 BERT 모델.
+language: Python
+license: MIT
+sources:
+  - type: github
+    url: https://github.com/Beomi/KcBERT
+last_verified: '2026-07-22'
+verification_status: verified

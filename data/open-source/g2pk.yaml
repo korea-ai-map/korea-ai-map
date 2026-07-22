@@ -1,0 +1,11 @@
+name: g2pK
+repo_type: framework
+url: https://github.com/Kyubyong/g2pK
+description_ko: 발음 규칙과 문맥을 반영해 한국어 문자열을 발음(음소)으로 변환하는 grapheme-to-phoneme 모듈.
+language: Python
+license: Apache-2.0
+sources:
+  - type: github
+    url: https://github.com/Kyubyong/g2pK
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,11 @@
+name: soynlp
+repo_type: framework
+url: https://github.com/lovit/soynlp
+description_ko: 학습 데이터 없이 통계 기반으로 단어 추출·토큰화를 수행하는 순수 파이썬 한국어 분석 라이브러리.
+language: Python
+license: GPL-3.0
+sources:
+  - type: github
+    url: https://github.com/lovit/soynlp
+last_verified: '2026-07-22'
+verification_status: verified

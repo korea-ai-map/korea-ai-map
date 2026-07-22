@@ -1,0 +1,14 @@
+name: StarGAN v2 (구현)
+organization_id: naver-cloud
+repo_type: github-repo
+url: https://github.com/clovaai/stargan-v2
+description_ko: NAVER Clova AI Research의 공식 PyTorch 구현(CVPR 2020). 다중 도메인에서 다양성 높은 이미지 변환·합성을 수행하는 생성 모델이다.
+language: Python
+license: CC-BY-NC-4.0
+sources:
+  - type: github
+    url: https://github.com/clovaai/stargan-v2
+  - type: paper
+    url: https://arxiv.org/abs/1912.01865
+last_verified: '2026-07-22'
+verification_status: official-source

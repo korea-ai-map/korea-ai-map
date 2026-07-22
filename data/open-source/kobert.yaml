@@ -1,0 +1,12 @@
+name: KoBERT
+organization_id: skt
+repo_type: github-repo
+url: https://github.com/SKTBrain/KoBERT
+description_ko: 구글 다국어 BERT의 한국어 성능 한계를 개선하기 위해 SKT가 공개한 한국어 사전학습 BERT.
+language: Python
+license: Apache-2.0
+sources:
+  - type: github
+    url: https://github.com/SKTBrain/KoBERT
+last_verified: '2026-07-22'
+verification_status: verified

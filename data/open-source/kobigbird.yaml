@@ -1,0 +1,11 @@
+name: KoBigBird
+repo_type: github-repo
+url: https://github.com/monologg/KoBigBird
+description_ko: 희소 어텐션으로 최대 4096 토큰의 긴 한국어 문서를 처리하는 BigBird 기반 사전학습 모델.
+language: Python
+license: Apache-2.0
+sources:
+  - type: github
+    url: https://github.com/monologg/KoBigBird
+last_verified: '2026-07-22'
+verification_status: verified

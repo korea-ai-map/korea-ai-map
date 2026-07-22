@@ -1,0 +1,12 @@
+name: FuriosaAI SDK
+organization_id: furiosaai
+repo_type: inference-tool
+url: https://github.com/furiosa-ai/furiosa-sdk
+description_ko: 퓨리오사AI NPU에서 딥러닝 추론을 실행하기 위한 SDK. 컴파일러·프로파일러 CLI와 Python 바인딩·런타임을 포함한다.
+language: Python
+license: Apache-2.0
+sources:
+  - type: github
+    url: https://github.com/furiosa-ai/furiosa-sdk
+last_verified: '2026-07-22'
+verification_status: official-source

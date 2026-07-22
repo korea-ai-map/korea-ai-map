@@ -1,0 +1,11 @@
+name: KOMORAN
+repo_type: framework
+url: https://github.com/shin285/KOMORAN
+description_ko: 외부 의존성 없이 동작하는 순수 자바 구현 한국어 형태소 분석기.
+language: Java
+license: Apache-2.0
+sources:
+  - type: github
+    url: https://github.com/shin285/KOMORAN
+last_verified: '2026-07-22'
+verification_status: verified

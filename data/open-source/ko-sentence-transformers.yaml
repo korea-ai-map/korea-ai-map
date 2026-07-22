@@ -1,0 +1,12 @@
+name: ko-sentence-transformers
+organization_id: jhgan
+repo_type: github-repo
+url: https://github.com/jhgan00/ko-sentence-transformers
+description_ko: KorNLU·KLUE 사전학습 모델을 활용해 한국어 문장 임베딩을 파인튜닝하는 저장소.
+language: Python
+license: CC-BY-SA-4.0
+sources:
+  - type: github
+    url: https://github.com/jhgan00/ko-sentence-transformers
+last_verified: '2026-07-22'
+verification_status: verified

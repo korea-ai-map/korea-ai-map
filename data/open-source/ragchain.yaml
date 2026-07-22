@@ -1,0 +1,11 @@
+name: RAGchain
+repo_type: framework
+url: https://github.com/NomaDamas/RAGchain
+description_ko: 한국 Marker Inc.(NomaDamas)의 고급 RAG 워크플로우 프레임워크. LangChain을 확장하며 Ko-StrategyQA 등 한국어 데이터셋을 포함한다. 2024년 아카이브.
+language: Python
+license: Apache-2.0
+sources:
+  - type: github
+    url: https://github.com/NomaDamas/RAGchain
+last_verified: '2026-07-22'
+verification_status: official-source

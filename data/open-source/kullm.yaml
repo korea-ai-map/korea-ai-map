@@ -1,0 +1,12 @@
+name: KULLM (구름)
+organization_id: korea-university-nlpai-lab
+repo_type: github-repo
+url: https://github.com/nlpai-lab/KULLM
+description_ko: 고려대 NLP&AI 연구실이 개발한 한국어 특화 instruction-tuned 대규모 언어모델.
+language: Python
+license: Apache-2.0
+sources:
+  - type: github
+    url: https://github.com/nlpai-lab/KULLM
+last_verified: '2026-07-22'
+verification_status: verified

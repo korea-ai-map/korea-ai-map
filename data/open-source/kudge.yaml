@@ -1,0 +1,13 @@
+name: KUDGE
+organization_id: haerae-hub
+repo_type: eval-tool
+url: https://huggingface.co/datasets/HAERAE-HUB/KUDGE
+description_ko: HAE-RAE HUB가 공개한 한국어 LLM-as-a-Judge·리워드 모델 메타평가 데이터셋. 원어민 주석 약 5천 건으로 비영어권 자동 평가자의 한국어 전이 성능을 검증한다.
+language: Python
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/HAERAE-HUB/KUDGE
+  - type: paper
+    url: https://arxiv.org/abs/2409.11239
+last_verified: '2026-07-22'
+verification_status: official-source

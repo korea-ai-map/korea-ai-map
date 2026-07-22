@@ -1,0 +1,11 @@
+name: open-korean-text
+repo_type: framework
+url: https://github.com/open-korean-text/open-korean-text
+description_ko: 정규화·토큰화·어간추출·구 추출을 제공하는 오픈소스 한국어 텍스트 처리기(twitter-korean-text 후속).
+language: Scala
+license: Apache-2.0
+sources:
+  - type: github
+    url: https://github.com/open-korean-text/open-korean-text
+last_verified: '2026-07-22'
+verification_status: verified

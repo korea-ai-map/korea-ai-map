@@ -1,0 +1,11 @@
+name: KSS (Korean Sentence Splitter)
+repo_type: framework
+url: https://github.com/hyunwoongko/kss
+description_ko: 한국어 문장 분리를 중심으로 다양한 전처리 기능을 제공하는 텍스트 처리 도구.
+language: Python
+license: BSD-3-Clause
+sources:
+  - type: github
+    url: https://github.com/hyunwoongko/kss
+last_verified: '2026-07-22'
+verification_status: verified

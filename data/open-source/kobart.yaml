@@ -1,0 +1,12 @@
+name: KoBART
+organization_id: skt
+repo_type: github-repo
+url: https://github.com/SKT-AI/KoBART
+description_ko: Text Infilling 노이즈로 40GB 이상의 한국어를 학습한 SKT의 인코더-디코더(BART) 모델.
+language: Python
+license: Modified MIT
+sources:
+  - type: github
+    url: https://github.com/SKT-AI/KoBART
+last_verified: '2026-07-22'
+verification_status: verified

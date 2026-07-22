@@ -1,0 +1,11 @@
+name: LangChain 한국어 튜토리얼 (langchain-kr)
+repo_type: github-repo
+url: https://github.com/teddylee777/langchain-kr
+description_ko: 테디노트가 운영하는 LangChain 한국어 학습 저장소. RAG·에이전트 등 실전 예제를 모듈로 정리했고 위키독스 전자책·유튜브 강의가 연계된다.
+language: Jupyter Notebook
+license: Apache-2.0
+sources:
+  - type: github
+    url: https://github.com/teddylee777/langchain-kr
+last_verified: '2026-07-22'
+verification_status: verified

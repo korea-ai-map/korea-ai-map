@@ -1,0 +1,14 @@
+name: Deep Text Recognition Benchmark
+organization_id: naver-cloud
+repo_type: github-repo
+url: https://github.com/clovaai/deep-text-recognition-benchmark
+description_ko: NAVER Clova AI Research의 공식 구현. 4단계 STR(장면 텍스트 인식) 프레임워크로 모델별 정확도·속도·메모리 기여도를 비교하는 벤치마크를 제공한다.
+language: Python
+license: Apache-2.0
+sources:
+  - type: github
+    url: https://github.com/clovaai/deep-text-recognition-benchmark
+  - type: paper
+    url: https://arxiv.org/abs/1904.01906
+last_verified: '2026-07-22'
+verification_status: official-source

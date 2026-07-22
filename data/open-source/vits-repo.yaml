@@ -1,0 +1,13 @@
+name: VITS (구현)
+repo_type: github-repo
+url: https://github.com/jaywalnut310/vits
+description_ko: Jaehyeon Kim 등(카카오 엔터프라이즈)의 공식 구현. 조건부 VAE·적대적 학습·정규화 흐름을 결합한 엔드투엔드 병렬 TTS로 후속 한국어 TTS 다수의 기반이 되었다.
+language: Python
+license: MIT
+sources:
+  - type: github
+    url: https://github.com/jaywalnut310/vits
+  - type: paper
+    url: https://arxiv.org/abs/2106.06103
+last_verified: '2026-07-22'
+verification_status: verified

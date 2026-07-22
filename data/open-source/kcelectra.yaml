@@ -1,0 +1,11 @@
+name: KcELECTRA
+repo_type: github-repo
+url: https://github.com/Beomi/KcELECTRA
+description_ko: 한국어 뉴스 댓글로 학습해 노이즈가 많은 사용자 생성 텍스트에 강한 ELECTRA 모델.
+language: Python
+license: MIT
+sources:
+  - type: github
+    url: https://github.com/Beomi/KcELECTRA
+last_verified: '2026-07-22'
+verification_status: verified

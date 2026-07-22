@@ -1,0 +1,11 @@
+name: Ko-LM-Evaluation-Harness
+repo_type: eval-tool
+url: https://github.com/Beomi/ko-lm-evaluation-harness
+description_ko: EleutherAI lm-evaluation-harness를 한국어로 포팅한 평가 하네스. KoBEST·NSMC·KLUE 등 13종 이상의 공개 한국어 벤치마크 태스크를 지원한다.
+language: Python
+license: MIT
+sources:
+  - type: github
+    url: https://github.com/Beomi/ko-lm-evaluation-harness
+last_verified: '2026-07-22'
+verification_status: verified

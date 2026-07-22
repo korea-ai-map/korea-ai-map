@@ -1,0 +1,11 @@
+name: KoNLPy
+repo_type: framework
+url: https://github.com/konlpy/konlpy
+description_ko: 여러 형태소 분석기를 통합 제공하는 대표적인 한국어 자연어처리 파이썬 패키지.
+language: Python
+license: GPL-3.0
+sources:
+  - type: github
+    url: https://github.com/konlpy/konlpy
+last_verified: '2026-07-22'
+verification_status: verified

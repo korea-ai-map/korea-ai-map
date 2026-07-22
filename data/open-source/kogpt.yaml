@@ -1,0 +1,12 @@
+name: KakaoBrain KoGPT
+organization_id: kakao
+repo_type: github-repo
+url: https://github.com/kakaobrain/kogpt
+description_ko: 카카오브레인이 공개한 60억 파라미터 규모의 한국어 생성형 사전학습 모델(KoGPT6B).
+language: Python
+license: CC-BY-NC-ND-4.0
+sources:
+  - type: github
+    url: https://github.com/kakaobrain/kogpt
+last_verified: '2026-07-22'
+verification_status: verified

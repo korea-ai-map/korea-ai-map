@@ -1,0 +1,11 @@
+name: AutoRAG
+repo_type: agent-mcp
+url: https://github.com/Marker-Inc-Korea/AutoRAG
+description_ko: 한국 Marker Inc.가 개발한 RAG 프레임워크. AutoRAG 2.0은 문서 컬렉션을 탐색·큐레이션하는 자기진화형 에이전트로 재설계되었다.
+language: Python
+license: Apache-2.0
+sources:
+  - type: github
+    url: https://github.com/Marker-Inc-Korea/AutoRAG
+last_verified: '2026-07-22'
+verification_status: verified

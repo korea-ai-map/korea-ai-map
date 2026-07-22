@@ -1,0 +1,14 @@
+name: CRAFT (구현)
+organization_id: naver-cloud
+repo_type: github-repo
+url: https://github.com/clovaai/CRAFT-pytorch
+description_ko: NAVER Clova AI Research의 공식 PyTorch 구현(CVPR 2019). 문자 영역과 연결성을 학습해 곡선 텍스트 포함 다국어 장면 텍스트를 검출한다.
+language: Python
+license: MIT
+sources:
+  - type: github
+    url: https://github.com/clovaai/CRAFT-pytorch
+  - type: paper
+    url: https://arxiv.org/abs/1904.01941
+last_verified: '2026-07-22'
+verification_status: official-source

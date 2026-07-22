@@ -1,0 +1,12 @@
+name: KoGPT2
+organization_id: skt
+repo_type: github-repo
+url: https://github.com/SKT-AI/KoGPT2
+description_ko: 40GB 이상의 한국어 텍스트로 학습한 SKT의 한국어 생성형 GPT-2 모델.
+language: Python
+license: CC-BY-NC-SA-4.0
+sources:
+  - type: github
+    url: https://github.com/SKT-AI/KoGPT2
+last_verified: '2026-07-22'
+verification_status: verified

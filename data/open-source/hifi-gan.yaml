@@ -1,0 +1,13 @@
+name: HiFi-GAN (구현)
+repo_type: github-repo
+url: https://github.com/jik876/hifi-gan
+description_ko: 카카오 엔터프라이즈 연구진(Jungil Kong 등)의 공식 구현. 멜 스펙트로그램을 원음 파형으로 변환하는 고품질 GAN 보코더로 사전학습 모델·학습/추론 코드를 제공한다.
+language: Python
+license: MIT
+sources:
+  - type: github
+    url: https://github.com/jik876/hifi-gan
+  - type: paper
+    url: https://arxiv.org/abs/2010.05646
+last_verified: '2026-07-22'
+verification_status: verified

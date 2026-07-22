@@ -1,0 +1,13 @@
+name: HierSpeech++ (구현)
+repo_type: github-repo
+url: https://github.com/sh-lee-prml/HierSpeechpp
+description_ko: 고려대 연구진의 공식 구현. 계층적 변분추론 기반 빠른 제로샷 음성합성기로 TTS와 음성변환(VC)을 함께 수행한다.
+language: Python
+license: MIT
+sources:
+  - type: github
+    url: https://github.com/sh-lee-prml/HierSpeechpp
+  - type: paper
+    url: https://arxiv.org/abs/2311.12454
+last_verified: '2026-07-22'
+verification_status: verified

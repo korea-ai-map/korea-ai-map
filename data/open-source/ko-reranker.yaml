@@ -1,0 +1,11 @@
+name: ko-reranker
+repo_type: huggingface-model
+url: https://huggingface.co/Dongjin-kr/ko-reranker
+description_ko: bge-reranker-large를 한국어 데이터로 파인튜닝해 질문-문서 관련도를 재정렬하는 RAG용 리랭커.
+language: Python
+license: MIT
+sources:
+  - type: huggingface
+    url: https://huggingface.co/Dongjin-kr/ko-reranker
+last_verified: '2026-07-22'
+verification_status: needs-review

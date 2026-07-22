@@ -1,0 +1,11 @@
+name: Kiwi (지능형 한국어 형태소 분석기)
+repo_type: framework
+url: https://github.com/bab2min/Kiwi
+description_ko: 이민철(bab2min)이 개발한 고성능 한국어 형태소 분석기. C++ 구현에 Python·Java·Rust·Go·JS 바인딩을 제공하며 속도·정확도가 뛰어나 검색·RAG 전처리에 널리 쓰인다.
+language: C++
+license: LGPL-3.0
+sources:
+  - type: github
+    url: https://github.com/bab2min/Kiwi
+last_verified: '2026-07-22'
+verification_status: verified

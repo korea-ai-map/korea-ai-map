@@ -1,0 +1,11 @@
+name: KoParadigm
+repo_type: framework
+url: https://github.com/Kyubyong/KoParadigm
+description_ko: 용언과 어미의 결합 규칙을 처리해 한국어 활용형을 생성하는 conjugation paradigm 생성기.
+language: Python
+license: Apache-2.0
+sources:
+  - type: github
+    url: https://github.com/Kyubyong/KoParadigm
+last_verified: '2026-07-22'
+verification_status: verified

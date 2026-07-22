@@ -1,0 +1,12 @@
+name: Friendli Client
+organization_id: friendliai
+repo_type: inference-tool
+url: https://github.com/friendliai/friendli-client
+description_ko: FriendliAI 서빙 엔드포인트에 접근하는 Python 클라이언트 SDK(동기/비동기). 이후 Friendli Python SDK로 대체되어 아카이브.
+language: Python
+license: Apache-2.0
+sources:
+  - type: github
+    url: https://github.com/friendliai/friendli-client
+last_verified: '2026-07-22'
+verification_status: official-source
