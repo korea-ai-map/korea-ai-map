@@ -1,0 +1,16 @@
+id: cost-sensitive-freeze-thaw-bo
+title: Cost-Sensitive Freeze-thaw Bayesian Optimization for Efficient Hyperparameter Tuning
+authors_org: KAIST
+venue: NeurIPS
+year: 2025
+arxiv_id: '2510.21379'
+url: https://arxiv.org/abs/2510.21379
+abstract_ko: 비용을 고려한 freeze-thaw 베이지안 최적화로 효율적인 하이퍼파라미터 튜닝을 수행한다.
+related_ids:
+  - kaist
+  - kaist-mlai-lab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2510.21379
+last_verified: '2026-07-22'
+verification_status: verified

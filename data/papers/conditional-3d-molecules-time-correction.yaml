@@ -1,0 +1,16 @@
+id: conditional-3d-molecules-time-correction
+title: Conditional Synthesis of 3D Molecules with Time Correction Sampler
+authors_org: KAIST
+venue: NeurIPS
+year: 2024
+arxiv_id: '2411.00551'
+url: https://arxiv.org/abs/2411.00551
+abstract_ko: 시간 보정 샘플러로 3D 분자의 조건부 생성을 개선한다.
+related_ids:
+  - kaist
+  - kaist-alinlab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2411.00551
+last_verified: '2026-07-22'
+verification_status: verified

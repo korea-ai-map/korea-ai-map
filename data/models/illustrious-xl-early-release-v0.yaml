@@ -1,0 +1,40 @@
+id: illustrious-xl-early-release-v0
+name: Illustrious-xl-early-release-v0
+organization_id: onomaai
+model_family: Illustrious
+status: active
+modalities:
+  - text
+  - image
+tasks:
+  - text-to-image
+parameter_count:
+  value: 3000000000
+  disclosure: likely
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: ''
+  commercial_use: unknown
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - en
+base_model: stabilityai/stable-diffusion-xl-base-1.0
+links:
+  official: https://illustrious-xl.ai
+  model_card: https://huggingface.co/OnomaAIResearch/Illustrious-xl-early-release-v0
+  huggingface: https://huggingface.co/OnomaAIResearch/Illustrious-xl-early-release-v0
+  github: null
+  paper: https://arxiv.org/abs/2409.19946
+sources:
+  - type: model-card
+    url: https://huggingface.co/OnomaAIResearch/Illustrious-xl-early-release-v0
+last_verified: '2026-07-22'
+verification_status: needs-review

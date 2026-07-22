@@ -1,0 +1,39 @@
+id: kcelectra-base
+name: KcELECTRA-base
+organization_id: beomi
+model_family: KcELECTRA
+status: active
+modalities:
+  - text
+tasks:
+  - fill-mask
+  - classification
+parameter_count:
+  value: 110000000
+  disclosure: likely
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: MIT
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+links:
+  official: null
+  model_card: https://huggingface.co/beomi/KcELECTRA-base
+  huggingface: https://huggingface.co/beomi/KcELECTRA-base
+  github: https://github.com/Beomi/KcELECTRA
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/beomi/KcELECTRA-base
+last_verified: '2026-07-22'
+verification_status: official-source

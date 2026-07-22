@@ -1,0 +1,15 @@
+id: semiparametric-token-sequence-co-supervision
+title: Semiparametric Token-Sequence Co-Supervision
+authors_org: KAIST
+venue: ACL
+year: 2024
+arxiv_id: '2403.09024'
+url: https://arxiv.org/abs/2403.09024
+abstract_ko: 토큰 예측과 비모수적 시퀀스 예측 손실을 함께 쓰는 이중 지도학습.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2403.09024
+last_verified: '2026-07-22'
+verification_status: verified

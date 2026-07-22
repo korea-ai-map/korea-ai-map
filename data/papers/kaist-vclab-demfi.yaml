@@ -1,0 +1,17 @@
+id: kaist-vclab-demfi
+title: >-
+  DeMFI: Deep Joint Deblurring and Multi-Frame Interpolation with Flow-Guided Attentive Correlation and Recursive
+  Boosting
+authors_org: KAIST VICLAB
+venue: ECCV
+year: 2022
+arxiv_id: '2111.09985'
+url: https://arxiv.org/abs/2111.09985
+abstract_ko: 흐릿한 저프레임률 비디오를 선명한 고프레임률로 변환하는 통합 프레임워크.
+related_ids:
+  - kaist-vclab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2111.09985
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,39 @@
+id: kr-finbert-sc
+name: KR-FinBert-SC
+organization_id: snunlp
+model_family: KR-FinBert
+status: active
+modalities:
+  - text
+tasks:
+  - classification
+parameter_count:
+  value: null
+  disclosure: undisclosed
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: ''
+  commercial_use: unknown
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+base_model: snunlp/KR-FinBert
+links:
+  official: null
+  model_card: https://huggingface.co/snunlp/KR-FinBert-SC
+  huggingface: https://huggingface.co/snunlp/KR-FinBert-SC
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/snunlp/KR-FinBert-SC
+last_verified: '2026-07-22'
+verification_status: official-source

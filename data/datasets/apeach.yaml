@@ -1,0 +1,15 @@
+id: apeach
+name: APEACH
+category: safety
+description_ko: 크라우드소싱으로 생성한 한국어 혐오표현 탐지 평가용 데이터셋이다.
+languages:
+  - ko
+license: CC-BY-SA-4.0
+url: https://github.com/jason9693/APEACH
+sources:
+  - type: github
+    url: https://github.com/jason9693/APEACH
+  - type: paper
+    url: https://aclanthology.org/2022.findings-emnlp.525/
+last_verified: '2026-07-22'
+verification_status: verified

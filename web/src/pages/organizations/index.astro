@@ -4,8 +4,19 @@ import Base from '../../layouts/Base.astro';
 import StatusBadge from '../../components/StatusBadge.astro';
 import { url } from '../../lib/url';
 
-const items = (await getCollection('organizations')).sort((a, b) =>
-  a.data.name_ko.localeCompare(b.data.name_ko, 'ko'));
+const [orgs, models, openSource, products, papers] = await Promise.all([
+  getCollection('organizations'), getCollection('models'), getCollection('open-source'),
+  getCollection('products'), getCollection('papers'),
+]);
+const items = orgs.sort((a, b) => a.data.name_ko.localeCompare(b.data.name_ko, 'ko'));
+
+// 조직별 연결 개수 집계
+const cnt = (id: string) => ({
+  models: models.filter((m) => m.data.organization_id === id).length,
+  os: openSource.filter((x) => x.data.organization_id === id).length,
+  products: products.filter((p) => p.data.organization_id === id).length,
+  papers: papers.filter((p) => (p.data.related_ids ?? []).includes(id)).length,
+});
 
 const coreLevelLabel: Record<string, string> = {
   foundation_model: '파운데이션 모델', model_builder: '모델 빌더', ai_native: 'AI 네이티브',
@@ -37,25 +48,38 @@ const coreLevelLabel: Record<string, string> = {
       <option value="active">운영 중</option><option value="acquired">피인수</option>
       <option value="merged">합병</option><option value="dormant">휴면</option><option value="closed">종료</option>
     </select>
-    <label class="chk"><input type="checkbox" id="f-model" /> 자체 모델 보유</label>
+    <label class="chk"><input type="checkbox" id="f-model" /> 모델 보유</label>
     <label class="chk"><input type="checkbox" id="f-os" /> 오픈소스 보유</label>
+    <label class="chk"><input type="checkbox" id="f-paper" /> 논문 보유</label>
   </div>
 
   <div class="grid" id="list">
-    {items.map((o) => (
+    {items.map((o) => {
+      const c = cnt(o.id);
+      return (
       <a class="card" href={url(`/organizations/${o.id}/`)}
         data-name={`${o.data.name_ko} ${o.data.name_en}`.toLowerCase()}
         data-type={o.data.organization_type}
         data-core={o.data.ai_core_level}
         data-status={o.data.status}
-        data-hasmodels={String((o.data.models?.length ?? 0) > 0)}
-        data-hasos={String((o.data.open_source_links?.length ?? 0) > 0)}>
+        data-hasmodels={String(c.models > 0)}
+        data-hasos={String(c.os > 0)}
+        data-haspapers={String(c.papers > 0)}>
         <h3>{o.data.name_ko}</h3>
         <div class="sub">{o.data.name_en} · {coreLevelLabel[o.data.ai_core_level] ?? o.data.ai_core_level}</div>
         <div><StatusBadge status={o.data.verification_status} /></div>
-        {o.data.description_ko && <p class="desc">{o.data.description_ko.slice(0, 90)}{o.data.description_ko.length > 90 ? '…' : ''}</p>}
+        {(c.models + c.os + c.papers + c.products) > 0 && (
+          <div class="rel">
+            {c.models > 0 && <span class="relchip">모델 {c.models}</span>}
+            {c.products > 0 && <span class="relchip">제품 {c.products}</span>}
+            {c.os > 0 && <span class="relchip">오픈소스 {c.os}</span>}
+            {c.papers > 0 && <span class="relchip">논문 {c.papers}</span>}
+          </div>
+        )}
+        {o.data.description_ko && <p class="desc">{o.data.description_ko.slice(0, 84)}{o.data.description_ko.length > 84 ? '…' : ''}</p>}
       </a>
-    ))}
+      );
+    })}
   </div>
   <p id="empty" class="muted" hidden>조건에 맞는 조직이 없습니다.</p>
 
@@ -66,7 +90,8 @@ const coreLevelLabel: Record<string, string> = {
     const empty = document.getElementById('empty')!;
     const ctl = (id: string) => document.getElementById(id) as HTMLInputElement | HTMLSelectElement;
     const fq = ctl('f-q'), fType = ctl('f-type'), fCore = ctl('f-core'), fStat = ctl('f-status'),
-      fModel = ctl('f-model') as HTMLInputElement, fOs = ctl('f-os') as HTMLInputElement;
+      fModel = ctl('f-model') as HTMLInputElement, fOs = ctl('f-os') as HTMLInputElement,
+      fPaper = ctl('f-paper') as HTMLInputElement;
 
     function apply() {
       const q = fq.value.trim().toLowerCase();
@@ -78,14 +103,15 @@ const coreLevelLabel: Record<string, string> = {
           (!fCore.value || c.dataset.core === fCore.value) &&
           (!fStat.value || c.dataset.status === fStat.value) &&
           (!fModel.checked || c.dataset.hasmodels === 'true') &&
-          (!fOs.checked || c.dataset.hasos === 'true');
+          (!fOs.checked || c.dataset.hasos === 'true') &&
+          (!fPaper.checked || c.dataset.haspapers === 'true');
         c.hidden = !ok;
         if (ok) shown++;
       }
       count.textContent = String(shown);
       empty.hidden = shown !== 0;
     }
-    [fq, fType, fCore, fStat, fModel, fOs].forEach((el) => el.addEventListener('input', apply));
+    [fq, fType, fCore, fStat, fModel, fOs, fPaper].forEach((el) => el.addEventListener('input', apply));
     apply();
   </script>
 
@@ -96,5 +122,7 @@ const coreLevelLabel: Record<string, string> = {
       background: var(--card); color: var(--fg); font-size: 0.9rem;
     }
     .filters .chk { display: inline-flex; align-items: center; gap: 0.3rem; font-size: 0.9rem; color: var(--muted); }
+    .rel { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+    .relchip { font-size: 0.75rem; padding: 0.08em 0.5em; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); }
   </style>
 </Base>

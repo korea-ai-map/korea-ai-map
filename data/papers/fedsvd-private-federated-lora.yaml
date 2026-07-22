@@ -1,0 +1,16 @@
+id: fedsvd-private-federated-lora
+title: 'FedSVD: Adaptive Orthogonalization for Private Federated Learning with LoRA'
+authors_org: KAIST
+venue: NeurIPS
+year: 2025
+arxiv_id: '2505.12805'
+url: https://arxiv.org/abs/2505.12805
+abstract_ko: LoRA 기반 연합학습에서 적응적 직교화(SVD)로 프라이버시를 지키며 성능을 높이는 기법이다.
+related_ids:
+  - kaist
+  - kaist-mlai-lab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2505.12805
+last_verified: '2026-07-22'
+verification_status: verified

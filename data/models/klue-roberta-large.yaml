@@ -1,0 +1,38 @@
+id: klue-roberta-large
+name: klue/roberta-large
+organization_id: klue-project
+model_family: KLUE-RoBERTa
+status: active
+modalities:
+  - text
+tasks:
+  - fill-mask
+parameter_count:
+  value: 337000000
+  disclosure: likely
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: ''
+  commercial_use: unknown
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+links:
+  official: null
+  model_card: https://huggingface.co/klue/roberta-large
+  huggingface: https://huggingface.co/klue/roberta-large
+  github: https://github.com/KLUE-benchmark/KLUE
+  paper: https://arxiv.org/abs/2105.09680
+sources:
+  - type: model-card
+    url: https://huggingface.co/klue/roberta-large
+last_verified: '2026-07-22'
+verification_status: official-source

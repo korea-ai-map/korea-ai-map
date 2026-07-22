@@ -1,0 +1,15 @@
+id: postech-llmvs-video-summarization
+title: Video Summarization with Large Language Models
+authors_org: POSTECH
+venue: CVPR
+year: 2025
+arxiv_id: '2504.11199'
+url: https://arxiv.org/abs/2504.11199
+abstract_ko: 프레임 캡션과 지역·전역 맥락으로 중요도를 평가하는 LLM 기반 비디오 요약 LLMVS.
+related_ids:
+  - postech-gsai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2504.11199
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,15 @@
+id: yonsei-igq-vit-quantization
+title: Instance-Aware Group Quantization for Vision Transformers
+authors_org: Yonsei University
+venue: CVPR
+year: 2024
+arxiv_id: '2404.00928'
+url: https://arxiv.org/abs/2404.00928
+abstract_ko: 인스턴스별 활성 채널 그룹화로 ViT 사후학습 양자화를 개선하는 IGQ-ViT.
+related_ids:
+  - yonsei-ai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2404.00928
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,16 @@
+id: dual-stream-diffusion-world-model-vla
+title: Dual-Stream Diffusion for World-Model Augmented Vision-Language-Action Model
+authors_org: KAIST
+venue: ICML
+year: 2026
+arxiv_id: '2510.27607'
+url: https://arxiv.org/abs/2510.27607
+abstract_ko: 상태와 행동을 이중 스트림 확산으로 함께 예측해 세계모델로 VLA를 강화한다.
+related_ids:
+  - kaist
+  - kaist-alinlab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2510.27607
+last_verified: '2026-07-22'
+verification_status: verified

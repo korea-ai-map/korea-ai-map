@@ -1,0 +1,23 @@
+id: maywell
+name_ko: maywell (개인 기여자)
+name_en: maywell
+organization_type: open-source-community
+country: KR
+website: https://huggingface.co/maywell
+ai_core_level: model_builder
+categories:
+  - korean-llm
+  - open-weights
+status: active
+description_ko: Synatra·kiqu 등 한국어 특화 파인튜닝 LLM을 다수 공개한 개인 오픈소스 기여자.
+models:
+  - synatra-7b-v03-dpo
+  - kiqu-70b
+products: []
+open_source_links:
+  - https://huggingface.co/maywell
+sources:
+  - type: huggingface
+    url: https://huggingface.co/maywell
+last_verified: '2026-07-22'
+verification_status: official-source

@@ -1,0 +1,23 @@
+id: snunlp
+name_ko: 서울대학교 자연어처리 연구실 (SNU NLP)
+name_en: SNU NLP Lab (snunlp)
+organization_type: university-lab
+country: KR
+website: https://huggingface.co/snunlp
+ai_core_level: model_builder
+categories:
+  - korean-nlp
+  - nlp
+  - fintech-ai
+status: active
+description_ko: 서울대학교 자연어처리 연구실. 금융 도메인 특화 KR-FinBert 등 한국어 언어모델을 공개했다.
+models:
+  - kr-finbert-sc
+products: []
+open_source_links:
+  - https://huggingface.co/snunlp
+sources:
+  - type: huggingface
+    url: https://huggingface.co/snunlp
+last_verified: '2026-07-22'
+verification_status: official-source

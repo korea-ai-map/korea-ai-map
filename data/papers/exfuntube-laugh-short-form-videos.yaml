@@ -1,0 +1,14 @@
+id: exfuntube-laugh-short-form-videos
+title: Can Language Models Laugh at YouTube Short-form Videos?
+authors_org: SNU
+venue: EMNLP
+year: 2023
+arxiv_id: '2310.14159'
+url: https://arxiv.org/abs/2310.14159
+abstract_ko: 유튜브 짧은 영상 유머 이해를 평가하는 ExFunTube.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2310.14159
+last_verified: '2026-07-22'
+verification_status: verified

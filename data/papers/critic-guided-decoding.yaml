@@ -1,0 +1,15 @@
+id: critic-guided-decoding
+title: Critic-Guided Decoding for Controlled Text Generation
+authors_org: SNU · NAVER
+venue: ACL Findings
+year: 2022
+arxiv_id: '2212.10938'
+url: https://arxiv.org/abs/2212.10938
+abstract_ko: 크리틱 모델이 디코딩을 안내하는 제어된 텍스트 생성.
+related_ids:
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2212.10938
+last_verified: '2026-07-22'
+verification_status: verified

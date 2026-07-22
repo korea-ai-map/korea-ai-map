@@ -1,0 +1,14 @@
+id: snu-decloth-cloth-body-recon
+title: 'DeClotH: Decomposable 3D Cloth and Human Body Reconstruction from a Single Image'
+authors_org: Seoul National University
+venue: CVPR
+year: 2025
+arxiv_id: '2503.19373'
+url: https://arxiv.org/abs/2503.19373
+abstract_ko: 단일 이미지에서 3D 의복·인체를 분리 복원한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2503.19373
+last_verified: '2026-07-22'
+verification_status: verified

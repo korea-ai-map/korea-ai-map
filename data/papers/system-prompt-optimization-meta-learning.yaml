@@ -1,0 +1,16 @@
+id: system-prompt-optimization-meta-learning
+title: System Prompt Optimization with Meta-Learning
+authors_org: KAIST
+venue: NeurIPS
+year: 2025
+arxiv_id: '2505.09666'
+url: https://arxiv.org/abs/2505.09666
+abstract_ko: 메타러닝으로 다양한 사용자 프롬프트에 일반화되는 LLM 시스템 프롬프트를 최적화한다.
+related_ids:
+  - kaist
+  - kaist-mlai-lab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2505.09666
+last_verified: '2026-07-22'
+verification_status: verified

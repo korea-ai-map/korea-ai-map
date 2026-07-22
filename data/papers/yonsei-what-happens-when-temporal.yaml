@@ -1,0 +1,15 @@
+id: yonsei-what-happens-when-temporal
+title: 'What Happens When: Learning Temporal Orders of Events in Videos'
+authors_org: Yonsei University
+venue: WACV
+year: 2026
+arxiv_id: '2512.08979'
+url: https://arxiv.org/abs/2512.08979
+abstract_ko: 비디오 사건의 시간 순서 이해를 평가·향상하는 VECTOR·MECOT.
+related_ids:
+  - yonsei-ai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2512.08979
+last_verified: '2026-07-22'
+verification_status: verified

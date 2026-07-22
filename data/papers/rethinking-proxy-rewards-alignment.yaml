@@ -1,0 +1,16 @@
+id: rethinking-proxy-rewards-alignment
+title: Rethinking the Role of Proxy Rewards in Language Model Alignment
+authors_org: NAVER Cloud · KAIST
+venue: EMNLP
+year: 2024
+arxiv_id: '2402.03469'
+url: https://arxiv.org/abs/2402.03469
+abstract_ko: 정렬에서 프록시 보상의 역할을 리버스 엔지니어링으로 재검토.
+related_ids:
+  - naver-cloud
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2402.03469
+last_verified: '2026-07-22'
+verification_status: verified

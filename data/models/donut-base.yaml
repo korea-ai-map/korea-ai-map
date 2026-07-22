@@ -1,0 +1,45 @@
+id: donut-base
+name: Donut (Document Understanding Transformer) Base
+organization_id: naver-cloud
+model_family: Donut
+status: active
+modalities:
+  - image
+  - text
+tasks:
+  - ocr
+  - document-understanding
+  - image-to-text
+  - vqa
+parameter_count:
+  value: null
+  disclosure: undisclosed
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: MIT
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - en
+  - ko
+  - ja
+  - zh
+links:
+  official: null
+  model_card: https://huggingface.co/naver-clova-ix/donut-base
+  huggingface: https://huggingface.co/naver-clova-ix/donut-base
+  github: https://github.com/clovaai/donut
+  paper: https://arxiv.org/abs/2111.15664
+sources:
+  - type: model-card
+    url: https://huggingface.co/naver-clova-ix/donut-base
+last_verified: '2026-07-22'
+verification_status: official-source

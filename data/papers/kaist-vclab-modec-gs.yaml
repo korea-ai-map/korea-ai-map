@@ -1,0 +1,17 @@
+id: kaist-vclab-modec-gs
+title: >-
+  MoDec-GS: Global-to-Local Motion Decomposition and Temporal Interval Adjustment for Compact Dynamic 3D Gaussian
+  Splatting
+authors_org: KAIST VICLAB, ETRI
+venue: CVPR
+year: 2025
+arxiv_id: '2501.03714'
+url: https://arxiv.org/abs/2501.03714
+abstract_ko: 움직임을 전역·지역 분해해 동적 3D 가우시안 스플래팅을 압축한다.
+related_ids:
+  - kaist-vclab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2501.03714
+last_verified: '2026-07-22'
+verification_status: verified

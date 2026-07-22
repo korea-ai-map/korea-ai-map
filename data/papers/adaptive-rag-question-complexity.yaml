@@ -1,0 +1,15 @@
+id: adaptive-rag-question-complexity
+title: 'Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity'
+authors_org: KAIST
+venue: NAACL
+year: 2024
+arxiv_id: '2403.14403'
+url: https://arxiv.org/abs/2403.14403
+abstract_ko: 질문 복잡도에 따라 검색 전략을 동적 선택하는 Adaptive-RAG.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2403.14403
+last_verified: '2026-07-22'
+verification_status: verified

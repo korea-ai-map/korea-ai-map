@@ -1,0 +1,15 @@
+id: test-time-self-adaptive-small-lm-qa
+title: Test-Time Self-Adaptive Small Language Models for Question Answering
+authors_org: KAIST
+venue: EMNLP Findings
+year: 2023
+arxiv_id: '2310.13307'
+url: https://arxiv.org/abs/2310.13307
+abstract_ko: 테스트 시점 자기적응 소형 LM으로 QA 성능을 향상.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2310.13307
+last_verified: '2026-07-22'
+verification_status: verified

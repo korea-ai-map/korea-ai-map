@@ -1,0 +1,15 @@
+id: postech-joint-slot-attention-ssl
+title: Improving Sound Source Localization with Joint Slot Attention on Image and Audio
+authors_org: POSTECH
+venue: CVPR
+year: 2025
+arxiv_id: '2504.15118'
+url: https://arxiv.org/abs/2504.15118
+abstract_ko: 슬롯 어텐션으로 이미지·오디오를 분해해 음원 위치 추정을 개선한다.
+related_ids:
+  - postech-gsai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2504.15118
+last_verified: '2026-07-22'
+verification_status: verified

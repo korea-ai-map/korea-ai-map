@@ -1,0 +1,15 @@
+id: klass-kl-guided-masked-diffusion
+title: 'KLASS: KL-Guided Fast Inference in Masked Diffusion Models'
+authors_org: KAIST
+venue: NeurIPS
+year: 2025
+arxiv_id: '2511.05664'
+url: https://arxiv.org/abs/2511.05664
+abstract_ko: KL 기반 가이던스로 마스크드 확산 모델의 추론을 가속한다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2511.05664
+last_verified: '2026-07-22'
+verification_status: verified

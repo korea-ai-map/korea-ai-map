@@ -1,0 +1,26 @@
+id: nari-labs
+name_ko: 나리랩스
+name_en: Nari Labs
+organization_type: startup
+country: KR
+website: https://github.com/nari-labs
+ai_core_level: model_builder
+categories:
+  - tts
+  - voice-ai
+status: active
+description_ko: 한국 개발자들이 설립한 스타트업. 'Nari'는 백합을 뜻하는 순우리말. 대화형 감정 표현 오픈소스 TTS 모델 Dia 시리즈를 개발.
+models:
+  - dia-1-6b
+  - dia-1-6b-0626
+  - dia2-2b
+  - dia2-1b
+products: []
+open_source_links:
+  - https://github.com/nari-labs/dia
+  - https://huggingface.co/nari-labs
+sources:
+  - type: huggingface
+    url: https://huggingface.co/nari-labs
+last_verified: '2026-07-22'
+verification_status: official-source

@@ -1,0 +1,14 @@
+id: task-optimized-adapters-dialogue
+title: Task-Optimized Adapters for an End-to-End Task-Oriented Dialogue System
+authors_org: Sogang University
+venue: ACL Findings
+year: 2023
+arxiv_id: '2305.02468'
+url: https://arxiv.org/abs/2305.02468
+abstract_ko: 태스크별 최적화 어댑터로 종단간 대화 시스템을 개선.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2305.02468
+last_verified: '2026-07-22'
+verification_status: verified

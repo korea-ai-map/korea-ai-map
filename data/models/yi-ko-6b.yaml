@@ -1,0 +1,40 @@
+id: yi-ko-6b
+name: Yi-Ko-6B
+organization_id: beomi
+model_family: Yi-Ko
+status: active
+modalities:
+  - text
+tasks:
+  - text-generation
+parameter_count:
+  value: 6000000000
+  disclosure: confident
+context_length:
+  value: 4096
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0 (research use)
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+base_model: 01-ai/Yi-6B
+links:
+  official: null
+  model_card: https://huggingface.co/beomi/Yi-Ko-6B
+  huggingface: https://huggingface.co/beomi/Yi-Ko-6B
+  github: https://github.com/Beomi
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/beomi/Yi-Ko-6B
+last_verified: '2026-07-22'
+verification_status: official-source

@@ -1,0 +1,16 @@
+id: lfq-logit-aware-quantization-llm
+title: 'LFQ: Logit-aware Final-block Quantization for Boosting the Generation Quality of Low-Bit Quantized LLMs'
+authors_org: KAIST
+venue: ICML
+year: 2026
+arxiv_id: '2605.29756'
+url: https://arxiv.org/abs/2605.29756
+abstract_ko: 로짓 인지 최종블록 양자화로 저비트 LLM의 생성 품질을 향상한다.
+related_ids:
+  - kaist
+  - kaist-mlilab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2605.29756
+last_verified: '2026-07-22'
+verification_status: verified

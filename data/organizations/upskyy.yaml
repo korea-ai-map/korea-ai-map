@@ -1,0 +1,23 @@
+id: upskyy
+name_ko: upskyy (개인 기여자)
+name_en: upskyy
+organization_type: open-source-community
+country: KR
+website: https://huggingface.co/upskyy
+ai_core_level: model_builder
+categories:
+  - embedding
+  - korean-nlp
+status: active
+description_ko: 한국어 특화 문장 임베딩 모델(e5-large-korean, kf-deberta-multitask 등)을 공개한 개인 오픈소스 기여자.
+models:
+  - e5-large-korean
+  - kf-deberta-multitask
+products: []
+open_source_links:
+  - https://huggingface.co/upskyy
+sources:
+  - type: huggingface
+    url: https://huggingface.co/upskyy
+last_verified: '2026-07-22'
+verification_status: official-source

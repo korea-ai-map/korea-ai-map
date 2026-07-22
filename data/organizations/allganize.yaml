@@ -1,0 +1,23 @@
+id: allganize
+name_ko: 올거나이즈
+name_en: Allganize
+organization_type: startup
+country: KR
+website: https://huggingface.co/allganize
+ai_core_level: model_builder
+categories:
+  - enterprise-ai
+  - rag
+  - korean-llm
+status: active
+description_ko: 기업용 LLM·RAG 솔루션 스타트업. Evolutionary Model Merging 기반 한국어 특화 Llama-3-Alpha-Ko 모델을 공개했다.
+models:
+  - llama-3-alpha-ko-8b-instruct
+products: []
+open_source_links:
+  - https://huggingface.co/allganize
+sources:
+  - type: huggingface
+    url: https://huggingface.co/allganize
+last_verified: '2026-07-22'
+verification_status: official-source

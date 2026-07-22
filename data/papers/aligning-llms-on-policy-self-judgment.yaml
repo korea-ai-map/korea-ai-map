@@ -1,0 +1,16 @@
+id: aligning-llms-on-policy-self-judgment
+title: Aligning Large Language Models by On-Policy Self-Judgment
+authors_org: NAVER Cloud · KAIST · Yonsei
+venue: ACL
+year: 2024
+arxiv_id: '2402.11253'
+url: https://arxiv.org/abs/2402.11253
+abstract_ko: 보상모델 없이 스스로 심판하며 온-폴리시 정렬하는 SELF-JUDGE.
+related_ids:
+  - naver-cloud
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2402.11253
+last_verified: '2026-07-22'
+verification_status: verified

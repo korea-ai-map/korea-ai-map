@@ -1,0 +1,42 @@
+id: kullm3
+name: KULLM3
+organization_id: korea-university-nlpai-lab
+model_family: KULLM
+status: active
+modalities:
+  - text
+tasks:
+  - text-generation
+  - chat
+  - instruction-following
+parameter_count:
+  value: 10700000000
+  disclosure: likely
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+base_model: upstage/SOLAR-10.7B-v1.0
+links:
+  official: null
+  model_card: https://huggingface.co/nlpai-lab/KULLM3
+  huggingface: https://huggingface.co/nlpai-lab/KULLM3
+  github: https://github.com/nlpai-lab/KULLM
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/nlpai-lab/KULLM3
+last_verified: '2026-07-22'
+verification_status: official-source

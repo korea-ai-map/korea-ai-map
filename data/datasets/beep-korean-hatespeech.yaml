@@ -1,0 +1,15 @@
+id: beep-korean-hatespeech
+name: BEEP! Korean HateSpeech
+category: safety
+description_ko: 연예 뉴스 댓글 9,381건에 성별편향·혐오/공격성을 라벨링하고 대규모 비라벨 댓글을 함께 제공하는 독성 표현 데이터셋이다.
+languages:
+  - ko
+license: CC-BY-SA-4.0
+url: https://github.com/kocohub/korean-hate-speech
+sources:
+  - type: github
+    url: https://github.com/kocohub/korean-hate-speech
+  - type: paper
+    url: https://aclanthology.org/2020.socialnlp-1.4/
+last_verified: '2026-07-22'
+verification_status: verified

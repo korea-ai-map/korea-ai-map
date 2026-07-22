@@ -1,0 +1,41 @@
+id: synatra-7b-v03-dpo
+name: Synatra-7B-v0.3-dpo
+organization_id: maywell
+model_family: Synatra
+status: active
+modalities:
+  - text
+tasks:
+  - text-generation
+  - chat
+parameter_count:
+  value: 7000000000
+  disclosure: confident
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+base_model: mistralai/Mistral-7B-Instruct-v0.1
+links:
+  official: null
+  model_card: https://huggingface.co/maywell/Synatra-7B-v0.3-dpo
+  huggingface: https://huggingface.co/maywell/Synatra-7B-v0.3-dpo
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/maywell/Synatra-7B-v0.3-dpo
+last_verified: '2026-07-22'
+verification_status: official-source

@@ -1,0 +1,15 @@
+id: parameter-expanded-sgmcmc
+title: Parameter Expanded Stochastic Gradient Markov Chain Monte Carlo
+authors_org: KAIST
+venue: ICLR
+year: 2025
+arxiv_id: '2503.00699'
+url: https://arxiv.org/abs/2503.00699
+abstract_ko: 파라미터 확장 기법으로 SGMCMC 기반 베이지안 신경망 학습을 개선한다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2503.00699
+last_verified: '2026-07-22'
+verification_status: verified

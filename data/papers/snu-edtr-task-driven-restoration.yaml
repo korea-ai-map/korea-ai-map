@@ -1,0 +1,14 @@
+id: snu-edtr-task-driven-restoration
+title: Exploiting Diffusion Prior for Task-driven Image Restoration
+authors_org: Seoul National University
+venue: ICCV
+year: 2025
+arxiv_id: '2507.22459'
+url: https://arxiv.org/abs/2507.22459
+abstract_ko: 확산 사전을 활용한 과제 지향 이미지 복원 EDTR.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2507.22459
+last_verified: '2026-07-22'
+verification_status: verified

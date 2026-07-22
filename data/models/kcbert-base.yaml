@@ -1,0 +1,39 @@
+id: kcbert-base
+name: KcBERT-base
+organization_id: beomi
+model_family: KcBERT
+status: active
+modalities:
+  - text
+tasks:
+  - fill-mask
+  - classification
+parameter_count:
+  value: 108000000
+  disclosure: likely
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+links:
+  official: null
+  model_card: https://huggingface.co/beomi/KcBERT-base
+  huggingface: https://huggingface.co/beomi/KcBERT-base
+  github: https://github.com/Beomi/KcBERT
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/beomi/KcBERT-base
+last_verified: '2026-07-22'
+verification_status: official-source

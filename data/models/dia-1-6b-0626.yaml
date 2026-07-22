@@ -1,0 +1,40 @@
+id: dia-1-6b-0626
+name: Dia-1.6B-0626
+organization_id: nari-labs
+model_family: Dia
+status: active
+modalities:
+  - text
+  - audio
+tasks:
+  - tts
+parameter_count:
+  value: 1600000000
+  disclosure: confident
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: true
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - en
+base_model: nari-labs/Dia-1.6B
+links:
+  official: null
+  model_card: https://huggingface.co/nari-labs/Dia-1.6B-0626
+  huggingface: https://huggingface.co/nari-labs/Dia-1.6B-0626
+  github: https://github.com/nari-labs/dia
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/nari-labs/Dia-1.6B-0626
+last_verified: '2026-07-22'
+verification_status: official-source

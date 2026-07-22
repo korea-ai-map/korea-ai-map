@@ -1,0 +1,23 @@
+id: klue-project
+name_ko: KLUE 벤치마크 프로젝트
+name_en: KLUE Benchmark
+organization_type: open-source-community
+country: KR
+website: https://huggingface.co/klue
+ai_core_level: model_builder
+categories:
+  - benchmark
+  - korean-nlp
+status: active
+description_ko: 한국어 언어 이해 평가(KLUE) 벤치마크 프로젝트. 사전학습 인코더(klue/bert-base, klue/roberta-large)를 공개했다.
+models:
+  - klue-bert-base
+  - klue-roberta-large
+products: []
+open_source_links:
+  - https://huggingface.co/klue
+sources:
+  - type: huggingface
+    url: https://huggingface.co/klue
+last_verified: '2026-07-22'
+verification_status: official-source

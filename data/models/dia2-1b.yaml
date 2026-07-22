@@ -1,0 +1,39 @@
+id: dia2-1b
+name: Dia2-1B
+organization_id: nari-labs
+model_family: Dia
+status: active
+modalities:
+  - text
+  - audio
+tasks:
+  - tts
+parameter_count:
+  value: 1000000000
+  disclosure: confident
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: true
+license:
+  name: ''
+  commercial_use: unknown
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - en
+links:
+  official: null
+  model_card: https://huggingface.co/nari-labs/Dia2-1B
+  huggingface: https://huggingface.co/nari-labs/Dia2-1B
+  github: https://github.com/nari-labs/dia
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/nari-labs/Dia2-1B
+last_verified: '2026-07-22'
+verification_status: needs-review

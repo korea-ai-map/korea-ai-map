@@ -1,0 +1,15 @@
+id: naver-masksub-masking-supervision
+title: 'Masking meets Supervision: A Strong Learning Alliance'
+authors_org: NAVER AI Lab
+venue: CVPR
+year: 2025
+arxiv_id: '2306.11339'
+url: https://arxiv.org/abs/2306.11339
+abstract_ko: 마스킹 증강과 지도 학습을 이중 분기로 결합하는 MaskSub.
+related_ids:
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2306.11339
+last_verified: '2026-07-22'
+verification_status: verified

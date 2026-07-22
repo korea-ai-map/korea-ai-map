@@ -1,0 +1,16 @@
+id: vision-aligned-latent-reasoning-mllm
+title: Vision-aligned Latent Reasoning for Multi-modal Large Language Model
+authors_org: KAIST
+venue: ICML
+year: 2026
+arxiv_id: '2602.04476'
+url: https://arxiv.org/abs/2602.04476
+abstract_ko: 시각 정렬 잠재 추론으로 MLLM의 다단계 추론 능력을 개선한다.
+related_ids:
+  - kaist
+  - kaist-alinlab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2602.04476
+last_verified: '2026-07-22'
+verification_status: verified

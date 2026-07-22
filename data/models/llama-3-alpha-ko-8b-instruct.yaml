@@ -1,0 +1,42 @@
+id: llama-3-alpha-ko-8b-instruct
+name: Llama-3-Alpha-Ko-8B-Instruct
+organization_id: allganize
+model_family: Alpha-Ko
+status: active
+modalities:
+  - text
+tasks:
+  - text-generation
+  - chat
+  - instruction-following
+parameter_count:
+  value: 8000000000
+  disclosure: confident
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Llama 3 Community License
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+base_model: meta-llama/Meta-Llama-3-8B
+links:
+  official: null
+  model_card: https://huggingface.co/allganize/Llama-3-Alpha-Ko-8B-Instruct
+  huggingface: https://huggingface.co/allganize/Llama-3-Alpha-Ko-8B-Instruct
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/allganize/Llama-3-Alpha-Ko-8B-Instruct
+last_verified: '2026-07-22'
+verification_status: official-source

@@ -1,0 +1,41 @@
+id: kiqu-70b
+name: kiqu-70b
+organization_id: maywell
+model_family: kiqu
+status: active
+modalities:
+  - text
+tasks:
+  - text-generation
+  - chat
+parameter_count:
+  value: 69000000000
+  disclosure: likely
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: CC-BY-SA-4.0
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+base_model: miqu-1-70b
+links:
+  official: null
+  model_card: https://huggingface.co/maywell/kiqu-70b
+  huggingface: https://huggingface.co/maywell/kiqu-70b
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/maywell/kiqu-70b
+last_verified: '2026-07-22'
+verification_status: official-source

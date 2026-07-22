@@ -1,0 +1,15 @@
+id: naver-genas-nas
+title: 'GeNAS: Neural Architecture Search with Better Generalization'
+authors_org: NAVER Cloud
+venue: IJCAI
+year: 2023
+arxiv_id: '2305.08611'
+url: https://arxiv.org/abs/2305.08611
+abstract_ko: 손실 표면 평탄도를 지표로 일반화 성능이 좋은 구조를 찾는 NAS.
+related_ids:
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2305.08611
+last_verified: '2026-07-22'
+verification_status: verified

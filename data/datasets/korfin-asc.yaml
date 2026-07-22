@@ -1,0 +1,15 @@
+id: korfin-asc
+name: KorFin-ASC
+category: domain-specific
+description_ko: 금융 애널리스트 리포트 등에서 구축한 한국어 금융 개체수준 감성분석 데이터셋으로 8,818개 샘플을 포함한다.
+languages:
+  - ko
+license: CC-BY-SA-4.0
+url: https://huggingface.co/datasets/amphora/korfin-asc
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/amphora/korfin-asc
+  - type: paper
+    url: https://arxiv.org/abs/2301.03136
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,15 @@
+id: yonsei-mpvg-position-embedding
+title: Maximizing the Position Embedding for Vision Transformers with Global Average Pooling
+authors_org: Yonsei University, KIST
+venue: AAAI
+year: 2025
+arxiv_id: '2502.02919'
+url: https://arxiv.org/abs/2502.02919
+abstract_ko: 전역 평균 풀링 시 위치 임베딩 효과를 극대화하는 MPVG.
+related_ids:
+  - yonsei-ai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2502.02919
+last_verified: '2026-07-22'
+verification_status: verified

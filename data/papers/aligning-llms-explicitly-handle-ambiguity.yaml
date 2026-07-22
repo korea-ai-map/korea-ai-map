@@ -1,0 +1,15 @@
+id: aligning-llms-explicitly-handle-ambiguity
+title: Aligning Language Models to Explicitly Handle Ambiguity
+authors_org: SNU · NAVER · Hanyang
+venue: EMNLP
+year: 2024
+arxiv_id: '2404.11972'
+url: https://arxiv.org/abs/2404.11972
+abstract_ko: 모호한 질의를 명시적으로 다루도록 LM을 정렬.
+related_ids:
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2404.11972
+last_verified: '2026-07-22'
+verification_status: verified

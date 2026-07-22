@@ -1,0 +1,13 @@
+id: kss-korean-speech
+name: KSS (Korean Single Speaker Speech Dataset)
+category: speech
+description_ko: 전문 성우 여성 화자의 한국어 음성 12,853개 파일(약 12시간)과 정렬된 텍스트로 구성된 TTS용 데이터셋이다.
+languages:
+  - ko
+license: CC-BY-NC-SA-4.0
+url: https://huggingface.co/datasets/Bingsu/KSS_Dataset
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/Bingsu/KSS_Dataset
+last_verified: '2026-07-22'
+verification_status: verified

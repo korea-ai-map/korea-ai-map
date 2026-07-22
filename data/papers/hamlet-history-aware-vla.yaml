@@ -1,0 +1,16 @@
+id: hamlet-history-aware-vla
+title: 'HAMLET: Switch your Vision-Language-Action Model into a History-Aware Policy'
+authors_org: KAIST
+venue: ICLR
+year: 2026
+arxiv_id: '2510.00695'
+url: https://arxiv.org/abs/2510.00695
+abstract_ko: VLA 모델을 과거 맥락을 반영하는 히스토리 인지 정책으로 전환한다.
+related_ids:
+  - kaist
+  - kaist-alinlab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2510.00695
+last_verified: '2026-07-22'
+verification_status: verified

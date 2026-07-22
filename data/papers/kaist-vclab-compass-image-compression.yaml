@@ -1,0 +1,15 @@
+id: kaist-vclab-compass-image-compression
+title: 'COMPASS: High-Efficiency Deep Image Compression with Arbitrary-scale Spatial Scalability'
+authors_org: KAIST VICLAB, ETRI
+venue: ICCV
+year: 2023
+arxiv_id: '2309.07926'
+url: https://arxiv.org/abs/2309.07926
+abstract_ko: 임의 스케일 공간 확장형 신경망 이미지 압축(LIFF).
+related_ids:
+  - kaist-vclab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2309.07926
+last_verified: '2026-07-22'
+verification_status: verified

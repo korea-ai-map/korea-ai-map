@@ -1,0 +1,15 @@
+id: flex-judge-zero-shot-multimodal-evaluator
+title: 'Flex-Judge: Text-Only Reasoning Unleashes Zero-Shot Multimodal Evaluators'
+authors_org: KAIST
+venue: NeurIPS
+year: 2025
+arxiv_id: '2505.18601'
+url: https://arxiv.org/abs/2505.18601
+abstract_ko: 텍스트 추론만으로 제로샷 멀티모달 평가자를 구현한다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2505.18601
+last_verified: '2026-07-22'
+verification_status: verified

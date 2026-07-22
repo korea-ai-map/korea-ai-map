@@ -1,0 +1,15 @@
+id: yonsei-online-gebd
+title: Online Generic Event Boundary Detection
+authors_org: Yonsei University, GIST
+venue: ICCV
+year: 2025
+arxiv_id: '2510.06855'
+url: https://arxiv.org/abs/2510.06855
+abstract_ko: 스트리밍 비디오에서 실시간 사건 경계를 검출하는 On-GEBD.
+related_ids:
+  - yonsei-ai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2510.06855
+last_verified: '2026-07-22'
+verification_status: verified

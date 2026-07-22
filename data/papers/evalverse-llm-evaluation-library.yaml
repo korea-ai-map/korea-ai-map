@@ -1,0 +1,15 @@
+id: evalverse-llm-evaluation-library
+title: 'Evalverse: Unified and Accessible Library for Large Language Model Evaluation'
+authors_org: Upstage
+venue: EMNLP Demo
+year: 2024
+arxiv_id: '2404.00943'
+url: https://arxiv.org/abs/2404.00943
+abstract_ko: 여러 평가 도구를 통합한 접근성 높은 LLM 평가 라이브러리.
+related_ids:
+  - upstage
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2404.00943
+last_verified: '2026-07-22'
+verification_status: verified

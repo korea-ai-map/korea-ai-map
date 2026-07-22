@@ -1,0 +1,42 @@
+id: llama-3-korean-bllossom-70b
+name: llama-3-Korean-Bllossom-70B
+organization_id: bllossom
+model_family: Bllossom
+status: active
+modalities:
+  - text
+tasks:
+  - text-generation
+  - chat
+  - instruction-following
+parameter_count:
+  value: 70000000000
+  disclosure: likely
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Llama 3 Community License
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+base_model: meta-llama/Meta-Llama-3-70B
+links:
+  official: null
+  model_card: https://huggingface.co/Bllossom/llama-3-Korean-Bllossom-70B
+  huggingface: https://huggingface.co/Bllossom/llama-3-Korean-Bllossom-70B
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/Bllossom/llama-3-Korean-Bllossom-70B
+last_verified: '2026-07-22'
+verification_status: official-source

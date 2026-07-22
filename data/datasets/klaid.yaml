@@ -1,0 +1,14 @@
+id: klaid
+name: KLAID (Korean Legal AI Datasets)
+organization_id: law-and-company
+category: domain-specific
+description_ko: 한국 법률 AI용 데이터셋으로 법적 판단 예측(LJP) 태스크 161,192건과 177개 법조문 라벨을 제공한다.
+languages:
+  - ko
+license: CC-BY-NC-ND-4.0
+url: https://huggingface.co/datasets/lawcompany/KLAID
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/lawcompany/KLAID
+last_verified: '2026-07-22'
+verification_status: verified

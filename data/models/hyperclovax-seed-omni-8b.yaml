@@ -1,0 +1,47 @@
+id: hyperclovax-seed-omni-8b
+name: HyperCLOVAX-SEED-Omni-8B
+organization_id: naver-cloud
+model_family: HyperCLOVA X SEED
+status: active
+modalities:
+  - text
+  - image
+  - video
+  - audio
+tasks:
+  - multimodal
+  - vision
+  - asr
+  - tts
+  - text-to-image
+  - chat
+parameter_count:
+  value: 8000000000
+  disclosure: confident
+context_length:
+  value: 32768
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: HyperCLOVA X SEED Model License Agreement
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+links:
+  official: null
+  model_card: https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Omni-8B
+  huggingface: https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Omni-8B
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Omni-8B
+last_verified: '2026-07-22'
+verification_status: official-source

@@ -1,0 +1,15 @@
+id: postech-lain-zeroshot-hoi
+title: Locality-Aware Zero-Shot Human-Object Interaction Detection
+authors_org: POSTECH
+venue: CVPR
+year: 2025
+arxiv_id: '2505.19503'
+url: https://arxiv.org/abs/2505.19503
+abstract_ko: CLIP에 지역성·상호작용 인식을 도입한 제로샷 HOI 검출 LAIN.
+related_ids:
+  - postech-gsai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2505.19503
+last_verified: '2026-07-22'
+verification_status: verified

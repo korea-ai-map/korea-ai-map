@@ -1,0 +1,15 @@
+id: naver-rope-vision-transformer
+title: Rotary Position Embedding for Vision Transformer
+authors_org: NAVER AI Lab
+venue: ECCV
+year: 2024
+arxiv_id: '2403.13298'
+url: https://arxiv.org/abs/2403.13298
+abstract_ko: 회전 위치 임베딩(RoPE)을 비전 트랜스포머에 적용해 해상도 외삽을 개선한다.
+related_ids:
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2403.13298
+last_verified: '2026-07-22'
+verification_status: verified

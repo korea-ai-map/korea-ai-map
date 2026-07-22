@@ -1,0 +1,16 @@
+id: verifying-meta-awareness-predictive-rewards
+title: Verifying Meta-Awareness via Predictive Rewards in Reasoning Models
+authors_org: KAIST
+venue: ICML
+year: 2026
+arxiv_id: '2510.03259'
+url: https://arxiv.org/abs/2510.03259
+abstract_ko: 예측 보상을 통해 추론 모델의 메타인지 능력을 검증한다.
+related_ids:
+  - kaist
+  - kaist-mlilab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2510.03259
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,40 @@
+id: gugugo-koen-7b
+name: Gugugo-koen-7B-V1.1
+organization_id: squarelike
+model_family: Gugugo
+status: active
+modalities:
+  - text
+tasks:
+  - translation
+parameter_count:
+  value: 7000000000
+  disclosure: confident
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+base_model: beomi/llama-2-ko-7b
+links:
+  official: null
+  model_card: https://huggingface.co/squarelike/Gugugo-koen-7B-V1.1
+  huggingface: https://huggingface.co/squarelike/Gugugo-koen-7B-V1.1
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/squarelike/Gugugo-koen-7B-V1.1
+last_verified: '2026-07-22'
+verification_status: official-source

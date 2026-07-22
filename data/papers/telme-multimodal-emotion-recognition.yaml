@@ -1,0 +1,15 @@
+id: telme-multimodal-emotion-recognition
+title: 'TelME: Teacher-leading Multimodal Fusion Network for Emotion Recognition in Conversation'
+authors_org: Yonsei
+venue: NAACL
+year: 2024
+arxiv_id: '2401.12987'
+url: https://arxiv.org/abs/2401.12987
+abstract_ko: 언어모델 교사에서 비언어 학생으로 증류하는 대화 감정 인식.
+related_ids:
+  - yonsei-ai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2401.12987
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,15 @@
+id: postech-combinative-matching-shape-assembly
+title: Combinative Matching for Geometric Shape Assembly
+authors_org: POSTECH
+venue: ICCV
+year: 2025
+arxiv_id: '2508.09780'
+url: https://arxiv.org/abs/2508.09780
+abstract_ko: 동일 표면·반대 부피 점유를 함께 모델링하는 형상 조립 매칭(ICCV 2025 Highlight).
+related_ids:
+  - postech-gsai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2508.09780
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,15 @@
+id: kaist-vclab-modernizing-old-photos
+title: Modernizing Old Photos Using Multiple References via Photorealistic Style Transfer
+authors_org: KAIST VICLAB
+venue: CVPR
+year: 2023
+arxiv_id: '2304.04461'
+url: https://arxiv.org/abs/2304.04461
+abstract_ko: 여러 현대 참조 이미지로 오래된 사진을 현대화하는 프레임워크.
+related_ids:
+  - kaist-vclab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2304.04461
+last_verified: '2026-07-22'
+verification_status: verified

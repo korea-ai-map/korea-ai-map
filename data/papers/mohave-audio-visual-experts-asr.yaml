@@ -1,0 +1,15 @@
+id: mohave-audio-visual-experts-asr
+title: 'MoHAVE: Mixture of Hierarchical Audio-Visual Experts for Robust Speech Recognition'
+authors_org: KAIST
+venue: ICML
+year: 2025
+arxiv_id: '2502.10447'
+url: https://arxiv.org/abs/2502.10447
+abstract_ko: 계층적 오디오-비주얼 전문가 혼합으로 강건한 음성인식을 달성한다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2502.10447
+last_verified: '2026-07-22'
+verification_status: verified

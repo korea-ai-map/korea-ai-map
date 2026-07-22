@@ -1,0 +1,16 @@
+id: timing-temporality-integrated-gradients
+title: 'TIMING: Temporality-Aware Integrated Gradients for Time Series Explanation'
+authors_org: KAIST
+venue: ICML
+year: 2025
+arxiv_id: '2506.05035'
+url: https://arxiv.org/abs/2506.05035
+abstract_ko: 시간성을 반영한 통합 그래디언트로 시계열 예측을 설명한다.
+related_ids:
+  - kaist
+  - kaist-mlilab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2506.05035
+last_verified: '2026-07-22'
+verification_status: verified

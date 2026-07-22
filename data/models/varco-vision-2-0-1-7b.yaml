@@ -1,0 +1,44 @@
+id: varco-vision-2-0-1-7b
+name: VARCO-VISION-2.0-1.7B
+organization_id: ncsoft
+model_family: VARCO-VISION
+status: active
+modalities:
+  - image
+  - text
+tasks:
+  - chat
+  - vision
+  - multimodal
+  - ocr
+parameter_count:
+  value: 1700000000
+  disclosure: confident
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: CC-BY-NC-4.0
+  commercial_use: prohibited
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+base_model: NCSOFT/VARCO-VISION-2.0-14B
+links:
+  official: null
+  model_card: https://huggingface.co/NCSOFT/VARCO-VISION-2.0-1.7B
+  huggingface: https://huggingface.co/NCSOFT/VARCO-VISION-2.0-1.7B
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/NCSOFT/VARCO-VISION-2.0-1.7B
+last_verified: '2026-07-22'
+verification_status: official-source

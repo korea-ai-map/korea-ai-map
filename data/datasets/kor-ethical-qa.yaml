@@ -1,0 +1,13 @@
+id: kor-ethical-qa
+name: Korean Ethical Question Answer
+category: safety
+description_ko: 성·차별·불법·폭력 등 윤리 이슈에 대한 한국어 질문-답변 약 29,000쌍에 윤리/비윤리 라벨을 부여한 안전성 데이터셋이다.
+languages:
+  - ko
+license: CC-BY-NC-ND-4.0
+url: https://huggingface.co/datasets/MrBananaHuman/kor_ethical_question_answer
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/MrBananaHuman/kor_ethical_question_answer
+last_verified: '2026-07-22'
+verification_status: needs-review

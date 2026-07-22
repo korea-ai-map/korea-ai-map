@@ -1,0 +1,15 @@
+id: gradient-ascent-post-training
+title: Gradient Ascent Post-training Enhances Language Model Generalization
+authors_org: KAIST · NAVER
+venue: ACL
+year: 2023
+arxiv_id: '2306.07052'
+url: https://arxiv.org/abs/2306.07052
+abstract_ko: 소량의 사후 그래디언트 상승 학습으로 LM 일반화를 향상.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2306.07052
+last_verified: '2026-07-22'
+verification_status: verified

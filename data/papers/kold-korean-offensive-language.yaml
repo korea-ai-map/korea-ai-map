@@ -1,0 +1,15 @@
+id: kold-korean-offensive-language
+title: 'KOLD: Korean Offensive Language Dataset'
+authors_org: KAIST
+venue: EMNLP
+year: 2022
+arxiv_id: '2205.11315'
+url: https://arxiv.org/abs/2205.11315
+abstract_ko: 댓글 4만여 건에 공격성 유형·대상·범위를 계층 주석한 한국어 데이터셋.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2205.11315
+last_verified: '2026-07-22'
+verification_status: verified

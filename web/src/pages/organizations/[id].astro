@@ -6,8 +6,9 @@ import Sources from '../../components/Sources.astro';
 import { url, correctionUrl } from '../../lib/url';
 
 export async function getStaticPaths() {
-  const [orgs, models, products] = await Promise.all([
+  const [orgs, models, products, openSource, papers] = await Promise.all([
     getCollection('organizations'), getCollection('models'), getCollection('products'),
+    getCollection('open-source'), getCollection('papers'),
   ]);
   return orgs.map((o) => ({
     params: { id: o.id },
@@ -15,10 +16,12 @@ export async function getStaticPaths() {
       o,
       models: models.filter((m) => m.data.organization_id === o.id),
       products: products.filter((p) => p.data.organization_id === o.id),
+      openSource: openSource.filter((x) => x.data.organization_id === o.id),
+      papers: papers.filter((p) => (p.data.related_ids ?? []).includes(o.id)),
     },
   }));
 }
-const { o, models, products } = Astro.props;
+const { o, models, products, openSource, papers } = Astro.props;
 const d = o.data;
 
 const coreLevelLabel: Record<string, string> = {
@@ -76,9 +79,21 @@ const jsonld = {
       <ul>{products.map((p) => <li><a href={url(`/products/${p.id}/`)}>{p.data.name_ko ?? p.data.name_en}</a></li>)}</ul>
     </>
   )}
+  {openSource.length > 0 && (
+    <>
+      <h2>오픈소스 <span class="count">{openSource.length}</span></h2>
+      <ul>{openSource.map((x) => <li><a href={url(`/open-source/${x.id}/`)}>{x.data.name}</a></li>)}</ul>
+    </>
+  )}
+  {papers.length > 0 && (
+    <>
+      <h2>관련 논문 <span class="count">{papers.length}</span></h2>
+      <ul>{papers.map((p) => <li><a href={url(`/papers/${p.id}/`)}>{p.data.title}</a>{p.data.year ? <span class="muted"> ({p.data.year})</span> : null}</li>)}</ul>
+    </>
+  )}
   {d.open_source_links?.length > 0 && (
     <>
-      <h2>오픈소스</h2>
+      <h2>저장소 링크</h2>
       <ul>{d.open_source_links.map((l: string) => <li><a href={l} target="_blank" rel="noopener">{l}</a></li>)}</ul>
     </>
   )}

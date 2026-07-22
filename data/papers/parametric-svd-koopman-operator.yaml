@@ -1,0 +1,15 @@
+id: parametric-svd-koopman-operator
+title: Efficient Parametric SVD of Koopman Operator for Stochastic Dynamical Systems
+authors_org: KAIST
+venue: NeurIPS
+year: 2025
+arxiv_id: '2507.07222'
+url: https://arxiv.org/abs/2507.07222
+abstract_ko: 확률적 동역학계의 Koopman 연산자를 효율적으로 파라메트릭 SVD로 근사한다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2507.07222
+last_verified: '2026-07-22'
+verification_status: verified

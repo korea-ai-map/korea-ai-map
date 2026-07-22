@@ -1,0 +1,16 @@
+id: when-to-ensemble-llm-token-level
+title: 'When to Ensemble: Identifying Token-Level Points for Stable and Fast LLM Ensembling'
+authors_org: KAIST
+venue: ICLR
+year: 2026
+arxiv_id: '2510.15346'
+url: https://arxiv.org/abs/2510.15346
+abstract_ko: 토큰 수준에서 앙상블 시점을 찾아 안정적이고 빠른 LLM 앙상블을 수행한다.
+related_ids:
+  - kaist
+  - kaist-mlilab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2510.15346
+last_verified: '2026-07-22'
+verification_status: verified

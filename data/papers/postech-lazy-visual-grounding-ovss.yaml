@@ -1,0 +1,15 @@
+id: postech-lazy-visual-grounding-ovss
+title: In Defense of Lazy Visual Grounding for Open-Vocabulary Semantic Segmentation
+authors_org: POSTECH
+venue: ECCV
+year: 2024
+arxiv_id: '2408.04961'
+url: https://arxiv.org/abs/2408.04961
+abstract_ko: 객체 마스크를 먼저 발견하고 텍스트를 나중에 부여하는 2단계 개방어휘 분할.
+related_ids:
+  - postech-gsai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2408.04961
+last_verified: '2026-07-22'
+verification_status: verified

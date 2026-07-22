@@ -1,0 +1,40 @@
+id: gemma-ko-7b
+name: gemma-ko-7b
+organization_id: beomi
+model_family: Gemma-Ko
+status: active
+modalities:
+  - text
+tasks:
+  - text-generation
+parameter_count:
+  value: 8540000000
+  disclosure: likely
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Gemma Terms of Use
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+base_model: google/gemma-7b
+links:
+  official: null
+  model_card: https://huggingface.co/beomi/gemma-ko-7b
+  huggingface: https://huggingface.co/beomi/gemma-ko-7b
+  github: https://github.com/Beomi
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/beomi/gemma-ko-7b
+last_verified: '2026-07-22'
+verification_status: official-source

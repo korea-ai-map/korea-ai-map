@@ -1,0 +1,15 @@
+id: dataverse-etl-pipeline-llm
+title: 'Dataverse: Open-Source ETL Pipeline for Large Language Models'
+authors_org: Upstage
+venue: NAACL Demo
+year: 2024
+arxiv_id: '2403.19340'
+url: https://arxiv.org/abs/2403.19340
+abstract_ko: LLM 학습용 확장 가능한 오픈소스 ETL 파이프라인.
+related_ids:
+  - upstage
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2403.19340
+last_verified: '2026-07-22'
+verification_status: verified

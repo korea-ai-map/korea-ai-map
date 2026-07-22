@@ -1,0 +1,15 @@
+id: dialogue-cot-distillation
+title: Dialogue Chain-of-Thought Distillation for Commonsense-aware Conversational Agents
+authors_org: Yonsei
+venue: EMNLP
+year: 2023
+arxiv_id: '2310.09343'
+url: https://arxiv.org/abs/2310.09343
+abstract_ko: 대화용 CoT를 대형 모델에서 증류해 상식 인지형 대화 에이전트를 구축.
+related_ids:
+  - yonsei-ai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2310.09343
+last_verified: '2026-07-22'
+verification_status: verified

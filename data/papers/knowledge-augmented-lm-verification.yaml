@@ -1,0 +1,15 @@
+id: knowledge-augmented-lm-verification
+title: Knowledge-Augmented Language Model Verification
+authors_org: KAIST
+venue: EMNLP
+year: 2023
+arxiv_id: '2310.12836'
+url: https://arxiv.org/abs/2310.12836
+abstract_ko: 외부 지식으로 LM 출력의 사실성을 검증하는 별도 검증기.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2310.12836
+last_verified: '2026-07-22'
+verification_status: verified

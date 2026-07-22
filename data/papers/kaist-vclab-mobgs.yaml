@@ -1,0 +1,15 @@
+id: kaist-vclab-mobgs
+title: 'MoBGS: Motion Deblurring Dynamic 3D Gaussian Splatting for Blurry Monocular Video'
+authors_org: KAIST VICLAB
+venue: AAAI
+year: 2026
+arxiv_id: '2504.15122'
+url: https://arxiv.org/abs/2504.15122
+abstract_ko: 흐린 단안 비디오에서 선명한 신규 시점을 복원하는 동적 3D 가우시안 스플래팅.
+related_ids:
+  - kaist-vclab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2504.15122
+last_verified: '2026-07-22'
+verification_status: verified

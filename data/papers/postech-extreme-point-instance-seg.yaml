@@ -1,0 +1,15 @@
+id: postech-extreme-point-instance-seg
+title: Extreme Point Supervised Instance Segmentation
+authors_org: POSTECH
+venue: CVPR
+year: 2024
+arxiv_id: '2405.20729'
+url: https://arxiv.org/abs/2405.20729
+abstract_ko: 바운딩 박스에서 얻는 극점을 실제 마스크 일부로 활용하는 인스턴스 분할 방법.
+related_ids:
+  - postech-gsai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2405.20729
+last_verified: '2026-07-22'
+verification_status: verified

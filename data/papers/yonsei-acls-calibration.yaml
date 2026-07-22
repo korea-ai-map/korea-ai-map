@@ -1,0 +1,15 @@
+id: yonsei-acls-calibration
+title: 'ACLS: Adaptive and Conditional Label Smoothing for Network Calibration'
+authors_org: Yonsei University
+venue: ICCV
+year: 2023
+arxiv_id: '2308.11911'
+url: https://arxiv.org/abs/2308.11911
+abstract_ko: 기존 정규화 보정법의 장점을 통합한 손실 ACLS(ICCV 2023 Oral).
+related_ids:
+  - yonsei-ai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2308.11911
+last_verified: '2026-07-22'
+verification_status: verified

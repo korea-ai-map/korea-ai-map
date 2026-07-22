@@ -1,0 +1,13 @@
+id: ko-lima
+name: KoLIMA
+category: qa
+description_ko: Meta LIMA 정렬용 instruction 데이터를 한국어로 번역한 소규모 고품질 데이터셋(train 1,030·test 300)이다.
+languages:
+  - ko
+license: CC-BY-NC-SA-4.0
+url: https://huggingface.co/datasets/taeshahn/ko-lima
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/taeshahn/ko-lima
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,13 @@
+id: korean-rlhf-dataset
+name: Korean RLHF Dataset
+category: qa
+description_ko: KoAlpaca·Alpaca·Dolly·OpenAssistant 등 5개 출처를 통합·정제한 약 107,000건의 한국어 instruction 데이터셋이다.
+languages:
+  - ko
+license: Apache-2.0
+url: https://huggingface.co/datasets/jojo0217/korean_rlhf_dataset
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/jojo0217/korean_rlhf_dataset
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,12 @@
+id: gsm8k-ko
+name: GSM8K-Ko
+category: qa
+description_ko: 초등 수학 문장제 GSM8K를 한국어로 번역한 수학 추론 데이터셋으로 8,792행을 포함한다.
+languages:
+  - ko
+url: https://huggingface.co/datasets/kuotient/gsm8k-ko
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/kuotient/gsm8k-ko
+last_verified: '2026-07-22'
+verification_status: verified

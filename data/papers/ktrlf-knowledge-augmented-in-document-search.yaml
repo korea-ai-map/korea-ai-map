@@ -1,0 +1,15 @@
+id: ktrlf-knowledge-augmented-in-document-search
+title: 'KTRL+F: Knowledge-Augmented In-Document Search'
+authors_org: KAIST
+venue: NAACL
+year: 2023
+arxiv_id: '2311.08329'
+url: https://arxiv.org/abs/2311.08329
+abstract_ko: 문서 내 의미 대상을 실시간 검색하며 외부 지식을 결합하는 과제·모델.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2311.08329
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,16 @@
+id: verifier-free-test-time-sampling-vla
+title: Verifier-free Test-Time Sampling for Vision-Language-Action Models
+authors_org: KAIST
+venue: ICLR
+year: 2026
+arxiv_id: '2510.05681'
+url: https://arxiv.org/abs/2510.05681
+abstract_ko: 검증기 없이 테스트타임 샘플링으로 VLA 로봇 제어 성능을 향상한다.
+related_ids:
+  - kaist
+  - kaist-alinlab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2510.05681
+last_verified: '2026-07-22'
+verification_status: verified

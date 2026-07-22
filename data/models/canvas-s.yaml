@@ -1,0 +1,43 @@
+id: canvas-s
+name: CANVAS-S
+organization_id: maum-ai
+model_family: CANVAS
+status: active
+modalities:
+  - image
+  - text
+tasks:
+  - multimodal
+  - vision
+  - navigation
+parameter_count:
+  value: 800000000
+  disclosure: confident
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: true
+license:
+  name: CC-BY-NC-4.0
+  commercial_use: prohibited
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - en
+  - ko
+base_model: HuggingFaceM4/idefics2-8b
+links:
+  official: null
+  model_card: https://huggingface.co/maum-ai/CANVAS-S
+  huggingface: https://huggingface.co/maum-ai/CANVAS-S
+  github: null
+  paper: https://arxiv.org/abs/2410.01273
+sources:
+  - type: model-card
+    url: https://huggingface.co/maum-ai/CANVAS-S
+last_verified: '2026-07-22'
+verification_status: official-source

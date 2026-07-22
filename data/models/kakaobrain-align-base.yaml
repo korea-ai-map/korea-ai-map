@@ -1,0 +1,40 @@
+id: kakaobrain-align-base
+name: ALIGN (align-base)
+organization_id: kakao
+model_family: ALIGN
+status: active
+modalities:
+  - image
+  - text
+tasks:
+  - zero-shot-image-classification
+  - multimodal
+parameter_count:
+  value: null
+  disclosure: undisclosed
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: ''
+  commercial_use: unknown
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - en
+links:
+  official: null
+  model_card: https://huggingface.co/kakaobrain/align-base
+  huggingface: https://huggingface.co/kakaobrain/align-base
+  github: https://github.com/kakaobrain/coyo-dataset
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/kakaobrain/align-base
+last_verified: '2026-07-22'
+verification_status: official-source

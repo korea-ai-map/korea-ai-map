@@ -1,0 +1,16 @@
+id: bayesian-neural-scaling-law-pfn
+title: Bayesian Neural Scaling Law Extrapolation with Prior-Data Fitted Networks
+authors_org: KAIST
+venue: ICML
+year: 2025
+arxiv_id: '2505.23032'
+url: https://arxiv.org/abs/2505.23032
+abstract_ko: Prior-data fitted network로 신경망 스케일링 법칙을 베이지안적으로 외삽한다.
+related_ids:
+  - kaist
+  - kaist-mlai-lab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2505.23032
+last_verified: '2026-07-22'
+verification_status: verified

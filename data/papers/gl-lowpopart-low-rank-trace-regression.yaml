@@ -1,0 +1,15 @@
+id: gl-lowpopart-low-rank-trace-regression
+title: 'GL-LowPopArt: A Nearly Instance-Wise Minimax-Optimal Estimator for Generalized Low-Rank Trace Regression'
+authors_org: KAIST
+venue: AISTATS
+year: 2026
+arxiv_id: '2506.03074'
+url: https://arxiv.org/abs/2506.03074
+abstract_ko: 일반화 저랭크 트레이스 회귀를 위한 근사 인스턴스별 미니맥스 최적 추정기를 제시한다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2506.03074
+last_verified: '2026-07-22'
+verification_status: verified

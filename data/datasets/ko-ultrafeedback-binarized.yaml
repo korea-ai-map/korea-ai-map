@@ -1,0 +1,12 @@
+id: ko-ultrafeedback-binarized
+name: Ko UltraFeedback Binarized
+category: qa
+description_ko: UltraFeedback 선호(binarized) 데이터를 한국어로 번역한 DPO/선호학습용 데이터셋으로 약 6만 건을 포함한다.
+languages:
+  - ko
+url: https://huggingface.co/datasets/maywell/ko_Ultrafeedback_binarized
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/maywell/ko_Ultrafeedback_binarized
+last_verified: '2026-07-22'
+verification_status: verified

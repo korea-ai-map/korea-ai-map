@@ -1,0 +1,39 @@
+id: illustrious-lumina-v0-03
+name: Illustrious-Lumina-v0.03
+organization_id: onomaai
+model_family: Illustrious
+status: active
+modalities:
+  - text
+  - image
+tasks:
+  - text-to-image
+parameter_count:
+  value: null
+  disclosure: undisclosed
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: ''
+  commercial_use: unknown
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - en
+links:
+  official: https://illustrious-xl.ai
+  model_card: https://huggingface.co/OnomaAIResearch/Illustrious-Lumina-v0.03
+  huggingface: https://huggingface.co/OnomaAIResearch/Illustrious-Lumina-v0.03
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/OnomaAIResearch/Illustrious-Lumina-v0.03
+last_verified: '2026-07-22'
+verification_status: needs-review

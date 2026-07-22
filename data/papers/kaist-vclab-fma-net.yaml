@@ -1,0 +1,17 @@
+id: kaist-vclab-fma-net
+title: >-
+  FMA-Net: Flow-Guided Dynamic Filtering and Iterative Feature Refinement with Multi-Attention for Joint Video
+  Super-Resolution and Deblurring
+authors_org: KAIST VICLAB
+venue: CVPR
+year: 2024
+arxiv_id: '2401.03707'
+url: https://arxiv.org/abs/2401.03707
+abstract_ko: 흐름 유도 동적 필터링과 다중 어텐션으로 비디오 초해상도·디블러링을 통합한다.
+related_ids:
+  - kaist-vclab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2401.03707
+last_verified: '2026-07-22'
+verification_status: verified

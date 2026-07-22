@@ -1,0 +1,16 @@
+id: multi-task-inference-mti-bench
+title: 'Multi-Task Inference: Can Large Language Models Follow Multiple Instructions at Once?'
+authors_org: KAIST · HAERAE Hub
+venue: ACL
+year: 2024
+arxiv_id: '2402.11597'
+url: https://arxiv.org/abs/2402.11597
+abstract_ko: 한 입력의 여러 지시를 동시에 수행하는지 평가하는 MTI-Bench.
+related_ids:
+  - kaist
+  - haerae-hub
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2402.11597
+last_verified: '2026-07-22'
+verification_status: verified

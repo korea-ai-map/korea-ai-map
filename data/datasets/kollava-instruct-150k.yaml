@@ -1,0 +1,13 @@
+id: kollava-instruct-150k
+name: KoLLaVA-Instruct-150k
+category: multimodal
+description_ko: LLaVA 시각 지시(instruction) 데이터를 한국어로 번역한 약 15만 건의 멀티모달 이미지-대화 데이터셋이다.
+languages:
+  - ko
+license: CC-BY-NC-4.0
+url: https://huggingface.co/datasets/tabtoyou/KoLLaVA-Instruct-150k
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/tabtoyou/KoLLaVA-Instruct-150k
+last_verified: '2026-07-22'
+verification_status: verified

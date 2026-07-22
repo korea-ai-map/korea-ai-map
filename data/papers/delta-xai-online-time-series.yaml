@@ -1,0 +1,16 @@
+id: delta-xai-online-time-series
+title: 'Delta-XAI: A Unified Framework for Explaining Prediction Changes in Online Time Series Monitoring'
+authors_org: KAIST
+venue: ICLR
+year: 2026
+arxiv_id: '2511.23036'
+url: https://arxiv.org/abs/2511.23036
+abstract_ko: 온라인 시계열 모니터링에서 예측 변화를 설명하는 통합 XAI 프레임워크다.
+related_ids:
+  - kaist
+  - kaist-mlilab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2511.23036
+last_verified: '2026-07-22'
+verification_status: verified

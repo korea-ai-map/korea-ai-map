@@ -1,0 +1,12 @@
+id: ko-wikidata-qa
+name: Ko Wikidata QA
+category: qa
+description_ko: Wikidata 기반으로 생성한 한국어 질의응답 데이터셋으로 약 137,505건을 포함한다.
+languages:
+  - ko
+url: https://huggingface.co/datasets/maywell/ko_wikidata_QA
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/maywell/ko_wikidata_QA
+last_verified: '2026-07-22'
+verification_status: verified

@@ -1,0 +1,15 @@
+id: hrm8k
+name: HRM8K (HAE-RAE Math 8K)
+organization_id: haerae-hub
+category: qa
+description_ko: 한국어·영어 수학 추론 벤치마크로 한국 수학올림피아드·수능 등 원본 문제와 GSM8K·MATH 번역 문제 8,011건을 포함한다.
+languages:
+  - ko
+  - en
+license: MIT
+url: https://huggingface.co/datasets/HAERAE-HUB/HRM8K
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/HAERAE-HUB/HRM8K
+last_verified: '2026-07-22'
+verification_status: verified

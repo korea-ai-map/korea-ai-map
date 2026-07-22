@@ -1,0 +1,14 @@
+id: kullm-v2
+name: KULLM-v2 (instruction)
+organization_id: korea-university-nlpai-lab
+category: qa
+description_ko: GPT4ALL·Dolly·Vicuna 데이터를 한국어로 번역한 152,630건의 instruction 튜닝 데이터셋이다.
+languages:
+  - ko
+license: Apache-2.0
+url: https://huggingface.co/datasets/nlpai-lab/kullm-v2
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/nlpai-lab/kullm-v2
+last_verified: '2026-07-22'
+verification_status: verified

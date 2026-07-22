@@ -1,0 +1,15 @@
+id: generative-retrieval-dynamic-corpora
+title: Exploring the Practicality of Generative Retrieval on Dynamic Corpora
+authors_org: KAIST
+venue: EMNLP
+year: 2023
+arxiv_id: '2305.18952'
+url: https://arxiv.org/abs/2305.18952
+abstract_ko: 동적 코퍼스에서 생성형 검색의 실용성을 이중 인코더와 비교 분석.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2305.18952
+last_verified: '2026-07-22'
+verification_status: verified

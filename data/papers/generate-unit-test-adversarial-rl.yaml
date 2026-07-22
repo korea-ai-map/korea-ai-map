@@ -1,0 +1,15 @@
+id: generate-unit-test-adversarial-rl
+title: Learning to Generate Unit Test via Adversarial Reinforcement Learning
+authors_org: KAIST
+venue: ICLR
+year: 2026
+arxiv_id: '2508.21107'
+url: https://arxiv.org/abs/2508.21107
+abstract_ko: 적대적 강화학습으로 단위 테스트 생성을 학습한다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2508.21107
+last_verified: '2026-07-22'
+verification_status: verified

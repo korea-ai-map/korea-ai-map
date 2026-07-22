@@ -1,0 +1,15 @@
+id: distillm-2-contrastive-llm-distillation
+title: 'DistiLLM-2: A Contrastive Approach Boosts the Distillation of LLMs'
+authors_org: KAIST
+venue: ICML
+year: 2025
+arxiv_id: '2503.07067'
+url: https://arxiv.org/abs/2503.07067
+abstract_ko: 대조적 접근으로 LLM 지식 증류 성능을 향상한다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2503.07067
+last_verified: '2026-07-22'
+verification_status: verified

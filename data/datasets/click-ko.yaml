@@ -1,0 +1,14 @@
+id: click-ko
+name: CLIcK (Cultural and Linguistic Intelligence in Korean)
+category: qa
+description_ko: 수능·TOPIK·KIIP 등 공식 시험에서 추출한 한국 문화·언어 지식 평가용 객관식 약 2,000문항 데이터셋이다.
+languages:
+  - ko
+url: https://huggingface.co/datasets/EunsuKim/CLIcK
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/EunsuKim/CLIcK
+  - type: paper
+    url: https://arxiv.org/abs/2403.06412
+last_verified: '2026-07-22'
+verification_status: verified

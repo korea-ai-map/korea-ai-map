@@ -1,0 +1,14 @@
+id: cc100-korean
+name: CC-100 Korean
+category: korean-corpus
+description_ko: CommonCrawl 스냅샷을 CCNet 파이프라인으로 정제해 구축한 단일언어 한국어 웹 말뭉치이다.
+languages:
+  - ko
+url: https://huggingface.co/datasets/statmt/cc100
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/statmt/cc100
+  - type: paper
+    url: https://aclanthology.org/2020.acl-main.747/
+last_verified: '2026-07-22'
+verification_status: official-source

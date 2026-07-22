@@ -1,0 +1,12 @@
+id: oscar-2301-korean
+name: OSCAR-2301 Korean
+category: korean-corpus
+description_ko: Common Crawl에서 추출·필터링한 한국어 웹 말뭉치로 약 1,514만 문서·38GB 규모이다.
+languages:
+  - ko
+url: https://huggingface.co/datasets/oscar-corpus/OSCAR-2301
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/oscar-corpus/OSCAR-2301
+last_verified: '2026-07-22'
+verification_status: verified

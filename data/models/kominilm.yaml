@@ -1,0 +1,39 @@
+id: kominilm
+name: KoMiniLM
+organization_id: bm-k
+model_family: KoMiniLM
+status: active
+modalities:
+  - text
+tasks:
+  - fill-mask
+  - embedding
+parameter_count:
+  value: 68000000
+  disclosure: confident
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: ''
+  commercial_use: unknown
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+links:
+  official: null
+  model_card: https://huggingface.co/BM-K/KoMiniLM
+  huggingface: https://huggingface.co/BM-K/KoMiniLM
+  github: https://github.com/BM-K/KoMiniLM
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/BM-K/KoMiniLM
+last_verified: '2026-07-22'
+verification_status: official-source

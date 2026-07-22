@@ -1,0 +1,40 @@
+id: illustrious-xl-v1-0
+name: Illustrious-XL-v1.0
+organization_id: onomaai
+model_family: Illustrious
+status: active
+modalities:
+  - text
+  - image
+tasks:
+  - text-to-image
+parameter_count:
+  value: null
+  disclosure: undisclosed
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: CreativeML OpenRAIL++-M (SDXL)
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - en
+base_model: stabilityai/stable-diffusion-xl-base-1.0
+links:
+  official: https://illustrious-xl.ai
+  model_card: https://huggingface.co/OnomaAIResearch/Illustrious-XL-v1.0
+  huggingface: https://huggingface.co/OnomaAIResearch/Illustrious-XL-v1.0
+  github: null
+  paper: https://arxiv.org/abs/2409.19946
+sources:
+  - type: model-card
+    url: https://huggingface.co/OnomaAIResearch/Illustrious-XL-v1.0
+last_verified: '2026-07-22'
+verification_status: official-source

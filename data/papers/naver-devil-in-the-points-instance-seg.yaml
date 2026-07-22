@@ -1,0 +1,15 @@
+id: naver-devil-in-the-points-instance-seg
+title: 'The Devil is in the Points: Weakly Semi-Supervised Instance Segmentation via Point-Guided Mask Representation'
+authors_org: NAVER Cloud, KAIST
+venue: CVPR
+year: 2023
+arxiv_id: '2303.15062'
+url: https://arxiv.org/abs/2303.15062
+abstract_ko: 점 주석을 약한 감독으로 쓰는 준지도 인스턴스 분할.
+related_ids:
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2303.15062
+last_verified: '2026-07-22'
+verification_status: verified

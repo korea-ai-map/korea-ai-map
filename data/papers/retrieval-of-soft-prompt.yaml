@@ -1,0 +1,15 @@
+id: retrieval-of-soft-prompt
+title: Efficiently Enhancing Zero-Shot Performance of Instruction Following Model via Retrieval of Soft Prompt
+authors_org: KAIST
+venue: EMNLP Findings
+year: 2022
+arxiv_id: '2210.03029'
+url: https://arxiv.org/abs/2210.03029
+abstract_ko: 소프트 프롬프트 검색으로 지시 따르기 모델의 제로샷 성능 향상.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2210.03029
+last_verified: '2026-07-22'
+verification_status: verified

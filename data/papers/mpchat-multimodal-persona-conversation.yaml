@@ -1,0 +1,15 @@
+id: mpchat-multimodal-persona-conversation
+title: 'MPCHAT: Towards Multimodal Persona-Grounded Conversation'
+authors_org: SNU · NAVER AI Lab
+venue: ACL
+year: 2023
+arxiv_id: '2305.17388'
+url: https://arxiv.org/abs/2305.17388
+abstract_ko: 이미지까지 포함하는 멀티모달 페르소나 기반 대화 데이터셋.
+related_ids:
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2305.17388
+last_verified: '2026-07-22'
+verification_status: verified

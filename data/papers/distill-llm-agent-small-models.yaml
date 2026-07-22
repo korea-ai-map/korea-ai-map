@@ -1,0 +1,16 @@
+id: distill-llm-agent-small-models
+title: Distilling LLM Agent into Small Models with Retrieval and Code Tools
+authors_org: KAIST
+venue: NeurIPS
+year: 2025
+arxiv_id: '2505.17612'
+url: https://arxiv.org/abs/2505.17612
+abstract_ko: 검색·코드 도구를 활용하는 대형 LLM 에이전트의 추론 능력을 소형 모델로 증류하는 방법을 제안한다.
+related_ids:
+  - kaist
+  - kaist-mlai-lab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2505.17612
+last_verified: '2026-07-22'
+verification_status: verified

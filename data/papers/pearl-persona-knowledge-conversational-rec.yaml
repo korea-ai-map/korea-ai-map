@@ -1,0 +1,15 @@
+id: pearl-persona-knowledge-conversational-rec
+title: 'Pearl: A Review-driven Persona-Knowledge Grounded Conversational Recommendation Dataset'
+authors_org: Yonsei
+venue: ACL Findings
+year: 2024
+arxiv_id: '2403.04460'
+url: https://arxiv.org/abs/2403.04460
+abstract_ko: 리뷰 기반 페르소나·지식 대화형 추천 데이터셋 Pearl.
+related_ids:
+  - yonsei-ai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2403.04460
+last_verified: '2026-07-22'
+verification_status: verified

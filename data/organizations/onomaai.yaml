@@ -1,0 +1,28 @@
+id: onomaai
+name_ko: 오노마에이아이
+name_en: OnomaAI Research
+organization_type: startup
+country: KR
+website: https://illustrious-xl.ai
+ai_core_level: model_builder
+categories:
+  - image-generation
+  - vision
+status: active
+description_ko: 오픈 이미지 생성(일러스트) 모델 Illustrious 시리즈를 개발한 한국 AI 스타트업.
+models:
+  - illustrious-xl-v2-0
+  - illustrious-xl-v1-1
+  - illustrious-xl-v1-0
+  - illustrious-lumina-v0-03
+  - illustrious-xl-early-release-v0
+products: []
+open_source_links:
+  - https://huggingface.co/OnomaAIResearch
+sources:
+  - type: huggingface
+    url: https://huggingface.co/OnomaAIResearch
+  - type: official-website
+    url: https://illustrious-xl.ai
+last_verified: '2026-07-22'
+verification_status: needs-review

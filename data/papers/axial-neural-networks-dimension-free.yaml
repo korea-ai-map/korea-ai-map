@@ -1,0 +1,15 @@
+id: axial-neural-networks-dimension-free
+title: Axial Neural Networks for Dimension-Free Foundation Models
+authors_org: KAIST
+venue: NeurIPS
+year: 2025
+arxiv_id: '2510.13665'
+url: https://arxiv.org/abs/2510.13665
+abstract_ko: 차원에 무관한 파운데이션 모델을 위한 축(axial) 신경망을 제안한다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2510.13665
+last_verified: '2026-07-22'
+verification_status: verified

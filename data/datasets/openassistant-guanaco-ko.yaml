@@ -1,0 +1,14 @@
+id: openassistant-guanaco-ko
+name: OpenAssistant Guanaco Ko
+organization_id: korea-university-nlpai-lab
+category: qa
+description_ko: OpenAssistant Guanaco 대화 데이터를 한국어로 번역한 약 1만 건의 instruction 데이터셋이다.
+languages:
+  - ko
+license: Apache-2.0
+url: https://huggingface.co/datasets/nlpai-lab/openassistant-guanaco-ko
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/nlpai-lab/openassistant-guanaco-ko
+last_verified: '2026-07-22'
+verification_status: verified

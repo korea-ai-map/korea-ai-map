@@ -1,0 +1,16 @@
+id: multimodal-prompt-optimization-mllm
+title: 'Multimodal Prompt Optimization: Why Not Leverage Multiple Modalities for MLLMs'
+authors_org: KAIST
+venue: ICLR
+year: 2026
+arxiv_id: '2510.09201'
+url: https://arxiv.org/abs/2510.09201
+abstract_ko: 텍스트를 넘어 다중 모달리티를 활용해 MLLM 프롬프트를 최적화한다.
+related_ids:
+  - kaist
+  - kaist-mlai-lab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2510.09201
+last_verified: '2026-07-22'
+verification_status: verified

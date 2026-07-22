@@ -1,0 +1,15 @@
+id: postech-classification-matters-vad
+title: 'Classification Matters: Improving Video Action Detection with Class-Specific Attention'
+authors_org: POSTECH, NAVER
+venue: ECCV
+year: 2024
+arxiv_id: '2407.19698'
+url: https://arxiv.org/abs/2407.19698
+abstract_ko: 클래스 전용 쿼리로 비디오 행동 검출의 분류 정확도를 높인다(ECCV 2024 oral).
+related_ids:
+  - postech-gsai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2407.19698
+last_verified: '2026-07-22'
+verification_status: verified

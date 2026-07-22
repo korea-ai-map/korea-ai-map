@@ -1,0 +1,15 @@
+id: postech-shatter-and-gather-ris
+title: 'Shatter and Gather: Learning Referring Image Segmentation with Text Supervision'
+authors_org: POSTECH
+venue: ICCV
+year: 2023
+arxiv_id: '2308.15512'
+url: https://arxiv.org/abs/2308.15512
+abstract_ko: 텍스트만으로 지시 표현 이미지 분할을 학습하는 약지도 방법.
+related_ids:
+  - postech-gsai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2308.15512
+last_verified: '2026-07-22'
+verification_status: verified
