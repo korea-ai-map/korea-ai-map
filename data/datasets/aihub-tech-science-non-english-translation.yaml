@@ -1,0 +1,14 @@
+name: 한국어-다국어(영어 제외) 번역 말뭉치(기술과학)
+organization_id: nia
+category: domain-specific
+description_ko: 도서·논문·간행물의 기술과학 문장을 중국어와 일본어로 번역하고 검수한 한국어 중심 병렬 말뭉치 302,130건이다.
+languages:
+  - ko
+  - zh
+  - ja
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71493&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71493&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

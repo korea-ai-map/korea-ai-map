@@ -1,0 +1,13 @@
+name: 문서요약 텍스트
+organization_id: nia
+category: korean-corpus
+description_ko: 신문·기고문·잡지·법원 판결문 원문 40만 건과 추출·생성 요약문 80만 건으로 구성된 대규모 한국어 문서요약 데이터셋이다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=97&topMenu=100
+sources:
+  - type: gov
+    url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=97&topMenu=100
+last_verified: '2026-07-23'
+verification_status: official-source

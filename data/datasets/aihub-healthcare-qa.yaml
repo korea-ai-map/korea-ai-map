@@ -1,0 +1,12 @@
+name: 초거대 AI 헬스케어 질의응답 데이터
+organization_id: nia
+category: domain-specific
+description_ko: 의료 전문 지식을 질환별 질문과 답변으로 구성해 의료용 챗봇과 초거대 언어모델 학습에 활용하도록 구축한 한국어 헬스케어 데이터셋이다.
+languages:
+  - ko
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71762&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71762&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

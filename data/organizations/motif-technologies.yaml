@@ -17,8 +17,8 @@ description_ko: >-
   2025년 2월 AI 인프라 기업 모레(Moreh)에서 물적분할해 설립된 파운데이션 모델 전문 기업. 해외 오픈소스 구조를 차용하지 않는 독자 설계 철학으로 LLM을 개발하며, Motif-2-12.7B가 한국
   오픈 모델 중 상위권 성능을 기록. 2026년 240억원 규모 시리즈B를 유치하고 과기정통부 독자 AI 파운데이션 모델 정예팀에 선정됐다.
 models:
-  - motif-2-6b
   - motif-2-12-7b-instruct
+  - motif-2-6b
 products: []
 open_source_links:
   - https://huggingface.co/Motif-Technologies

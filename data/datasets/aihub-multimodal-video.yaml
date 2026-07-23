@@ -1,0 +1,13 @@
+name: 멀티모달 영상
+organization_id: nia
+category: multimodal
+description_ko: 국내 상황의 영상 6,000개 약 110시간에 오디오·대본·감정·인물·개체 관계·발화 의도·질의응답 라벨을 결합한 멀티모달 데이터셋이다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=58&topMenu=100
+sources:
+  - type: gov
+    url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=58&topMenu=100
+last_verified: '2026-07-23'
+verification_status: official-source

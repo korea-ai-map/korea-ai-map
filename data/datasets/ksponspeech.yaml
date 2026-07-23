@@ -1,14 +1,15 @@
 name: KsponSpeech
+organization_id: nia
 category: speech
 description_ko: 약 1,000시간 규모의 한국어 자유발화 음성과 전사문으로 구성된 대규모 ASR 데이터셋이다.
 languages:
   - ko
 license: AI-Hub 이용약관
-url: https://aihub.or.kr/
+url: https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=123
 sources:
   - type: paper
     url: https://www.mdpi.com/2076-3417/10/19/6936
   - type: gov
-    url: https://aihub.or.kr/
-last_verified: '2026-07-22'
-verification_status: official-source
+    url: https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=123
+last_verified: '2026-07-23'
+verification_status: verified

@@ -7,6 +7,7 @@ url: https://arxiv.org/abs/2010.05646
 abstract_ko: 멜스펙트로그램으로부터 고품질 음성을 효율적으로 합성하는 GAN 기반 보코더. 다중 주기/스케일 판별기로 실시간에 근접한 속도와 고충실도를 동시에 달성.
 related_ids:
   - kakao
+  - hifi-gan
 sources:
   - type: paper
     url: https://arxiv.org/abs/2010.05646

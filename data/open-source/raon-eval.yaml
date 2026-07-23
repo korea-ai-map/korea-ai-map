@@ -1,0 +1,14 @@
+name: Raon-Eval
+organization_id: krafton-ai
+repo_type: eval-tool
+url: https://github.com/krafton-ai/Raon-Eval
+description_ko: KVoiceBench, KOpenAudioBench, KMMAU를 지원하는 한국어 음성 언어모델 공개 평가 도구.
+language: Python
+license: Apache-2.0
+sources:
+  - type: github
+    url: https://github.com/krafton-ai/Raon-Eval
+  - type: paper
+    url: https://arxiv.org/abs/2605.27984
+last_verified: '2026-07-23'
+verification_status: verified

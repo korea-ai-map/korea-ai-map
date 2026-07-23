@@ -1,0 +1,38 @@
+name: Raon-OpenTTS-0.3B
+organization_id: krafton-ai
+model_family: Raon
+status: active
+modalities:
+  - text
+  - audio
+tasks:
+  - text-to-speech
+  - zero-shot-tts
+  - voice-cloning
+parameter_count:
+  value: 336000000
+  disclosure: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: CC BY-NC 4.0
+  commercial_use: prohibited
+languages:
+  - en
+links:
+  official: https://www.krafton.ai/
+  model_card: https://huggingface.co/KRAFTON/Raon-OpenTTS-0.3B
+  huggingface: https://huggingface.co/KRAFTON/Raon-OpenTTS-0.3B
+  github: https://github.com/krafton-ai/Raon-OpenTTS
+  paper: https://arxiv.org/abs/2605.20830
+sources:
+  - type: model-card
+    url: https://huggingface.co/KRAFTON/Raon-OpenTTS-0.3B
+  - type: paper
+    url: https://arxiv.org/abs/2605.20830
+  - type: github
+    url: https://github.com/krafton-ai/Raon-OpenTTS
+last_verified: '2026-07-23'
+verification_status: verified

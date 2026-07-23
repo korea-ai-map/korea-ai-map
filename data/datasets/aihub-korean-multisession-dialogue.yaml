@@ -1,0 +1,12 @@
+name: 한국어 멀티세션 대화
+organization_id: nia
+category: korean-corpus
+description_ko: 두 참여자가 페르소나와 주제를 바탕으로 시간 간격을 두고 나눈 일상 대화에 세션·페르소나·요약 정보를 라벨링한 한국어 텍스트 데이터 80,000건이다.
+languages:
+  - ko
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71630&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71630&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

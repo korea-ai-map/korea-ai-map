@@ -17,9 +17,12 @@ description_ko: >-
   구 마인즈랩. 코스닥 상장 AI 기업으로 Agent AI·Physical AI 사업 영위. 자체 STT/TTS와 Llama 기반 자체 LLM 시리즈 MAAL을 개발하고, 퀄컴과 협업한 온디바이스 솔루션 SUDA에
   STT·TTS·LLM을 동시 탑재. MAAL 계열 모델을 Hugging Face에 공개.
 models:
-  - llama-3-maal-8b-instruct
+  - canvas-l
+  - canvas-s
   - llama-3-2-maal-11b-vision
-products: []
+  - llama-3-maal-8b-instruct
+products:
+  - maum-suda
 open_source_links:
   - https://huggingface.co/maum-ai
 sources:

@@ -38,5 +38,7 @@ links:
 sources:
   - type: official-website
     url: https://www.ncloud.com/product/aiService/clovaVoice
-last_verified: '2026-07-22'
+  - type: official-docs
+    url: https://guide.ncloud-docs.com/docs/clovavoice-overview
+last_verified: '2026-07-23'
 verification_status: official-source

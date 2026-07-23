@@ -13,7 +13,10 @@ categories:
   - interpretability
 status: active
 description_ko: 2020년 설립된 비영리 대규모 AI 연구 단체. GPT-NeoX·Pythia·The Pile 등 오픈소스 모델·데이터를 공개했으며, polyglot 팀이 대규모 한국어 언어모델 Polyglot-Ko를 개발했다.
-models: []
+models:
+  - polyglot-ko-128b
+  - polyglot-ko-13b
+  - polyglot-ko-58b
 products: []
 open_source_links:
   - https://github.com/EleutherAI

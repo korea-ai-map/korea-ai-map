@@ -12,7 +12,9 @@ status: active
 description_ko: 폐암·COPD 등 흉부 CT 정량 분석 AI 플랫폼 AVIEW를 자체 개발하는 의료영상 AI 기업. 2022년 코스닥 상장.
 models:
   - coreline-aview-lcs
-products: []
+products:
+  - coreline-aview-cac
+  - coreline-aview-lcs-plus
 open_source_links: []
 sources:
   - type: official-website

@@ -7,6 +7,7 @@ url: https://arxiv.org/abs/2106.06103
 abstract_ko: 조건부 VAE와 정규화 흐름·적대적 학습·확률적 지속시간 예측을 결합한 완전 end-to-end TTS. 2단계 파이프라인 없이 자연스러운 단일 단계 음성 합성을 달성.
 related_ids:
   - kakao
+  - vits-repo
 sources:
   - type: paper
     url: https://arxiv.org/abs/2106.06103

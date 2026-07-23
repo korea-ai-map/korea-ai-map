@@ -1,0 +1,14 @@
+name: KoBALT
+organization_id: snunlp
+category: korean-understanding
+description_ko: 한국어 통사·의미·화용·음운·형태론의 24개 현상을 평가하는 전문가 작성 700문항 벤치마크.
+url: https://huggingface.co/datasets/snunlp/KoBALT-700
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/snunlp/KoBALT-700
+  - type: github
+    url: https://github.com/snunlp/KoBALT-700
+  - type: paper
+    url: https://arxiv.org/abs/2505.16125
+last_verified: '2026-07-23'
+verification_status: verified

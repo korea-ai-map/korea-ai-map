@@ -17,8 +17,9 @@ description_ko: >-
   출시했다. 2025년 Meta의 인수 제안을 거절하고 독립 노선을 유지했다.
 models: []
 products:
-  - furiosaai-warboy
   - furiosaai-rngd
+  - furiosaai-rngd-max
+  - furiosaai-warboy
 open_source_links: []
 sources:
   - type: official-website

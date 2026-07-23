@@ -14,6 +14,10 @@ categories:
 status: active
 description_ko: 게임사 엔씨소프트가 개발·공개하는 AI 모델 VARCO 계열을 운영한다. 특히 한국어 비전-언어(VLM) 모델 VARCO-VISION을 오픈 공개한다.
 models:
+  - gme-varco-vision-embedding
+  - llama-varco-8b-instruct
+  - varco-vision-2-0-1-7b
+  - varco-vision-2-0-1-7b-ocr
   - varco-vision-2-0-14b
 products: []
 open_source_links:

@@ -3,7 +3,7 @@ name_en: Laon People
 organization_type: corporate
 country: KR
 headquarters: Gwacheon
-website: https://www.laonpeople.com
+website: https://laonpeople.com/
 founded_year: 2010
 ai_core_level: ai_native
 categories:
@@ -17,6 +17,6 @@ products: []
 open_source_links: []
 sources:
   - type: official-website
-    url: https://www.laonpeople.com/en/
-last_verified: '2026-07-22'
+    url: https://laonpeople.com/about/
+last_verified: '2026-07-23'
 verification_status: official-source

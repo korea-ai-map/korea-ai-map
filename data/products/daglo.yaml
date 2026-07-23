@@ -1,0 +1,33 @@
+name_ko: 다글로
+name_en: Daglo
+organization_id: actionpower
+description_ko: 음성·영상 받아쓰기와 화자 분리, 회의록·요약, 문서 분석, 번역, 멀티모델 채팅 및 RAG 기반 자료 질의를 제공하는 AI 워크스페이스.
+categories:
+  - speech-to-text
+  - ai-workspace
+  - productivity
+  - multimodal-agent
+target_users:
+  - individual
+  - team
+  - enterprise
+  - education
+delivery_type:
+  - app
+  - web-service
+  - saas
+  - api
+models_used: []
+model_ownership: hybrid
+pricing_public: true
+status: active
+website: https://daglo.ai/
+sources:
+  - type: official-website
+    url: https://daglo.ai/
+  - type: official-website
+    url: https://daglo.ai/team-plan
+  - type: official-docs
+    url: https://actionpower.kr/daglo-api
+last_verified: '2026-07-23'
+verification_status: verified

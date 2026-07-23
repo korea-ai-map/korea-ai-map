@@ -1,0 +1,13 @@
+name: 행정 문서 대상 기계독해 데이터
+organization_id: nia
+category: qa
+description_ko: 행정문서의 일반 텍스트와 표를 지문·질문·답변으로 가공한 411,840건 규모의 한국어 기계독해 데이터셋이다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=569&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=569&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: '2026-07-23'
+verification_status: official-source

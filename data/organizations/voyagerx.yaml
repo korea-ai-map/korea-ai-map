@@ -21,9 +21,9 @@ description_ko: >-
   파운데이션 모델을 공개하지는 않았으나 음성인식 등 제품 핵심 AI를 자체 개발하는 AI 네이티브 제품 회사다.
 models: []
 products:
-  - vrew
   - vflat
   - voc-studio
+  - vrew
 open_source_links: []
 sources:
   - type: official-website

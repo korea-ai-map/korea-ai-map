@@ -1,0 +1,13 @@
+name: 다양한 소음원에서의 Ground Truth 지식 정보 데이터
+organization_id: nia
+category: speech
+description_ko: 다양한 소음 환경의 목적 지향 대화 음성 2,024.9시간·41,503건과 이상소리 감지를 위한 환경 소리 509.9시간·61,258건으로 구성된 오디오 데이터셋이다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71698&topMenu=100
+sources:
+  - type: gov
+    url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71698&topMenu=100
+last_verified: '2026-07-23'
+verification_status: official-source

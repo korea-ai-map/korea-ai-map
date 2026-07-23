@@ -35,5 +35,5 @@ links:
 sources:
   - type: model-card
     url: https://huggingface.co/dragonkue/BGE-m3-ko
-last_verified: '2026-07-22'
-verification_status: needs-review
+last_verified: '2026-07-23'
+verification_status: official-source

@@ -19,7 +19,7 @@ availability:
   weights: true
   demo: true
 license:
-  name: ''
+  name: unknown
   commercial_use: unknown
 deployment:
   cloud: true

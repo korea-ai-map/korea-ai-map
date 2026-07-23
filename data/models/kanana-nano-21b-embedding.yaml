@@ -12,7 +12,7 @@ parameter_count:
   disclosure: confident
 context_length:
   value: 512
-  confidence: undisclosed
+  confidence: confident
 availability:
   api: false
   weights: true

@@ -7,7 +7,8 @@ year: 2023
 arxiv_id: '2311.12454'
 url: https://arxiv.org/abs/2311.12454
 abstract_ko: 계층적 변분추론으로 의미·음향 표현의 간극을 메워 제로샷 TTS와 음성변환을 강건하게 수행하는 음성합성 모델.
-related_ids: []
+related_ids:
+  - hierspeechpp
 sources:
   - type: paper
     url: https://arxiv.org/abs/2311.12454

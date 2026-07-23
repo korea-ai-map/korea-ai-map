@@ -13,7 +13,8 @@ categories:
   - multimodal-ai
 status: active
 description_ko: 2019년 설립된 서울대학교 본부 주관 AI 연구소. 원천·응용 AI 연구를 총괄하며 산하에 다수의 AI 연구 그룹을 포함한다.
-models: []
+models:
+  - kr-sbert-v40k
 products: []
 open_source_links: []
 sources:

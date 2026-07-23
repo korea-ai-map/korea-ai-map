@@ -13,7 +13,12 @@ status: active
 description_ko: 기업용 및 산업용 인공지능 모델을 연구·개발하는 LG 그룹의 AI 연구조직.
 models:
   - exaone-35
-products: []
+  - exaone-4-0-1-2b
+  - exaone-4-0-32b
+  - exaone-4-5-33b
+  - k-exaone-236b-a23b
+products:
+  - chatexaone
 open_source_links:
   - https://huggingface.co/LGAI-EXAONE
 sources:

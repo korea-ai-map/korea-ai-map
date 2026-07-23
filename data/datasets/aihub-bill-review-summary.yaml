@@ -1,0 +1,12 @@
+name: 법률안 검토 보고서 요약 데이터
+organization_id: nia
+category: domain-specific
+description_ko: 제19대부터 제21대 국회의 법률안 검토보고서 3만 건을 쟁점 단위로 가공한 한국어 법률 문서 요약 학습 데이터셋이다.
+languages:
+  - ko
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71794&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71794&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

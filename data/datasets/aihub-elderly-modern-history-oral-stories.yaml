@@ -1,0 +1,13 @@
+name: 고령자 근현대 경험 기반 스토리 구술 데이터
+organization_id: nia
+category: speech
+description_ko: 60세 이상 고령자가 50개 단어를 바탕으로 구술한 기억의 음성·텍스트 각 143,630건에 구체성·감정·감각 요소와 화자 메타정보를 태깅한 데이터셋이다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71703&topMenu=100
+sources:
+  - type: gov
+    url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71703&topMenu=100
+last_verified: '2026-07-23'
+verification_status: official-source

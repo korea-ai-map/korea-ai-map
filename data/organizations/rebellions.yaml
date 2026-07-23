@@ -19,6 +19,7 @@ models: []
 products:
   - rebellions-atom
   - rebellions-rebel
+  - rebellions-rebel-quad
 open_source_links: []
 sources:
   - type: official-website

@@ -1,0 +1,13 @@
+name: 한국인 대화음성
+organization_id: nia
+category: speech
+description_ko: 연령·지역·원거리·다자발화와 방송 콘텐츠를 포함한 한국어 대화 음성 4,000시간 및 전사·메타데이터로, 범용 음성인식과 화자인식 학습에 활용된다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&dataSetSn=130&topMenu=100
+sources:
+  - type: gov
+    url: https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&dataSetSn=130&topMenu=100
+last_verified: '2026-07-23'
+verification_status: official-source

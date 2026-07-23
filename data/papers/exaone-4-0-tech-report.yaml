@@ -7,6 +7,7 @@ url: https://arxiv.org/abs/2507.11407
 abstract_ko: 비추론·추론 모드를 통합한 EXAONE 4.0(32B, 1.2B) 모델 시리즈로, 에이전트형 도구 사용과 한국어·영어·스페인어 다국어 지원을 확장했다.
 related_ids:
   - exaone-4-0-32b
+  - exaone-4-0-1-2b
   - lg-ai-research
 sources:
   - type: paper

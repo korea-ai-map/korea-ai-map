@@ -3,6 +3,7 @@ name_en: Holiday Robotics
 organization_type: startup
 country: KR
 headquarters: Seoul
+website: https://holiday-robotics.com/
 founded_year: 2024
 ai_core_level: model_builder
 categories:
@@ -18,7 +19,9 @@ models: []
 products: []
 open_source_links: []
 sources:
+  - type: official-website
+    url: https://holiday-robotics.com/
   - type: press
     url: https://www.unicornfactory.co.kr/article/2026071308233216474
-last_verified: '2026-07-22'
-verification_status: needs-review
+last_verified: '2026-07-23'
+verification_status: official-source

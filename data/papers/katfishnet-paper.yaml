@@ -1,0 +1,19 @@
+title: 'KatFishNet: Detecting LLM-Generated Korean Text through Linguistic Feature Analysis'
+authors_org: Yonsei University
+venue: ACL 2025
+year: 2025
+arxiv_id: '2503.00032'
+url: https://aclanthology.org/2025.acl-long.1030/
+doi: 10.18653/v1/2025.acl-long.1030
+abstract_ko: 한국어 띄어쓰기·품사 조합·구두점 특성을 이용해 LLM 생성 텍스트를 탐지하는 KatFishNet과 KatFish 데이터셋을 제안한다.
+related_ids:
+  - katfish
+sources:
+  - type: paper
+    url: https://aclanthology.org/2025.acl-long.1030/
+  - type: paper
+    url: https://arxiv.org/abs/2503.00032
+  - type: github
+    url: https://github.com/Shinwoo-Park/katfishnet
+last_verified: '2026-07-23'
+verification_status: verified

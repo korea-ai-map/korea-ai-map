@@ -1,0 +1,13 @@
+name: 일상대화 한국어 멀티세션 데이터
+organization_id: nia
+category: korean-corpus
+description_ko: 이전 대화 이력과 참조 문서·검색어·세션 요약을 포함한 61,553건의 한국어 멀티세션 대화로 장기 문맥 기반 챗봇 학습에 적합하다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71678&topMenu=100
+sources:
+  - type: gov
+    url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71678&topMenu=100
+last_verified: '2026-07-23'
+verification_status: official-source

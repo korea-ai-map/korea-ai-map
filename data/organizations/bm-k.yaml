@@ -10,6 +10,7 @@ categories:
 status: active
 description_ko: 한국어 문장 임베딩 모델 KoSimCSE·KoSentence-BERT 등을 공개한 개인 오픈소스 기여자.
 models:
+  - kominilm
   - kosimcse-roberta
 products: []
 open_source_links:

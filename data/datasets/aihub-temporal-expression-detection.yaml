@@ -1,0 +1,12 @@
+name: 시간 표현 탐지 데이터
+organization_id: nia
+category: korean-corpus
+description_ko: 뉴스·대화·역사·스포츠 문서에서 시간 표현, 사건, 시간 관계를 TIMEX3·EVENT·TLINK로 태깅한 한국어 학습 데이터 41,111건이다.
+languages:
+  - ko
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71613&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71613&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

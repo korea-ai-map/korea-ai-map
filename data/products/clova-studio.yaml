@@ -16,10 +16,12 @@ models_used:
   - hyperclova-x
 model_ownership: own-model
 pricing_public: false
-status: active
+status: beta
 website: https://www.ncloud.com/product/aiService/clovaStudio
 sources:
   - type: official-website
     url: https://www.ncloud.com/product/aiService/clovaStudio
-last_verified: '2026-07-22'
+  - type: official-docs
+    url: https://guide.ncloud-docs.com/docs/ko/clovastudio-overview
+last_verified: '2026-07-23'
 verification_status: official-source

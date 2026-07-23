@@ -1,0 +1,13 @@
+name: 한국어 대화
+organization_id: nia
+category: korean-corpus
+description_ko: 소상공인과 공공 민원 10개 분야의 대화 50만 건 이상에 도메인·의도·개체·시소러스 정보를 결합한 한국어 자연어이해 데이터셋이다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=116&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=116&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: '2026-07-23'
+verification_status: official-source

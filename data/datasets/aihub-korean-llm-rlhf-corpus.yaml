@@ -1,0 +1,12 @@
+name: 한국어 성능이 개선된 초거대AI 언어모델 개발 및 데이터
+organization_id: nia
+category: korean-corpus
+description_ko: 약 20억 어절·310만 건의 한국어 말뭉치와 SFT·보상모델·PPO용 RLHF 데이터 7만7천 건으로 구성된 초거대 언어모델 학습 데이터셋이다.
+languages:
+  - ko
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71748&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71748&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

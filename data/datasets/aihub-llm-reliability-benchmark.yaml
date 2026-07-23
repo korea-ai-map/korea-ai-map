@@ -1,0 +1,12 @@
+name: 초거대 언어모델 신뢰성 벤치마크 데이터
+organization_id: nia
+category: safety
+description_ko: 한국어 LLM의 무해성·정보 정확성·도움 적정성을 평가하는 벤치마크 33,000건과 신뢰성 학습 데이터 50,000건으로 구성된다.
+languages:
+  - ko
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71760&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71760&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

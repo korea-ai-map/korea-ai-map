@@ -3,7 +3,7 @@ name_en: Nthing
 organization_type: startup
 country: KR
 headquarters: Seoul
-website: https://n.thing.co
+website: https://www.nthing.net/
 founded_year: 2014
 ai_core_level: ai_enabled
 categories:
@@ -18,6 +18,6 @@ products: []
 open_source_links: []
 sources:
   - type: official-website
-    url: https://n.thing.co
-last_verified: '2026-07-22'
-verification_status: needs-review
+    url: https://www.nthing.net/
+last_verified: '2026-07-23'
+verification_status: official-source

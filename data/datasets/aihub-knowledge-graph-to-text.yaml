@@ -1,0 +1,13 @@
+name: 지식그래프-투-텍스트 데이터
+organization_id: nia
+category: korean-corpus
+description_ko: 역사·의료·사회·경제·국제·문화·IT 분야의 지식그래프 원천 237,294건과 자연어 가공 데이터 300,178건으로 구성된 한국어 생성 학습 데이터셋이다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71728&topMenu=100
+sources:
+  - type: gov
+    url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71728&topMenu=100
+last_verified: '2026-07-23'
+verification_status: official-source

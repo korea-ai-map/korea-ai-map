@@ -1,0 +1,12 @@
+name: 인도네시아어 말뭉치 데이터
+organization_id: nia
+category: domain-specific
+description_ko: 한국·인도네시아 관련 맥락을 포함한 인도네시아어 13,781,860문장·200,113,484토큰과 개체명 인식 라벨을 제공하는 초거대 AI 학습 말뭉치다.
+languages:
+  - id
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71752&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71752&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

@@ -1,0 +1,12 @@
+name: 국가기록물 대상 초거대 AI 학습을 위한 말뭉치 데이터
+organization_id: nia
+category: korean-corpus
+description_ko: 국가기록물과 정부간행물에서 구축한 3억여 토큰의 말뭉치, 질의응답 5만 건, 유해 질의 10,560건을 포함하는 한국어 LLM 학습 데이터셋이다.
+languages:
+  - ko
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71788&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71788&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

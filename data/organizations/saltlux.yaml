@@ -23,14 +23,14 @@ description_ko: >-
 models:
   - ko-llama3-luxia-8b
 products:
-  - luxia-on
-  - luxia-platform
-  - language-studio
-  - voice-studio
-  - search-studio
-  - talkbot-studio
   - goover
   - knowledge-studio
+  - language-studio
+  - luxia-on
+  - luxia-platform
+  - search-studio
+  - talkbot-studio
+  - voice-studio
 open_source_links:
   - https://huggingface.co/saltlux
 sources:

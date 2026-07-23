@@ -3,7 +3,7 @@ name_en: Elice
 organization_type: startup
 country: KR
 headquarters: Seoul
-website: https://elice.io
+website: https://elice.io/ko
 founded_year: 2015
 ai_core_level: ai_enabled
 categories:
@@ -17,6 +17,6 @@ products: []
 open_source_links: []
 sources:
   - type: official-website
-    url: https://elice.io
-last_verified: '2026-07-22'
+    url: https://elice.io/ko
+last_verified: '2026-07-23'
 verification_status: official-source

@@ -1,0 +1,12 @@
+name: AI응답 결과에 대한 품질 평가 데이터
+organization_id: nia
+category: qa
+description_ko: 요약·질의응답·대화 시스템의 생성 결과를 평가하기 위한 지표와 56,819개 대화 세션, 1,001,428개 라벨 발화로 구성된 한국어 평가 데이터셋이다.
+languages:
+  - ko
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71773&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71773&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

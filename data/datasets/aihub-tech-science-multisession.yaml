@@ -1,0 +1,13 @@
+name: 전문분야(기술과학) 한국어 멀티세션 데이터
+organization_id: nia
+category: domain-specific
+description_ko: 자연·생명·인공물 16개 기술과학 분야의 전문문서 106,718건과 근거 검색 정보가 태깅된 멀티세션 질의응답 60,414건으로 구성된다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71674&topMenu=100
+sources:
+  - type: gov
+    url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71674&topMenu=100
+last_verified: '2026-07-23'
+verification_status: official-source

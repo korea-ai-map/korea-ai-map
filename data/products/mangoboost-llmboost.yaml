@@ -15,9 +15,11 @@ models_used: []
 model_ownership: external-model
 pricing_public: false
 status: active
-website: https://www.mangoboost.io
+website: https://llmboost.mangoboost.io/
 sources:
-  - type: official-website
+  - type: official-docs
+    url: https://llmboost.mangoboost.io/
+  - type: github
     url: https://github.com/MangoBoost
-last_verified: '2026-07-22'
-verification_status: needs-review
+last_verified: '2026-07-23'
+verification_status: official-source

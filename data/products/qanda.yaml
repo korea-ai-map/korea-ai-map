@@ -1,0 +1,28 @@
+name_ko: 콴다
+name_en: QANDA
+organization_id: mathpresso
+description_ko: 자체 OCR과 수학 데이터를 활용해 사진 기반 문제 검색, 맞춤형 풀이, 풀이 첨삭, 퀴즈와 LLM 기반 AI 튜터를 제공하는 교육 앱.
+categories:
+  - edtech
+  - ai-tutor
+  - ocr
+  - math-reasoning
+target_users:
+  - student
+  - parent
+  - teacher
+delivery_type:
+  - app
+  - web-service
+models_used: []
+model_ownership: own-model
+pricing_public: true
+status: active
+website: https://qanda.ai/ko
+sources:
+  - type: official-website
+    url: https://qanda.ai/ko
+  - type: official-website
+    url: https://mathpresso.com/en/products
+last_verified: '2026-07-23'
+verification_status: verified

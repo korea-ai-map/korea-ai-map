@@ -1,0 +1,13 @@
+name: 주제별 텍스트 일상 대화 데이터
+organization_id: nia
+category: korean-corpus
+description_ko: 식음료·주거·교통·교육·가족 등 20여 개 주제의 자유로운 일상 대화에 화자 정보와 문장별 화행을 라벨링한 한국어 대화 텍스트 데이터셋이다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=543&topMenu=100
+sources:
+  - type: gov
+    url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=543&topMenu=100
+last_verified: '2026-07-23'
+verification_status: official-source

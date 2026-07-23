@@ -1,0 +1,13 @@
+name: 한국어 SNS 멀티턴 대화 데이터
+organization_id: nia
+category: korean-corpus
+description_ko: 한국어 SNS의 문체와 내용을 반영한 2인·3인 화자 멀티턴 대화 원천 및 라벨링 데이터 각 3,246,886발화로 구성된 대화 학습 데이터셋이다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71694&topMenu=100
+sources:
+  - type: gov
+    url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71694&topMenu=100
+last_verified: '2026-07-23'
+verification_status: official-source

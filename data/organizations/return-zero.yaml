@@ -12,8 +12,10 @@ categories:
 status: active
 description_ko: 한국어 통화 전사 앱 비토(VITO)와 기업용 STT 엔진을 개발한 음성 AI 스타트업.
 models:
+  - ko-gemma-2-9b-it
   - vito-speech
-products: []
+products:
+  - return-zero-vito
 open_source_links:
   - https://github.com/rtzr
 sources:

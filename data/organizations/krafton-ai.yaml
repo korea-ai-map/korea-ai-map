@@ -1,0 +1,32 @@
+name_ko: 크래프톤 AI
+name_en: KRAFTON AI
+organization_type: corporate-research-lab
+country: KR
+headquarters: Seoul
+website: https://www.krafton.ai/
+ai_core_level: foundation_model
+categories:
+  - foundation-model
+  - multimodal-ai
+  - speech-ai
+  - game-ai
+  - generative-ai
+status: active
+description_ko: >-
+  크래프톤의 AI 연구조직. 언어·음성·비전 파운데이션 모델과 멀티모달 학습, 강화학습, 게임 AI를 연구하며 Raon 계열 모델과 평가 자산을 공개한다.
+models:
+  - raon-opentts-03b
+  - raon-speech-9b
+  - raon-speechchat-9b
+  - raon-visionencoder
+products: []
+open_source_links:
+  - https://github.com/krafton-ai
+  - https://huggingface.co/KRAFTON
+sources:
+  - type: official-website
+    url: https://www.krafton.ai/
+  - type: huggingface
+    url: https://huggingface.co/KRAFTON
+last_verified: '2026-07-23'
+verification_status: verified

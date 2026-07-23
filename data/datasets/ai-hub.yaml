@@ -1,11 +1,12 @@
 name: AI-Hub 한국어 데이터
+organization_id: nia
 category: korean-corpus
 description_ko: 한국지능정보사회진흥원(NIA)이 운영하는 국가 AI 학습용 데이터 개방 포털. 한국어 텍스트·음성·영상·멀티모달 등 다양한 분야의 대규모 학습용 데이터셋을 제공한다.
 languages:
   - ko
-url: https://www.aihub.or.kr
+url: https://www.aihub.or.kr/aihubdata/data/list.do?currMenu=115&topMenu=100&srchDataRealmCode=REALM002
 sources:
   - type: gov
-    url: https://www.aihub.or.kr
-last_verified: "2026-07-22"
+    url: https://www.aihub.or.kr/aihubdata/data/list.do?currMenu=115&topMenu=100&srchDataRealmCode=REALM002
+last_verified: '2026-07-23'
 verification_status: official-source

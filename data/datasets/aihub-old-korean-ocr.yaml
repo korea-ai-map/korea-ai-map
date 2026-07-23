@@ -1,0 +1,13 @@
+name: 옛한글 문자인식(OCR) 인공지능 학습용 데이터
+organization_id: nia
+category: multimodal
+description_ko: 15세기부터 20세기 초까지의 고문헌·고문서 이미지에서 추출한 옛한글 12,003,864글자를 제공하는 OCR 학습 데이터셋이다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=504&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=504&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: '2026-07-23'
+verification_status: official-source

@@ -1,0 +1,13 @@
+name: 대규모 구매도서 기반 한국어 말뭉치 데이터
+organization_id: nia
+category: korean-corpus
+description_ko: 구매 도서에서 수집·검증한 10억 어절 규모의 한국어 텍스트를 문장 단위로 가공한 2021년 구축 말뭉치다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=653&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=653&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: '2026-07-23'
+verification_status: official-source

@@ -7,6 +7,7 @@ url: https://arxiv.org/abs/2405.20574
 abstract_ko: Ko-H5 벤치마크와 공개 리더보드를 통한 한국어 LLM 평가 프레임워크로, 데이터 유출 분석과 평가 확장 필요성을 다룬다.
 related_ids:
   - open-ko-llm-leaderboard
+  - open-ko-llm-leaderboard-tool
   - upstage
 sources:
   - type: paper

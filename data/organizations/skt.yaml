@@ -15,7 +15,13 @@ status: active
 description_ko: SK텔레콤이 개발·공개하는 한국어 특화 LLM A.X(에이닷 X) 계열을 운영한다. 대형 모델과 경량·비전 모델을 오픈 웨이트로 제공한다.
 models:
   - ax-4-0
-products: []
+  - ax-4-0-light
+  - ax-4-0-vl-light
+  - ax-k1
+  - kobart-base-v2
+  - kogpt2-base-v2
+products:
+  - skt-adot
 open_source_links:
   - https://huggingface.co/skt
   - https://github.com/SKT-AI

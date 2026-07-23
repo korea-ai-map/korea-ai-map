@@ -7,6 +7,7 @@ url: https://arxiv.org/abs/2403.06412
 abstract_ko: 한국의 문화적·언어적 지능을 평가하는 벤치마크 데이터셋이다.
 related_ids:
   - kaist
+  - click-ko
 sources:
   - type: paper
     url: https://arxiv.org/abs/2403.06412

@@ -2,7 +2,7 @@ name: Samsung Gauss2
 organization_id: samsung-research
 model_family: Samsung Gauss
 release_date: "2024-11-21"
-status: announced
+status: active
 modalities:
   - text
   - image
@@ -36,8 +36,10 @@ links:
   github: null
   paper: null
 sources:
+  - type: official-website
+    url: https://research.samsung.com/artificial-intelligence
   - type: press
     url: >-
       https://news.samsung.com/global/samsung-electronics-hosts-samsung-developer-conference-korea-2024-unveils-its-improved-gen-ai-model
-last_verified: "2026-07-22"
+last_verified: '2026-07-23'
 verification_status: official-source

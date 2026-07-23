@@ -1,0 +1,18 @@
+title: 'KoBALT: Korean Benchmark For Advanced Linguistic Tasks'
+authors_org: Seoul National University · LG AI Research
+venue: arXiv
+year: 2025
+arxiv_id: '2505.16125'
+url: https://arxiv.org/abs/2505.16125
+abstract_ko: 한국어의 다섯 언어학 영역을 전문가 작성 문항으로 평가하는 KoBALT 벤치마크를 제안한다.
+related_ids:
+  - kobalt
+  - snunlp
+  - lg-ai-research
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2505.16125
+  - type: huggingface
+    url: https://huggingface.co/datasets/snunlp/KoBALT-700
+last_verified: '2026-07-23'
+verification_status: verified

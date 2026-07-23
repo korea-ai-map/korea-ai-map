@@ -1,0 +1,14 @@
+name: KVoiceBench
+organization_id: krafton-ai
+category: multimodal
+description_ko: 한국어 음성 질의응답 능력을 평가하도록 공개 영어 SpokenQA 벤치마크를 한국어 음성으로 변환·검수한 벤치마크.
+url: https://huggingface.co/datasets/KRAFTON/KVoiceBench
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/KRAFTON/KVoiceBench
+  - type: paper
+    url: https://arxiv.org/abs/2605.27984
+  - type: github
+    url: https://github.com/krafton-ai/Raon-Eval
+last_verified: '2026-07-23'
+verification_status: verified

@@ -7,6 +7,7 @@ url: https://arxiv.org/abs/1904.01906
 abstract_ko: 장면 텍스트 인식(STR) 모델 비교의 비일관성 문제를 지적하고, 통일된 학습·평가 데이터셋과 4단계 모듈 프레임워크를 제안해 공정한 비교와 성능 기여 분석을 수행했다.
 related_ids:
   - naver-cloud
+  - deep-text-recognition-benchmark
 sources:
   - type: paper
     url: https://arxiv.org/abs/1904.01906

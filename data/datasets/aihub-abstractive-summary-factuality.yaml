@@ -1,0 +1,12 @@
+name: 추상 요약 사실성 검증 데이터
+organization_id: nia
+category: safety
+description_ko: AI와 사람이 작성한 요약문의 문장 생성·내용 오류를 6개 세부 유형으로 분류하고 수정한 한국어 요약 사실성 학습 데이터 101,386건이다.
+languages:
+  - ko
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71620&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71620&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

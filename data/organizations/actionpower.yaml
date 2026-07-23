@@ -14,7 +14,8 @@ categories:
 status: active
 description_ko: 음성인식(STT) 기반 AI 서비스 기업. 음성·영상 기록을 텍스트로 변환하는 다글로(Daglo)와 API를 제공한다.
 models: []
-products: []
+products:
+  - daglo
 open_source_links: []
 sources:
   - type: official-website

@@ -1,0 +1,13 @@
+name: 다양한 형태의 한글 문자 OCR
+organization_id: nia
+category: multimodal
+description_ko: 50종 서식의 인쇄체 75,000장과 필기체 글자·단어 1,101,225장 등 총 1,176,225장의 한글 문자 이미지 데이터셋이다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=91&topMenu=100
+sources:
+  - type: gov
+    url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=91&topMenu=100
+last_verified: '2026-07-23'
+verification_status: official-source

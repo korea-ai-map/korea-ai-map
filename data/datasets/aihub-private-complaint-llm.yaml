@@ -1,0 +1,12 @@
+name: 민간 민원 상담 LLM 사전학습 및 Instruction Tuning 데이터
+organization_id: nia
+category: qa
+description_ko: 금융·통신 등 민간 민원 상담 원천 12,303건을 분류·요약·질의응답 지시 데이터 132,401건으로 가공한 한국어 LLM 학습 데이터셋이다.
+languages:
+  - ko
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71844&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71844&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

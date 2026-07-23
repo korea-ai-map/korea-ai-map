@@ -1,0 +1,39 @@
+name: Raon-SpeechChat-9B
+organization_id: krafton-ai
+model_family: Raon
+status: active
+modalities:
+  - audio
+  - text
+tasks:
+  - full-duplex-dialogue
+  - speech-understanding
+  - speech-generation
+  - voice-cloning
+parameter_count:
+  value: 10000000000
+  disclosure: confident
+availability:
+  api: false
+  weights: true
+  demo: true
+license:
+  name: CC BY-NC 4.0
+  commercial_use: prohibited
+languages:
+  - en
+links:
+  official: https://raon.krafton.ai
+  model_card: https://huggingface.co/KRAFTON/Raon-SpeechChat-9B
+  huggingface: https://huggingface.co/KRAFTON/Raon-SpeechChat-9B
+  github: https://github.com/krafton-ai/Raon-SpeechChat-Demo
+  paper: https://arxiv.org/abs/2605.23912
+sources:
+  - type: model-card
+    url: https://huggingface.co/KRAFTON/Raon-SpeechChat-9B
+  - type: paper
+    url: https://arxiv.org/abs/2605.23912
+  - type: github
+    url: https://github.com/krafton-ai/Raon-SpeechChat-Demo
+last_verified: '2026-07-23'
+verification_status: verified

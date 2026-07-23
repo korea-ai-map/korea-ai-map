@@ -28,13 +28,13 @@ languages:
 base_model: Meta-Llama-3-8B
 links:
   official: null
-  model_card: https://huggingface.co/Bllossom/llama-3-Korean-Bllossom-8B
-  huggingface: https://huggingface.co/Bllossom/llama-3-Korean-Bllossom-8B
+  model_card: https://huggingface.co/MLP-KTLim/llama-3-Korean-Bllossom-8B
+  huggingface: https://huggingface.co/MLP-KTLim/llama-3-Korean-Bllossom-8B
   github: null
   paper: null
 sources:
   - type: model-card
-    url: https://huggingface.co/Bllossom/llama-3-Korean-Bllossom-8B
-last_verified: '2026-07-22'
-verification_status: needs-review
+    url: https://huggingface.co/MLP-KTLim/llama-3-Korean-Bllossom-8B
+last_verified: '2026-07-23'
+verification_status: official-source
 organization_id: bllossom

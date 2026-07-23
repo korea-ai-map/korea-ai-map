@@ -1,0 +1,14 @@
+name: KMMAU
+organization_id: krafton-ai
+category: multimodal
+description_ko: 한국어 음성 전사와 화자 메타데이터를 활용해 SpeechLM의 오디오 이해 능력을 평가하는 한국어 벤치마크.
+url: https://huggingface.co/datasets/KRAFTON/KMMAU
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/KRAFTON/KMMAU
+  - type: paper
+    url: https://arxiv.org/abs/2605.27984
+  - type: github
+    url: https://github.com/krafton-ai/Raon-Eval
+last_verified: '2026-07-23'
+verification_status: verified

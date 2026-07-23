@@ -1,0 +1,13 @@
+name: 텍스트 윤리검증 데이터
+organization_id: nia
+category: safety
+description_ko: 대화형 AI의 윤리 검증을 위해 상위 온톨로지와 윤리 라벨을 적용한 453,340문장, 132,807개 대화 세트로 구성된 한국어 데이터셋이다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=558&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=558&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: '2026-07-23'
+verification_status: official-source

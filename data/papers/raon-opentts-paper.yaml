@@ -1,0 +1,17 @@
+title: 'Raon-OpenTTS: Open Models and Data for Robust Text-to-Speech'
+authors_org: KRAFTON · Seoul National University · University of Washington
+venue: arXiv
+year: 2026
+arxiv_id: '2605.20830'
+url: https://arxiv.org/abs/2605.20830
+abstract_ko: 공개 음성 61만 5천 시간에서 정제한 데이터로 0.3B·1B 오픈웨이트 TTS 모델과 강건성 평가 자료를 구축한다.
+related_ids:
+  - krafton-ai
+  - raon-opentts-03b
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2605.20830
+  - type: model-card
+    url: https://huggingface.co/KRAFTON/Raon-OpenTTS-0.3B
+last_verified: '2026-07-23'
+verification_status: verified

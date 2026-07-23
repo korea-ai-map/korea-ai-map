@@ -3,7 +3,7 @@ name_en: SAPEON Korea Inc.
 organization_type: corporate-research-lab
 country: KR
 headquarters: Seoul
-website: https://www.sapeon.com
+website: https://rebellions.ai/
 founded_year: 2021
 ai_core_level: ai_infrastructure
 categories:
@@ -23,5 +23,5 @@ sources:
       https://www.globenewswire.com/news-release/2023/11/16/2781749/0/en/SAPEON-launches-X330-AI-semiconductor-for-data-centers.html
   - type: official-website
     url: https://rebellions.ai/newsroom/rebellions-and-sapeon-korea-complete-merger-launching-koreas-first-ai-chip-unicorn/
-last_verified: "2026-07-22"
+last_verified: '2026-07-23'
 verification_status: official-source

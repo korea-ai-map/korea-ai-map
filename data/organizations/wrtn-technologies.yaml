@@ -17,7 +17,8 @@ description_ko: >-
   생성형 AI 서비스/에이전트 플랫폼 뤼튼을 운영. AI 검색, AI 캐릭터 챗봇, 스튜디오/툴 등을 제공하며, 자체 파운데이션 모델보다는 외부 LLM을 활용해 애플리케이션·에이전트 레이어를 구축하는 AI 네이티브
   서비스 기업.
 models: []
-products: []
+products:
+  - wrtn
 open_source_links: []
 sources:
   - type: official-website

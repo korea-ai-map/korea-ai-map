@@ -15,7 +15,9 @@ status: active
 description_ko: 2018년 김녹원이 설립한 한국 엣지 AI 반도체 팹리스 스타트업. 로보틱스·스마트시티·자율주행 등을 위한 초저전력 고성능 온디바이스 NPU에 특화되어 있다. 대표 제품은 엣지용 NPU DX-M1이다.
 models: []
 products:
+  - deepx-dx-h1
   - deepx-dx-m1
+  - deepx-dx-m2
 open_source_links: []
 sources:
   - type: official-website

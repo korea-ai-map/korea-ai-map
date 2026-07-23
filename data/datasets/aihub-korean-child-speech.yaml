@@ -1,0 +1,13 @@
+name: 한국어 아동 음성 데이터
+organization_id: nia
+category: speech
+description_ko: 아동의 낭독 발화와 전사·메타데이터를 5,000시간 규모로 구축해 아동 음성인식과 교육 서비스 개발에 활용하도록 한 데이터셋이다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=540&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=540&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: '2026-07-23'
+verification_status: official-source

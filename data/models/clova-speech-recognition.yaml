@@ -37,5 +37,7 @@ links:
 sources:
   - type: official-website
     url: https://www.ncloud.com/product/aiService/csr
-last_verified: '2026-07-22'
+  - type: official-docs
+    url: https://guide.ncloud-docs.com/docs/csr-overview
+last_verified: '2026-07-23'
 verification_status: official-source

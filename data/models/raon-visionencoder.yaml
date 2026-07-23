@@ -1,0 +1,36 @@
+name: Raon-VisionEncoder
+organization_id: krafton-ai
+model_family: Raon
+status: active
+modalities:
+  - image
+  - text
+tasks:
+  - feature-extraction
+  - zero-shot-classification
+  - image-text-retrieval
+parameter_count:
+  value: 1140000000
+  disclosure: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+languages:
+  - en
+links:
+  official: https://www.krafton.ai/
+  model_card: https://huggingface.co/KRAFTON/Raon-VisionEncoder
+  huggingface: https://huggingface.co/KRAFTON/Raon-VisionEncoder
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/KRAFTON/Raon-VisionEncoder
+  - type: official-website
+    url: https://www.krafton.ai/
+last_verified: '2026-07-23'
+verification_status: verified

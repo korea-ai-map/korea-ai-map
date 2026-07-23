@@ -1,0 +1,18 @@
+title: Solar Open 2 Technical Report
+authors_org: Upstage AI
+venue: Technical Report
+year: 2026
+url: https://huggingface.co/upstage/Solar-Open2-250B/blob/main/Solar_Open_2_Tech_Report.pdf
+abstract_ko: 250B 전체 파라미터 중 토큰당 15B를 활성화하는 하이브리드 어텐션 MoE와 최대 100만 토큰 문맥을 적용한 에이전트 특화 오픈웨이트 모델 Solar Open 2의 학습·구조·평가를 설명한다.
+related_ids:
+  - solar-open-2-250b
+  - upstage
+sources:
+  - type: paper
+    url: https://huggingface.co/upstage/Solar-Open2-250B/blob/main/Solar_Open_2_Tech_Report.pdf
+  - type: model-card
+    url: https://huggingface.co/upstage/Solar-Open2-250B
+  - type: official-blog
+    url: https://www.upstage.ai/blog/ko/solar-open-2
+last_verified: '2026-07-23'
+verification_status: verified

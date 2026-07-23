@@ -11,7 +11,9 @@ categories:
 status: active
 description_ko: 의료영상 판독 AI와 산업 비전 검사·X-Ray 판독 AI를 자체 개발. 노코드 AI 개발 플랫폼과 생성형 AI 플랫폼 보유. 2021년 코스닥 상장.
 models: []
-products: []
+products:
+  - deepnoid-deep-neuro
+  - deepnoid-m4cxr
 open_source_links: []
 sources:
   - type: official-website

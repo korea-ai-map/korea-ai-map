@@ -1,0 +1,13 @@
+name: 야외 실제 촬영 한글 이미지
+organization_id: nia
+category: multimodal
+description_ko: 야외 간판 45만 장과 책표지 5만 장에 한글 단어 바운딩박스와 전사 정보를 붙인 총 50만 장의 실환경 OCR 데이터셋이다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=105&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=105&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: '2026-07-23'
+verification_status: official-source

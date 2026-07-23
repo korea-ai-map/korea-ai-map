@@ -1,0 +1,12 @@
+name: 외부 지식 기반 멀티모달 질의응답 데이터
+organization_id: nia
+category: multimodal
+description_ko: Wikimedia Commons 이미지 60,084장에 질의응답 120,168건, 바운딩 박스 60,084건, 외부 지식 284,565건을 연결한 한국어 멀티모달 QA 데이터셋이다.
+languages:
+  - ko
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71357&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71357&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

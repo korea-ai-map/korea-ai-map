@@ -11,7 +11,8 @@ categories:
 status: active
 description_ko: AI 기반 자산배분·포트폴리오 운용을 제공하는 로보어드바이저 투자일임 서비스 핀트(Fint) 운영사.
 models: []
-products: []
+products:
+  - aim-fint
 open_source_links: []
 sources:
   - type: official-website

@@ -1,0 +1,12 @@
+name: 낚시성 기사 탐지 데이터
+organization_id: nia
+category: safety
+description_ko: 제목-본문 불일치와 본문 도메인 일관성 부족 유형을 포함하도록 신문기사를 가공한 한국어 낚시성 기사 탐지 학습 데이터 733,427건이다.
+languages:
+  - ko
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71338&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71338&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

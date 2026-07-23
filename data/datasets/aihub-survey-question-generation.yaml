@@ -1,0 +1,12 @@
+name: 서베이 문항 생성 데이터
+organization_id: nia
+category: qa
+description_ko: 전문 리서처가 설계한 한국어 설문 원천 11,372건을 질문 관계와 다음 문항 생성에 활용하도록 가공한 라벨링 데이터 97,957건으로 구성된다.
+languages:
+  - ko
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71814&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71814&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

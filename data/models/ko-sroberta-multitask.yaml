@@ -11,13 +11,13 @@ parameter_count:
   disclosure: likely
 context_length:
   value: 128
-  confidence: undisclosed
+  confidence: likely
 availability:
   api: false
   weights: true
   demo: false
 license:
-  name: ''
+  name: unknown
   commercial_use: unknown
 deployment:
   cloud: true

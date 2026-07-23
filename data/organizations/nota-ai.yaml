@@ -1,0 +1,28 @@
+name_ko: 노타
+name_en: Nota AI
+organization_type: startup
+country: KR
+headquarters: Daejeon
+website: https://www.nota.ai/
+founded_year: 2015
+ai_core_level: ai_infrastructure
+categories:
+  - edge-ai
+  - on-device-ai
+  - model-optimization
+  - model-compression
+status: active
+description_ko: 하드웨어 인지형 AI 모델 경량화·최적화 플랫폼 NetsPresso와 온디바이스 비전 AI 솔루션을 개발하는 기업.
+models: []
+products:
+  - nota-netspresso
+open_source_links:
+  - https://huggingface.co/nota-ai
+  - https://github.com/nota-github
+sources:
+  - type: official-website
+    url: https://www.nota.ai/aboutus
+  - type: huggingface
+    url: https://huggingface.co/nota-ai
+last_verified: '2026-07-23'
+verification_status: verified

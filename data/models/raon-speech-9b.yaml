@@ -1,0 +1,42 @@
+name: Raon-Speech-9B
+organization_id: krafton-ai
+model_family: Raon
+status: active
+modalities:
+  - audio
+  - text
+tasks:
+  - speech-understanding
+  - speech-generation
+  - speech-to-text
+  - text-to-speech
+  - question-answering
+  - voice-cloning
+parameter_count:
+  value: 9000000000
+  disclosure: confident
+availability:
+  api: false
+  weights: true
+  demo: true
+license:
+  name: CC BY-NC 4.0
+  commercial_use: prohibited
+languages:
+  - ko
+  - en
+links:
+  official: https://raon.krafton.ai
+  model_card: https://huggingface.co/KRAFTON/Raon-Speech-9B
+  huggingface: https://huggingface.co/KRAFTON/Raon-Speech-9B
+  github: https://github.com/krafton-ai/Raon-Speech
+  paper: https://arxiv.org/abs/2605.23912
+sources:
+  - type: model-card
+    url: https://huggingface.co/KRAFTON/Raon-Speech-9B
+  - type: paper
+    url: https://arxiv.org/abs/2605.23912
+  - type: github
+    url: https://github.com/krafton-ai/Raon-Speech
+last_verified: '2026-07-23'
+verification_status: verified

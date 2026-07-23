@@ -1,0 +1,15 @@
+name: 발화유형(문어, 구어, 채팅)별 기계번역 병렬 말뭉치
+organization_id: nia
+category: korean-corpus
+description_ko: 문어·구어·채팅의 어투와 도메인 차이를 반영해 한국어-영어·중국어·일본어 기계번역 성능을 평가하도록 구축한 병렬 말뭉치 90,003건이다.
+languages:
+  - ko
+  - en
+  - zh
+  - ja
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71411&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71411&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

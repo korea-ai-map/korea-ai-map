@@ -1,0 +1,15 @@
+name: AI 허브 데이터 활용을 위한 기계 번역앱 구축과 번역기 평가 및 신규 말뭉치 구축
+organization_id: nia
+category: korean-corpus
+description_ko: AI Hub 공개 데이터를 정제한 번역 메모리와 한·영·일·중 신규 병렬 말뭉치 및 번역기 비교 평가 데이터로 총 1,090,000문장을 제공한다.
+languages:
+  - ko
+  - en
+  - ja
+  - zh
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71593&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71593&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

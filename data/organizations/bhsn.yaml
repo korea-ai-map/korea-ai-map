@@ -12,7 +12,9 @@ status: active
 description_ko: 자체 법률 특화 언어모델을 기반으로 기업·공공기관·로펌용 SaaS형 법률 AI 솔루션 앨리비(Allibee)를 제공하는 리걸테크 기업.
 models:
   - bhsn-legal-llm
-products: []
+products:
+  - bhsn-allibee
+  - bhsn-allibee-agent
 open_source_links: []
 sources:
   - type: official-website

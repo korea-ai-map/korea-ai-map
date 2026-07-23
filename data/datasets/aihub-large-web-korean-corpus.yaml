@@ -1,0 +1,13 @@
+name: 대규모 웹데이터 기반 한국어 말뭉치 데이터
+organization_id: nia
+category: korean-corpus
+description_ko: 웹사이트에서 수집한 10억 어절의 한국어 텍스트를 제목·단락·본문으로 구조화하고 개체명과 신조어를 태깅한 대규모 말뭉치다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=624&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=624&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: '2026-07-23'
+verification_status: official-source

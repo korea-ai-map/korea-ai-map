@@ -1,0 +1,12 @@
+name: 한국어 대학 강의 데이터
+organization_id: nia
+category: speech
+description_ko: 대학 강의 영상·음성의 자동 인식과 자막 생성을 위해 구축한 한국어 음성·전사 데이터로 원천 및 라벨링 데이터가 각각 2,120,832개다.
+languages:
+  - ko
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71627&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71627&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

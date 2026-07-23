@@ -15,10 +15,12 @@ models_used:
   - hyperclova-x
 model_ownership: own-model
 pricing_public: false
-status: active
-website: https://clova-x.naver.com/
+status: archived
+website: https://clova-x.naver.com/welcome
 sources:
   - type: official-website
-    url: https://clova-x.naver.com/
-last_verified: '2026-07-22'
-verification_status: needs-review
+    url: https://clova-x.naver.com/welcome
+  - type: official-website
+    url: https://www.navercorp.com/en/media/pressReleasesDetail?seq=31243
+last_verified: '2026-07-23'
+verification_status: archived

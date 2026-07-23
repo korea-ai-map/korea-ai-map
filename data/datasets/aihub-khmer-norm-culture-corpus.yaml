@@ -1,0 +1,14 @@
+name: 캄보디아(크메르어) 규범 문화 말뭉치 데이터
+organization_id: nia
+category: domain-specific
+description_ko: 캄보디아 문화·규범·관습·예절을 다룬 크메르어 말뭉치 287,528건·124,530,017어절과 Instruction QA 5,000건, 성능평가 2,000건 및 한국어·영어 번역을 포함한다.
+languages:
+  - km
+  - ko
+  - en
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71838&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71838&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

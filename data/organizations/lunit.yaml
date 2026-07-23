@@ -13,7 +13,9 @@ description_ko: 흉부 X선·유방촬영 영상판독 AI(INSIGHT)와 병리 조
 models:
   - lunit-insight-cxr
   - lunit-scope
-products: []
+products:
+  - lunit-insight-mmg
+  - lunit-scope-io
 open_source_links: []
 sources:
   - type: official-website

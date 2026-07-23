@@ -1,0 +1,13 @@
+name: 요약문 및 레포트 생성 데이터
+organization_id: nia
+category: korean-corpus
+description_ko: 신문·보도자료·간행물·문학·연설문 등 다양한 문서 약 20만 건에 추출요약과 생성요약을 제공하는 한국어 문서요약 데이터셋이다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=realm&currMenu=115&dataSetSn=582&topMenu=100
+sources:
+  - type: gov
+    url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=realm&currMenu=115&dataSetSn=582&topMenu=100
+last_verified: '2026-07-23'
+verification_status: official-source

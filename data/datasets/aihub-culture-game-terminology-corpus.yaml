@@ -1,0 +1,12 @@
+name: 문화, 게임 콘텐츠 분야 용어 말뭉치
+organization_id: nia
+category: domain-specific
+description_ko: 인터넷 커뮤니티의 문화·게임 제품명, 서비스명, 축약어와 신조어를 수집해 용어 90,433건과 용례 428,298건을 라벨링한 한국어 말뭉치다.
+languages:
+  - ko
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71614&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71614&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

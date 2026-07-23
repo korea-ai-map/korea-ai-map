@@ -14,9 +14,19 @@ categories:
 status: active
 description_ko: 네이버클라우드가 개발한 초거대 AI HyperCLOVA X 계열을 운영하며, 한국어에 최적화된 파운데이션 모델과 오픈 웨이트 SEED 라인업을 함께 제공한다.
 models:
+  - clova-speech-recognition
+  - clova-voice
+  - donut-base
   - hyperclova-x
+  - hyperclovax-seed-omni-8b
+  - hyperclovax-seed-text-instruct-15b
+  - hyperclovax-seed-think-14b
   - hyperclovax-seed-think-32b
-products: []
+  - hyperclovax-seed-vision-instruct-3b
+products:
+  - clova-studio
+  - clova-x
+  - naver-agent-n
 open_source_links:
   - https://huggingface.co/naver-hyperclovax
 sources:

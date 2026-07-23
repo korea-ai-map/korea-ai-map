@@ -7,6 +7,7 @@ url: https://arxiv.org/abs/1904.01941
 abstract_ko: 문자 영역과 문자 간 연결성(affinity)을 예측해 임의 형태의 텍스트를 검출하는 CRAFT 기법. 개별 문자 단위 지역화로 곡선·긴 텍스트에서도 강건한 장면 텍스트 검출을 달성한다.
 related_ids:
   - naver-cloud
+  - craft-pytorch
 sources:
   - type: paper
     url: https://arxiv.org/abs/1904.01941

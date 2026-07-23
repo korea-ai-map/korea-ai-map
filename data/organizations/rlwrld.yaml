@@ -17,7 +17,8 @@ description_ko: >-
   5지 로봇손 조작에 특화. 2025년 해시드 주도로 LG전자·SKT·KDDI·ANA 등이 참여한 약 210억원 시드 투자와 함께 출범했다.
 models:
   - rldx-1
-products: []
+products:
+  - rlwrld-rldx-product
 open_source_links: []
 sources:
   - type: official-website

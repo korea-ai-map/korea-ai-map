@@ -10,8 +10,8 @@ parameter_count:
   value: 568000000
   disclosure: likely
 context_length:
-  value: null
-  confidence: undisclosed
+  value: 8192
+  confidence: confident
 availability:
   api: false
   weights: true
@@ -35,5 +35,5 @@ links:
 sources:
   - type: model-card
     url: https://huggingface.co/dragonkue/bge-reranker-v2-m3-ko
-last_verified: '2026-07-22'
-verification_status: needs-review
+last_verified: '2026-07-23'
+verification_status: official-source

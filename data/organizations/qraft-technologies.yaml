@@ -11,7 +11,8 @@ categories:
 status: active
 description_ko: AI 기반 자산운용을 위한 자체 머신러닝 모델을 개발하는 핀테크 기업. 뉴욕증권거래소에 AI ETF(LQAI)를 상장.
 models: []
-products: []
+products:
+  - qraft-mona
 open_source_links: []
 sources:
   - type: official-website

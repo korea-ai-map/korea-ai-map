@@ -8,6 +8,9 @@ abstract_ko: 대규모 한국어 오픈소스 언어 모델 Polyglot-Ko에 대�
 related_ids:
   - polyglot-ko
   - eleutherai
+  - polyglot-ko-128b
+  - polyglot-ko-13b
+  - polyglot-ko-58b
 sources:
   - type: paper
     url: https://arxiv.org/abs/2306.02254

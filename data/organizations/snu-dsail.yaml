@@ -17,5 +17,7 @@ open_source_links: []
 sources:
   - type: official-website
     url: https://data.snu.ac.kr/
-last_verified: '2026-07-22'
+  - type: official-website
+    url: https://ece.snu.ac.kr/en/research-faculty/research/groups?labidx=70&md=view
+last_verified: '2026-07-23'
 verification_status: official-source

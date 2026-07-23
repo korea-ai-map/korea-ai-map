@@ -17,7 +17,9 @@ description_ko: >-
   구 머니브레인. 딥러닝 기반 실사형 가상인간(AI Human)과 텍스트-투-비디오 아바타 생성 플랫폼 AI Studios를 제공. 자체 영상 합성·립싱크 딥러닝 모델을 학습하며, 대화형 LLM은 외부를 병행
   활용.
 models: []
-products: []
+products:
+  - deepbrain-ai-human
+  - deepbrain-ai-studios
 open_source_links: []
 sources:
   - type: official-website

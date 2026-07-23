@@ -1,0 +1,47 @@
+name: Solar Pro 3
+organization_id: upstage
+model_family: solar
+release_date: '2026-01-26'
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+  - instruction-following
+  - tool-use
+  - agentic
+availability:
+  api: true
+  weights: false
+  demo: true
+license:
+  name: proprietary
+  commercial_use: unknown
+languages:
+  - ko
+  - en
+benchmark_results:
+  - benchmark: Tau2-all
+    score: 72.3
+    metric: score
+    source: https://www.upstage.ai/blog/en/solar-pro-3-0323
+  - benchmark: SWE-Bench
+    score: 28.6
+    metric: score
+    source: https://www.upstage.ai/blog/en/solar-pro-3-0323
+  - benchmark: Terminal-Bench 2.0
+    score: 10.1
+    metric: score
+    source: https://www.upstage.ai/blog/en/solar-pro-3-0323
+links:
+  official: https://www.upstage.ai/blog/en/solar-pro-3-0127
+sources:
+  - type: official-website
+    url: https://www.upstage.ai/blog/en/solar-pro-3-0127
+  - type: official-website
+    url: https://www.upstage.ai/blog/en/solar-pro-3-0323
+  - type: api-docs
+    url: https://console.upstage.ai/api-keys?api=chat
+last_verified: '2026-07-23'
+verification_status: verified

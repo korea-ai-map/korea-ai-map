@@ -15,9 +15,11 @@ models_used: []
 model_ownership: unknown
 pricing_public: false
 status: active
-website: https://www.mangoboost.io
+website: https://sdk.mangoboost.io/
 sources:
-  - type: official-website
+  - type: official-docs
+    url: https://sdk.mangoboost.io/
+  - type: github
     url: https://github.com/MangoBoost
-last_verified: '2026-07-22'
+last_verified: '2026-07-23'
 verification_status: needs-review

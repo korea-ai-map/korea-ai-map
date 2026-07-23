@@ -1,0 +1,25 @@
+name_ko: 라이너
+name_en: Liner
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://liner.com/ko
+ai_core_level: ai_native
+categories:
+  - ai-search
+  - research-agent
+  - rag
+  - developer-api
+status: active
+description_ko: 출처 기반 AI 검색, 딥리서치, 학술 연구 에이전트와 검색·리서치 API를 제공하는 국내 AI 기업.
+models: []
+products:
+  - liner-ai-search
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://liner.com/ko
+  - type: official-docs
+    url: https://liner.com/ko/developers/docs
+last_verified: '2026-07-23'
+verification_status: verified

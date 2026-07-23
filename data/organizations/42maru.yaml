@@ -16,7 +16,8 @@ status: active
 description_ko: 2015년 설립된 자연어 이해·질의응답(QA) 전문 스타트업. Deep Semantic QA 플랫폼 기반 경량 기업용 LLM LLM42와 RAG 솔루션을 제공한다.
 models:
   - llm42
-products: []
+products:
+  - 42maru-qa42
 open_source_links: []
 sources:
   - type: official-website

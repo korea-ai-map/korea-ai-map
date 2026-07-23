@@ -8,6 +8,7 @@ abstract_ko: 카카오의 한국어·영어 이중언어 모델 Kanana 시리즈
 related_ids:
   - kanana-15-8b-instruct
   - kanana-2-30b-a3b-instruct
+  - kanana-nano-21b-embedding
   - kakao
 sources:
   - type: paper

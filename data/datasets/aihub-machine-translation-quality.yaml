@@ -1,0 +1,13 @@
+name: 기계번역 품질 검증 데이터
+organization_id: nia
+category: korean-corpus
+description_ko: 한국어-영어 양방향 기계번역 결과를 사후 교정하고 어절·문장·문서 수준으로 품질을 주석한 분류·교정 데이터 620,002건이다.
+languages:
+  - ko
+  - en
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71475&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71475&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

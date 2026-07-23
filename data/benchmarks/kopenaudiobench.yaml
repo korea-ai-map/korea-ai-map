@@ -1,0 +1,14 @@
+name: KOpenAudioBench
+organization_id: krafton-ai
+category: multimodal
+description_ko: 공개 음성 질의응답 자료를 한국어로 이전해 SpeechLM의 한국어 듣기·질의응답 성능을 평가하는 벤치마크.
+url: https://huggingface.co/datasets/KRAFTON/KOpenAudioBench
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/KRAFTON/KOpenAudioBench
+  - type: paper
+    url: https://arxiv.org/abs/2605.27984
+  - type: github
+    url: https://github.com/krafton-ai/Raon-Eval
+last_verified: '2026-07-23'
+verification_status: verified

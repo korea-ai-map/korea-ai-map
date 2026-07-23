@@ -1,0 +1,12 @@
+name: 일반상식 문장 생성 데이터
+organization_id: nia
+category: korean-corpus
+description_ko: 508,120개 개념 집합마다 일반상식에 부합하는 한국어 문장 2개를 생성해 총 1,016,240문장으로 구축한 자연어 생성 학습 데이터셋이다.
+languages:
+  - ko
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71309&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71309&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

@@ -1,0 +1,13 @@
+name: 인공지능 학습을 위한 외국인 한국어 발화 음성 데이터
+organization_id: nia
+category: speech
+description_ko: 외국어 모어 화자의 한국어 낭독·자유발화와 전사·메타데이터를 4,302시간 규모로 구축한 외국인 한국어 음성인식 데이터셋이다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=505&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=505&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: '2026-07-23'
+verification_status: official-source

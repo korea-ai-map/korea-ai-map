@@ -1,0 +1,18 @@
+title: Raon-Speech Technical Report
+authors_org: KRAFTON
+venue: arXiv
+year: 2026
+arxiv_id: '2605.23912'
+url: https://arxiv.org/abs/2605.23912
+abstract_ko: 한국어와 영어의 음성 이해·질의응답·생성을 지원하는 9B SpeechLM Raon-Speech와 실시간 전이중 대화 확장 모델 Raon-SpeechChat을 제안한다.
+related_ids:
+  - krafton-ai
+  - raon-speech-9b
+  - raon-speechchat-9b
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2605.23912
+  - type: model-card
+    url: https://huggingface.co/KRAFTON/Raon-Speech-9B
+last_verified: '2026-07-23'
+verification_status: verified

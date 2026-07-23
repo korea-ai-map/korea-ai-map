@@ -1,0 +1,12 @@
+name: 다양한 문화콘텐츠 스토리 데이터
+organization_id: nia
+category: domain-specific
+description_ko: 영화·드라마·소설·만화의 서사 단위별 줄거리와 설정·모티프·인물·서사 단계·감정·장소를 라벨링한 한국어 스토리 생성 학습 데이터 100,000건이다.
+languages:
+  - ko
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71562&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71562&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

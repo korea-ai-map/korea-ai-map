@@ -1,0 +1,12 @@
+name: 일반상식 문장 생성 평가 데이터
+organization_id: nia
+category: qa
+description_ko: 사람과 AI가 생성한 한국어 일반상식 문장 1,071,345개를 문법성·사실성·유창성·다양성 등의 기준으로 평가한 생성 품질 검증 데이터셋이다.
+languages:
+  - ko
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71311&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71311&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

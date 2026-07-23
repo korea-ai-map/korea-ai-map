@@ -1,0 +1,12 @@
+name: 국회 회의록 기반 지식 검색 데이터
+organization_id: nia
+category: qa
+description_ko: 국회 회의록 11,827건의 발언을 질문과 답변으로 분리해 구축한 44,033쌍의 한국어 입법 분야 질의응답 데이터셋이다.
+languages:
+  - ko
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71795&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71795&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

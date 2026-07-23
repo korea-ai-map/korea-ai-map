@@ -14,7 +14,9 @@ categories:
   - government-research
 status: active
 description_ko: 과학기술정보통신부 산하 정부출연 연구기관. 국가 슈퍼컴퓨팅·HPC 인프라와 과학기술 지식인프라(ScienceON)를 운영하며 AI·HPC 기반 R&D를 지원한다.
-models: []
+models:
+  - koni-llama3-8b-instruct
+  - korscideberta
 products: []
 open_source_links: []
 sources:

@@ -1,0 +1,31 @@
+name_ko: 넷스프레소
+name_en: NetsPresso
+organization_id: nota-ai
+description_ko: 모델 개발·압축, 그래프 최적화·양자화, 실제 엣지 장치 성능 검증을 하나의 워크플로로 제공하는 하드웨어 인지형 AI 모델 최적화 플랫폼.
+categories:
+  - model-optimization
+  - model-compression
+  - edge-ai
+  - model-deployment
+target_users:
+  - ai-developer
+  - enterprise
+  - edge-ai-team
+delivery_type:
+  - saas
+  - on-premise
+  - cli
+models_used: []
+model_ownership: hybrid
+pricing_public: false
+status: active
+website: https://www.nota.ai/netspresso
+sources:
+  - type: official-website
+    url: https://www.nota.ai/netspresso
+  - type: official-blog
+    url: https://blog.nota.ai/insights/netspresso-ai-agents
+  - type: huggingface
+    url: https://huggingface.co/nota-ai
+last_verified: '2026-07-23'
+verification_status: verified

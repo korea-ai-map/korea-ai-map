@@ -1,0 +1,13 @@
+name: KRETA
+category: multimodal
+description_ko: 15개 영역과 26개 이미지 유형의 한국어 텍스트 중심 VQA 2,577문항으로 시각적 읽기와 다단계 추론을 평가한다.
+url: https://huggingface.co/datasets/tabtoyou/KRETA
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/tabtoyou/KRETA
+  - type: github
+    url: https://github.com/tabtoyou/KRETA
+  - type: paper
+    url: https://arxiv.org/abs/2508.19944
+last_verified: '2026-07-23'
+verification_status: verified

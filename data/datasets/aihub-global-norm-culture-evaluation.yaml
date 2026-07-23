@@ -1,0 +1,14 @@
+name: 글로벌 규범·문화 평가 데이터
+organization_id: nia
+category: safety
+description_ko: 베트남 문화 이해·언어 추론·상식 생성·환각 방지·사회적 가치 정렬·멀티모달 이해 등 10개 태스크 26,299건으로 구성된 LLM 평가 데이터셋이다.
+languages:
+  - vi
+  - ko
+  - en
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71832&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71832&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

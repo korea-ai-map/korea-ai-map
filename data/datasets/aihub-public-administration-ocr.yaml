@@ -1,0 +1,13 @@
+name: 공공행정문서 OCR
+organization_id: nia
+category: multimodal
+description_ko: 김해시 공공행정문서 90만 장과 2,500만 단어 라벨을 포함해 수기·타자체·인쇄체가 혼합된 행정문서 OCR 학습을 지원한다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=88&topMenu=100
+sources:
+  - type: gov
+    url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=88&topMenu=100
+last_verified: '2026-07-23'
+verification_status: official-source

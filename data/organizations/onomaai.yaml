@@ -11,11 +11,11 @@ categories:
 status: active
 description_ko: 오픈 이미지 생성(일러스트) 모델 Illustrious 시리즈를 개발한 한국 AI 스타트업.
 models:
-  - illustrious-xl-v2-0
-  - illustrious-xl-v1-1
-  - illustrious-xl-v1-0
   - illustrious-lumina-v0-03
   - illustrious-xl-early-release-v0
+  - illustrious-xl-v1-0
+  - illustrious-xl-v1-1
+  - illustrious-xl-v2-0
 products: []
 open_source_links:
   - https://huggingface.co/OnomaAIResearch

@@ -1,0 +1,13 @@
+name: 한국어 대화 요약
+organization_id: nia
+category: korean-corpus
+description_ko: 일상 대화와 토론 원문 350,000건 및 각 원문에 대응하는 한 문장 생성 요약문 350,000건으로 구성된 한국어 대화 요약 데이터셋이다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=117&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=117&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: '2026-07-23'
+verification_status: official-source

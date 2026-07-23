@@ -8,6 +8,7 @@ tasks:
   - chat
   - question-answering
   - rag
+  - summarization
 parameter_count:
   value: null
   disclosure: undisclosed
@@ -15,7 +16,7 @@ context_length:
   value: null
   confidence: undisclosed
 availability:
-  api: true
+  api: false
   weights: false
   demo: false
 license:
@@ -28,15 +29,17 @@ languages:
   - ko
   - en
 links:
-  official: https://www.skelterlabs.com
+  official: https://www.skelterlabs.com/sllm
   model_card: null
   huggingface: null
   github: null
   paper: null
 sources:
   - type: official-website
-    url: https://www.skelterlabs.com
+    url: https://www.skelterlabs.com/sllm
   - type: official-website
     url: https://www.skelterlabs.com/blog/introduce-bella
-last_verified: '2026-07-22'
-verification_status: needs-review
+  - type: official-blog
+    url: https://www.skelterlabs.com/blog/bella-llm-sllm
+last_verified: '2026-07-23'
+verification_status: verified

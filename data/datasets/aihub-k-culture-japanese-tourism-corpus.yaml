@@ -1,0 +1,13 @@
+name: K-Culture 관광 콘텐츠 특화 일본어 말뭉치 데이터
+organization_id: nia
+category: multimodal
+description_ko: 한국 관광 6개 분야의 한국어·일본어 텍스트와 일본어 질의응답을 담은 텍스트·이미지 데이터셋으로, 원천 464,932건·약 1억7,767만 어절을 포함한다.
+languages:
+  - ko
+  - ja
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71789&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71789&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

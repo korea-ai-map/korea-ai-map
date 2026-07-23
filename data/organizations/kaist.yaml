@@ -14,7 +14,8 @@ categories:
   - education
 status: active
 description_ko: 2019년 개원한 국내 최초의 인공지능 전문 대학원. AI 분야 석사·박사 과정을 운영하며 기계학습·자연어처리·컴퓨터비전 등 원천 연구를 수행한다.
-models: []
+models:
+  - kormo-10b
 products: []
 open_source_links: []
 sources:

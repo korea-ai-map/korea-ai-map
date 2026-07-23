@@ -14,9 +14,17 @@ categories:
 status: active
 description_ko: 카카오가 개발·공개하는 자체 AI 모델 Kanana(카나나) 계열을 운영한다. 카카오브레인의 AI 역량이 카카오 본사로 통합되었으며, 모델은 kakaocorp 공식 계정으로 오픈 공개된다.
 models:
+  - kakaobrain-align-base
+  - kanana-15-157b-a3b-instruct
   - kanana-15-8b-instruct
+  - kanana-15-v-3b-instruct
+  - kanana-2-30b-a3b-instruct
   - kanana-2-30b-a3b-thinking
-products: []
+  - kanana-nano-21b-embedding
+  - karlo-v1-alpha
+  - kogpt-6b
+products:
+  - kakao-kanana
 open_source_links:
   - https://huggingface.co/kakaocorp
   - https://github.com/kakao/kanana

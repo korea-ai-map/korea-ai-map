@@ -21,11 +21,11 @@ models_used: []
 model_ownership: hybrid
 pricing_public: true
 status: active
-website: https://vrew.ai/
+website: https://vrew.ai/ko/
 sources:
   - type: official-website
     url: https://vrew.ai/en/
   - type: official-website
-    url: https://vrew.ai/en/pricing/
-last_verified: '2026-07-22'
+    url: https://vrew.ai/en/payment/pricepolicy
+last_verified: '2026-07-23'
 verification_status: official-source

@@ -1,18 +1,19 @@
 name: KORMo-10B
 organization_id: kaist
 model_family: KORMo
+release_date: '2025-10-13'
 status: active
 modalities:
   - text
 tasks:
-  - chat
+  - text-generation
   - reasoning
 parameter_count:
-  value: 10000000000
+  value: 10800000000
   disclosure: confident
 context_length:
-  value: null
-  confidence: undisclosed
+  value: 131072
+  confidence: confident
 availability:
   api: false
   weights: true
@@ -28,15 +29,17 @@ languages:
   - en
 benchmark_results: []
 links:
-  official: https://huggingface.co/KORMo-Team
+  official: https://huggingface.co/KORMo-Team/KORMo-10B-base
   model_card: https://huggingface.co/KORMo-Team/KORMo-10B-base
   huggingface: https://huggingface.co/KORMo-Team/KORMo-10B-base
-  github: null
+  github: https://github.com/MLP-Lab/KORMo-tutorial
   paper: https://arxiv.org/abs/2510.09426
 sources:
   - type: huggingface
     url: https://huggingface.co/KORMo-Team/KORMo-10B-base
   - type: paper
     url: https://arxiv.org/abs/2510.09426
-last_verified: '2026-07-22'
-verification_status: needs-review
+  - type: github
+    url: https://github.com/MLP-Lab/KORMo-tutorial
+last_verified: '2026-07-23'
+verification_status: verified

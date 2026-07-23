@@ -16,10 +16,12 @@ models_used: []
 model_ownership: external-model
 pricing_public: false
 status: active
-website: https://www.sapeon.com
+website: https://rebellions.ai/newsroom/rebellions-and-sapeon-korea-sign-definitive-merger-agreement/
 sources:
+  - type: official-website
+    url: https://rebellions.ai/newsroom/rebellions-and-sapeon-korea-sign-definitive-merger-agreement/
   - type: press
     url: >-
       https://www.globenewswire.com/news-release/2023/11/16/2781749/0/en/SAPEON-launches-X330-AI-semiconductor-for-data-centers.html
-last_verified: '2026-07-22'
-verification_status: official-source
+last_verified: '2026-07-23'
+verification_status: needs-review

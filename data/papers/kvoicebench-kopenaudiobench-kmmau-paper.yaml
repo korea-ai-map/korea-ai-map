@@ -1,0 +1,23 @@
+title: 'KVoiceBench, KOpenAudioBench, and KMMAU: Agent-Driven Korean Speech Benchmarks for Evaluating SpeechLMs'
+authors_org: KRAFTON · KAIST · Seoul National University
+venue: arXiv
+year: 2026
+arxiv_id: '2605.27984'
+url: https://arxiv.org/abs/2605.27984
+abstract_ko: 한국어 음성 질의응답과 오디오 이해를 평가하는 세 벤치마크를 구축해 총 12,345개 샘플을 공개한다.
+related_ids:
+  - kvoicebench
+  - kopenaudiobench
+  - kmmau
+  - raon-eval
+  - krafton-ai
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2605.27984
+  - type: github
+    url: https://github.com/krafton-ai/Raon-Eval
+  - type: huggingface
+    url: https://huggingface.co/datasets/KRAFTON/KVoiceBench
+last_verified: '2026-07-23'
+verification_status: verified

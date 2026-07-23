@@ -10,7 +10,12 @@ categories:
 status: active
 description_ko: 한국어 오픈소스 모델·데이터를 다수 공개한 개인 기여자. KcBERT·OPEN-SOLAR-KO·Llama-2-Ko 등을 배포했다.
 models:
+  - gemma-ko-7b
+  - kcbert-base
+  - kcelectra-base
+  - llama-3-open-ko-8b
   - open-solar-ko-107b
+  - yi-ko-6b
 products: []
 open_source_links:
   - https://huggingface.co/beomi

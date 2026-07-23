@@ -1,0 +1,12 @@
+name: 감정이 태깅된 자유대화 (성인)
+organization_id: nia
+category: speech
+description_ko: 성인 2인의 비대본 자유대화 음성을 전사하고 감정 상태·유형·정도·대상을 태깅한 데이터다. 공식 메타데이터는 6,000시간, 상세 통계는 성인 음성 3,000시간을 명시한다.
+languages:
+  - ko
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71631&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71631&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

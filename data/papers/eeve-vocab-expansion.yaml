@@ -5,7 +5,8 @@ year: 2024
 arxiv_id: '2402.14714'
 url: https://arxiv.org/abs/2402.14714
 abstract_ko: 효율적 어휘 확장을 통해 영어 중심 LLM을 한국어 등 다국어로 확장하는 방법(EEVE)을 제안한다.
-related_ids: []
+related_ids:
+  - eeve-korean-instruct-108b
 sources:
   - type: paper
     url: https://arxiv.org/abs/2402.14714

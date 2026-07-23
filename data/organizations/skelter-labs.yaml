@@ -18,7 +18,8 @@ description_ko: >-
   BELLA 등 서비스는 계속 운영 중이다.
 models:
   - bella-llm
-products: []
+products:
+  - skelter-bella
 open_source_links: []
 sources:
   - type: official-website

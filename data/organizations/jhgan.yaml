@@ -9,6 +9,7 @@ categories:
 status: active
 description_ko: 널리 쓰이는 한국어 문장 임베딩 모델 ko-sroberta-multitask 등을 공개한 개인 오픈소스 기여자.
 models:
+  - ko-sbert-sts
   - ko-sroberta-multitask
 products: []
 open_source_links:

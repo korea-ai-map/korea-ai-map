@@ -1,22 +1,26 @@
 name_ko: 에이전트 N
 name_en: Agent N
 organization_id: naver-cloud
+description_ko: 네이버의 검색·쇼핑·로컬·광고 등 서비스에 분산된 데이터와 기술 인프라를 연결하는 통합 AI 에이전트 프레임워크다. 사용자 맥락을 파악해 다음 행동을 예측·추천하고 실행까지 연결하며, 2026년 쇼핑 AI 에이전트와 AI탭으로 상용 서비스에 적용됐다.
 categories:
-  - ai-agent
+  - agent
   - productivity
 target_users:
   - consumer
   - enterprise
 delivery_type:
-  - saas
-models_used:
-  - hyperclova-x
-model_ownership: own-model
+  - embedded
+models_used: []
+model_ownership: hybrid
 pricing_public: false
-status: beta
-website: https://navercorp.com
+status: active
+website: https://www.navercorp.com/en/media/pressReleasesDetail?seq=33540
 sources:
-  - type: press
-    url: https://www.aitimes.com/news/articleView.html?idxno=211020
-last_verified: '2026-07-22'
-verification_status: needs-review
+  - type: official-website
+    url: https://www.navercorp.com/en/media/pressReleasesDetail?seq=33540
+  - type: official-website
+    url: https://www.navercorp.com/en/media/pressReleasesDetail?seq=10034312
+  - type: official-website
+    url: https://www.navercorp.com/media/pressReleasesDetail?seq=10034442
+last_verified: '2026-07-23'
+verification_status: verified

@@ -1,0 +1,13 @@
+name: 음성인식에 의한 영상 요약 데이터
+organization_id: nia
+category: multimodal
+description_ko: 음성 발화가 포함된 방송 영상 5,958건·3,000시간 이상과 하이라이트 검색용 음성·전사 질의 약 20만 건 및 대응 영상 구간 라벨로 구성된다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71702&topMenu=100
+sources:
+  - type: gov
+    url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71702&topMenu=100
+last_verified: '2026-07-23'
+verification_status: official-source

@@ -16,7 +16,9 @@ description_ko: >-
   2023년 설립된 LLM 추론 특화 AI 반도체(LPU) 팹리스 스타트업. GPU 대비 저전력·저비용으로 생성형 AI 추론을 처리하며, 2024년 말 약 550억원 규모 시리즈A를 유치했다. 삼성 4nm 공정
   기반 ASIC Bertha 시리즈와 추론 시스템을 공급한다.
 models: []
-products: []
+products:
+  - hyperaccel-bertha
+  - hyperaccel-forte-55x
 open_source_links: []
 sources:
   - type: official-website

@@ -1,0 +1,13 @@
+name: 한국어 텍스트-비디오-사운드 데이터
+organization_id: nia
+category: multimodal
+description_ko: 방송·개인 영상의 음성 전사, 주요 이미지, 영상 요약을 한국어 텍스트와 연결한 500,123건 규모의 비디오·사운드 검색 및 캡셔닝 데이터셋이다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71699&topMenu=100
+sources:
+  - type: gov
+    url: https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71699&topMenu=100
+last_verified: '2026-07-23'
+verification_status: official-source

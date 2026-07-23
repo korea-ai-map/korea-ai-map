@@ -7,6 +7,7 @@ url: https://arxiv.org/abs/1912.01865
 abstract_ko: 하나의 모델로 여러 도메인에 걸쳐 다양성 있는 이미지를 생성·변환하는 GAN 프레임워크.
 related_ids:
   - naver-cloud
+  - stargan-v2-repo
 sources:
   - type: paper
     url: https://arxiv.org/abs/1912.01865

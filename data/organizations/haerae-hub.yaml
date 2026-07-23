@@ -18,7 +18,7 @@ open_source_links:
   - https://huggingface.co/HAERAE-HUB
   - https://github.com/HAE-RAE
 sources:
-  - type: github
+  - type: huggingface
     url: https://huggingface.co/HAERAE-HUB
   - type: paper
     url: https://arxiv.org/pdf/2309.02706

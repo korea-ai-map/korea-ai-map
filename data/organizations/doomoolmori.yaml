@@ -3,7 +3,7 @@ name_en: Doomoolmori (Moat AI)
 organization_type: startup
 country: KR
 headquarters: 서울 마포구
-website: https://doomoolmori.com
+website: https://www.boolio.co.kr/
 founded_year: 2015
 ai_core_level: ai_native
 categories:
@@ -11,10 +11,12 @@ categories:
 status: active
 description_ko: AI 기반 온라인 자산관리·투자일임 서비스 불릴레오·불리오를 운영하는 핀테크 기업. 현재 사명 모트에이아이(Moat AI).
 models: []
-products: []
+products:
+  - doomoolmori-boolio
+  - moat-tower
 open_source_links: []
 sources:
   - type: official-website
     url: https://www.boolio.co.kr/
-last_verified: '2026-07-22'
+last_verified: '2026-07-23'
 verification_status: official-source

@@ -3,7 +3,7 @@ name_en: MangoBoost
 organization_type: startup
 country: KR
 headquarters: Seattle / Seoul
-website: https://www.mangoboost.io
+website: https://www.mangoboost.io/
 founded_year: 2022
 ai_core_level: ai_infrastructure
 categories:
@@ -16,10 +16,15 @@ description_ko: >-
   서울대 전기정보공학부 김장우 교수와 학생들이 2022년 설립한 DPU(Data Processing Unit)·AI 인프라 스타트업. 데이터센터 가속용 DPU와 소프트웨어 스택을 설계하며 AMD의 추론 최적화
   파트너로 부상. 2025년 추론 최적화 소프트웨어 Mango LLMBoost를 출시했다.
 models: []
-products: []
-open_source_links: []
+products:
+  - mangoboost-llmboost
+  - mangoboost-mango-dpu
+open_source_links:
+  - https://github.com/MangoBoost
 sources:
+  - type: official-website
+    url: https://www.mangoboost.io/
   - type: press
     url: https://www.unicornfactory.co.kr/article/2025011615303024261
-last_verified: '2026-07-22'
-verification_status: needs-review
+last_verified: '2026-07-23'
+verification_status: official-source

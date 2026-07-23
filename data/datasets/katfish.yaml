@@ -1,0 +1,13 @@
+name: KatFish
+category: safety
+description_ko: 에세이·시·논문 초록에서 사람 작성 한국어와 4개 LLM 생성 한국어를 구분하기 위한 벤치마크 데이터셋.
+languages:
+  - ko
+url: https://github.com/Shinwoo-Park/katfishnet/tree/main/katfish_dataset
+sources:
+  - type: github
+    url: https://github.com/Shinwoo-Park/katfishnet/tree/main/katfish_dataset
+  - type: paper
+    url: https://aclanthology.org/2025.acl-long.1030/
+last_verified: '2026-07-23'
+verification_status: verified

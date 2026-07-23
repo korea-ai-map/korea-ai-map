@@ -7,6 +7,8 @@ url: https://arxiv.org/abs/2105.09680
 abstract_ko: 8개 한국어 자연어이해(NLU) 과제로 구성된 벤치마크 KLUE로, 데이터셋·사전학습 모델·평가 지표를 함께 제공한다.
 related_ids:
   - klue
+  - klue-bert-base
+  - klue-roberta-large
 sources:
   - type: paper
     url: https://arxiv.org/abs/2105.09680

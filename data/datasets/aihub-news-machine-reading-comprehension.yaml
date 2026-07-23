@@ -1,0 +1,13 @@
+name: 뉴스 기사 기계독해 데이터
+organization_id: nia
+category: qa
+description_ko: 국내 종합일간지와 지역신문 기사 지문에 네 가지 유형의 질문·답변을 연결한 400,056건 규모의 한국어 기계독해 데이터셋이다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=577&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=577&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: '2026-07-23'
+verification_status: official-source

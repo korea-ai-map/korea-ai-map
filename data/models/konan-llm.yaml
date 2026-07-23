@@ -28,15 +28,15 @@ languages:
   - ko
   - en
 links:
-  official: https://www.konantech.com/konanllm
+  official: https://demo.konantech.com/LLM/model.html
   model_card: null
   huggingface: null
   github: null
   paper: null
 sources:
-  - type: official-website
-    url: https://www.konantech.com/konanllm
+  - type: official-docs
+    url: https://demo.konantech.com/LLM/model.html
   - type: official-website
     url: https://www.konantech.com/pr/news/943
-last_verified: '2026-07-22'
+last_verified: '2026-07-23'
 verification_status: official-source

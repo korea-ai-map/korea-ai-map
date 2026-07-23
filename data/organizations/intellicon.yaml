@@ -11,7 +11,9 @@ categories:
 status: active
 description_ko: 자체 법률 자연어처리·법률 추론 엔진을 개발한 국내 첫 AI 법률 융합 연구소. 지능형 법률·판례 검색 시스템 유렉스(U-LEX) 개발.
 models: []
-products: []
+products:
+  - intellicon-alphalaw
+  - intellicon-u-lex
 open_source_links: []
 sources:
   - type: official-website

@@ -1,0 +1,15 @@
+name: 방송콘텐츠 한국어-유럽어 번역 말뭉치
+organization_id: nia
+category: korean-corpus
+description_ko: 방송 콘텐츠의 신조어·약어·은어와 관용 표현을 반영한 한국어-독일어·프랑스어·이탈리아어 양방향 NMT 말뭉치 1,960,139문장이다.
+languages:
+  - ko
+  - de
+  - fr
+  - it
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71373&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71373&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

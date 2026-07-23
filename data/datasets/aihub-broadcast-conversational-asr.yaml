@@ -1,0 +1,13 @@
+name: 방송 콘텐츠 대화체 음성인식 데이터
+organization_id: nia
+category: speech
+description_ko: TV·라디오의 실제 잡음 환경을 포함한 2인 이상 방송 대화 10,000시간을 억양구 경계와 화자 정보와 함께 전사한 한국어 음성인식 데이터셋이다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&dataSetSn=463&topMenu=100
+sources:
+  - type: gov
+    url: https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&dataSetSn=463&topMenu=100
+last_verified: '2026-07-23'
+verification_status: official-source

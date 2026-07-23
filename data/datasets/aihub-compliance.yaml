@@ -1,0 +1,12 @@
+name: 컴플라이언스 데이터
+organization_id: nia
+category: domain-specific
+description_ko: 규제 체계·체크리스트·검사 보고서를 바탕으로 6개 산업군의 질의응답 103,770건과 텍스트 분류 302,888건을 구축한 한국어 규정 데이터셋이다.
+languages:
+  - ko
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71807&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71807&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

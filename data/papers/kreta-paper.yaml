@@ -1,0 +1,18 @@
+title: 'KRETA: A Benchmark for Korean Reading and Reasoning in Text-Rich VQA Attuned to Diverse Visual Contexts'
+authors_org: Waddle · Seoul National University · KRAFTON · UNIST · SK Telecom
+venue: EMNLP 2025
+year: 2025
+arxiv_id: '2508.19944'
+url: https://arxiv.org/abs/2508.19944
+abstract_ko: 한국어 텍스트가 포함된 실제 이미지에서 읽기와 고차 추론을 함께 평가하는 VQA 벤치마크를 제안한다.
+related_ids:
+  - kreta
+  - krafton-ai
+  - skt
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2508.19944
+  - type: github
+    url: https://github.com/tabtoyou/KRETA
+last_verified: '2026-07-23'
+verification_status: verified

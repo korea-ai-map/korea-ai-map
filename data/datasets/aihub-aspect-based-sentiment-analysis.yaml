@@ -1,0 +1,12 @@
+name: 속성기반 감정분석 데이터
+organization_id: nia
+category: domain-specific
+description_ko: 상품 리뷰에서 평가 대상 속성과 사용자 감정을 추출·태깅한 한국어 속성 기반 감정분석 데이터 250,312건이다.
+languages:
+  - ko
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71603&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71603&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

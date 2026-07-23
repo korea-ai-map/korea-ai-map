@@ -1,0 +1,65 @@
+name: Solar Open 2 (250B-A15B)
+organization_id: upstage
+model_family: Solar
+release_date: '2026-07-22'
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+  - coding
+  - instruction-following
+  - tool-use
+  - agentic
+  - long-context
+parameter_count:
+  value: 250287794944
+  disclosure: confident
+context_length:
+  value: 1048576
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: true
+license:
+  name: Upstage Solar License
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+  - ja
+benchmark_results:
+  - benchmark: MMLU-Pro
+    score: 86.2
+    metric: score
+    source: https://huggingface.co/upstage/Solar-Open2-250B
+  - benchmark: LiveCodeBench v6
+    score: 92.4
+    metric: score
+    source: https://huggingface.co/upstage/Solar-Open2-250B
+  - benchmark: KMMLU-Pro
+    score: 78.4
+    metric: score
+    source: https://huggingface.co/upstage/Solar-Open2-250B
+links:
+  official: https://www.upstage.ai/blog/ko/solar-open-2
+  model_card: https://huggingface.co/upstage/Solar-Open2-250B
+  huggingface: https://huggingface.co/upstage/Solar-Open2-250B
+  github: null
+  paper: https://huggingface.co/upstage/Solar-Open2-250B/blob/main/Solar_Open_2_Tech_Report.pdf
+sources:
+  - type: model-card
+    url: https://huggingface.co/upstage/Solar-Open2-250B
+  - type: official-blog
+    url: https://www.upstage.ai/blog/ko/solar-open-2
+  - type: paper
+    url: https://huggingface.co/upstage/Solar-Open2-250B/blob/main/Solar_Open_2_Tech_Report.pdf
+  - type: official-docs
+    url: https://huggingface.co/upstage/Solar-Open2-250B/blob/main/LICENSE
+last_verified: '2026-07-23'
+verification_status: verified

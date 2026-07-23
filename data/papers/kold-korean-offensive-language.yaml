@@ -8,6 +8,7 @@ url: https://arxiv.org/abs/2205.11315
 abstract_ko: 댓글 4만여 건에 공격성 유형·대상·범위를 계층 주석한 한국어 데이터셋.
 related_ids:
   - kaist
+  - kold
 sources:
   - type: paper
     url: https://arxiv.org/abs/2205.11315

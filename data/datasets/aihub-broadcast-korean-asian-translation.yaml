@@ -1,0 +1,17 @@
+name: 방송콘텐츠 한국어-아시아어 번역 말뭉치
+organization_id: nia
+category: korean-corpus
+description_ko: 방송 콘텐츠의 신조어·약어·은어와 관용 표현을 반영한 한국어-아시아어 NMT 학습 말뭉치로 북경어·일본어·대만어·몽골어·힌디어 번역 2,503,365문장을 제공한다.
+languages:
+  - ko
+  - zh
+  - zh-TW
+  - ja
+  - mn
+  - hi
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71591&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71591&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

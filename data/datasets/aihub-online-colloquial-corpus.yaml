@@ -1,0 +1,13 @@
+name: 온라인 구어체 말뭉치 데이터
+organization_id: nia
+category: korean-corpus
+description_ko: 온라인 게시판과 댓글에서 수집한 구어체 10억 어절에 개체명·신조어·형태소를 태깅해 상호작용 표현과 감정 학습에 활용하도록 구축한 말뭉치다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=625&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=625&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: '2026-07-23'
+verification_status: official-source

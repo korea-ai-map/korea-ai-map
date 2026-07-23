@@ -1,0 +1,14 @@
+name: 탄자니아(스와힐리어) 규범 문화 말뭉치 데이터
+organization_id: nia
+category: domain-specific
+description_ko: 탄자니아 문화·규범·관습·예절을 다룬 스와힐리어 말뭉치 247,490건·105,312,248어절과 Instruction QA 5,000건, 성능평가 2,000건 및 한국어·영어 번역을 포함한다.
+languages:
+  - sw
+  - ko
+  - en
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71837&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71837&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

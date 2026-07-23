@@ -11,7 +11,9 @@ categories:
 status: active
 description_ko: 법률 플랫폼 로톡 운영사. 2019년 법률AI연구소 설립, 2024년 법률 AI 어시스턴트 슈퍼로이어를 출시한 리걸테크 기업.
 models: []
-products: []
+products:
+  - law-and-company-bigcase
+  - lawcompany-superlawyer
 open_source_links: []
 sources:
   - type: press

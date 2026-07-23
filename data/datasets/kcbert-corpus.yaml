@@ -8,7 +8,7 @@ url: https://github.com/Beomi/KcBERT
 sources:
   - type: github
     url: https://github.com/Beomi/KcBERT
-  - type: huggingface
-    url: https://huggingface.co/datasets/beomi/KcBERT-corpus
-last_verified: '2026-07-22'
+  - type: model-card
+    url: https://huggingface.co/beomi/kcbert-base
+last_verified: '2026-07-23'
 verification_status: official-source

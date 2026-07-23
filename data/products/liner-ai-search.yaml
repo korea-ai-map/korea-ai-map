@@ -1,0 +1,32 @@
+name_ko: 라이너 AI 검색
+name_en: Liner AI Search
+organization_id: liner
+description_ko: 웹·학술 자료의 출처를 답변에 연결하고 딥리서치, 개인 자료 검색, 연구 워크플로와 검색·에이전트 API를 제공하는 AI 검색 서비스.
+categories:
+  - ai-search
+  - deep-research
+  - research-agent
+  - rag
+target_users:
+  - professional
+  - researcher
+  - student
+  - developer
+delivery_type:
+  - web-service
+  - app
+  - api
+models_used: []
+model_ownership: external-model
+pricing_public: true
+status: active
+website: https://liner.com/ko/search
+sources:
+  - type: official-website
+    url: https://liner.com/ko/search
+  - type: official-docs
+    url: https://liner.com/ko/developers/docs
+  - type: official-website
+    url: https://liner.com/ko/pricing
+last_verified: '2026-07-23'
+verification_status: verified

@@ -1,0 +1,15 @@
+name: 한국어-다국어 번역 말뭉치 (인문학)
+organization_id: nia
+category: domain-specific
+description_ko: 도서·논문·간행물에서 수집한 인문학 문장을 영어·중국어·일본어로 번역하고 검수한 한국어 중심 다국어 병렬 말뭉치 301,181건이다.
+languages:
+  - ko
+  - en
+  - zh
+  - ja
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71498&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71498&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source

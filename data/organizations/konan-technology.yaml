@@ -16,10 +16,13 @@ status: active
 description_ko: 1999년 설립된 정보검색·AI 전문기업으로 2022년 코스닥 상장. 자체 개발 대규모 언어모델 Konan LLM을 B2B/B2G 및 온프레미스 중심으로 공급한다.
 models:
   - konan-llm
-products: []
+products:
+  - konan-search
 open_source_links: []
 sources:
   - type: official-website
-    url: https://www.konantech.com/konanllm
-last_verified: "2026-07-22"
+    url: https://www.konantech.com
+  - type: official-docs
+    url: https://demo.konantech.com/LLM/model.html
+last_verified: "2026-07-23"
 verification_status: official-source

@@ -1,0 +1,14 @@
+name: 동아시아 고전 스토리 데이터
+organization_id: nia
+category: domain-specific
+description_ko: 한국·중국·일본 고전 891작품의 원문·번역문·요약문과 내용 분류·주제어·주제문을 붙인 라벨링 데이터 14,197건으로 구성된 LLM 스토리 생성 학습 데이터셋이다.
+languages:
+  - ko
+  - zh
+  - ja
+url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71836&srchDataRealmCode=REALM002&topMenu=100'
+sources:
+  - type: gov
+    url: 'https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71836&srchDataRealmCode=REALM002&topMenu=100'
+last_verified: "2026-07-23"
+verification_status: official-source
