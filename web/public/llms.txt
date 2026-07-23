@@ -4,19 +4,18 @@
 
 ## 주요 페이지
 
-- [조직](https://korea-ai-map.github.io/korea-ai-map/organizations/): 한국 AI 기업·연구소·스타트업 목록 (네이버·카카오·LG AI연구원·업스테이지 등)
-- [모델](https://korea-ai-map.github.io/korea-ai-map/models/): 한국 AI 모델 (HyperCLOVA X·EXAONE·Solar·Kanana·A.X·Mi:dm 등)
-- [제품](https://korea-ai-map.github.io/korea-ai-map/products/): AI 제품·서비스·AI 반도체(NPU)
-- [데이터셋](https://korea-ai-map.github.io/korea-ai-map/datasets/): 한국어 AI 데이터셋 (KorQuAD·모두의 말뭉치·AI-Hub 등)
-- [벤치마크](https://korea-ai-map.github.io/korea-ai-map/benchmarks/): 한국어 AI 벤치마크 (KLUE·KMMLU·HAE-RAE·LogicKor 등)
-- [오픈소스](https://korea-ai-map.github.io/korea-ai-map/open-source/): 한국 AI 오픈소스 (polyglot-ko·KoAlpaca 등)
-- [검색](https://korea-ai-map.github.io/korea-ai-map/search/): 통합 검색
-- [모델 비교](https://korea-ai-map.github.io/korea-ai-map/compare/): 모델 스펙 나란히 비교
+- [조직](https://korea-ai-map.github.io/organizations/): 한국 AI 기업·연구소·스타트업 목록 (네이버·카카오·LG AI연구원·업스테이지 등)
+- [모델](https://korea-ai-map.github.io/models/): 한국 AI 모델 (HyperCLOVA X·EXAONE·Solar·Kanana·A.X·Mi:dm 등)
+- [제품](https://korea-ai-map.github.io/products/): AI 제품·서비스·AI 반도체(NPU)
+- [데이터셋](https://korea-ai-map.github.io/datasets/): 한국어 AI 데이터셋 (KorQuAD·모두의 말뭉치·AI-Hub 등)
+- [벤치마크](https://korea-ai-map.github.io/benchmarks/): 한국어 AI 벤치마크 (KLUE·KMMLU·HAE-RAE·LogicKor 등)
+- [오픈소스](https://korea-ai-map.github.io/open-source/): 한국 AI 오픈소스 (polyglot-ko·KoAlpaca 등)
+- [모델 비교](https://korea-ai-map.github.io/compare/): 모델 스펙 나란히 비교
 
 ## 데이터
 
-- 전체 데이터(JSON): https://korea-ai-map.github.io/korea-ai-map/data/all.json
-- 원본 데이터(YAML) 및 방법론: https://github.com/korea-ai-map/korea-ai-map
+- 전체 데이터(JSON): https://korea-ai-map.github.io/data/all.json
+- 원본 데이터(YAML) 및 방법론: https://github.com/korea-ai-map/korea-ai-map.github.io
 - 데이터 라이선스: CC BY 4.0
 
 ## 방침

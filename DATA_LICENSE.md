@@ -9,7 +9,7 @@ Korea AI Map의 **데이터**(`data/` 및 빌드 산출물 `web/public/data/*.js
 - **조건**: 출처 표시 — 프로젝트명(**Korea AI Map**)과 데이터 버전을 표시해야 합니다.
 
 예시 표기:
-> 출처: Korea AI Map (버전 YYYY.MM), https://github.com/korea-ai-map/korea-ai-map, CC BY 4.0
+> 출처: Korea AI Map (버전 YYYY.MM), https://github.com/korea-ai-map/korea-ai-map.github.io, CC BY 4.0
 
 ## 범위 구분
 

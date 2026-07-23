@@ -10,7 +10,7 @@ const SITE_DESC =
   '한국에서 실제 개발·운영되는 AI 모델·기업·제품·오픈소스·데이터셋·벤치마크를 공식 출처 및 검증 상태와 함께 한곳에 모은 오픈 데이터베이스입니다. 국산 LLM부터 AI 반도체·의료·법률·금융 AI까지 116개 이상 항목을 검색하고 비교할 수 있습니다.';
 const { title, description = SITE_DESC, jsonld } = Astro.props;
 
-// 절대 URL (canonical / OG). Astro.site + base 기준.
+// 절대 URL (canonical / OG). 조직 루트 Pages의 Astro.site 기준.
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 const ogImage = new URL(url('/og.png'), Astro.site).href;
 
@@ -95,7 +95,7 @@ const nav = [
         등재는 추천·인증 또는 투자 의견을 의미하지 않습니다.
       </p>
       <p class="muted">
-        <a href="https://github.com/korea-ai-map/korea-ai-map">GitHub</a> ·
+        <a href="https://github.com/korea-ai-map/korea-ai-map.github.io">GitHub</a> ·
         데이터 <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
       </p>
     </footer>

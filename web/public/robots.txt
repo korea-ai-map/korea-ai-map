@@ -17,4 +17,4 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-Sitemap: https://korea-ai-map.github.io/korea-ai-map/sitemap-index.xml
+Sitemap: https://korea-ai-map.github.io/sitemap-index.xml

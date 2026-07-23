@@ -50,7 +50,7 @@ const updatedKST = new Intl.DateTimeFormat('ko-KR', {
     </div>
 
     <h2>이 프로젝트에 대하여</h2>
-    <p>모든 항목에는 <strong>출처</strong>와 <strong>검증 상태</strong>, <strong>최종 검증일</strong>이 부착됩니다. 확인되지 않은 수치(파라미터 수 등)는 추정하지 않고 <em>미공개</em>로 표기합니다. 데이터는 <a href="https://github.com/korea-ai-map/korea-ai-map">GitHub</a>에서 관리되며 누구나 제보·수정을 제안할 수 있습니다.</p>
+    <p>모든 항목에는 <strong>출처</strong>와 <strong>검증 상태</strong>, <strong>최종 검증일</strong>이 부착됩니다. 확인되지 않은 수치(파라미터 수 등)는 추정하지 않고 <em>미공개</em>로 표기합니다. 데이터는 <a href="https://github.com/korea-ai-map/korea-ai-map.github.io">GitHub</a>에서 관리되며 누구나 제보·수정을 제안할 수 있습니다.</p>
 
     <p class="updated">최근 업데이트: <time datetime={buildDate.toISOString()}>{updatedKST}</time> (KST)</p>
   </div>
@@ -74,7 +74,7 @@ const updatedKST = new Intl.DateTimeFormat('ko-KR', {
         (e.name + ' ' + e.name_en + ' ' + e.desc + ' ' + e.tags.join(' ')).toLowerCase().includes(term));
       if (matches.length === 0) {
         summary.textContent = `"${term}" 검색 결과 없음`;
-        results.innerHTML = `<p>찾는 항목이 없다면 <a href="https://github.com/korea-ai-map/korea-ai-map/issues/new/choose">신규 등재를 제보</a>해 주세요.</p>`;
+        results.innerHTML = `<p>찾는 항목이 없다면 <a href="https://github.com/korea-ai-map/korea-ai-map.github.io/issues/new/choose">신규 등재를 제보</a>해 주세요.</p>`;
         return;
       }
       summary.textContent = `${matches.length}건`;
