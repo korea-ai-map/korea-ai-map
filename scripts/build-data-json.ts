@@ -17,7 +17,8 @@ const schema_version = '0.0.0';
 const all: Record<string, any[]> = {};
 
 for (const c of COLLECTIONS) {
-  const items = loadCollection(c).map((e) => ({ id: e.id, ...e.data }));
+  // 파일명이 정규 ID다. 레거시 YAML 내부의 id 필드가 이를 덮어쓰지 못하게 마지막에 둔다.
+  const items = loadCollection(c).map((e) => ({ ...e.data, id: e.id }));
   all[c] = items;
   writeFileSync(
     join(OUT, `${c}.json`),

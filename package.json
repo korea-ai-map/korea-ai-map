@@ -7,6 +7,7 @@
   "scripts": {
     "check:refs": "tsx scripts/check-refs.ts",
     "check:links": "tsx scripts/check-links.ts",
+    "sync:relations": "tsx scripts/sync-org-relations.ts",
     "gen:schema": "tsx scripts/gen-json-schema.ts",
     "build:data": "tsx scripts/build-data-json.ts",
     "validate": "npm run check:refs && npm run check:links"

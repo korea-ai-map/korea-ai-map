@@ -17,8 +17,23 @@ export const isoDate = z
   .regex(/^\d{4}-\d{2}-\d{2}$/, 'YYYY-MM-DD 형식이어야 합니다 (따옴표 필수)');
 
 /** 출처 (PRD 7.1). 모든 항목은 최소 1개 필요 (PRD 3.2) */
+export const sourceType = z.enum([
+  'api-docs',
+  'github',
+  'gov',
+  'huggingface',
+  'model-card',
+  'official-blog',
+  'official-docs',
+  'official-website',
+  'paper',
+  'press',
+  'reference',
+  'submission',
+]);
+
 export const sourceSchema = z.object({
-  type: z.string(), // official-website, model-card, paper, github, huggingface, gov, press, submission ...
+  type: sourceType,
   url: z.string().url(),
 });
 
@@ -115,7 +130,7 @@ export const modelSchema = z.object({
     demo: z.boolean(),
   }),
   license: z.object({
-    name: z.string(),
+    name: z.string().min(1),
     commercial_use: commercialUse,
   }),
   deployment: z

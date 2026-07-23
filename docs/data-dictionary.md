@@ -8,8 +8,8 @@
 
 | 필드 | 규칙 |
 |---|---|
-| `id` | **파일명**이 곧 id. 소문자-케밥, 전역 유일. 예: `exaone-3.5` |
-| `sources[]` | `{ type, url }`. **최소 1개 필수.** (PRD 3.2) |
+| `id` | **파일명**이 곧 id. 소문자-케밥, 전역 유일. 점은 쓰지 않음. 예: `exaone-35` |
+| `sources[]` | `{ type, url }`. **최소 1개 필수.** `type`은 스키마의 출처 유형(예: `official-website`, `model-card`, `paper`, `github`, `gov`)을 사용. |
 | `verification_status` | METHODOLOGY 3.2의 8개 enum 중 하나 |
 | `last_verified` | `"YYYY-MM-DD"` — **YAML에서 반드시 따옴표로 감쌀 것** (Date로 자동 변환 방지) |
 | 추정값 | 사실값과 구분해 `disclosure`/`confidence`(`confident`/`likely`/`speculative`/`undisclosed`/`not-applicable`) 부여 |

@@ -42,7 +42,21 @@
             "type": "object",
             "properties": {
               "type": {
-                "type": "string"
+                "type": "string",
+                "enum": [
+                  "api-docs",
+                  "github",
+                  "gov",
+                  "huggingface",
+                  "model-card",
+                  "official-blog",
+                  "official-docs",
+                  "official-website",
+                  "paper",
+                  "press",
+                  "reference",
+                  "submission"
+                ]
               },
               "url": {
                 "type": "string",
